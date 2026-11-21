@@ -1,0 +1,317 @@
+[
+  {
+    "id": 1,
+    "fejezet": "02_Hálózati szoftver",
+    "kerdes": "Az első hálózatok megjelenésekor a kommunikációt lebonyolító szoftver kifejlesztése megelőzte a fizikai hardver elkészítését.",
+    "valasz": "hamis",
+    "magyarazat": "Az első gépek összekötésekor a hardver elkészítése számított az első legfontosabb lépésnek, és csak a fizikai összeköttetés létrejötte után kezdődött a kommunikációs szoftver kifejlesztése."
+  },
+  {
+    "id": 2,
+    "fejezet": "02_Hálózati szoftver",
+    "kerdes": "A hálózati szoftver az egyes gépek operációs rendszerei közötti kapcsolatot biztosítja a hálózati hardver megfelelő használatával.",
+    "valasz": "igaz",
+    "magyarazat": "A hálózati szoftver feladata az operációs rendszerek közötti összeköttetés megvalósítása a hálózati hardver útján."
+  },
+  {
+    "id": 3,
+    "fejezet": "02_Hálózati szoftver",
+    "kerdes": "Napjainkban a legtöbb használatban lévő hálózati modell egyetlen közös, rétegek nélküli architektúrára épül.",
+    "valasz": "hamis",
+    "magyarazat": "A legtöbb ma használatban lévő hálózati modell réteges (Layer) szerkezetű."
+  },
+  {
+    "id": 4,
+    "fejezet": "02_Hálózati szoftver",
+    "kerdes": "A réteges hálózati architektúrában minden réteg kizárólag a közvetlenül alatta, illetve felette lévő réteggel tart kapcsolatot.",
+    "valasz": "igaz",
+    "magyarazat": "A rétegek csak a közvetlen szomszédos (alatta és felette lévő) rétegekkel kommunikálnak."
+  },
+  {
+    "id": 5,
+    "fejezet": "02_Hálózati szoftver",
+    "kerdes": "A réteges modellben minden egyes réteg felfogható egy olyan virtuális gépként, amely az alatta lévő réteget szolgálja ki.",
+    "valasz": "hamis",
+    "magyarazat": "Minden réteg a felette lévő réteget szolgálja ki, nem az alatta lévőt."
+  },
+  {
+    "id": 6,
+    "fejezet": "02_Hálózati szoftver",
+    "kerdes": "Az egymással szomszédos rétegek között interfész (Interface) található.",
+    "valasz": "igaz",
+    "magyarazat": "Az egymás alatti/feletti szomszédos rétegek csatlakozási felülete az interfész."
+  },
+  {
+    "id": 7,
+    "fejezet": "02_Hálózati szoftver",
+    "kerdes": "A különböző hosztok azonos rétegeit társidentitásoknak (Peer) nevezzük.",
+    "valasz": "igaz",
+    "magyarazat": "A különálló gépek azonos szintű rétegeinek elnevezése a társidentitás (Peer)."
+  },
+  {
+    "id": 8,
+    "fejezet": "02_Hálózati szoftver",
+    "kerdes": "Az azonos rétegek közötti kommunikáció szabályait interfészeknek nevezzük.",
+    "valasz": "hamis",
+    "magyarazat": "Az azonos rétegek közötti kommunikáció szabályai a protokollok, míg az interfész a szomszédos rétegek közötti kapcsolat."
+  },
+  {
+    "id": 9,
+    "fejezet": "02_Hálózati szoftver",
+    "kerdes": "A vállalati levelezés szemléltető példájában a titkárnő és a postázó a protokolloknak felel meg.",
+    "valasz": "hamis",
+    "magyarazat": "A példában az Ügyvezető, Titkárnő, Postázó stb. a rétegeknek felelnek meg; a protokollok a címzés, diktálás, borítékolás szabályai."
+  },
+  {
+    "id": 10,
+    "fejezet": "02_Hálózati szoftver",
+    "kerdes": "Az azonos szintű rétegek nem közvetlenül egymással, hanem az alattuk lévő rétegek segítségével érik el egymást.",
+    "valasz": "igaz",
+    "magyarazat": "A társidentitások közötti kommunikáció virtuális, a tényleges adatátvitel az alatta lévő rétegeken keresztül történik."
+  },
+  {
+    "id": 11,
+    "fejezet": "02_Hálózati szoftver",
+    "kerdes": "Egy hoszton belül az egymás alatti rétegek közötti kommunikáció valódi kommunikációnak számít.",
+    "valasz": "igaz",
+    "magyarazat": "Az interfészen keresztüli, egy hoszton belüli rétegek közötti kommunikáció a valódi kommunikáció."
+  },
+  {
+    "id": 12,
+    "fejezet": "02_Hálózati szoftver",
+    "kerdes": "A különböző hosztok azonos szintjei (Peer-ek) közötti kommunikáció közvetlen fizikai kapcsolaton keresztül valósul meg.",
+    "valasz": "hamis",
+    "magyarazat": "A Peer-ek közötti kommunikáció virtuális, mivel nem közvetlenül, hanem a közvetítő rétegek segítségével valósul meg."
+  },
+  {
+    "id": 13,
+    "fejezet": "02_Hálózati szoftver",
+    "kerdes": "Az összeköttetés alapú (Connection Oriented Service) rendszer a klasszikus analóg telefonhálózattal modellezhető.",
+    "valasz": "igaz",
+    "magyarazat": "Az összeköttetés alapú szolgáltatás szemléletes példája az analóg telefonhálózat, ami csőként viselkedik."
+  },
+  {
+    "id": 14,
+    "fejezet": "02_Hálózati szoftver",
+    "kerdes": "Az összeköttetés alapú kommunikáció során nincs szükség a küldő és fogadó közötti megegyezésre (Negotiation) a paraméterekben.",
+    "valasz": "hamis",
+    "magyarazat": "Az összeköttetés csak akkor működhet, ha a küldő és a fogadó alhálózat megegyezik a kommunikáció paramétereiben (pl. max üzenethossz, minőség)."
+  },
+  {
+    "id": 15,
+    "fejezet": "02_Hálózati szoftver",
+    "kerdes": "Az összeköttetés nélküli (Connectionless Service) rendszer jó modellje a klasszikus postai levélszolgáltatás.",
+    "valasz": "igaz",
+    "magyarazat": "Az összeköttetés nélküli szolgáltatást a postai levélküldéssel lehet a legjobban modellezni."
+  },
+  {
+    "id": 16,
+    "fejezet": "02_Hálózati szoftver",
+    "kerdes": "Az összeköttetés nélküli szolgáltatásnál garantált, hogy a korábban feladott üzenet mindig előbb érkezik meg, mint a később feladott.",
+    "valasz": "hamis",
+    "magyarazat": "Postai levélküldéshez hasonlóan előfordulhat, hogy egy később feladott üzenet előbb érkezik meg a címzetthez."
+  },
+  {
+    "id": 17,
+    "fejezet": "02_Hálózati szoftver",
+    "kerdes": "Az összeköttetés nélküli átvitelnél minden egyes üzenetnek (levélnek) tartalmaznia kell a címzett adatait.",
+    "valasz": "igaz",
+    "magyarazat": "Mivel nincs kiépített kapcsolat, minden egyedi csomagnak tartalmaznia kell a teljes címzést."
+  },
+  {
+    "id": 18,
+    "fejezet": "02_Hálózati szoftver",
+    "kerdes": "A megbízható összeköttetés alapú szolgáltatás egyik tipikus alkalmazása a fájlátvitel.",
+    "valasz": "igaz",
+    "magyarazat": "Fájlátvitelnél csak a hibamentes működés fogadható el, egyetlen bit sem veszíthető el."
+  },
+  {
+    "id": 19,
+    "fejezet": "02_Hálózati szoftver",
+    "kerdes": "A megbízható összeköttetés alapú szolgáltatás két altípusa az üzenetsorozat és a bájtfolyam.",
+    "valasz": "igaz",
+    "magyarazat": "A megbízható összeköttetés alapú szolgáltatás e két altípusra oszlik."
+  },
+  {
+    "id": 20,
+    "fejezet": "02_Hálózati szoftver",
+    "kerdes": "Az üzenetsorozat típusú szolgáltatásnál az üzenethatárok elmosódnak és az adatok ömlesztve visződnek át.",
+    "valasz": "hamis",
+    "magyarazat": "Az üzenetsorozat megtartja az üzenethatárokat; az adatok ömlesztett átvitele a bájtfolyam jellemzője."
+  },
+  {
+    "id": 21,
+    "fejezet": "02_Hálózati szoftver",
+    "kerdes": "A filmletöltés a megbízható üzenetfolyam szolgáltatás egyik gyakorlati példája.",
+    "valasz": "hamis",
+    "magyarazat": "A filmletöltés a megbízható bájtfolyam példája; a könyvlapok (fájlok) sorozata a megbízható üzenetfolyam példája."
+  },
+  {
+    "id": 22,
+    "fejezet": "02_Hálózati szoftver",
+    "kerdes": "Az internetes telefonálás (VoIP) a megbízhatatlan összeköttetés alapú szolgáltatások közé tartozik.",
+    "valasz": "igaz",
+    "magyarazat": "A VoIP megbízhatatlan összeköttetés alapú szolgáltatásként szerepel a forrásban."
+  },
+  {
+    "id": 23,
+    "fejezet": "02_Hálózati szoftver",
+    "kerdes": "A kéretlen levél (spam) generálása a megbízhatatlan datagram szolgáltatásra hozott példa.",
+    "valasz": "igaz",
+    "magyarazat": "A megbízhatatlan datagram összeköttetés nélküli szolgáltatás példája a kéretlen levél generálása."
+  },
+  {
+    "id": 24,
+    "fejezet": "02_Hálózati szoftver",
+    "kerdes": "A kérés–válasz (Request-Reply) szolgáltatás összeköttetés alapú szolgáltatás.",
+    "valasz": "hamis",
+    "magyarazat": "A kérés-válasz (pl. adatbázis lekérdezés) összeköttetés nélküli szolgáltatás."
+  },
+  {
+    "id": 25,
+    "fejezet": "02_Hálózati szoftver",
+    "kerdes": "A szöveges üzenetküldés a nyugtázott datagram szolgáltatás példája.",
+    "valasz": "igaz",
+    "magyarazat": "A nyugtázott datagram szolgáltatáshoz tartozó példa a szöveges üzenetküldés."
+  },
+  {
+    "id": 26,
+    "fejezet": "02_Hálózati szoftver",
+    "kerdes": "A szolgáltatási primitívek olyan elemi műveletek és rendszerhívások, amelyekkel a szolgáltatások elérhetők.",
+    "valasz": "igaz",
+    "magyarazat": "A primitívek az operációs rendszer felé intézett elemi műveletek/rendszerhívások."
+  },
+  {
+    "id": 27,
+    "fejezet": "02_Hálózati szoftver",
+    "kerdes": "Amennyiben a protokollkészlet az operációs rendszerben található, a primitívek kernel módba kényszerítik a számítógépet.",
+    "valasz": "igaz",
+    "magyarazat": "A primitívek végrehajtása során a rendszer kernel módba vált az adatküldés vagy -fogadás megkezdéséhez."
+  },
+  {
+    "id": 28,
+    "fejezet": "02_Hálózati szoftver",
+    "kerdes": "A LISTEN primitív egy nem-blokkolt várakozás bejövő kapcsolatfelvételre.",
+    "valasz": "hamis",
+    "magyarazat": "A LISTEN primitív jelentése: blokkolt várakozás bejövő kapcsolatfelvételre."
+  },
+  {
+    "id": 29,
+    "fejezet": "02_Hálózati szoftver",
+    "kerdes": "A CONNECT primitív összeköttetés létrehozására szolgál egy várakozó társidentitással.",
+    "valasz": "igaz",
+    "magyarazat": "A CONNECT primitív teszi lehetővé a kapcsolat felépítését a várakozó partnerrel."
+  },
+  {
+    "id": 30,
+    "fejezet": "02_Hálózati szoftver",
+    "kerdes": "Az ACCEPT primitív feladata a blokkolt várakozás bejövő üzenetekre.",
+    "valasz": "hamis",
+    "magyarazat": "Az ACCEPT a bejövő kapcsolat fogadása a társidentitástól; a blokkolt várakozás bejövő üzenetre a RECEIVE primitív feladata."
+  },
+  {
+    "id": 31,
+    "fejezet": "02_Hálózati szoftver",
+    "kerdes": "Egy egyszerű összeköttetés alapú szolgáltatás megvalósításához hat szolgáltatási primitív (LISTEN, CONNECT, ACCEPT, RECEIVE, SEND, DISCONNECT) tartozik.",
+    "valasz": "igaz",
+    "magyarazat": "A forrás pontosan ezt a hat alapvető szolgáltatási primitívet sorolja fel."
+  },
+  {
+    "id": 32,
+    "fejezet": "02_Hálózati szoftver",
+    "kerdes": "A CONNECT primitívnek nem szükséges tartalmaznia semmilyen címzést, mert a fizikai kapcsolat automatikusan azonosítja a szervert.",
+    "valasz": "hamis",
+    "magyarazat": "A CONNECT primitívnek egy címzést mindenképpen tartalmaznia kell, hogy a logikai kapcsolat felépülhessen és csak a megcímzett szerver válaszoljon."
+  },
+  {
+    "id": 33,
+    "fejezet": "02_Hálózati szoftver",
+    "kerdes": "A szerver oldalon a CONNECT hatására elinduló ACCEPT (Acknowledgement) primitív jelzi a kapcsolatépítés elfogadását.",
+    "valasz": "igaz",
+    "magyarazat": "Az ACCEPT válasz igazolja a szerver részéről a kapcsolatfelvételi szándék elfogadását."
+  },
+  {
+    "id": 34,
+    "fejezet": "02_Hálózati szoftver",
+    "kerdes": "Összeköttetés alapú protokoll esetén az összeköttetés lebonyolításához minimum 6 darab átvitt csomagra van szükség egyetlen SEND/RECEIVE pár esetén.",
+    "valasz": "igaz",
+    "magyarazat": "A Connect, Accept, Send, Receive, Disconnect, Disconnect összesen 6 átvitt csomagot jelent (a LISTEN nem része az átvitelnek)."
+  },
+  {
+    "id": 35,
+    "fejezet": "02_Hálózati szoftver",
+    "kerdes": "A LISTEN primitív is egy átvitt csomagnak számít a hálózati adatátviteli forgalomban.",
+    "valasz": "hamis",
+    "magyarazat": "A LISTEN nem része a hálózati átvitelnek, az egy helyi várakozó állapot a szerveren."
+  },
+  {
+    "id": 36,
+    "fejezet": "02_Hálózati szoftver",
+    "kerdes": "Összeköttetés nélküli átvitel esetén elvben akár csupán 2 csomag (SEND, RECEIVE) ciklikus használatával megoldható az adatátvitel.",
+    "valasz": "igaz",
+    "magyarazat": "Optimális esetben az összeköttetés nélküli adatátvitel két csomagtípussal is működhet."
+  },
+  {
+    "id": 37,
+    "fejezet": "02_Hálózati szoftver",
+    "kerdes": "Összeköttetés nélküli átvitelnél a csomagoknak nem kell saját sorszámot vagy azonosítót tartalmazniuk.",
+    "valasz": "hamis",
+    "magyarazat": "A csomagoknak tartalmazniuk kell saját azonosítójukat (sorszámukat) a helyes sorrend és a záró csomag azonosításához."
+  },
+  {
+    "id": 38,
+    "fejezet": "02_Hálózati szoftver",
+    "kerdes": "Az összeköttetés nélküli protokoll a gyakorlatban mindig sokkal egyszerűbb, mint az összeköttetés alapú protokoll.",
+    "valasz": "hamis",
+    "magyarazat": "Ez csak a látszat, mert számos olyan gyakorlati problémát (pl. a csomagok sorrendiségét) kezelni kell, ami összeköttetés alapú protokollnál fel sem merül."
+  },
+  {
+    "id": 39,
+    "fejezet": "02_Hálózati szoftver",
+    "kerdes": "A szolgáltatás azon primitívek halmaza, amelyeket egy adott réteg a felette lévő rétegek számára biztosít.",
+    "valasz": "igaz",
+    "magyarazat": "A szolgáltatás definíció szerint az alsó réteg által a felső réteg felé nyújtott elemi műveletek halmaza."
+  },
+  {
+    "id": 40,
+    "fejezet": "02_Hálózati szoftver",
+    "kerdes": "A szolgáltatás azt definiálja, hogy egy réteg HOGYAN valósítja meg a műveleteket.",
+    "valasz": "hamis",
+    "magyarazat": "A szolgáltatás azt definiálja, hogy MIT (milyen műveleteket) képes végrehajtani a réteg, de azt NEM, hogy hogyan."
+  },
+  {
+    "id": 41,
+    "fejezet": "02_Hálózati szoftver",
+    "kerdes": "A protokoll olyan szabályok halmaza, amely a 'HOGYAN' kérdéssel kapcsolatos a társidentitások kommunikációjában.",
+    "valasz": "igaz",
+    "magyarazat": "A protokoll a csomagok és üzenetek felépítését és a kommunikáció megvalósításának módját (a 'hogyan'-t) határozza meg."
+  },
+  {
+    "id": 42,
+    "fejezet": "02_Hálózati szoftver",
+    "kerdes": "A protokoll a szolgáltatás implementációjának felel meg.",
+    "valasz": "igaz",
+    "magyarazat": "A protokoll a szolgáltatás konkrét megvalósítása (implementációja)."
+  },
+  {
+    "id": 43,
+    "fejezet": "02_Hálózati szoftver",
+    "kerdes": "A protokoll közvetlenül látható a szolgáltatást igénybe vevő felső rétegek számára.",
+    "valasz": "hamis",
+    "magyarazat": "A protokoll a szolgáltatás implementációja, és mint ilyen, láthatatlan a szolgáltatást igénybe vevők számára."
+  },
+  {
+    "id": 44,
+    "fejezet": "02_Hálózati szoftver",
+    "kerdes": "Az implementáció egy algoritmus, architektúra, szabvány vagy specifikáció konkrét megvalósítása.",
+    "valasz": "igaz",
+    "magyarazat": "Az implementáció a számítástechnikában egy specifikáció vagy algoritmus konkrét programozási vagy technikai megvalósulása."
+  },
+  {
+    "id": 45,
+    "fejezet": "02_Hálózati szoftver",
+    "kerdes": "A szolgáltatás a két szomszédos réteg közötti interfésszel kapcsolatos, ahol az alsó réteg a szolgáltató, a felső réteg pedig a felhasználó.",
+    "valasz": "igaz",
+    "magyarazat": "A szolgáltatás az interfész mentén valósul meg az alsó (szolgáltató) és felső (szolgáltatást igénylő) réteg között."
+  }
+]

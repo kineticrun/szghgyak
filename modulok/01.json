@@ -1,0 +1,359 @@
+[
+  {
+    "id": 1,
+    "fejezet": "01_Bevezetés",
+    "kerdes": "A technika fejlődésében a XVIII. századig a mechanikus megoldások jelentették a technika csúcsát.",
+    "valasz": "igaz",
+    "magyarazat": "A XVIII. század végéig a technikai fejlődés meghatározó eszközei mechanikus elven működtek."
+  },
+  {
+    "id": 2,
+    "fejezet": "01_Bevezetés",
+    "kerdes": "A XIX. században az elektromosság általánossá válása jelentette a technika legfőbb hajtóerejét.",
+    "valasz": "hamis",
+    "magyarazat": "A XIX. században a gőzgép használata vált általánossá, míg az elektromosság a XX. században vált meghatározóvá."
+  },
+  {
+    "id": 3,
+    "fejezet": "01_Bevezetés",
+    "kerdes": "A XX. században az elektromosság használata vált általánossá a technikában.",
+    "valasz": "igaz",
+    "magyarazat": "A XX. század technikai fejlődésének alapvető eleme az elektromosság széles körű elterjedése volt."
+  },
+  {
+    "id": 4,
+    "fejezet": "01_Bevezetés",
+    "kerdes": "A XX. és XXI. század fordulójától az információtechnológia (IT) lett a meghatározó tudományág.",
+    "valasz": "igaz",
+    "magyarazat": "A századfordulótól kezdve az IT vált a meghatározó tudománnyá, és az információcsere globális szintre lépett."
+  },
+  {
+    "id": 5,
+    "fejezet": "01_Bevezetés",
+    "kerdes": "Az első érdemi aritmetikára használható gépek kis méretű, asztali berendezések voltak.",
+    "valasz": "hamis",
+    "magyarazat": "Az első érdemi aritmetikára alkalmas gépek hatalmas termeket foglaltak el."
+  },
+  {
+    "id": 6,
+    "fejezet": "01_Bevezetés",
+    "kerdes": "Az első számítóközpontok már a mai értelemben vett komplex vállalatirányítási rendszereket futtatták.",
+    "valasz": "hamis",
+    "magyarazat": "Az első számítóközpontok jellemzően csak béreket és adókat számoltak, még nem működtek mai értelemben vett vállalatirányítási rendszerek."
+  },
+  {
+    "id": 7,
+    "fejezet": "01_Bevezetés",
+    "kerdes": "A személyi számítógépek (PC) megjelenése elfogadható méretet és fogyasztást hozott a hatékony működés mellett.",
+    "valasz": "igaz",
+    "magyarazat": "A PC-k terjedése a kisebb méretnek, kedvező fogyasztásnak és a hatékonyságnak volt köszönhető."
+  },
+  {
+    "id": 8,
+    "fejezet": "01_Bevezetés",
+    "kerdes": "Több PC első lokális hálózati összekapcsolásakor a fő szempont már a teljes körű általános erőforrás-megosztás volt.",
+    "valasz": "hamis",
+    "magyarazat": "A korai kisebb lokális hálózatoknál a fő szempont még csupán az adatcsere volt, nem az általános erőforrás-megosztás."
+  },
+  {
+    "id": 9,
+    "fejezet": "01_Bevezetés",
+    "kerdes": "A hordozható eszközök fejlődési folyamatát (laptop, notebook, tablet, smartphone) szub-evoluciónak is nevezik.",
+    "valasz": "igaz",
+    "magyarazat": "A hordozható informatikai eszközök kategóriáinak megjelenését szub-evolúciónak tekintik."
+  },
+  {
+    "id": 10,
+    "fejezet": "01_Bevezetés",
+    "kerdes": "A független hálózatok összekapcsolódásának folyamata a mai szinten az internetben látszik végződni.",
+    "valasz": "igaz",
+    "magyarazat": "A különálló hálózatok összekötésének csúcspontja a globális internet létrejötte."
+  },
+  {
+    "id": 11,
+    "fejezet": "01_Bevezetés",
+    "kerdes": "A klasszikus számítógép-hálózatban a gépeket egyetlen közös operációs rendszer fogja össze.",
+    "valasz": "hamis",
+    "magyarazat": "Az elosztott rendszereket fogja össze közös operációs rendszer, míg a klasszikus hálózat autonóm gépekből áll."
+  },
+  {
+    "id": 12,
+    "fejezet": "01_Bevezetés",
+    "kerdes": "Az elosztott rendszert az átlagos felhasználó jellemzően egyetlen egybefüggő gépnek vagy erőforrásnak látja.",
+    "valasz": "igaz",
+    "magyarazat": "Az elosztott rendszer transzparens módon egyetlen rendszer benyomását kelti a felhasználó számára."
+  },
+  {
+    "id": 13,
+    "fejezet": "01_Bevezetés",
+    "kerdes": "A kliens-szerver modellben a különböző hardvereken futó szoftverek folyamatainak együtt kell működniük.",
+    "valasz": "igaz",
+    "magyarazat": "A kliens és a szerver oldali alkalmazások hálózati kérés-válasz alapon működnek együtt."
+  },
+  {
+    "id": 14,
+    "fejezet": "01_Bevezetés",
+    "kerdes": "A VPN (Virtual Private Network) több távoli telephely virtuális összeköttetését teszi lehetővé az interneten keresztül.",
+    "valasz": "igaz",
+    "magyarazat": "A VPN biztonságos virtuális csatornát biztosít a nyilvános hálózaton keresztül távoli telephelyek között."
+  },
+  {
+    "id": 15,
+    "fejezet": "01_Bevezetés",
+    "kerdes": "A VoIP rövidítés a tévéadás és videók hálózati sugárzását jelenti.",
+    "valasz": "hamis",
+    "magyarazat": "A VoIP (Voice over Internet Protocol) az interneten keresztüli telefonálást, hang- és képátvitelt jelenti."
+  },
+  {
+    "id": 16,
+    "fejezet": "01_Bevezetés",
+    "kerdes": "A Remote Desktop, a LogMeIn és a TeamViewer a táv-management és távsegítség eszközei az üzleti felhasználásban.",
+    "valasz": "igaz",
+    "magyarazat": "Ezek a szoftverek távoli távsegítségnyújtást és számítógép-kezelést tesznek lehetővé."
+  },
+  {
+    "id": 17,
+    "fejezet": "01_Bevezetés",
+    "kerdes": "A Smart Home koncepcióban a vezeték nélküli kapcsolatok mellett akár a 230V-os táphálózat is lehet az átviteli közeg.",
+    "valasz": "igaz",
+    "magyarazat": "Az okosotthon eszközök kommunikálhatnak dedikált hálózati kábellel, vezeték nélkül, vagy a 230V-os villamos hálózaton."
+  },
+  {
+    "id": 18,
+    "fejezet": "01_Bevezetés",
+    "kerdes": "A P2P (Peer-to-Peer) kommunikációban egy központi főszámítógép koordinálja az adatcserét az egyenrangú gépek között.",
+    "valasz": "hamis",
+    "magyarazat": "A P2P hálózatokban nincs szükség központi kiszolgálóra, az egyenrangú gépek közvetlenül cserélnek adatot."
+  },
+  {
+    "id": 19,
+    "fejezet": "01_Bevezetés",
+    "kerdes": "A Napster, a Kazaa és a Torrent a P2P adatcsere alkalmazások példái.",
+    "valasz": "igaz",
+    "magyarazat": "A megnevezett szoftverek és protokollok a peer-to-peer állománymegosztás ismert eljárásai."
+  },
+  {
+    "id": 20,
+    "fejezet": "01_Bevezetés",
+    "kerdes": "Az azonnali üzenetküldés (Instant Messaging) gyökerei az 1970-es unix talk alkalmazásig nyúlnak vissza.",
+    "valasz": "igaz",
+    "magyarazat": "Az 1970-es unix talk volt a mai azonnali üzenetküldők egyik legkorábbi előfutára."
+  },
+  {
+    "id": 21,
+    "fejezet": "01_Bevezetés",
+    "kerdes": "A CATV és IPTV szolgáltatások kizárólag analóg televíziós adások közvetítésére alkalmasak.",
+    "valasz": "hamis",
+    "magyarazat": "A CATV és IPTV komplex szolgáltatások, amelyek telefon-, internet-, valamint analóg és digitális TV-szolgáltatást is nyújtanak."
+  },
+  {
+    "id": 22,
+    "fejezet": "01_Bevezetés",
+    "kerdes": "A mozgó felhasználók igényeit kiszolgáló hálózatok lehetnek telepített vezeték nélküliek és mozgó vezeték nélküliek is.",
+    "valasz": "igaz",
+    "magyarazat": "A mobilitás támogatása megvalósulhat rögzített bázisállomású vezeték nélküli és teljesen mozgó hálózatokkal is."
+  },
+  {
+    "id": 23,
+    "fejezet": "01_Bevezetés",
+    "kerdes": "A mobiltelefónia fejlődése során az 1G-től az 5G-ig a technológia az analóg hangátviteltől eljutott a digitális hang- és adatátvitelig.",
+    "valasz": "igaz",
+    "magyarazat": "A mobilhálózatok az első generációs analóg rendszerektől a mai nagy sebességű digitális adathálózatokig fejlődtek."
+  },
+  {
+    "id": 24,
+    "fejezet": "01_Bevezetés",
+    "kerdes": "A GPS, a Glonass, a Galileo és a Compass (Beidou) a lokális helymeghatározó rendszerek közé tartoznak.",
+    "valasz": "hamis",
+    "magyarazat": "A GPS, Glonass, Galileo és Compass globális műholdas helymeghatározó rendszerek."
+  },
+  {
+    "id": 25,
+    "fejezet": "01_Bevezetés",
+    "kerdes": "Az Egnos, a WAAS és a QZSS a lokális vagy regionális helymeghatározást segítő rendszerek példái.",
+    "valasz": "igaz",
+    "magyarazat": "Az Egnos, WAAS és QZSS regionális korrekciós és kiegészítő helymeghatározó rendszerek."
+  },
+  {
+    "id": 26,
+    "fejezet": "01_Bevezetés",
+    "kerdes": "Az NFC (Near Field Communication) rövid hatótávolságú vezeték nélküli kommunikációs technológia.",
+    "valasz": "igaz",
+    "magyarazat": "Az NFC néhány centiméteres távolságon belüli érintéses adatcserét tesz lehetővé."
+  },
+  {
+    "id": 27,
+    "fejezet": "01_Bevezetés",
+    "kerdes": "Az inzulinadagoló és a szívritmus-szabályzó a viselhető és beültethető számítástechnikai eszközök orvosi példái.",
+    "valasz": "igaz",
+    "magyarazat": "Ezek a kisméretű intelligens eszközök az egészségügyi monitorozás és kezelés fontos informatikai alkalmazásai."
+  },
+  {
+    "id": 28,
+    "fejezet": "01_Bevezetés",
+    "kerdes": "A hálózatokon megosztott tartalom egyes esetekben személyiségi vagy szerzői jogokat sérthet.",
+    "valasz": "igaz",
+    "magyarazat": "A jogosulatlanul közzétett vagy továbbított adatok jogi és etikai aggályokat vetnek fel."
+  },
+  {
+    "id": 29,
+    "fejezet": "01_Bevezetés",
+    "kerdes": "Az AdBlock böngészőmodul egy kétirányú központi szűrőrendszer, amelyet az internetszolgáltatók kötelezően alkalmaznak.",
+    "valasz": "hamis",
+    "magyarazat": "Az AdBlock a böngészőbe beépülő, egyirányú helyi modul, amelyet a felhasználó maga telepít a hirdetések kiszűrésére."
+  },
+  {
+    "id": 30,
+    "fejezet": "01_Bevezetés",
+    "kerdes": "A CAPTCHA mozaikszó a 'Complete Automated Public Turing test to tell Computers and Humans Apart' kifejezésből ered.",
+    "valasz": "igaz",
+    "magyarazat": "A CAPTCHA egy automatizált Turing-teszt, amely az emberi felhasználók és az automatizált robotok megkülönböztetésére szolgál."
+  },
+  {
+    "id": 31,
+    "fejezet": "01_Bevezetés",
+    "kerdes": "A felhasználóknak védeniük kell számítógépeiket a kéretlen behatolások, az adatlopás és az erőforrás-elvonás ellen.",
+    "valasz": "igaz",
+    "magyarazat": "Az információbiztonság alapvető követelménye az eszközök és hálózatok aktív védelme a kiberfenyegetésekkel szemben."
+  },
+  {
+    "id": 32,
+    "fejezet": "01_Bevezetés",
+    "kerdes": "A vezetékes átviteli közeg fizikai értelemben lehet koaxiális rézkábel, csavart érpár vagy optikai kábel.",
+    "valasz": "igaz",
+    "magyarazat": "A rézalapú kábeltípusok és a fényvezető optikai szálak alkotják a vezetékes átviteli közegek fő csoportjait."
+  },
+  {
+    "id": 33,
+    "fejezet": "01_Bevezetés",
+    "kerdes": "A levegőben történő adatátvitel kizárólag a látható fény tartományában lehetséges.",
+    "valasz": "hamis",
+    "magyarazat": "A vezeték nélküli átvitel elektromágneses hullámokkal, rádióhullámokkal, látható és láthatatlan fénnyel, valamint lézerrel is történhet."
+  },
+  {
+    "id": 34,
+    "fejezet": "01_Bevezetés",
+    "kerdes": "A Broadcast (adatszórás) átvitel szűkített formáját többesküldésnek (multicasting) nevezik.",
+    "valasz": "igaz",
+    "magyarazat": "A multicasting során az adatszórás egy előre kiválasztott specifikus csoportra korlátozódik."
+  },
+  {
+    "id": 35,
+    "fejezet": "01_Bevezetés",
+    "kerdes": "A Point-to-point (pont-pont) kapcsolatban egyetlen adó és egyetlen vevő vesz részt, ezt egyesküldésnek (unicasting) is nevezik.",
+    "valasz": "igaz",
+    "magyarazat": "Két csomópont közötti közvetlen dedikált adatátvitel az unicasting."
+  },
+  {
+    "id": 36,
+    "fejezet": "01_Bevezetés",
+    "kerdes": "A Simplex átviteli mód lehetővé teszi az egyidejű kétirányú adatforgalmazást.",
+    "valasz": "hamis",
+    "magyarazat": "A Simplex egyirányú átvitelt jelent; az egyidejű kétirányú adatátvitel a Full-Duplex üzemmód."
+  },
+  {
+    "id": 37,
+    "fejezet": "01_Bevezetés",
+    "kerdes": "A Half-Duplex üzemmódban a felek mindkét irányban tudnak kommunikálni, de egy időben csak az egyik irányban folyhat az adás.",
+    "valasz": "igaz",
+    "magyarazat": "A Half-Duplex váltakozó irányú kommunikációt biztosít a közös csatornán."
+  },
+  {
+    "id": 38,
+    "fejezet": "01_Bevezetés",
+    "kerdes": "A PAN (Personal Area Network) jellemzően néhány méteres távolságon belüli eszközök kapcsolatát biztosítja (pl. Bluetooth).",
+    "valasz": "igaz",
+    "magyarazat": "A személyi hálózat kisméretű, személyes környezetben lévő eszközök összekapcsolására szolgál."
+  },
+  {
+    "id": 39,
+    "fejezet": "01_Bevezetés",
+    "kerdes": "A LAN (Local Area Network) jellemzően országrészeket és kontinenseket átívelő hálózati struktúra.",
+    "valasz": "hamis",
+    "magyarazat": "A LAN helyi hálózat, amely jellemzően egy épületen belüli vagy néhány szomszédos épület közötti kapcsolatot biztosít."
+  },
+  {
+    "id": 40,
+    "fejezet": "01_Bevezetés",
+    "kerdes": "A LAN hálózatokban a vezeték nélküli eszközök jellemzően Access Point-okhoz (AP), a vezetékesek Switch-ekhez csatlakoznak.",
+    "valasz": "igaz",
+    "magyarazat": "A hozzáférési pontok (AP) a rádiós klienseket, míg a kapcsolók (Switch) a kábeles berendezéseket kötik a hálózatba."
+  },
+  {
+    "id": 41,
+    "fejezet": "01_Bevezetés",
+    "kerdes": "A telephelyek vagy szervezeti egységek VLAN-okba csoportosítása elősegíti az adatok védelmét a helyi hálózaton.",
+    "valasz": "igaz",
+    "magyarazat": "A virtuális LAN-ok (VLAN) logikai szegregációt és fokozott biztonságot nyújtanak."
+  },
+  {
+    "id": 42,
+    "fejezet": "01_Bevezetés",
+    "kerdes": "Több különálló LAN összekapcsolása Bridge vagy Router berendezésekkel valósítható meg.",
+    "valasz": "igaz",
+    "magyarazat": "A hidak (Bridge) és az útválasztók (Router) eltérő protokollrétegekben kötik össze a LAN szegmenseket."
+  },
+  {
+    "id": 43,
+    "fejezet": "01_Bevezetés",
+    "kerdes": "A MAN (Metropolitan Area Network) jellemzően egyetlen irodai szoba eszközeit összefogó hálózat.",
+    "valasz": "hamis",
+    "magyarazat": "A MAN nagyvárosi kiterjedésű hálózatot jelöl."
+  },
+  {
+    "id": 44,
+    "fejezet": "01_Bevezetés",
+    "kerdes": "A WAN (Wide Area Network) jellemzően országot vagy földrészt lefedő hálózat.",
+    "valasz": "igaz",
+    "magyarazat": "A nagy kiterjedésű hálózatok (WAN) távoli városok és országok irodái közötti kapcsolatot biztosítanak."
+  },
+  {
+    "id": 45,
+    "fejezet": "01_Bevezetés",
+    "kerdes": "A WAN kapcsolat létesítése történhet saját összeköttetéssel, interneten keresztüli VPN-nel vagy ISP által üzemeltetett hálózaton.",
+    "valasz": "igaz",
+    "magyarazat": "Ez a három fő műszaki megközelítés létezik a távoli telephelyek összekötésére."
+  },
+  {
+    "id": 46,
+    "fejezet": "01_Bevezetés",
+    "kerdes": "Az Internet az egész bolygót és annak műholdjait lefedő globális világhálózat.",
+    "valasz": "igaz",
+    "magyarazat": "Az internet összekapcsolt autonóm hálózatokból álló globális infrastruktúra."
+  },
+  {
+    "id": 47,
+    "fejezet": "01_Bevezetés",
+    "kerdes": "Az Internetwork eltérő műszaki paraméterű hálózatok közötti adatforgalom megvalósítását jelenti.",
+    "valasz": "igaz",
+    "magyarazat": "Az internetwork célja a különféle hálózati technológiák közötti átjárhatóság biztosítása."
+  },
+  {
+    "id": 48,
+    "fejezet": "01_Bevezetés",
+    "kerdes": "Egy hálózatot az alhálózat(ok) és a hosztok együttesen alkotnak.",
+    "valasz": "igaz",
+    "magyarazat": "A hálózat felépítésében a végberendezések (hosztok) és az őket összekötő infrastruktúra (alhálózat) vesznek részt."
+  },
+  {
+    "id": 49,
+    "fejezet": "01_Bevezetés",
+    "kerdes": "Az alhálózat aktív elemei közé tartoznak a Gateway-ek, a Router-ek és a Switch-ek.",
+    "valasz": "igaz",
+    "magyarazat": "Ezek a hálózati eszközök biztosítják az adatok kapcsolását, útválasztását és a protokollok közötti átjárást."
+  },
+  {
+    "id": 50,
+    "fejezet": "01_Bevezetés",
+    "kerdes": "A Gateway-ek elsősorban a gépek helyi hálózatba kapcsolására, míg a Switch-ek a WAN hálózatok összekötésére szolgálnak.",
+    "valasz": "hamis",
+    "magyarazat": "A Switch-ek szolgálnak a gépek hálózatba kapcsolására, míg a Gateway-ek több WAN hálózat összekapcsolására alkalmasak."
+  },
+  {
+    "id": 51,
+    "fejezet": "01_Bevezetés",
+    "kerdes": "Az Internet tekinthető Gateway-ekkel összekötött hálózatok összességeként.",
+    "valasz": "igaz",
+    "magyarazat": "A globális internet a különböző hálózatok átjárókon keresztül megvalósított összekapcsolódása."
+  }
+]

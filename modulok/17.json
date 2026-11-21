@@ -1,0 +1,303 @@
+[
+  {
+    "id": 1,
+    "fejezet": "17_Kapcsolódás az adatkapcsolati rétegben",
+    "kerdes": "Az adatkapcsolati réteg két legjellemzőbb aktív hálózati eleme a Bridge és a Switch.",
+    "valasz": "igaz",
+    "magyarazat": "Az adatkapcsolati rétegben a szegmensek összekapcsolásának és a keretek irányításának fő eszközei a Bridge-ek és a Switch-ek."
+  },
+  {
+    "id": 2,
+    "fejezet": "17_Kapcsolódás az adatkapcsolati rétegben",
+    "kerdes": "A Bridge és a Switch között a lényegi különbség a portok számában van: a Bridge jellemzően 2-3 portos, míg a Switch jellemzően legalább 4 portos eszköz.",
+    "valasz": "igaz",
+    "magyarazat": "A Bridge 2-3 porttal rendelkezik szegmensek összekötésére, míg a Switch legalább 4 portos és a saját szegmensének hosztjaihoz is csatlakozik."
+  },
+  {
+    "id": 3,
+    "fejezet": "17_Kapcsolódás az adatkapcsolati rétegben",
+    "kerdes": "A Bridge és a Switch az IP-címek alapján irányítja a kereteket az adó hoszttól a vevő hosztig.",
+    "valasz": "hamis",
+    "magyarazat": "Az adatkapcsolati réteg aktív eszközei nem IP-címek, hanem MAC-címek alapján irányítják a kereteket."
+  },
+  {
+    "id": 4,
+    "fejezet": "17_Kapcsolódás az adatkapcsolati rétegben",
+    "kerdes": "Az adatkapcsolati rétegben működő Bridge-ek képesek önálló IP-alhálózatokat létrehozni.",
+    "valasz": "hamis",
+    "magyarazat": "A MAC-címek alapján működő adatkapcsolati eszközök nem tudnak különbséget tenni IP-alhálózatok között, így kizárólag önálló szegmenseket tudnak összekapcsolni."
+  },
+  {
+    "id": 5,
+    "fejezet": "17_Kapcsolódás az adatkapcsolati rétegben",
+    "kerdes": "A szegmensek Bridge segítségével történő összekapcsolása révén 100 méternél nagyobb távolságok is áthidalhatók optikai kábellel.",
+    "valasz": "igaz",
+    "magyarazat": "A vezetékes hálózat 100 méteres távolsághatára felett az épületek közötti összeköttetést a szegmenseket összekötő Bridge és optikai kábel biztosítja."
+  },
+  {
+    "id": 6,
+    "fejezet": "17_Kapcsolódás az adatkapcsolati rétegben",
+    "kerdes": "A szegmensek Bridge-ekkel való összekapcsolása drasztikusan csökkenti a hálózat teljesítményét, mert minden adatkeret az összes szegmensre eljut.",
+    "valasz": "hamis",
+    "magyarazat": "Az összekapcsolás nem jár teljesítménycsökkenéssel, mivel a keretek mindig csak a megfelelő portokra lesznek irányítva."
+  },
+  {
+    "id": 7,
+    "fejezet": "17_Kapcsolódás az adatkapcsolati rétegben",
+    "kerdes": "A Bridge-ek úgy viselkednek az épületen belül, mint a tűzbiztos ajtók: normál esetben átjárhatóak, de egy szegmens meghibásodásakor lezárnak.",
+    "valasz": "igaz",
+    "magyarazat": "Egy szegmens meghibásodása általában nem rántja magával a többi szegmenst, mivel a Bridge-ek tűzbiztos ajtóként elszigetelik a hibát."
+  },
+  {
+    "id": 8,
+    "fejezet": "17_Kapcsolódás az adatkapcsolati rétegben",
+    "kerdes": "Az első generációs Bridge-ek MAC tábláját (Forwarding Table) még manuálisan kellett kitölteni.",
+    "valasz": "igaz",
+    "magyarazat": "Az első generációs eszközöknél a fizikai címeket portokhoz rendelő táblát még kézzel kellett beállítani."
+  },
+  {
+    "id": 9,
+    "fejezet": "17_Kapcsolódás az adatkapcsolati rétegben",
+    "kerdes": "Az átlátszó híd (Transparent Bridging) technológia használatához a hálózatra csatlakozó hosztokon külön szoftveres konfiguráció szükséges.",
+    "valasz": "hamis",
+    "magyarazat": "Az átlátszó híd technológia azonnal, minden szoftveres vagy hardveres beállítás nélkül használatba vehető, a hosztok nem is tudnak a szegmensek összekapcsolásáról."
+  },
+  {
+    "id": 10,
+    "fejezet": "17_Kapcsolódás az adatkapcsolati rétegben",
+    "kerdes": "Az átlátszóság megvalósításához használt két alapvető algoritmus a hátrafelé tanulás (Backward Learning) és a feszítőfa (Spanning Tree).",
+    "valasz": "igaz",
+    "magyarazat": "A hátrafelé tanulás megakadályozza a felesleges forgalmat, míg a feszítőfa algoritmus a hurkok okozta problémákat oldja meg."
+  },
+  {
+    "id": 11,
+    "fejezet": "17_Kapcsolódás az adatkapcsolati rétegben",
+    "kerdes": "A hátrafelé tanulás során a Bridge belső szoftvere soha nem töröl egyetlen bejegyzést sem a MAC táblából.",
+    "valasz": "hamis",
+    "magyarazat": "A Bridge szoftvere folyamatosan ellenőrzi a táblát, és a régi (néhány perces) bejegyzéseket törli a dinamikus változások követésére."
+  },
+  {
+    "id": 12,
+    "fejezet": "17_Kapcsolódás az adatkapcsolati rétegben",
+    "kerdes": "Ha a cél hoszthoz tartozó port és a beérkezési port azonos, a Bridge eldobja az adatkeretet.",
+    "valasz": "igaz",
+    "magyarazat": "Amennyiben a keret ugyanazon a porton érkezik, ahol a célállomás is található (pl. egy HUB miatti eljutáskor), a keretet el kell dobni."
+  },
+  {
+    "id": 13,
+    "fejezet": "17_Kapcsolódás az adatkapcsolati rétegben",
+    "kerdes": "Ha a cél hoszthoz tartozó port ismeretlen a MAC táblában, a Bridge az adatkeretet kizárólag a beérkezési portra küldi vissza.",
+    "valasz": "hamis",
+    "magyarazat": "Ismeretlen cél port esetén a Bridge az összes portjára – kivéve az érkezési portot – adatszórással küldi el a keretet."
+  },
+  {
+    "id": 14,
+    "fejezet": "17_Kapcsolódás az adatkapcsolati rétegben",
+    "kerdes": "Ha a cél hoszthoz tartozó port ismert és eltér a beérkezési porttól, a Bridge a keretet csak a megfelelő portra továbbítja.",
+    "valasz": "igaz",
+    "magyarazat": "Ismert és eltérő port esetén a Bridge célzottan továbbítja a keretet arra az egyetlen portra."
+  },
+  {
+    "id": 15,
+    "fejezet": "17_Kapcsolódás az adatkapcsolati rétegben",
+    "kerdes": "A Spanning Tree algoritmust Radia Perlman, a DEC mérnöke dolgozta ki 1985-ben, és az IEEE 802.1D szabvány tartalmazza.",
+    "valasz": "igaz",
+    "magyarazat": "Radia Perlman egy nap alatt dolgozta ki az algoritmust, amely IEEE 802.1D néven vált nemzetközi szabvánnyá."
+  },
+  {
+    "id": 16,
+    "fejezet": "17_Kapcsolódás az adatkapcsolati rétegben",
+    "kerdes": "A feszítőfa algoritmus kidolgozására azért volt szükség, mert a hálózati redundancia biztosítására kiépített kapcsolatok hurkokat hoztak létre.",
+    "valasz": "igaz",
+    "magyarazat": "A kábelszakadás elleni redundáns összeköttetések hurkokat alakítottak ki a topológiában, ami megbéníthatta a hálózatot."
+  },
+  {
+    "id": 17,
+    "fejezet": "17_Kapcsolódás az adatkapcsolati rétegben",
+    "kerdes": "Ha egy hálózatban hurok alakul ki és egy ismeretlen címzettű keret érkezik, a keret elenyészik és nem okoz forgalmi torlódást.",
+    "valasz": "hamis",
+    "magyarazat": "A hurok miatt a Bridge-ek a keret másolatait végtelen ciklusban küldözgetik egymásnak, ami hálózati torlódást okoz és megbénítja a működést."
+  },
+  {
+    "id": 18,
+    "fejezet": "17_Kapcsolódás az adatkapcsolati rétegben",
+    "kerdes": "A feszítőfa protokoll működése során a Bridge-ek BPDU (Bridge Protocol Data Unit) keretek segítségével kommunikálnak egymással.",
+    "valasz": "igaz",
+    "magyarazat": "A hurokmentes fa struktúra felépítéséhez a Bridge-ek BPDU keretek cseréjével osztják meg az információkat."
+  },
+  {
+    "id": 19,
+    "fejezet": "17_Kapcsolódás az adatkapcsolati rétegben",
+    "kerdes": "Az SPT hierarchiájában a legnagyobb értékű MAC azonosítóval rendelkező Bridge válik a gyökér (Root) eszközzé.",
+    "valasz": "hamis",
+    "magyarazat": "A gyökér (Root Bridge) kiválasztásakor a legkisebb értékű MAC azonosítóval rendelkező Bridge lesz a fa gyökere."
+  },
+  {
+    "id": 20,
+    "fejezet": "17_Kapcsolódás az adatkapcsolati rétegben",
+    "kerdes": "Ha egy Bridge hirdetése során kiderül, hogy egy másik Bridge kisebb MAC címmel rendelkezik, az elfogadja a másik eszközt gyökérnek.",
+    "valasz": "igaz",
+    "magyarazat": "A kisebb MAC címet hirdető eszköz lesz a gyökér, és a többi Bridge leállítja a saját gyökérségének hirdetését."
+  },
+  {
+    "id": 21,
+    "fejezet": "17_Kapcsolódás az adatkapcsolati rétegben",
+    "kerdes": "Az SPT gyökértől mért útköltségének számítása kizárólag a kábelek fizikai hosszán alapul.",
+    "valasz": "hamis",
+    "magyarazat": "Az útköltség számítása a vonal sebessége és a vonalak darabszáma alapján történik."
+  },
+  {
+    "id": 22,
+    "fejezet": "17_Kapcsolódás az adatkapcsolati rétegben",
+    "kerdes": "Az SPT által lezárt portokon a Bridge-ek továbbra is fogadnak BPDU kereteket.",
+    "valasz": "igaz",
+    "magyarazat": "A lezárt portok a normál adatforgalomból ki vannak kapcsolva, de a BPDU kereteket fogadják az esetleges hálózati változások kezelésére."
+  },
+  {
+    "id": 23,
+    "fejezet": "17_Kapcsolódás az adatkapcsolati rétegben",
+    "kerdes": "Ha egy aktív összeköttetés vagy eszköz meghibásodik, az SPT algoritmus ciklikus működése révén új feszítőfa hozható létre.",
+    "valasz": "igaz",
+    "magyarazat": "Az algoritmus ciklikusan tovább fut, így hardveres vagy útvonalbeli változás esetén automatikusan új hurokmentes topológiát épít fel."
+  },
+  {
+    "id": 24,
+    "fejezet": "17_Kapcsolódás az adatkapcsolati rétegben",
+    "kerdes": "Az SPT protokoll beépített kriptográfiai autentikációt használ a BPDU keretek hitelesítésére.",
+    "valasz": "hamis",
+    "magyarazat": "Az SPT egy bizalomteljes, állapotmentes és autentikáció nélküli protokoll, emiatt hamis BPDU keretekkel könnyen befolyásolható."
+  },
+  {
+    "id": 25,
+    "fejezet": "17_Kapcsolódás az adatkapcsolati rétegben",
+    "kerdes": "A Yersinia nevű támadási eljárás során a támadó a gyökér Bridge MAC címénél kisebb értéket tartalmazó BPDU keretet juttat a hálózatba.",
+    "valasz": "igaz",
+    "magyarazat": "A hamis kisebb MAC cím injektálásával a támadó átveheti a gyökér szerepet és átirányíthatja a hálózati forgalmat lehallgatásra."
+  },
+  {
+    "id": 26,
+    "fejezet": "17_Kapcsolódás az adatkapcsolati rétegben",
+    "kerdes": "A Root Guard (Gyökér Védelem) portvédelmi funkció megakadályozza a gyökér pozíció jogosulatlan megváltoztatását.",
+    "valasz": "igaz",
+    "magyarazat": "A Root Guard kivédi a Yersinia jellegű gyökérátvételi támadásokat a megadott portokon."
+  },
+  {
+    "id": 27,
+    "fejezet": "17_Kapcsolódás az adatkapcsolati rétegben",
+    "kerdes": "A BPDU Guard funkcióra beállított port mögötti eszközök szabadon átalakíthatják az SPT hálózati topológiáját.",
+    "valasz": "hamis",
+    "magyarazat": "A BPDU Guard segítségével az SPT határai rögzíthetők, és az így védett portok mögötti eszközök nem képesek módosítani a topológiát."
+  },
+  {
+    "id": 28,
+    "fejezet": "17_Kapcsolódás az adatkapcsolati rétegben",
+    "kerdes": "A másodpercenként több tízezer BPDU kerettel elárasztó DoS támadás ellen a BPDU Guard funkció nyújt védelmet.",
+    "valasz": "igaz",
+    "magyarazat": "A túlterheléses BPDU elárasztás (DoS) kivédhető a BPDU Guard beállításával."
+  },
+  {
+    "id": 29,
+    "fejezet": "17_Kapcsolódás az adatkapcsolati rétegben",
+    "kerdes": "A két hálózati kártyával rendelkező hoszttal végrehajtott Switch szimulációs támadás egy Man-In-The-Middle (MITM) közbeékelődéses támadást valósíthat meg.",
+    "valasz": "igaz",
+    "magyarazat": "A hamis BPDU keretekkel a teljes forgalom átirányítható a támadó hosztján keresztül, bizalmas adatokat szerezve meg."
+  },
+  {
+    "id": 30,
+    "fejezet": "17_Kapcsolódás az adatkapcsolati rétegben",
+    "kerdes": "Egy nagy vállalati LAN hálózatban az a tény, hogy az összes gép látja egymást, biztonsági és teljesítménybeli hátrányokat is okozhat.",
+    "valasz": "igaz",
+    "magyarazat": "Az elszigetelés hiánya adatbiztonsági kockázatot jelent a különböző osztályok között, emellett az adatszórási forgalom is megnövekszik."
+  },
+  {
+    "id": 31,
+    "fejezet": "17_Kapcsolódás az adatkapcsolati rétegben",
+    "kerdes": "A virtuális helyi hálózatok (VLAN) szabályozását az IEEE 802.10, illetve az azt felváltó IEEE 802.1Q szabvány tartalmazza.",
+    "valasz": "igaz",
+    "magyarazat": "A VLAN-ok logikai szétdarabolását és címkézését az IEEE 802.1Q szabvány határozza meg."
+  },
+  {
+    "id": 32,
+    "fejezet": "17_Kapcsolódás az adatkapcsolati rétegben",
+    "kerdes": "VLAN megvalósításához bármilyen hagyományos, nem VLAN-képes Switch is maradéktalanul alkalmazható.",
+    "valasz": "hamis",
+    "magyarazat": "VLAN megvalósításához elengedhetetlen a szabvány előírásait teljesítő, VLAN-képes Switch-ek használata."
+  },
+  {
+    "id": 33,
+    "fejezet": "17_Kapcsolódás az adatkapcsolati rétegben",
+    "kerdes": "A VLAN hozzárendelés a Switch-ben port szintű, de egyetlen port akár több VLAN-ban is szerepelhet.",
+    "valasz": "igaz",
+    "magyarazat": "A hosztok hozzárendelése port alapon történik, és egy porthoz csatlakozó gép akár több VLAN tagja is lehet."
+  },
+  {
+    "id": 34,
+    "fejezet": "17_Kapcsolódás az adatkapcsolati rétegben",
+    "kerdes": "Layer 2 Switch használata esetén egy adott VLAN ID címkéjű keret bármilyen más VLAN címkéjű porton is távozhat a hálózatból.",
+    "valasz": "hamis",
+    "magyarazat": "Layer 2 Switch esetén a keretek csak az adott VLAN-on belül mozognak, és csak megegyező VLAN címkéjű porton léphetnek be és ki."
+  },
+  {
+    "id": 35,
+    "fejezet": "17_Kapcsolódás az adatkapcsolati rétegben",
+    "kerdes": "A Layer 3 Switch alapvetően a Layer 2-ben keretekkel dolgozik, de képes az egyes VLAN-ok közötti forgalomirányításra is.",
+    "valasz": "igaz",
+    "magyarazat": "A Layer 3 Switch ötvözi a Layer 2 keretkezelést a Layer 3-as hálózati rétegbeli forgalomirányítási funkciókkal a VLAN-ok között."
+  },
+  {
+    "id": 36,
+    "fejezet": "17_Kapcsolódás az adatkapcsolati rétegben",
+    "kerdes": "Az IEEE 802.1Q előírásai alapján történő VLAN címkézés során az Ethernet fejléc két darab 2 bájtos új mezővel bővül.",
+    "valasz": "igaz",
+    "magyarazat": "A VLAN támogatáshoz az Ethernet fejlécbe összesen 4 bájtnyi többletinformáció (két 2 bájtos mező) épül be."
+  },
+  {
+    "id": 37,
+    "fejezet": "17_Kapcsolódás az adatkapcsolati rétegben",
+    "kerdes": "A VLAN protokoll azonosító (TPID - Tag Protocol Identifier) mező értéke fixen 0x8100.",
+    "valasz": "igaz",
+    "magyarazat": "A TPID mező 2 bájtos értéke mindig 0x8100, ami jelzi a VLAN információ jelenlétét a keretben."
+  },
+  {
+    "id": 38,
+    "fejezet": "17_Kapcsolódás az adatkapcsolati rétegben",
+    "kerdes": "Mivel a TPID értéke (0x8100) nagyobb mint 0x0600, a keretben ezt hosszként értelmezik a hálózati kártyák.",
+    "valasz": "hamis",
+    "magyarazat": "Mivel az érték nagyobb mint 0x0600, azt Típusként értelmezik, emiatt a régebbi kártyák nem képesek a VLAN támogatására."
+  },
+  {
+    "id": 39,
+    "fejezet": "17_Kapcsolódás az adatkapcsolati rétegben",
+    "kerdes": "A TCI (Tag Control Information) mező 3 almezőből áll: Prioritás (Priority), CFI és VLAN azonosító (VID).",
+    "valasz": "igaz",
+    "magyarazat": "A TCI mező a 3 bites prioritást, az 1 bites CFI jelzőt és a 12 bites VLAN azonosítót foglalja magában."
+  },
+  {
+    "id": 40,
+    "fejezet": "17_Kapcsolódás az adatkapcsolati rétegben",
+    "kerdes": "A TCI mezőben lévő Prioritás almező 3 bites, és a valós idejű átvitelek (pl. beszédátvitel) megjelölésére használható.",
+    "valasz": "igaz",
+    "magyarazat": "A 3 bites prioritási mező segítségével megjelölhető a valós idejű forgalom a hálózaton."
+  },
+  {
+    "id": 41,
+    "fejezet": "17_Kapcsolódás az adatkapcsolati rétegben",
+    "kerdes": "Az 1 bites CFI (Canonical Format Indicator) azt jelzi, hogy a keret egy IEEE 802.5 (Token Ring) keretet tartalmaz, és átutazóban van az Ethernet hálózatban.",
+    "valasz": "igaz",
+    "magyarazat": "A CFI bit jelzi a nem módosítható Token Ring keret jelenlétét, melynek végső célállomása nem az adott Ethernet hálózatban van."
+  },
+  {
+    "id": 42,
+    "fejezet": "17_Kapcsolódás az adatkapcsolati rétegben",
+    "kerdes": "A VLAN azonosító (VID) almező 12 bitet foglal el a TCI-ben, ami megmutatja, hogy a keret melyik VLAN-ba tartozik.",
+    "valasz": "igaz",
+    "magyarazat": "A VID 12 biten határozza meg a konkrét VLAN hálózat azonosítóját."
+  },
+  {
+    "id": 43,
+    "fejezet": "17_Kapcsolódás az adatkapcsolati rétegben",
+    "kerdes": "Egy maximális méretű Ethernet keret VLAN címkével ellátva 1522 bájtos lesz, amit az IEEE 802.3ac alcsoport tett szabványossá.",
+    "valasz": "igaz",
+    "magyarazat": "A 4 bájtos VLAN címke a maximális keretméretet 1518 bájtról 1522 bájtra növelte, amit az IEEE 802.3ac szabványosított."
+  }
+]

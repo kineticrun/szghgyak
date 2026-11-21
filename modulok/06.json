@@ -1,0 +1,387 @@
+[
+  {
+    "id": 1,
+    "fejezet": "06_Szabványok mértékegységek prefixumok",
+    "kerdes": "Az ISO mozaikszó a Nemzetközi Szabványügyi Testület (International Organization for Standardization) elnevezést takarja.",
+    "valasz": "igaz",
+    "magyarazat": "Az ISO a nemzetközi szabványosításért felelős testület elnevezése."
+  },
+  {
+    "id": 2,
+    "fejezet": "06_Szabványok mértékegységek prefixumok",
+    "kerdes": "Az SI rövidítés a Mértékegységek Nemzetközi Rendszerét (Système International d’Unités) jelöli.",
+    "valasz": "igaz",
+    "magyarazat": "Az SI a francia Système International d’Unités kifejezésből ered."
+  },
+  {
+    "id": 3,
+    "fejezet": "06_Szabványok mértékegységek prefixumok",
+    "kerdes": "A szabványok hasznosságát és besorolását már a megfogalmazásuk pillanatában véglegesen eldöntik a tervezők.",
+    "valasz": "hamis",
+    "magyarazat": "Azt, hogy egy szabvány a szükséges jó vagy a szükséges rossz kategóriába tartozik, általában csak az utókor tudja eldönteni."
+  },
+  {
+    "id": 4,
+    "fejezet": "06_Szabványok mértékegységek prefixumok",
+    "kerdes": "A de facto szabványok előzetes hivatalos szabványosítási tervezés nélkül, a gyakorlatban maguktól alakulnak ki.",
+    "valasz": "igaz",
+    "magyarazat": "A de facto (tényleges) szabványok olyan megoldások, amelyek maguktól váltak széles körben elfogadottá."
+  },
+  {
+    "id": 5,
+    "fejezet": "06_Szabványok mértékegységek prefixumok",
+    "kerdes": "A HTTP protokoll és a korai web-böngészés rendszere eredetileg gondosan eltervezett de jure szabványként indult.",
+    "valasz": "hamis",
+    "magyarazat": "A HTTP és a korai web-böngészés nem szabványnak indult, hanem de facto módon vált azzá."
+  },
+  {
+    "id": 6,
+    "fejezet": "06_Szabványok mértékegységek prefixumok",
+    "kerdes": "A Bluetooth technológia az Ericsson cég kereteiből kitörve vált de facto szabvánnyá.",
+    "valasz": "igaz",
+    "magyarazat": "A Bluetooth az Ericsson saját fejlesztéséből vált általánosan használt de facto szabvánnyá."
+  },
+  {
+    "id": 7,
+    "fejezet": "06_Szabványok mértékegységek prefixumok",
+    "kerdes": "A de jure szabványokat hivatalos szabványosító szervezetek hozzák létre.",
+    "valasz": "igaz",
+    "magyarazat": "A de jure (törvényes) szabványok hivatalos testületek által megalkotott előírások."
+  },
+  {
+    "id": 8,
+    "fejezet": "06_Szabványok mértékegységek prefixumok",
+    "kerdes": "A de jure szabványosító szervezetek kizárólag állami felügyelet alatt működhetnek, magán- vagy önszerveződő kezdeményezések nem léteznek.",
+    "valasz": "hamis",
+    "magyarazat": "A de jure szervezetek között állami felügyelet alattiak és önkéntes alapú, önszerveződő szervezetek egyaránt előfordulnak."
+  },
+  {
+    "id": 9,
+    "fejezet": "06_Szabványok mértékegységek prefixumok",
+    "kerdes": "Az IAB elnevezése az idők folyamán International Activities Board-ról International Architecture Board-ra változott.",
+    "valasz": "igaz",
+    "magyarazat": "Az IAB angol megnevezése az évek során módosult a pontosabb szerepkör kifejezésére."
+  },
+  {
+    "id": 10,
+    "fejezet": "06_Szabványok mértékegységek prefixumok",
+    "kerdes": "Az IRTF rövidítés az Internet Engineering Task Force testületet takarja.",
+    "valasz": "hamis",
+    "magyarazat": "Az IRTF az Internet Research Task Force (Internetkutatásokat Koordináló Testület); az IETF az Internet Engineering Task Force."
+  },
+  {
+    "id": 11,
+    "fejezet": "06_Szabványok mértékegységek prefixumok",
+    "kerdes": "Az IETF feladata az Internet működtetésének koordinálása (Internet Engineering Task Force).",
+    "valasz": "igaz",
+    "magyarazat": "Az IETF a hálózati műszaki működtetést és fejlesztést koordináló szervezet."
+  },
+  {
+    "id": 12,
+    "fejezet": "06_Szabványok mértékegységek prefixumok",
+    "kerdes": "Az Internet Society rövidítése az IS.",
+    "valasz": "igaz",
+    "magyarazat": "Az IS az Internet Society (Internet Társaság) elnevezés rövidítése."
+  },
+  {
+    "id": 13,
+    "fejezet": "06_Szabványok mértékegységek prefixumok",
+    "kerdes": "A World Wide Web Konzorcium hivatalos rövidítése a W3C.",
+    "valasz": "igaz",
+    "magyarazat": "A W3C a World Wide Web Consortium nemzetközi szervezet elnevezése."
+  },
+  {
+    "id": 14,
+    "fejezet": "06_Szabványok mértékegységek prefixumok",
+    "kerdes": "A NIST (National Institute of Standards and Technology) egy japán szabványügyi intézet.",
+    "valasz": "hamis",
+    "magyarazat": "A NIST az Egyesült Államok (USA) nemzeti szabványügyi és technológiai intézete."
+  },
+  {
+    "id": 15,
+    "fejezet": "06_Szabványok mértékegységek prefixumok",
+    "kerdes": "Az IEEE a Villamos- és Elektronikai Mérnökök Intézetét (Institute of Electrical and Electronics Engineers) jelöli.",
+    "valasz": "igaz",
+    "magyarazat": "Az IEEE az elektrotechnikai és informatikai mérnökök világméretű szervezete."
+  },
+  {
+    "id": 16,
+    "fejezet": "06_Szabványok mértékegységek prefixumok",
+    "kerdes": "Az IEC mozaikszó az International Electrotechnical Commission (Nemzetközi Elektrotechnikai Bizottság) szervezetnek felel meg.",
+    "valasz": "igaz",
+    "magyarazat": "Az IEC a nemzetközi elektrotechnikai szabványosításért felelős testület."
+  },
+  {
+    "id": 17,
+    "fejezet": "06_Szabványok mértékegységek prefixumok",
+    "kerdes": "Az IEEE 802.1 munkacsoport témája a LAN-ok áttekintése és felépítése, és jelenleg is aktív státuszú.",
+    "valasz": "igaz",
+    "magyarazat": "Az IEEE 802.1 aktív munkacsoport, amely a helyi hálózatok általános architektúrájával foglalkozik."
+  },
+  {
+    "id": 18,
+    "fejezet": "06_Szabványok mértékegységek prefixumok",
+    "kerdes": "Az IEEE 802.2 Logikai kapcsolatvezérlés (LLC) munkacsoport jelenleg is aktív tevékenységet folytat.",
+    "valasz": "hamis",
+    "magyarazat": "Az IEEE 802.2 munkacsoport státusza nem aktív."
+  },
+  {
+    "id": 19,
+    "fejezet": "06_Szabványok mértékegységek prefixumok",
+    "kerdes": "Az IEEE 802.3 munkacsoport felelős az Ethernet hálózati szabványokért, és aktív státuszú.",
+    "valasz": "igaz",
+    "magyarazat": "Az IEEE 802.3 az Ethernet vezetékes hálózati technológiák szabványosítását végző aktív munkacsoport."
+  },
+  {
+    "id": 20,
+    "fejezet": "06_Szabványok mértékegységek prefixumok",
+    "kerdes": "Az IEEE 802.4 a vezérjeles sín (Token Bus) szabványa, amelynek munkacsoportja ma már nem aktív.",
+    "valasz": "igaz",
+    "magyarazat": "A Token Bus szabványosítását végző 802.4 munkacsoport leállt, nem aktív."
+  },
+  {
+    "id": 21,
+    "fejezet": "06_Szabványok mértékegységek prefixumok",
+    "kerdes": "Az IEEE 802.5 Vezérjeles gyűrű (Token Ring) munkacsoportja aktív státuszú.",
+    "valasz": "igaz",
+    "magyarazat": "Az IEEE 802.5 táblázatbeli megjelölése szerint aktív munkacsoport."
+  },
+  {
+    "id": 22,
+    "fejezet": "06_Szabványok mértékegységek prefixumok",
+    "kerdes": "Az IEEE 802.6 munkacsoport témája a kettőzött várakozási soros kettőzött sín (DQDB), és nem aktív.",
+    "valasz": "igaz",
+    "magyarazat": "Az IEEE 802.6 a DQDB szabványát tartalmazza és nem aktív."
+  },
+  {
+    "id": 23,
+    "fejezet": "06_Szabványok mértékegységek prefixumok",
+    "kerdes": "Az IEEE 802.7 és 802.8 egyaránt aktív műszaki tanácsadó csoportokként működnek.",
+    "valasz": "hamis",
+    "magyarazat": "A 802.7 (szélessávú megoldások) és a 802.8 (fényvezetőszálas megoldások) tanácsadó csoportok egyaránt nem aktívak."
+  },
+  {
+    "id": 24,
+    "fejezet": "06_Szabványok mértékegységek prefixumok",
+    "kerdes": "Az IEEE 802.9 az izokron valósidejű LAN (ISLAN) témakörével foglalkozott, de jelenleg nem aktív.",
+    "valasz": "igaz",
+    "magyarazat": "Az ISLAN szabványosítására hozták létre a 802.9-et, mely nem aktív."
+  },
+  {
+    "id": 25,
+    "fejezet": "06_Szabványok mértékegységek prefixumok",
+    "kerdes": "Az IEEE 802.10 munkacsoport a Virtuális LAN-okkal (VLAN) foglalkozik, és új kódszáma az IEEE 802.1Q.",
+    "valasz": "igaz",
+    "magyarazat": "A Virtuális LAN-ok aktív szabványa a 802.10, melynek új IEEE kódja 802.1Q."
+  },
+  {
+    "id": 26,
+    "fejezet": "06_Szabványok mértékegységek prefixumok",
+    "kerdes": "Az IEEE 802.11 a vezeték nélküli LAN-ok (WLAN) aktív munkacsoportja, amelyhez a 802.11a, b, g, n, ac, ax szabványok tartoznak.",
+    "valasz": "igaz",
+    "magyarazat": "A Wi-Fi technológiák alapját a 802.11-es szabványcsalád képezi."
+  },
+  {
+    "id": 27,
+    "fejezet": "06_Szabványok mértékegységek prefixumok",
+    "kerdes": "Az IEEE 802.12 munkacsoport az AnyLAN technológiát gondozta, és jelenleg is aktív státuszú.",
+    "valasz": "hamis",
+    "magyarazat": "Az IEEE 802.12 (AnyLAN) munkacsoport nem aktív."
+  },
+  {
+    "id": 28,
+    "fejezet": "06_Szabványok mértékegységek prefixumok",
+    "kerdes": "Az IEEE 802.13 szabványkódot a 13-as szám szerencsétlen mivolta miatt ki sem osztották.",
+    "valasz": "igaz",
+    "magyarazat": "A 802.13 számozást kihagyták a babona miatt."
+  },
+  {
+    "id": 29,
+    "fejezet": "06_Szabványok mértékegységek prefixumok",
+    "kerdes": "Az IEEE 802.14 a kábelmodemek aktív munkacsoportja.",
+    "valasz": "hamis",
+    "magyarazat": "Az IEEE 802.14 kábelmodem munkacsoport státusza nem aktív."
+  },
+  {
+    "id": 30,
+    "fejezet": "06_Szabványok mértékegységek prefixumok",
+    "kerdes": "Az IEEE 802.15 a személyi hálózatokkal (Bluetooth, Zigbee) foglalkozó aktív munkacsoport.",
+    "valasz": "igaz",
+    "magyarazat": "A WPAN hálózatok (Bluetooth, Zigbee) a 802.15 szabványcsalád alá tartoznak."
+  },
+  {
+    "id": 31,
+    "fejezet": "06_Szabványok mértékegységek prefixumok",
+    "kerdes": "Az IEEE 802.16 munkacsoport a széles sávú vezeték nélküli hálózatok (WiMAX) szabványosítását végzi aktívan.",
+    "valasz": "igaz",
+    "magyarazat": "A WiMAX technológia az IEEE 802.16 szabványra épül."
+  },
+  {
+    "id": 32,
+    "fejezet": "06_Szabványok mértékegységek prefixumok",
+    "kerdes": "Az IEEE 802.17 az ellenálló/rugalmas csomaggyűrű (Resilient Packet Ring - RPR) aktív munkacsoportja.",
+    "valasz": "igaz",
+    "magyarazat": "Az RPR gyűrűs csomagátvitelt az aktív 802.17 munkacsoport kezeli."
+  },
+  {
+    "id": 33,
+    "fejezet": "06_Szabványok mértékegységek prefixumok",
+    "kerdes": "Az IEEE 802.18, 802.19, 802.20, 802.21, 802.22, 802.23 és 802.24 munkacsoportok kivétel nélkül mind aktívak.",
+    "valasz": "igaz",
+    "magyarazat": "A 802.18-tól 802.24-ig terjedő munkacsoportok mindegyikénél az 'igen' (aktív) jelzés szerepel."
+  },
+  {
+    "id": 34,
+    "fejezet": "06_Szabványok mértékegységek prefixumok",
+    "kerdes": "Az IEEE 802.20 a mobil széles sávú vezeték nélküli hálózatok (MBWA) témakörével foglalkozik.",
+    "valasz": "igaz",
+    "magyarazat": "Az MBWA szabványkódja az IEEE 802.20."
+  },
+  {
+    "id": 35,
+    "fejezet": "06_Szabványok mértékegységek prefixumok",
+    "kerdes": "Az IEEE 802.22 a vezeték nélküli regionális hálózatok (WRAN) munkacsoportja.",
+    "valasz": "igaz",
+    "magyarazat": "A WRAN hálózatok szabványa az IEEE 802.22."
+  },
+  {
+    "id": 36,
+    "fejezet": "06_Szabványok mértékegységek prefixumok",
+    "kerdes": "Az SI prefixumok között a 10^-9 hatványhoz tartozó előtag a piko, jelölése p.",
+    "valasz": "hamis",
+    "magyarazat": "A 10^-9 hatvány előtaga a nano (n); a piko (p) a 10^-12 hatványnak felel meg."
+  },
+  {
+    "id": 37,
+    "fejezet": "06_Szabványok mértékegységek prefixumok",
+    "kerdes": "A 10^-15 hatvány megnevezése billiárdod, előtaga femto, jelölése f.",
+    "valasz": "igaz",
+    "magyarazat": "A 10^-15 hatvány SI előtaga a femto (f)."
+  },
+  {
+    "id": 38,
+    "fejezet": "06_Szabványok mértékegységek prefixumok",
+    "kerdes": "A 10^-18 hatvány előtaga az atto, míg a 10^-21 hatványé a zepto.",
+    "valasz": "igaz",
+    "magyarazat": "A 10^-18 az atto (a), a 10^-21 pedig a zepto (z)."
+  },
+  {
+    "id": 39,
+    "fejezet": "06_Szabványok mértékegységek prefixumok",
+    "kerdes": "A 10^-24 hatvány számszerű értéke kvadrilliomod, előtaga yocto, jelölése y.",
+    "valasz": "igaz",
+    "magyarazat": "A 10^-24 hatvány pontos SI megnevezése a yocto (y)."
+  },
+  {
+    "id": 40,
+    "fejezet": "06_Szabványok mértékegységek prefixumok",
+    "kerdes": "A 10^+6 hatvány értéke millió, SI előtaga Mega, jelölése M.",
+    "valasz": "igaz",
+    "magyarazat": "A Mega előtag a 10^+6 értéket jelöli M betűvel."
+  },
+  {
+    "id": 41,
+    "fejezet": "06_Szabványok mértékegységek prefixumok",
+    "kerdes": "A 10^+9 hatvány értéke billió, SI előtaga Giga, jelölése G.",
+    "valasz": "hamis",
+    "magyarazat": "A 10^+9 értéke milliárd (Giga, G); a billió a 10^+12 hatványnak (Tera, T) felel meg."
+  },
+  {
+    "id": 42,
+    "fejezet": "06_Szabványok mértékegységek prefixumok",
+    "kerdes": "A 10^+15 hatvány számszerű értéke billiárd, SI előtaga Peta, jelölése P.",
+    "valasz": "igaz",
+    "magyarazat": "A 10^+15 hatványnak a Peta (P) előtag felel meg."
+  },
+  {
+    "id": 43,
+    "fejezet": "06_Szabványok mértékegységek prefixumok",
+    "kerdes": "A 10^+18 hatvány előtaga Exa (E), a 10^+21 hatványé Zetta (Z), a 10^+24 hatványé pedig Yotta (Y).",
+    "valasz": "igaz",
+    "magyarazat": "Ezek a 10^+18, 10^+21 és 10^+24 hatványok hivatalos SI előtagjai."
+  },
+  {
+    "id": 44,
+    "fejezet": "06_Szabványok mértékegységek prefixumok",
+    "kerdes": "A kiterjesztett prefixumtáblázatban a 10^+100 hatvány elnevezése googol, a 10^+googol hatványé pedig googolplex.",
+    "valasz": "igaz",
+    "magyarazat": "A táblázat szerint a 10^+100 a googol, míg a 10^+googol a googolplex."
+  },
+  {
+    "id": 45,
+    "fejezet": "06_Szabványok mértékegységek prefixumok",
+    "kerdes": "Az IEC 1999-ben vezette be a kibi, Mebi, Gibi elnevezéseket a bináris (kettes számrendszerbeli) mértékegység-eltérések áthidalására.",
+    "valasz": "igaz",
+    "magyarazat": "Az IEC 1999-ben hozta létre a bináris prefixumokat a pontos értelmezés érdekében."
+  },
+  {
+    "id": 46,
+    "fejezet": "06_Szabványok mértékegységek prefixumok",
+    "kerdes": "A kibibájt, Mebibájt nevekben szereplő 'bi' tag a bimetál szerkezetre utal.",
+    "valasz": "hamis",
+    "magyarazat": "A 'bi' tag a bináris, azaz a kettes számrendszerre utal."
+  },
+  {
+    "id": 47,
+    "fejezet": "06_Szabványok mértékegységek prefixumok",
+    "kerdes": "Az SI rendszer szerinti meghatározásban 1 kilobájt (kB) pontosan 1 024 bájttal egyenlő.",
+    "valasz": "hamis",
+    "magyarazat": "Az SI rendszer tízes alapon működik, így 1 kB = 1 000 bájt; az 1 024 bájt az IEC szerinti kibibájt (kiB)."
+  },
+  {
+    "id": 48,
+    "fejezet": "06_Szabványok mértékegységek prefixumok",
+    "kerdes": "Az SI rendszerben 1 Megabájt (MB) 1 000 000 bájttal, míg 1 Gigabájt (GB) 1 000 000 000 bájttal egyenlő.",
+    "valasz": "igaz",
+    "magyarazat": "Az SI szabvány szerint a Mega a 10^+6-on, a Giga a 10^+9-en szorzót jelenti."
+  },
+  {
+    "id": 49,
+    "fejezet": "06_Szabványok mértékegységek prefixumok",
+    "kerdes": "Az IEC rendszer szerinti 1 kibibájt (kiB) pontosan 1 024 bájtnak felel meg (2^+10 bájt).",
+    "valasz": "igaz",
+    "magyarazat": "A kibibájt az IEC kettes alapú prefixumrendszerében 2^+10, azaz 1 024 bájt."
+  },
+  {
+    "id": 50,
+    "fejezet": "06_Szabványok mértékegységek prefixumok",
+    "kerdes": "Az IEC szerinti 1 Mebibájt (MiB) pontosan 1 048 576 bájttal egyenlő (1 024 kibibájt).",
+    "valasz": "igaz",
+    "magyarazat": "A Mebibájt 2^+20 bájtot jelöl, ami 1 048 576 bájt."
+  },
+  {
+    "id": 51,
+    "fejezet": "06_Szabványok mértékegységek prefixumok",
+    "kerdes": "Az IEC szerinti 1 Gibibájt (GiB) értéke 1 073 741 824 bájt (1 024 Mebibájt).",
+    "valasz": "igaz",
+    "magyarazat": "A Gibibájt 2^+30 bájt pontos értéke 1 073 741 824 bájt."
+  },
+  {
+    "id": 52,
+    "fejezet": "06_Szabványok mértékegységek prefixumok",
+    "kerdes": "Az IEC szerinti Tebibájt (TiB) a 2^+40 bájtot, a Pebibájt (PiB) pedig a 2^+50 bájtot jelöli.",
+    "valasz": "igaz",
+    "magyarazat": "A Tebibájt 2^+40 bájt (1 099 511 627 776 bájt), a Pebibájt pedig 2^+50 bájt."
+  },
+  {
+    "id": 53,
+    "fejezet": "06_Szabványok mértékegységek prefixumok",
+    "kerdes": "A számítógépes operatív memória méretét a gyártók és a mindennapi nyelv hivatalosan is mindig IEC prefixumokkal (MiB, GiB) jelölik a boltokban.",
+    "valasz": "hamis",
+    "magyarazat": "A memória mérete a bináris rendszer szerint van megadva, de a mindennapokban helytelenül a tízes rendszer elnevezéseit (MB, GB) használják rá."
+  },
+  {
+    "id": 54,
+    "fejezet": "06_Szabványok mértékegységek prefixumok",
+    "kerdes": "A háttértárak (HDD, SSD) kapacitását a gyártók általában SI egységekben adják meg, így ott a Megabájt (MB), Gigabájt (GB) és Terabájt (TB) a hivatalos jel.",
+    "valasz": "igaz",
+    "magyarazat": "A háttértárak gyártói az SI szerinti tízes alapú váltószámokkal adják meg a kapacitást."
+  },
+  {
+    "id": 55,
+    "fejezet": "06_Szabványok mértékegységek prefixumok",
+    "kerdes": "Mivel a hétköznapi életben a két prefixumrendszer keveredik, a műszaki szakembereknek meg kell tanulniuk együtt élni ezzel a jelenséggel.",
+    "valasz": "igaz",
+    "magyarazat": "Kevés az esély arra, hogy a hétköznapi felhasználók műszaki intelligenciájába mindkét rendszer megfelelően beépüljön, így el kell fogadni a keveredést."
+  }
+]

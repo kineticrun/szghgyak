@@ -1,0 +1,387 @@
+[
+  {
+    "id": 1,
+    "fejezet": "09_A vezeték nélküli adatátvitel és WLAN",
+    "kerdes": "Az elektromágneses hullámok terjedéssel kapcsolatos tulajdonságai a frekvencia növekedésével megváltoznak.",
+    "valasz": "igaz",
+    "magyarazat": "A frekvencia növekedésével megváltozik a hullámok terjedési jellege, fókusza és áthatolási képessége."
+  },
+  {
+    "id": 2,
+    "fejezet": "09_A vezeték nélküli adatátvitel és WLAN",
+    "kerdes": "A legalacsonyabb frekvenciájú rádióhullámok kizárólag egyenes vonalban képesek terjedni, a Föld görbületét nem tudják követni.",
+    "valasz": "hamis",
+    "magyarazat": "A legalacsonyabb frekvenciájú rádióhullámok képesek a Föld görbületét követni, míg a magasabb frekvenciájú hullámok terjednek egyenes vonalban."
+  },
+  {
+    "id": 3,
+    "fejezet": "09_A vezeték nélküli adatátvitel és WLAN",
+    "kerdes": "Az alacsonyabb frekvenciájú rádióhullámok nehezebben haladnak át a szilárd tárgyakon, mint a magasabb frekvenciájúak.",
+    "valasz": "hamis",
+    "magyarazat": "Az alacsonyabb frekvenciájú rádióhullámok könnyebben haladnak át a szilárd tárgyakon (például betonépületben is vehető a középhullámú rádió)."
+  },
+  {
+    "id": 4,
+    "fejezet": "09_A vezeték nélküli adatátvitel és WLAN",
+    "kerdes": "A műholdas TV vételhez pontosan ismerni kell a műhold pozícióját, mivel a magas frekvenciájú jelek egyenes vonalban terjednek.",
+    "valasz": "igaz",
+    "magyarazat": "A műholdas vétel egyenes vonalú terjedése miatt kültéri parabolaantennára és pontos pozícionálásra van szükség."
+  },
+  {
+    "id": 5,
+    "fejezet": "09_A vezeték nélküli adatátvitel és WLAN",
+    "kerdes": "A rövidhullámok a Földet körülvevő, kb. 100 km és 500 km közötti ionoszféráról visszaverődve eljuthatnak a Föld távoli pontjaira is.",
+    "valasz": "igaz",
+    "magyarazat": "A töltött részecskékből álló ionoszféráról való visszaverődés (\"mandíner-technika\") teszi lehetővé a távoli rövidhullámú elérést."
+  },
+  {
+    "id": 6,
+    "fejezet": "09_A vezeték nélküli adatátvitel és WLAN",
+    "kerdes": "Az ionoszféra egy teljesen statikus, mozdulatlan övezet, így a rövidhullámú célzás és találat mindig rendkívül egyszerű.",
+    "valasz": "hamis",
+    "magyarazat": "Az ionoszféra nem statikus öv, hanem folyamatosan hullámzik, emiatt a célzás és a találat nem egyszerű."
+  },
+  {
+    "id": 7,
+    "fejezet": "09_A vezeték nélküli adatátvitel és WLAN",
+    "kerdes": "A mikrohullámok áthaladnak az ionoszférán, de haladás közben egy kis törést szenvednek.",
+    "valasz": "igaz",
+    "magyarazat": "A mikrohullámok átjutnak az ionoszférán, megtörésük a vízbe merülő kanál képéhez hasonlóan képzelhető el."
+  },
+  {
+    "id": 8,
+    "fejezet": "09_A vezeték nélküli adatátvitel és WLAN",
+    "kerdes": "Az infravörös és a látható fény – még a koherens lézerfény is – ki van téve a légkör torzító hatásainak.",
+    "valasz": "igaz",
+    "magyarazat": "A légköri hatások (például a délibáb jelensége) torzítják a fényalapú átvitelt, és a szilárd tárgyakon a fény nem hatol át."
+  },
+  {
+    "id": 9,
+    "fejezet": "09_A vezeték nélküli adatátvitel és WLAN",
+    "kerdes": "A LEO (Low Earth Orbit) műholdak tengerszint feletti pályamagassága kb. 5.000–22.000 km közötti.",
+    "valasz": "hamis",
+    "magyarazat": "A LEO műholdak pályamagassága kb. 500–1.500 km; a 5.000–22.000 km közötti tartomány a MEO (Medium Earth Orbit) pályája."
+  },
+  {
+    "id": 10,
+    "fejezet": "09_A vezeték nélküli adatátvitel és WLAN",
+    "kerdes": "A GPS, GLONASS, GALILEO és COMPASS navigációs műholdak a MEO pálya magasabb régióiban keringenek.",
+    "valasz": "igaz",
+    "magyarazat": "A navigációs műholdrendszerek mind a MEO (közepes magasságú) pályákon működnek."
+  },
+  {
+    "id": 11,
+    "fejezet": "09_A vezeték nélküli adatátvitel és WLAN",
+    "kerdes": "Minél közelebb van a műhold a Földhöz, annál nagyobb a jel futási ideje és késleltetése.",
+    "valasz": "hamis",
+    "magyarazat": "Minél közelebb van a műhold a Földhöz, annál kisebb a jel futási ideje és késleltetése."
+  },
+  {
+    "id": 12,
+    "fejezet": "09_A vezeték nélküli adatátvitel és WLAN",
+    "kerdes": "A geostacionárius műholdak ötlete Arthur C. Clarke-tól származik 1945-ből.",
+    "valasz": "igaz",
+    "magyarazat": "Arthur C. Clarke írta le 1945-ben a geostacionárius műholdak elméleti alapjait."
+  },
+  {
+    "id": 13,
+    "fejezet": "09_A vezeték nélküli adatátvitel és WLAN",
+    "kerdes": "Az első geostacionárius műhold az 1962-ben pályára állított Telstar volt.",
+    "valasz": "hamis",
+    "magyarazat": "Az első geostacionárius műhold az 1964-es Syncom-3 volt; a Telstar 1962-ben LEO pályán mozgott."
+  },
+  {
+    "id": 14,
+    "fejezet": "09_A vezeték nélküli adatátvitel és WLAN",
+    "kerdes": "A geostacionárius műhold inklinációja (pályasíkja) és excentricitása (pályalapultsága) is nullafokos, azaz az Egyenlítő felett körpályán mozog.",
+    "valasz": "igaz",
+    "magyarazat": "A geostacionárius pálya az Egyenlítő feletti körpálya, ahol a műhold együtt mozog a Föld forgásával."
+  },
+  {
+    "id": 15,
+    "fejezet": "09_A vezeték nélküli adatátvitel és WLAN",
+    "kerdes": "A geostacionárius műhold keringési távolsága kb. 35.800 km a tenger szintje felett.",
+    "valasz": "igaz",
+    "magyarazat": "A geostacionárius pálya pontos magassága kb. 35.800 km a tengerszint felett."
+  },
+  {
+    "id": 16,
+    "fejezet": "09_A vezeték nélküli adatátvitel és WLAN",
+    "kerdes": "Az Iridium műholdas telefonrendszer LEO pályán működik, és nevét a tervezett 77 műholdról kapta, bár végül 66 műholdat állítottak pályára.",
+    "valasz": "igaz",
+    "magyarazat": "Az Iridium rendszer a 77. kémiai elemről kapta a nevét, de a megvalósítás során 66 műhold is elegendőnek bizonyult."
+  },
+  {
+    "id": 17,
+    "fejezet": "09_A vezeték nélküli adatátvitel és WLAN",
+    "kerdes": "Az Iridium műholdas telefonrendszer épületen belüli, több betonfödém mögötti használata kiválóan működik.",
+    "valasz": "hamis",
+    "magyarazat": "Az Iridium rendszer a terjedési tulajdonságok miatt betonfödémek mögött (sokemeletes házban) használhatatlanná válik."
+  },
+  {
+    "id": 18,
+    "fejezet": "09_A vezeték nélküli adatátvitel és WLAN",
+    "kerdes": "Minden egyes Iridium műhold képes a 4 közvetlen szomszédjával kommunikálni.",
+    "valasz": "igaz",
+    "magyarazat": "Az Iridium műholdak a pályán a 4 szomszédos műholddal tudnak közvetlen kapcsolatot tartani."
+  },
+  {
+    "id": 19,
+    "fejezet": "09_A vezeték nélküli adatátvitel és WLAN",
+    "kerdes": "A műholdas távközlésben a vételhez és az adáshoz (felsugárzáshoz) pontosan ugyanolyan méretű 60–80 cm-es antenna szükséges.",
+    "valasz": "hamis",
+    "magyarazat": "A vételhez elegendő egy 60–80 cm-es antenna, de a felsugárzáshoz (adáshoz) lényegesen nagyobb antenna és jelentős adóteljesítmény kell."
+  },
+  {
+    "id": 20,
+    "fejezet": "09_A vezeték nélküli adatátvitel és WLAN",
+    "kerdes": "A lakossági műholdas internetkapcsolatoknál a feltöltési irányt jellemzően hagyományos vezetékes vonalon (például ADSL) bonyolítják le.",
+    "valasz": "igaz",
+    "magyarazat": "Polgári alkalmazásokban a műholdat főleg vételre használják, a feltöltés pedig hagyományos vezetékes vonalon történik."
+  },
+  {
+    "id": 21,
+    "fejezet": "09_A vezeték nélküli adatátvitel és WLAN",
+    "kerdes": "A vezeték nélküli hálózatokkal az IEEE 802.11 szabványcsalád foglalkozik.",
+    "valasz": "igaz",
+    "magyarazat": "A WLAN hálózatok szabványosítását az IEEE 802.11 munkacsoport végzi."
+  },
+  {
+    "id": 22,
+    "fejezet": "09_A vezeték nélküli adatátvitel és WLAN",
+    "kerdes": "A szabványos WLAN frekvenciasávokat az ITU-R az ISM sávban (Industrial, Scientific and Medical) jelölte ki.",
+    "valasz": "igaz",
+    "magyarazat": "Az ITU-R az ipari, tudományos és orvosi (ISM) szabad frekvenciasávokban jelölte ki a WLAN működési sávokat."
+  },
+  {
+    "id": 23,
+    "fejezet": "09_A vezeték nélküli adatátvitel és WLAN",
+    "kerdes": "Az ISM sáv teljesen mentes minden egyéb elektronikus berendezéstől, így nincs szükség teljesítménykorlátozásra.",
+    "valasz": "hamis",
+    "magyarazat": "Az ISM sáv telített cordless telefonokkal, garázskapunyitókkal és mikrohullámú sütőkkel, ezért a teljesítménykorlátozás kiemelten fontos."
+  },
+  {
+    "id": 24,
+    "fejezet": "09_A vezeték nélküli adatátvitel és WLAN",
+    "kerdes": "A vezeték nélküli hálózat felépítése lehet \"ad hoc\" (kliensek közvetlen kapcsolata) vagy Access Point alapú.",
+    "valasz": "igaz",
+    "magyarazat": "A WLAN működhet ad hoc üzemmódban (infrastruktúra nélkül) vagy bázisállomáshoz (Access Point) csatlakozva."
+  },
+  {
+    "id": 25,
+    "fejezet": "09_A vezeték nélküli adatátvitel és WLAN",
+    "kerdes": "Míg egy vezetékes LAN (IEEE 802.3) eszköz jellemzően Full-Duplex átvitelre képes, egy WLAN (IEEE 802.11) eszköz csak Half-Duplex átvitelre képes.",
+    "valasz": "igaz",
+    "magyarazat": "A vezeték nélküli közeg sajátosságai miatt a WLAN eszközök csak Half-Duplex módban tudnak működni."
+  },
+  {
+    "id": 26,
+    "fejezet": "09_A vezeték nélküli adatátvitel és WLAN",
+    "kerdes": "Az SSID (Service Set Identifier) egy maximum 64 karakter hosszú szabadon választott hálózati azonosító név.",
+    "valasz": "hamis",
+    "magyarazat": "Az SSID azonosító név maximum 32 karakter hosszú lehet."
+  },
+  {
+    "id": 27,
+    "fejezet": "09_A vezeték nélküli adatátvitel és WLAN",
+    "kerdes": "Egy rejtett SSID-jű vezeték nélküli hálózathoz kizárólag az SSID pontos ismeretében lehet csatlakozni.",
+    "valasz": "igaz",
+    "magyarazat": "Ha az AP nem sugározza az SSID-t, a csatlakozáshoz a név pontos megadása szükséges."
+  },
+  {
+    "id": 28,
+    "fejezet": "09_A vezeték nélküli adatátvitel és WLAN",
+    "kerdes": "Az SSID és a titkosítási jelszó ismerete mindig egyértelműen azonosítja a hálózati felhasználó személyét is.",
+    "valasz": "hamis",
+    "magyarazat": "Az SSID és a jelszó csak a csatlakozó eszközt azonosítja; a felhasználó személyének azonosításához külön hitelesítési eljárás szükséges."
+  },
+  {
+    "id": 29,
+    "fejezet": "09_A vezeték nélküli adatátvitel és WLAN",
+    "kerdes": "Az eredeti 802.11 szabvány (1997) 2,4 GHz-es frekvencián frekvenciaugrásos modulációt használt, és maximális sebessége 2 Mbit/s volt.",
+    "valasz": "igaz",
+    "magyarazat": "Az 1997-es eredeti szabvány 2,4 GHz-en 2 Mbit/s elméleti maximális sebességet biztosított."
+  },
+  {
+    "id": 30,
+    "fejezet": "09_A vezeték nélküli adatátvitel és WLAN",
+    "kerdes": "A 802.11a szabvány (1999) 2,4 GHz-es frekvencián működik és DSSS modulációt alkalmaz.",
+    "valasz": "hamis",
+    "magyarazat": "A 802.11a szabvány 5 GHz-es frekvencián működik és OFDM modulációt alkalmaz (maximális sebessége 54 Mbit/s)."
+  },
+  {
+    "id": 31,
+    "fejezet": "09_A vezeték nélküli adatátvitel és WLAN",
+    "kerdes": "A 802.11b szabvány (1999) 2,4 GHz-en működik, DSSS modulációval éri el a 11 Mbit/s maximális elméleti sebességet.",
+    "valasz": "igaz",
+    "magyarazat": "A 802.11b szabvány 2,4 GHz-es sávban DSSS modulációt használ és 11 Mbit/s a maximális sebessége."
+  },
+  {
+    "id": 32,
+    "fejezet": "09_A vezeték nélküli adatátvitel és WLAN",
+    "kerdes": "A 802.11g szabvány (2003) a 2,4 GHz-es frekvencián 54 Mbit/s maximális sebességet nyújt, amely SuperG technológiával 108 Mbit/s-ra növelhető.",
+    "valasz": "igaz",
+    "magyarazat": "A 802.11g kompatibilis maradt a 2,4 GHz-es sávval, és OFDM modulációval ért el 54 (illetve 108) Mbit/s sebességet."
+  },
+  {
+    "id": 33,
+    "fejezet": "09_A vezeték nélküli adatátvitel és WLAN",
+    "kerdes": "A 802.11n szabvány (2009) kizárólag az 5 GHz-es frekvenciasávban képes működni.",
+    "valasz": "hamis",
+    "magyarazat": "A 802.11n szabvány mind a 2,4 GHz-es, mind az 5 GHz-es frekvenciasávban képes működni."
+  },
+  {
+    "id": 34,
+    "fejezet": "09_A vezeték nélküli adatátvitel és WLAN",
+    "kerdes": "A 802.11ac szabvány (2012) 5 GHz-en működik, és 256-QAM modulációval, valamint Multi User MIMO-val akár 6.930 Mbit/s maximális sebességet érhet el.",
+    "valasz": "igaz",
+    "magyarazat": "A 802.11ac szabvány az 5 GHz-es sávra épül, 256-QAM modulációval és MU-MIMO-val éri el a kiemelkedő sebességet."
+  },
+  {
+    "id": 35,
+    "fejezet": "09_A vezeték nélküli adatátvitel és WLAN",
+    "kerdes": "A 802.11ax (WiFi 6) szabvány (2019) 1024-QAM modulációt használ, és maximális sebessége elérheti a 13.000 Mbit/s-ot.",
+    "valasz": "igaz",
+    "magyarazat": "A WiFi 6 (802.11ax) a 1024-QAM kódolással és fejlett eljárásokkal 13 Gbps elméleti maximális sebességet biztosít."
+  },
+  {
+    "id": 36,
+    "fejezet": "09_A vezeték nélküli adatátvitel és WLAN",
+    "kerdes": "Az OFDM (Ortogonális Frekvenciaosztásos Multiplexelés) lényege a nagy sebességű jelfolyam több kisebb sebességű jelfolyamra bontása.",
+    "valasz": "igaz",
+    "magyarazat": "Az OFDM során a szomszédos sávok az átfedések ellenére sem zavarják egymást az ortogonalitás miatt."
+  },
+  {
+    "id": 37,
+    "fejezet": "09_A vezeték nélküli adatátvitel és WLAN",
+    "kerdes": "A DSSS technológia a 2,4 GHz-es spektrumban 3 darab nem egymásra lapolt, teljesen átfedésmentes csatornát tartalmaz.",
+    "valasz": "igaz",
+    "magyarazat": "A 2,4 GHz-es DSSS sávban 11 csatornából 3 olyan csatorna (1, 6, 11) van, amely nem fedi át egymást."
+  },
+  {
+    "id": 38,
+    "fejezet": "09_A vezeték nélküli adatátvitel és WLAN",
+    "kerdes": "A 802.11b elméleti 11 Mbps sebessége a gyakorlatban mindig hiánytalanul teljesül egyetlen kliens csatlakozásakor.",
+    "valasz": "hamis",
+    "magyarazat": "A tapasztalat szerint a 802.11b elméleti 11 Mbps sebességének jellemzően csak a fele teljesül a gyakorlatban."
+  },
+  {
+    "id": 39,
+    "fejezet": "09_A vezeték nélküli adatátvitel és WLAN",
+    "kerdes": "A MIMO (Multiple in Multiple out) technológia használatához legalább három antennára van szükség.",
+    "valasz": "igaz",
+    "magyarazat": "A MIMO párhuzamos adatcsatornáinak kihasználásához legalább 3 antenna jelenléte szükséges."
+  },
+  {
+    "id": 40,
+    "fejezet": "09_A vezeték nélküli adatátvitel és WLAN",
+    "kerdes": "A MIMO szabvány kizárólag a 802.11n eszközökön használható, korábbi szabványoknál kísérlet sem folyt vele.",
+    "valasz": "hamis",
+    "magyarazat": "Noha a MIMO a 802.11n alapköve, kísérleti jelleggel már a 802.11g szabványnál is próbálkoztak a használatával."
+  },
+  {
+    "id": 41,
+    "fejezet": "09_A vezeték nélküli adatátvitel és WLAN",
+    "kerdes": "A Multi User MIMO az SDMA technológia olyan kiterjesztése, ahol ugyanabban a frekvenciasávban egyszerre több adó és vevő is kommunikálhat.",
+    "valasz": "igaz",
+    "magyarazat": "A MU-MIMO lehetővé teszi, hogy a bázisállomás egyidőben több különálló klienssel tartson fenn kapcsolatot."
+  },
+  {
+    "id": 42,
+    "fejezet": "09_A vezeték nélküli adatátvitel és WLAN",
+    "kerdes": "A QAM (Kvadratúra Amplitúdómoduláció) során az információt kizárólag a vivőhullám amplitúdójának változtatásával kódolják.",
+    "valasz": "hamis",
+    "magyarazat": "A QAM az információt részben az amplitúdó, részben a fázis változtatásával (kvadratúra) kódolja."
+  },
+  {
+    "id": 43,
+    "fejezet": "09_A vezeték nélküli adatátvitel és WLAN",
+    "kerdes": "A fázismoduláció a QAM speciális esetének tekinthető, ahol az amplitúdó állandó és csak a fázis változik.",
+    "valasz": "igaz",
+    "magyarazat": "Ha a QAM képen az amplitúdót állandó értéken tartjuk, fázismodulációt kapunk."
+  },
+  {
+    "id": 44,
+    "fejezet": "09_A vezeték nélküli adatátvitel és WLAN",
+    "kerdes": "A 256-QAM kódolás 8 bitet, míg a 1024-QAM kódolás 10 bitet továbbít egyetlen jelváltozással.",
+    "valasz": "igaz",
+    "magyarazat": "A 256-QAM 2^8 = 256 állapotú (8 bit/jel), a 1024-QAM 2^10 = 1024 állapotú (10 bit/jel)."
+  },
+  {
+    "id": 45,
+    "fejezet": "09_A vezeték nélküli adatátvitel és WLAN",
+    "kerdes": "A WEP volt az első vezeték nélküli titkosítási szabvány, melynek legelterjedtebb változatai a 64 és a 128 bites kulcsok voltak.",
+    "valasz": "igaz",
+    "magyarazat": "A WEP volt a legelső WLAN titkosítás, a 64 és 128 bites kulcshossz volt a leggyakoribb."
+  },
+  {
+    "id": 46,
+    "fejezet": "09_A vezeték nélküli adatátvitel és WLAN",
+    "kerdes": "A WEP titkosítás törhetetlen védelmet nyújt, és a 128 bites kulcsot semmilyen csomagszámmal nem lehet feltörni.",
+    "valasz": "hamis",
+    "magyarazat": "A WEP kulcsok könnyen feltörhetők; publikus adatok szerint egy 64 bites kulcs kb. 25.000, egy 128 bites kulcs kb. 100.000 csomaggal feltörhető."
+  },
+  {
+    "id": 47,
+    "fejezet": "09_A vezeték nélküli adatátvitel és WLAN",
+    "kerdes": "Ha egy kéretlen látogató törvénysértő adatokat forgalmaz a nyílt Access Pointon keresztül, a hatóságok a nyomok alapján az elkövető eszközét azonosítják be közvetlenül, nem az AP üzemeltetőjét.",
+    "valasz": "hamis",
+    "magyarazat": "Az interneten hagyott nyomok az Access Point üzemeltetőjéhez vezetik a hatóságokat, ami komoly felelősségi kockázat."
+  },
+  {
+    "id": 48,
+    "fejezet": "09_A vezeték nélküli adatátvitel és WLAN",
+    "kerdes": "A 2003-ban megjelent WPA titkosítás a TKIP protokoll segítségével akár csomagonként is új titkosító kulcsot képes generálni.",
+    "valasz": "igaz",
+    "magyarazat": "A WPA által használt TKIP dinamikusan váltja a kulcsokat idő vagy forgalmazott adatmennyiség alapján."
+  },
+  {
+    "id": 49,
+    "fejezet": "09_A vezeték nélküli adatátvitel és WLAN",
+    "kerdes": "A 2006-ban megjelent WPA2 szabvány a TKIP mellett az AES (Advanced Encryption Standard) titkosítást is támogatja.",
+    "valasz": "igaz",
+    "magyarazat": "A WPA2 bevezette az AES hardveres és szoftveres támogatását a még erősebb védelem érdekében."
+  },
+  {
+    "id": 50,
+    "fejezet": "09_A vezeték nélküli adatátvitel és WLAN",
+    "kerdes": "A WPA és WPA2 erősebb titkosítása semmilyen plusz aritmetikai és erőforrás-igényt nem támaszt a csatlakozó eszközök felé.",
+    "valasz": "hamis",
+    "magyarazat": "Az erősebb titkosítás jelentős aritmetikai igénnyel jár, ami régebbi vagy gyengébb eszközöket (például Celeron processzoros gépeket) lelassíthat."
+  },
+  {
+    "id": 51,
+    "fejezet": "09_A vezeték nélküli adatátvitel és WLAN",
+    "kerdes": "A WPA-PSK (Pre Shared Key) üzemmódot a dedikált 802.1X kiszolgálóval nem rendelkező otthoni és kisirodai felhasználók számára fejlesztették ki.",
+    "valasz": "igaz",
+    "magyarazat": "A PSK (osztott kulcsos) mód feleslegessé teszi a bonyolult és drága hitelesítő szerver üzemeltetését."
+  },
+  {
+    "id": 52,
+    "fejezet": "09_A vezeték nélküli adatátvitel és WLAN",
+    "kerdes": "A RADIUS egy olyan ügyfél-kiszolgáló protokoll, amely a felhasználók távoli be- és kijelentkezésekor végzi a hitelesítést, engedélyezést és használatkövetést.",
+    "valasz": "igaz",
+    "magyarazat": "A RADIUS szerver kezeli a távoli felhasználók azonosítását és hálózati hozzáférését."
+  },
+  {
+    "id": 53,
+    "fejezet": "09_A vezeték nélküli adatátvitel és WLAN",
+    "kerdes": "A maximális 256 bites WPA-PSK védelemhez 54 véletlenszerű alfanumerikus karakterből vagy 39 véletlenszerű ASCII karakterből álló kulcs szükséges.",
+    "valasz": "igaz",
+    "magyarazat": "A 256 bites PSK védelem pontosan ilyen összetettségű kulcsot követel meg."
+  },
+  {
+    "id": 54,
+    "fejezet": "09_A vezeték nélküli adatátvitel és WLAN",
+    "kerdes": "A 802.11n szabvány hivatalos leírásában a WEP titkosítás továbbra is kiemelt helyen szerepel.",
+    "valasz": "hamis",
+    "magyarazat": "A 802.11n szabvány leírásában a WEP már nem szerepel; ha 802.11n mellett WEP-et állítunk be, az eszköz visszalép 802.11b/g módba vagy nem működik."
+  },
+  {
+    "id": 55,
+    "fejezet": "09_A vezeték nélküli adatátvitel és WLAN",
+    "kerdes": "A WPS (Wi-Fi Protected Setup) gomb segítségével egy 8 számjegyű PIN kód beírásával megúszható a hosszú jelszó begépelése.",
+    "valasz": "igaz",
+    "magyarazat": "A QSS / WPS kényelmi funkció az AP adattábláján lévő vagy generált 8 jegyű PIN kóddal teszi egyszerűvé a csatlakozást."
+  }
+]

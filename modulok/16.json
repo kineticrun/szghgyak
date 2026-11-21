@@ -1,0 +1,352 @@
+[
+  {
+    "id": 1,
+    "fejezet": "16_Az IEEE802.11 evolúciója és keretszerkezete",
+    "kerdes": "Az eredeti 802.11 szabványt 1997-ben adták ki, a 2,4 GHz-es frekvenciasávban működött és Frekvenciaugrás modulációt használt.",
+    "valasz": "igaz",
+    "magyarazat": "Az eredeti 802.11 szabvány 1997-ben jelent meg, a 2,4 GHz-es sávban működött, és Frekvenciaugrás modulációt alkalmazott."
+  },
+  {
+    "id": 2,
+    "fejezet": "16_Az IEEE802.11 evolúciója és keretszerkezete",
+    "kerdes": "Az eredeti 802.11 szabvány maximális adatátviteli sebessége 54 Mbit/s volt.",
+    "valasz": "hamis",
+    "magyarazat": "Az eredeti 802.11 szabvány jellemző sebessége 0,9 Mbit/s, maximális sebessége pedig 2 Mbit/s volt."
+  },
+  {
+    "id": 3,
+    "fejezet": "16_Az IEEE802.11 evolúciója és keretszerkezete",
+    "kerdes": "A 802.11a szabvány 1999-ben jelent meg, és a 2,4 GHz-es frekvenciasávot használta 11 Mbit/s maximális sebességgel.",
+    "valasz": "hamis",
+    "magyarazat": "A 802.11a szabvány az 5 GHz-es frekvenciasávban működött, OFDM modulációval, és maximális sebessége 54 Mbit/s volt."
+  },
+  {
+    "id": 4,
+    "fejezet": "16_Az IEEE802.11 evolúciója és keretszerkezete",
+    "kerdes": "A 802.11b szabvány DSSS modulációt használt a 2,4 GHz-es sávban, 11 Mbit/s maximális elméleti sebesség mellett.",
+    "valasz": "igaz",
+    "magyarazat": "A 802.11b szabvány 1999-ben jelent meg, 2,4 GHz-es sávban DSSS modulációval 11 Mbit/s maximális sebességet biztosított."
+  },
+  {
+    "id": 5,
+    "fejezet": "16_Az IEEE802.11 evolúciója és keretszerkezete",
+    "kerdes": "A 802.11g szabvány 2003-ban jelent meg, és visszafelé nem volt kompatibilis a 2,4 GHz-es sávval.",
+    "valasz": "hamis",
+    "magyarazat": "A 802.11g a 2,4 GHz-es sávban működött OFDM modulációval, 54 Mbit/s maximális (és a SuperG-vel 108 Mbit/s) sebességgel."
+  },
+  {
+    "id": 6,
+    "fejezet": "16_Az IEEE802.11 evolúciója és keretszerkezete",
+    "kerdes": "A 802.11n szabvány (2009) mind a 2,4 GHz-es, mind az 5 GHz-es sávban képes működni, és bevezette a MIMO technológiát.",
+    "valasz": "igaz",
+    "magyarazat": "A 802.11n 2,4 és 5 GHz-en is működik, MIMO és OFDM modulációt használ, maximális sebessége 300, 450 vagy 600 Mbit/s."
+  },
+  {
+    "id": 7,
+    "fejezet": "16_Az IEEE802.11 evolúciója és keretszerkezete",
+    "kerdes": "A 802.11ac szabvány (2012) kizárólag a 2,4 GHz-es sávban ér el 6.930 Mbit/s maximális sebességet.",
+    "valasz": "hamis",
+    "magyarazat": "A 802.11ac az 5 GHz-es sávban működik Multi-User MIMO és 256-QAM modulációval."
+  },
+  {
+    "id": 8,
+    "fejezet": "16_Az IEEE802.11 evolúciója és keretszerkezete",
+    "kerdes": "A 802.11ax (WiFi 6) szabvány 2,4 GHz-es és 5 GHz-es sávban is működik, maximális sebessége eléri a 13.000 Mbit/s-ot 1024-QAM modulációval.",
+    "valasz": "igaz",
+    "magyarazat": "A 802.11ax (WiFi 6) 2019-ben jelent meg, a 2,4 és 5 GHz-es sávot is használja, maximális sebessége 13.000 Mbit/s."
+  },
+  {
+    "id": 9,
+    "fejezet": "16_Az IEEE802.11 evolúciója és keretszerkezete",
+    "kerdes": "A 2,4 GHz-es frekvenciasáv kevésbé zsúfolt, mint az 5 GHz-es sáv, ezért a legújabb szabványok kizárólag a 2,4 GHz-et használják.",
+    "valasz": "hamis",
+    "magyarazat": "A 2,4 GHz-es sáv borzasztóan telített a legkülönfélébb jelekkel, emiatt az 5 GHz-es sáv egyre nagyobb szerephez jut."
+  },
+  {
+    "id": 10,
+    "fejezet": "16_Az IEEE802.11 evolúciója és keretszerkezete",
+    "kerdes": "A WLAN hálózatok cellás felépítésűek, ahol minden cellát egy Access Point (AP) vezérel.",
+    "valasz": "igaz",
+    "magyarazat": "A WLAN hálózatok cellás szerkezetűek, és a cellák vezérlését a bázisállomások (AP) végzik."
+  },
+  {
+    "id": 11,
+    "fejezet": "16_Az IEEE802.11 evolúciója és keretszerkezete",
+    "kerdes": "Az Access Point-ok (AP) kizárólag vezetékes Ethernet gerinchálózathoz csatlakozhatnak.",
+    "valasz": "hamis",
+    "magyarazat": "Az AP-k jellemzően Ethernet gerinchálózathoz csatlakoznak, de maga a gerinchálózat is lehet vezeték nélküli."
+  },
+  {
+    "id": 12,
+    "fejezet": "16_Az IEEE802.11 evolúciója és keretszerkezete",
+    "kerdes": "Kettő vagy több összekapcsolt WLAN hálózatot összefoglaló néven ESS-nek (Extended Service Set / Kiterjesztett Szolgáltatáskészlet) nevezünk.",
+    "valasz": "igaz",
+    "magyarazat": "Az ESS az összekapcsolt WLAN hálózatok elnevezése."
+  },
+  {
+    "id": 13,
+    "fejezet": "16_Az IEEE802.11 evolúciója és keretszerkezete",
+    "kerdes": "WLAN esetén az adatkapcsolati rétegben a csatornakiosztásról és adási sorrendről az LLC alréteg dönt.",
+    "valasz": "hamis",
+    "magyarazat": "A csatornakiosztásról, a címzésről és az adási sorrendről a MAC alréteg dönt; az LLC alréteg a megbízhatóságért felel."
+  },
+  {
+    "id": 14,
+    "fejezet": "16_Az IEEE802.11 evolúciója és keretszerkezete",
+    "kerdes": "Az LLC alréteg feladata, hogy elrejtse az egyes hálózatok sajátosságait a szolgáltatások egységesítésével.",
+    "valasz": "igaz",
+    "magyarazat": "Az LLC alréteg biztosítja a megbízhatóságot és az egységes szolgáltatásokat a hálózati egyediségek elrejtésével."
+  },
+  {
+    "id": 15,
+    "fejezet": "16_Az IEEE802.11 evolúciója és keretszerkezete",
+    "kerdes": "A polgári használatban lévő vezeték nélküli LAN berendezéseknél a Full-duplex átvitel az általános és legolcsóbb megoldás.",
+    "valasz": "hamis",
+    "magyarazat": "WLAN esetén a Half-duplex átvitel az általános megoldás, mert azonos frekvencián a jelentős adóteljesítmény mellett nem észlelhető a távoli adó gyenge jele."
+  },
+  {
+    "id": 16,
+    "fejezet": "16_Az IEEE802.11 evolúciója és keretszerkezete",
+    "kerdes": "A Full-duplex átvitel megvalósításához a vezeték nélküli rendszerekben legalább két különálló frekvenciasáv egyidejű használata szükséges.",
+    "valasz": "igaz",
+    "magyarazat": "A Full-duplex működéshez egy sáv az adáshoz és egy sáv a vételhez szükséges, ami lényegesen drágább berendezéseket igényel."
+  },
+  {
+    "id": 17,
+    "fejezet": "16_Az IEEE802.11 evolúciója és keretszerkezete",
+    "kerdes": "Az IEEE 802.11 hálózatok az ütközések kezelésére a vezetékes hálózatoknál megszokott CSMA/CD protokollt alkalmazzák.",
+    "valasz": "hamis",
+    "magyarazat": "Az IEEE 802.11 a CSMA/CA (CSMA with Collision Avoidance / Ütközéselkerülés) protokollt használja a CSMA/CD helyett."
+  },
+  {
+    "id": 18,
+    "fejezet": "16_Az IEEE802.11 evolúciója és keretszerkezete",
+    "kerdes": "A CSMA/CA protokoll adás előtt belehallgat a csatornába, és ütközés esetén a kettes exponenciális eljárást követi.",
+    "valasz": "igaz",
+    "magyarazat": "A CSMA/CA annyiban hasonlít a CSMA/CD-hez, hogy belehallgat a csatornába, és kettes exponenciális eljárással számítja ki a várakozást."
+  },
+  {
+    "id": 19,
+    "fejezet": "16_Az IEEE802.11 evolúciója és keretszerkezete",
+    "kerdes": "A CSMA/CA működési során a csatorna szabaddá válásakor minden várakozó állomás azonnal megkezdi az adást.",
+    "valasz": "hamis",
+    "magyarazat": "A csatorna szabaddá válásakor az állomások nem azonnal adnak (hogy elkerüljék az ütközést), hanem véletlenszerű visszalépéses várakozást (backoff) indítanak."
+  },
+  {
+    "id": 20,
+    "fejezet": "16_Az IEEE802.11 evolúciója és keretszerkezete",
+    "kerdes": "Ha egy állomás a várakozás alatt azt észleli, hogy egy másik állomás elkezdte az adást, megszakítja a várakozási számlálóját, és a csatorna felszabadulása után a maradék időt tölti le.",
+    "valasz": "igaz",
+    "magyarazat": "A csatorna foglaltságának észlelésekor az állomás felfüggeszti a várakozást, és a csatorna szabaddá válása után a meglévő maradék időből folytatja a számlálást."
+  },
+  {
+    "id": 21,
+    "fejezet": "16_Az IEEE802.11 evolúciója és keretszerkezete",
+    "kerdes": "A DCF (Distributed Coordination Function) olyan működési mód, ahol központi irányítás nélkül, minden állomás tőle függetlenül jár el.",
+    "valasz": "igaz",
+    "magyarazat": "A DCF az elosztott koordinációs funkció, ahol nincs központi vezérlő a csatornahozzáférés irányítására."
+  },
+  {
+    "id": 22,
+    "fejezet": "16_Az IEEE802.11 evolúciója és keretszerkezete",
+    "kerdes": "Vezeték nélküli hálózatokban a maximált kábelhossz hiánya és a leárnyékoltság miatt garantált, hogy minden állomás látja az összes többi állomás adását.",
+    "valasz": "hamis",
+    "magyarazat": "A gyakorlatban az a jellemző, hogy nincs minden állomás a többi állomás hatókörében, így nem mindenki értesül a csatorna foglaltságáról."
+  },
+  {
+    "id": 23,
+    "fejezet": "16_Az IEEE802.11 evolúciója és keretszerkezete",
+    "kerdes": "A rejtett terminál probléma megelőzésére az adó és a vevő rövidebb, 30 bájt hosszúságú keretekkel tájékoztatja a környezetét.",
+    "valasz": "igaz",
+    "magyarazat": "Az RTS és CTS keretek 30 bájt hosszúságú vezérlőkeretek a rejtett terminál probléma megoldására."
+  },
+  {
+    "id": 24,
+    "fejezet": "16_Az IEEE802.11 evolúciója és keretszerkezete",
+    "kerdes": "Az RTS (Request to Send) keretet a célállomás küldi a küldő felé az adás jóváhagyásaként.",
+    "valasz": "hamis",
+    "magyarazat": "Az RTS keretet az adni kívánó állomás küldi engedélykérésként (tartalmazza a forrást, célt és tranzakcióidőt); a válasz a célállomás által küldött CTS keret."
+  },
+  {
+    "id": 25,
+    "fejezet": "16_Az IEEE802.11 evolúciója és keretszerkezete",
+    "kerdes": "A MACA mozaikszó jelentése: Multiple Access with Collision Avoidance (Többszörös hozzáférés Ütközések Elkerülésével).",
+    "valasz": "igaz",
+    "magyarazat": "A MACA pontos megnevezése a Multiple Access with Collision Avoidance."
+  },
+  {
+    "id": 26,
+    "fejezet": "16_Az IEEE802.11 evolúciója és keretszerkezete",
+    "kerdes": "A MACAW protokoll nem használ ACK (nyugtázás) keretet, az adó az RTS elküldése után azonnal befejezettnek tekinti az átvitelt.",
+    "valasz": "hamis",
+    "magyarazat": "A MACAW az adatkeret elküldése után ACK időzítőt indít, és az átvitelt csak a vevő által küldött ACK keret beérkezésekor tekinti sikeresnek."
+  },
+  {
+    "id": 27,
+    "fejezet": "16_Az IEEE802.11 evolúciója és keretszerkezete",
+    "kerdes": "Ha a MACAW protokollban az adó által indított időzítő lejár az ACK keret beérkezése előtt, az átvitel sikertelennek minősül és az eljárás elölről kezdődik.",
+    "valasz": "igaz",
+    "magyarazat": "Az ACK hiányában lejárt időzítő sikertelen átvitelt jelent, ami a folyamat újrakezdését vonja maga után."
+  },
+  {
+    "id": 28,
+    "fejezet": "16_Az IEEE802.11 evolúciója és keretszerkezete",
+    "kerdes": "A NAV (Network Allocation Vector) egy fizikai kábel, amely összeköti a rejtett állomásokat az Access Pointtal.",
+    "valasz": "hamis",
+    "magyarazat": "A NAV (Network Allocation Vector / Hálózatkiosztási Vektor) egy szoftveres virtuális csatornaérzékelési (VCS) indikátor, amellyel az állomások kiszámítják a várakozási időt."
+  },
+  {
+    "id": 29,
+    "fejezet": "16_Az IEEE802.11 evolúciója és keretszerkezete",
+    "kerdes": "Az RTS keretet vevő állomások az RTS-ben megadott tranzakciós időtartam alapján frissítik a NAV értéküket, és elállnak az adástól.",
+    "valasz": "igaz",
+    "magyarazat": "Az adó hatókörében lévő állomások az RTS alapján frissítik a NAV-ot, míg a vevő hatókörében lévők a CTS alapján teszik ugyanezt."
+  },
+  {
+    "id": 30,
+    "fejezet": "16_Az IEEE802.11 evolúciója és keretszerkezete",
+    "kerdes": "Vezeték nélküli hálózatokban a megbízhatóság növelésének egyik módja a sebesség dinamikus csökkentése és lassabb, de zajtűrőbb moduláció alkalmazása.",
+    "valasz": "igaz",
+    "magyarazat": "A rendszer az elveszett keretek dinamikájának megfelelően képes lassítani (zajtűrőbb modulációra váltani) vagy gyorsítani."
+  },
+  {
+    "id": 31,
+    "fejezet": "16_Az IEEE802.11 evolúciója és keretszerkezete",
+    "kerdes": "A keretdarabolás (fragmentáció) során a részlöketek (Fragment Burst) alkalmazása növeli az ütközések számát, ezért tilos alkalmazni.",
+    "valasz": "hamis",
+    "magyarazat": "A keretméret darabolása (részlöketek használatával, CRC-vel és egyedi nyugtázással) csökkenti az ütközések számát és növeli a megbízhatóságot."
+  },
+  {
+    "id": 32,
+    "fejezet": "16_Az IEEE802.11 evolúciója és keretszerkezete",
+    "kerdes": "A bázisállomás (AP) által periodikusan sugárzott tájékoztató üzenetet jelzőfénykeretnek (Beacon Frame) nevezzük.",
+    "valasz": "igaz",
+    "magyarazat": "A Beacon Frame az AP által sugárzott üzenet, amely tartalmazza az AP jelenlétét, a pontos időt és a következő tájékoztató időpontját."
+  },
+  {
+    "id": 33,
+    "fejezet": "16_Az IEEE802.11 evolúciója és keretszerkezete",
+    "kerdes": "Energiatakarékos módban (Power Save Mode) lévő állomás esetén az AP azonnal elküldi az adatkeretet, figyelmen kívül hagyva az állomás alvó állapotát.",
+    "valasz": "hamis",
+    "magyarazat": "Az AP nem kezdheti el azonnal az adást az alvó állomás felé, hanem a következő jelzőfénykeretig (az ébredésig) puffereli a kereteket."
+  },
+  {
+    "id": 34,
+    "fejezet": "16_Az IEEE802.11 evolúciója és keretszerkezete",
+    "kerdes": "Az IEEE 802.11 szabványban három fő keretosztályt különböztetünk meg: adatkeret, vezérlőkeret és menedzsmentkeret.",
+    "valasz": "igaz",
+    "magyarazat": "Az IEEE 802.11 keretszerkezete e három keretosztályra oszlik."
+  },
+  {
+    "id": 35,
+    "fejezet": "16_Az IEEE802.11 evolúciója és keretszerkezete",
+    "kerdes": "Az IEEE 802.11 adatkeret első mezője, a Keretvezérlés (Frame Control) összesen 11 almezőből áll.",
+    "valasz": "igaz",
+    "magyarazat": "A Keretvezérlés mező pontosan 11 almezőre tagozódik."
+  },
+  {
+    "id": 36,
+    "fejezet": "16_Az IEEE802.11 evolúciója és keretszerkezete",
+    "kerdes": "A Keretvezérlés mezőben a Protokoll verzió értéke a jelenlegi szabvány szerint 2 bites és értéke 00.",
+    "valasz": "igaz",
+    "magyarazat": "A Protokoll verzió 2 bites, jelenlegi értéke 00 a jövőbeli kompatibilitás érdekében."
+  },
+  {
+    "id": 37,
+    "fejezet": "16_Az IEEE802.11 evolúciója és keretszerkezete",
+    "kerdes": "A Keretvezérlés mezőben a Típus (2 bit) és az Altípus (4 bit) együttesen 6 biten azonosítja a keretosztályt és a vezérlő jeleket.",
+    "valasz": "igaz",
+    "magyarazat": "A Típus és Altípus mezők együtt 6 biten határozzák meg a keret pontos besorolását (pl. RTS, CTS, ACK)."
+  },
+  {
+    "id": 38,
+    "fejezet": "16_Az IEEE802.11 evolúciója és keretszerkezete",
+    "kerdes": "A Keretvezérlés mezőben a DS rövidítés a Data Storage (Adattároló) kifejezésre utal.",
+    "valasz": "hamis",
+    "magyarazat": "A DS rövidítés a Distribution System (Elosztó Rendszer) kifejezést jelöli."
+  },
+  {
+    "id": 39,
+    "fejezet": "16_Az IEEE802.11 evolúciója és keretszerkezete",
+    "kerdes": "A Keretvezérlés mező Több Darab (More frag.) bitje azt jelzi, hogy tördelt keretről van-e szó.",
+    "valasz": "igaz",
+    "magyarazat": "A More frag. bit a keret fragmentált (tördelt) mivoltát jelzi."
+  },
+  {
+    "id": 40,
+    "fejezet": "16_Az IEEE802.11 evolúciója és keretszerkezete",
+    "kerdes": "A Keretvezérlés mező Újraküldés (Retry) bitje azt jelzi, hogy egy már korábban elküldött keret ismételt adásáról van szó.",
+    "valasz": "igaz",
+    "magyarazat": "A Retry bit az ismételt keretátvitelt jelzi a vevő felé."
+  },
+  {
+    "id": 41,
+    "fejezet": "16_Az IEEE802.11 evolúciója és keretszerkezete",
+    "kerdes": "A Keretvezérlés mező Több adat bitje az összes hátralévő keret pontos számát adja meg binárisan.",
+    "valasz": "hamis",
+    "magyarazat": "A Több adat (1 bit) csupán azt jelzi, hogy az adó e keret után szándékozik-e további keretet küldeni (mindig csak a következő keretre vonatkozik)."
+  },
+  {
+    "id": 42,
+    "fejezet": "16_Az IEEE802.11 evolúciója és keretszerkezete",
+    "kerdes": "A Keretvezérlés mező Védett bitje azt mutatja, hogy a keret törzse biztonsági okokból titkosítva van-e.",
+    "valasz": "igaz",
+    "magyarazat": "A Protected bit a kerettörzs titkosított állapotát jelzi."
+  },
+  {
+    "id": 43,
+    "fejezet": "16_Az IEEE802.11 evolúciója és keretszerkezete",
+    "kerdes": "Az IEEE 802.11 adatkeret második mezője, az Időtartam (Duration) mikroszekundumokban adja meg a csatorna foglaltsági idejét.",
+    "valasz": "igaz",
+    "magyarazat": "A Duration mező mikroszekundumokban határozza meg a keret és a hozzá tartozó nyugta által lefoglalt időt."
+  },
+  {
+    "id": 44,
+    "fejezet": "16_Az IEEE802.11 evolúciója és keretszerkezete",
+    "kerdes": "Az adatkeret harmadik és negyedik címmezője az adó és a vevő címét tartalmazza az IEEE 802.3-mal megegyező 6 bájtos formátumban.",
+    "valasz": "igaz",
+    "magyarazat": "A 6 bájtos MAC-címek az IEEE 802.3-as szabványnak megfelelően szerepelnek az 1. Cím és 2. Cím mezőkben."
+  },
+  {
+    "id": 45,
+    "fejezet": "16_Az IEEE802.11 evolúciója és keretszerkezete",
+    "kerdes": "Az adatkeret ötödik mezője, a 3. Cím a helyi Access Point IP-címét tartalmazza.",
+    "valasz": "hamis",
+    "magyarazat": "A 3. Cím mező a valós távoli állomás MAC-címét tartalmazza."
+  },
+  {
+    "id": 46,
+    "fejezet": "16_Az IEEE802.11 evolúciója és keretszerkezete",
+    "kerdes": "Az adatkeret Sorszám (Sequence) mezője 2 bájtos (16 bites), amelyből az első 4 bit a keretet, a többi 12 bit pedig a keretrészt azonosítja.",
+    "valasz": "igaz",
+    "magyarazat": "A 16 bites sorszám mező felépítése: 4 bit a keret azonosítására, 12 bit a fragmentum (keretrész) azonosítására szolgál."
+  },
+  {
+    "id": 47,
+    "fejezet": "16_Az IEEE802.11 evolúciója és keretszerkezete",
+    "kerdes": "Az IEEE 802.11 adatkeret Adat mezője maximum 1500 bájt méretű lehet.",
+    "valasz": "hamis",
+    "magyarazat": "Az Adat mező maximum 2312 bájt adatot tartalmazhat (első néhány bájtja az LLC információkat hordozza)."
+  },
+  {
+    "id": 48,
+    "fejezet": "16_Az IEEE802.11 evolúciója és keretszerkezete",
+    "kerdes": "Az IEEE 802.11 adatkeret utolsó mezője a 32 bites CRC ellenőrző összeg.",
+    "valasz": "igaz",
+    "magyarazat": "Az adatkeret záró mezője a 4 bájtos (32 bites) CRC."
+  },
+  {
+    "id": 49,
+    "fejezet": "16_Az IEEE802.11 evolúciója és keretszerkezete",
+    "kerdes": "A menedzsment keretek felépítése teljesen eltér az adatkeretekétől, és nem tartalmazhatnak semmilyen extra paramétert.",
+    "valasz": "hamis",
+    "magyarazat": "A menedzsment keretek felépítése megegyezik az adatkeretekével, de kiegészítésképpen további információkat (pl. Beacon Frame paramétereket) tartalmaznak."
+  },
+  {
+    "id": 50,
+    "fejezet": "16_Az IEEE802.11 evolúciója és keretszerkezete",
+    "kerdes": "A vezérlőkeretek rövidebbek az adatkereteknél, csak egy címmezőt használnak, és nem tartalmaznak klasszikus adatot.",
+    "valasz": "igaz",
+    "magyarazat": "A vezérlőkeretek (pl. RTS, CTS, ACK) rövidebbek, egyetlen címmezőt használnak, és saját identitásukat az Altípus mező hordozza."
+  }
+]

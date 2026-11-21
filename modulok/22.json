@@ -1,0 +1,387 @@
+[
+  {
+    "id": 1,
+    "fejezet": "22_Az IPv4 protokoll 2 CIDR_és_Vezérlő és Útválasztó protokollok",
+    "kerdes": "Az IP-címek a MAC-címekkel ellentétben hierarchikus felépítésűek, így magukban hordozzák a hálózati azonosítót és a hoszt interfészének címét is.",
+    "valasz": "igaz",
+    "magyarazat": "Az IP-címek hierarchikusak, 32 bites szerkezetük külön hálózati és hoszt-interfész azonosítóra bomlik."
+  },
+  {
+    "id": 2,
+    "fejezet": "22_Az IPv4 protokoll 2 CIDR_és_Vezérlő és Útválasztó protokollok",
+    "kerdes": "Az IP-cím közvetlenül egy fizikai számítógépes házat azonosít, függetlenül a benne található hálózati kártyák számától.",
+    "valasz": "hamis",
+    "magyarazat": "Az IP-cím nem magát a számítógépet, hanem a hoszt egy adott hálózati kártyáját (NIC) vagy interfészét azonosítja."
+  },
+  {
+    "id": 3,
+    "fejezet": "22_Az IPv4 protokoll 2 CIDR_és_Vezérlő és Útválasztó protokollok",
+    "kerdes": "Az 'A' osztályú IPv4 címek kezdő bitje mindig 0, a hálózati azonosító 7 bites, míg a hosztazonosító 24 bites.",
+    "valasz": "igaz",
+    "magyarazat": "Az 'A' osztály kezdőbitje 0, 7 bites hálózati és 24 bites hoszt azonosítóval rendelkezik."
+  },
+  {
+    "id": 4,
+    "fejezet": "22_Az IPv4 protokoll 2 CIDR_és_Vezérlő és Útválasztó protokollok",
+    "kerdes": "Egy 'A' osztályú hálózatban maximálisan 65 534 darab hoszt interfész címezhető meg.",
+    "valasz": "hamis",
+    "magyarazat": "Az 'A' osztályú hálózatban a 24 bites hosztmező miatt 2^24 - 2 = 16 777 214 hoszt címezhető meg."
+  },
+  {
+    "id": 5,
+    "fejezet": "22_Az IPv4 protokoll 2 CIDR_és_Vezérlő és Útválasztó protokollok",
+    "kerdes": "A 'B' osztályú IPv4 címek kezdő bitmintája '10', a hálózati azonosító 14 bites, a hosztazonosító pedig 16 bites.",
+    "valasz": "igaz",
+    "magyarazat": "A 'B' osztályú címek '10' bitmintával kezdődnek, 14 bit hálózati és 16 bit hosztazonosítóval."
+  },
+  {
+    "id": 6,
+    "fejezet": "22_Az IPv4 protokoll 2 CIDR_és_Vezérlő és Útválasztó protokollok",
+    "kerdes": "A 'C' osztályú hálózatokban a hálózati azonosító 21 bites, és hálózatonként legfeljebb 254 kiosztható hoszt IP-cím áll rendelkezésre.",
+    "valasz": "igaz",
+    "magyarazat": "A 'C' osztályú címeknél 8 bit jut a hosztoknak, ami 2^8 - 2 = 254 használható hosztcímet jelent."
+  },
+  {
+    "id": 7,
+    "fejezet": "22_Az IPv4 protokoll 2 CIDR_és_Vezérlő és Útválasztó protokollok",
+    "kerdes": "A 'D' osztályú IP-címek a jövőbeli fejlesztések számára fenntartott címek, míg az 'E' osztály a többesküldésre (Multicast) szolgál.",
+    "valasz": "hamis",
+    "magyarazat": "A 'D' osztály szolgál többesküldésre (Multicast, 1110 kezdőbitekkel), míg az 'E' osztály a jövőbeli fenntartott címtartomány (1111 kezdőbitekkel)."
+  },
+  {
+    "id": 8,
+    "fejezet": "22_Az IPv4 protokoll 2 CIDR_és_Vezérlő és Útválasztó protokollok",
+    "kerdes": "A 0.0.0.0 IP-címet az összes hoszt a bekapcsolás pillanatában használja, mielőtt egyedi címe lenne.",
+    "valasz": "igaz",
+    "magyarazat": "A 0.0.0.0 cím az indulás pillanatában használt speciális cím, amely normál üzemben nincs kiosztva."
+  },
+  {
+    "id": 9,
+    "fejezet": "22_Az IPv4 protokoll 2 CIDR_és_Vezérlő és Útválasztó protokollok",
+    "kerdes": "A 255.255.255.255 IP-cím a globális internetes többesküldésre szolgáló multicast cím.",
+    "valasz": "hamis",
+    "magyarazat": "A 255.255.255.255 a helyi hálózaton (LAN-on) belüli adatszórás (Broadcast) speciális címe."
+  },
+  {
+    "id": 10,
+    "fejezet": "22_Az IPv4 protokoll 2 CIDR_és_Vezérlő és Útválasztó protokollok",
+    "kerdes": "A 127.xxx.xxx.xxx címtartomány a visszacsatolásos (Loopback) tesztelésre van fenntartva.",
+    "valasz": "igaz",
+    "magyarazat": "A teljes 127.0.0.0/8 tartomány a loopback tesztelést szolgálja."
+  },
+  {
+    "id": 11,
+    "fejezet": "22_Az IPv4 protokoll 2 CIDR_és_Vezérlő és Útválasztó protokollok",
+    "kerdes": "Az 1981-ben megalkotott osztályos címzés fő problémája az volt, hogy a 'C' osztály 254 hosztja sok cégnek túl kevés, míg a 'B' és 'A' osztály túl sok címet pazarolt el.",
+    "valasz": "igaz",
+    "magyarazat": "Az osztályos felosztás rugalmatlan volt; szerencsésebb lett volna a 'C' osztályban 8 helyett 10 bitet adni a hosztoknak."
+  },
+  {
+    "id": 12,
+    "fejezet": "22_Az IPv4 protokoll 2 CIDR_és_Vezérlő és Útválasztó protokollok",
+    "kerdes": "A privát IP-címek közvetlenül elérhetők a nyilvános Internet felől bármilyen átjáró vagy útválasztási beállítás nélkül.",
+    "valasz": "hamis",
+    "magyarazat": "A privát IP-címek az Internet felől közvetlenül nem érhetők el, elérésük csak útválasztón vagy címfordítón keresztül lehetséges."
+  },
+  {
+    "id": 13,
+    "fejezet": "22_Az IPv4 protokoll 2 CIDR_és_Vezérlő és Útválasztó protokollok",
+    "kerdes": "Az 'A' osztályú privát IP-címtartomány a 10.0.0.0 - 10.255.255.255 terjedelmű blokk.",
+    "valasz": "igaz",
+    "magyarazat": "A 10.0.0.0/8 a kijelölt 'A' osztályú privát hálózat."
+  },
+  {
+    "id": 14,
+    "fejezet": "22_Az IPv4 protokoll 2 CIDR_és_Vezérlő és Útválasztó protokollok",
+    "kerdes": "A 'B' osztályú privát tartomány pontosan 16 darab hálózatot tartalmaz a 172.16.0.0 és 172.31.255.255 közötti tartományban.",
+    "valasz": "igaz",
+    "magyarazat": "A 172.16.0.0/12 tartomány 16 db 'B' osztályú privát hálózatnak felel meg."
+  },
+  {
+    "id": 15,
+    "fejezet": "22_Az IPv4 protokoll 2 CIDR_és_Vezérlő és Útválasztó protokollok",
+    "kerdes": "A 'C' osztályú privát IP-tartomány a 192.168.0.0 - 192.168.255.255 blokk, amely 256 darab hálózatból áll.",
+    "valasz": "igaz",
+    "magyarazat": "A 192.168.0.0/16 összesen 256 db /24-es hálózatot biztosít privát célokra."
+  },
+  {
+    "id": 16,
+    "fejezet": "22_Az IPv4 protokoll 2 CIDR_és_Vezérlő és Útválasztó protokollok",
+    "kerdes": "A hálózati maszk bináris alakban mindig 1-esekkel kezdődik és 0-ákkal végződik, vagyis benne 0 után nem állhat 1-es érték.",
+    "valasz": "igaz",
+    "magyarazat": "A maszk egybefüggő 1-es sorozatból és azt követő egybefüggő 0-s sorozatból áll."
+  },
+  {
+    "id": 17,
+    "fejezet": "22_Az IPv4 protokoll 2 CIDR_és_Vezérlő és Útválasztó protokollok",
+    "kerdes": "Az IP-cím és a hálózati maszk közötti VAGY (OR) művelet adja meg a hálózat saját címét.",
+    "valasz": "hamis",
+    "magyarazat": "Az IP-cím és a hálózati maszk közötti ÉS (AND) művelet adja vissza a hálózat címét."
+  },
+  {
+    "id": 18,
+    "fejezet": "22_Az IPv4 protokoll 2 CIDR_és_Vezérlő és Útválasztó protokollok",
+    "kerdes": "Az IP-cím és a hálózati maszk bitenkénti negáltja (Wildcard) közötti ÉS művelet a hoszt belső azonosítóját adja vissza.",
+    "valasz": "igaz",
+    "magyarazat": "A maszk negáltjával végzett ÉS kapcsolat kiszűri a hálózati részt, megadva a hosztcímet."
+  },
+  {
+    "id": 19,
+    "fejezet": "22_Az IPv4 protokoll 2 CIDR_és_Vezérlő és Útválasztó protokollok",
+    "kerdes": "A Classless Inter-Domain Routing (CIDR) eljárást 1993 óta használják, és az RFC1700 dokumentum tartalmazza a leírását.",
+    "valasz": "igaz",
+    "magyarazat": "A CIDR-t 1993-ban vezették be az RFC1700 szabvány alapján az osztálymentes címzésre."
+  },
+  {
+    "id": 20,
+    "fejezet": "22_Az IPv4 protokoll 2 CIDR_és_Vezérlő és Útválasztó protokollok",
+    "kerdes": "CIDR használata esetén az IP-cím felépítése 'előtag + hoszt cím' modellként értelmezendő.",
+    "valasz": "igaz",
+    "magyarazat": "A CIDR felváltotta a kötött osztályos struktúrát a változó hosszúságú előtag (Prefix) és hoszt cím modelljével."
+  },
+  {
+    "id": 21,
+    "fejezet": "22_Az IPv4 protokoll 2 CIDR_és_Vezérlő és Útválasztó protokollok",
+    "kerdes": "A CIDR kötelező előírása alapján a hálózatok mérete tetszőleges prím szám lehet, és bármely IP-címen elkezdődhetnek.",
+    "valasz": "hamis",
+    "magyarazat": "A hálózatok mérete 2 valamely hatványa kell legyen, és a határoknak a 2-hatvány többszöröseire kell illeszkedniük."
+  },
+  {
+    "id": 22,
+    "fejezet": "22_Az IPv4 protokoll 2 CIDR_és_Vezérlő és Útválasztó protokollok",
+    "kerdes": "Az IP-protokoll számára az IP-cím az alhálózati maszk nélkül is teljes értékűen használható az útválasztáshoz.",
+    "valasz": "hamis",
+    "magyarazat": "Az IP-cím és az alhálózati maszk csak együtt értelmes, maszk hiányában a hoszt nem tudja meghatározni a hálózat címét."
+  },
+  {
+    "id": 23,
+    "fejezet": "22_Az IPv4 protokoll 2 CIDR_és_Vezérlő és Útválasztó protokollok",
+    "kerdes": "Egy 255.255.255.248 alhálózati maszk (/29 prefix) esetén az alhálózatban legfeljebb 6 kiosztható hoszt IP-cím áll rendelkezésre.",
+    "valasz": "igaz",
+    "magyarazat": "A /29-es maszk 3 bitet hagy a hosztoknak (2^3 = 8 cím), amiből a hálózati és adatszóró cím kiesésével 6 használható cím marad."
+  },
+  {
+    "id": 24,
+    "fejezet": "22_Az IPv4 protokoll 2 CIDR_és_Vezérlő és Útválasztó protokollok",
+    "kerdes": "Egy 'C' osztályú hálózat /29-es maszkkal történő felosztása során összesen 32 darab alhálózat hozható létre.",
+    "valasz": "igaz",
+    "magyarazat": "A 8 bites hosztmezőből 5 bit lesz az alhálózati azonosító, így 2^5 = 32 alhálózat jön létre."
+  },
+  {
+    "id": 25,
+    "fejezet": "22_Az IPv4 protokoll 2 CIDR_és_Vezérlő és Útválasztó protokollok",
+    "kerdes": "A 192.168.100.0/29 alhálózat legkisebb kiosztható IP-címe a 192.168.100.0, míg a legnagyobb a 192.168.100.7.",
+    "valasz": "hamis",
+    "magyarazat": "A 192.168.100.0 maga a hálózat címe, a 192.168.100.7 a Broadcast cím; a kiosztható tartomány 192.168.100.1-től 192.168.100.6-ig terjed."
+  },
+  {
+    "id": 26,
+    "fejezet": "22_Az IPv4 protokoll 2 CIDR_és_Vezérlő és Útválasztó protokollok",
+    "kerdes": "A szomszédos, azonos régióba eső alhálózatok egyetlen közös útválasztási bejegyzésbe vonhatók össze (Aggregation / Supernetting).",
+    "valasz": "igaz",
+    "magyarazat": "A CIDR lehetővé teszi az egymást követő alhálózatok összefoglaló címmel történő továbbítását a távoli útválasztók felé."
+  },
+  {
+    "id": 27,
+    "fejezet": "22_Az IPv4 protokoll 2 CIDR_és_Vezérlő és Útválasztó protokollok",
+    "kerdes": "A 212.32.0.0/21, 212.32.8.0/22, 212.32.12.0/22 és 212.32.16.0/20 hálózatok egyetlen összefoglaló címe a 212.32.0.0/19.",
+    "valasz": "igaz",
+    "magyarazat": "A négy folytonos hálózat (összesen 8192 IP-cím) összevonható a /19-es prefixű 212.32.0.0/19 címbe."
+  },
+  {
+    "id": 28,
+    "fejezet": "22_Az IPv4 protokoll 2 CIDR_és_Vezérlő és Útválasztó protokollok",
+    "kerdes": "A leghosszabb egyező előtag elve (Longest Matching Prefix) alapján az útválasztó a legkisebb prefixhosszúságú szabályt választja ki a csomag továbbításakor.",
+    "valasz": "hamis",
+    "magyarazat": "Az útválasztó a leghosszabb (legspecifikusabb) egyező előtag irányába küldi tovább a csomagot."
+  },
+  {
+    "id": 29,
+    "fejezet": "22_Az IPv4 protokoll 2 CIDR_és_Vezérlő és Útválasztó protokollok",
+    "kerdes": "Az IPv4-címek 32 bites hossza miatt elvileg legfeljebb 4 294 967 296 darab egyedi cím létezhet.",
+    "valasz": "igaz",
+    "magyarazat": "A 2^32 elméleti matematikai korlát kereken 4 294 967 296 egyedi címet jelent."
+  },
+  {
+    "id": 30,
+    "fejezet": "22_Az IPv4 protokoll 2 CIDR_és_Vezérlő és Útválasztó protokollok",
+    "kerdes": "A hálózati címfordítás (NAT) technológiáját 2001-ben mutatták be, leírását az RFC3022 tartalmazza.",
+    "valasz": "igaz",
+    "magyarazat": "A NAT 2001-ben jelent meg az RFC3022 szabvány alapján a címkészlet védelmére."
+  },
+  {
+    "id": 31,
+    "fejezet": "22_Az IPv4 protokoll 2 CIDR_és_Vezérlő és Útválasztó protokollok",
+    "kerdes": "A NAT használata során a belső hálózati hosztoknak mindenképpen rendelkezniük kell saját nyilvános IP-címmel az Internet eléréséhez.",
+    "valasz": "hamis",
+    "magyarazat": "A NAT lényege pont az, hogy a belső hosztok privát címeket használhatnak, és a külső felé a NAT eszköz fordítja le a forgalmat."
+  },
+  {
+    "id": 32,
+    "fejezet": "22_Az IPv4 protokoll 2 CIDR_és_Vezérlő és Útválasztó protokollok",
+    "kerdes": "A NAT segítségével egy több száz belső hosztból álló hálózat akár egyetlen nyilvános külső IP-cím mögött is működhet.",
+    "valasz": "igaz",
+    "magyarazat": "A NAT (NAPT/PAT) elrejti a belső hálózatot, egyetlen külső nyilvános IP-címre képezve le a forgalmat."
+  },
+  {
+    "id": 33,
+    "fejezet": "22_Az IPv4 protokoll 2 CIDR_és_Vezérlő és Útválasztó protokollok",
+    "kerdes": "Az ICMP (Internet Control Message Protocol) leírását az RFC792 szabvány definiálja, és a hibákról valamint a diagnosztikáról ad tájékoztatást.",
+    "valasz": "igaz",
+    "magyarazat": "Az ICMP az RFC792 alapján a hálózati réteg vezérlő- és hibajelző protokollja."
+  },
+  {
+    "id": 34,
+    "fejezet": "22_Az IPv4 protokoll 2 CIDR_és_Vezérlő és Útválasztó protokollok",
+    "kerdes": "Az ICMP szabvány 8 biten ábrázolja az üzenettípusokat, és mind a 256 lehetséges típus aktívan használatban van.",
+    "valasz": "hamis",
+    "magyarazat": "A 256 elméleti lehetőségből csak 40 van definiálva, és a gyakorlatban 11 leggyakoribb típust alkalmaznak."
+  },
+  {
+    "id": 35,
+    "fejezet": "22_Az IPv4 protokoll 2 CIDR_és_Vezérlő és Útválasztó protokollok",
+    "kerdes": "Az ICMP 8-as típusú üzenete az 'Echo Request' (Ping kérés), míg a 0-s típusú üzenet az 'Echo Reply' (Ping válasz).",
+    "valasz": "igaz",
+    "magyarazat": "A 8-as típus a kérés, a 0-s típus a rá érkező válasz a Ping diagnosztikában."
+  },
+  {
+    "id": 36,
+    "fejezet": "22_Az IPv4 protokoll 2 CIDR_és_Vezérlő és Útválasztó protokollok",
+    "kerdes": "Az ICMP '4 – Source Quench' üzenetét az útválasztók küldik a küldőnek a bejövő forgalom csökkentésére, ha elfogy a memóriájuk.",
+    "valasz": "igaz",
+    "magyarazat": "A Source Quench a küldő lefojtására szolgáló vezérlőüzenet túlterhelés esetén."
+  },
+  {
+    "id": 37,
+    "fejezet": "22_Az IPv4 protokoll 2 CIDR_és_Vezérlő és Útválasztó protokollok",
+    "kerdes": "Az ICMP 11-es típusú 'Time Exceeded' üzenete a csomag érvényességi idejének (TTL) lejártára figyelmeztet.",
+    "valasz": "igaz",
+    "magyarazat": "A 11-es ICMP üzenet jelzi, ha a TTL értéke elérte a 0-t, és a csomag megsemmisült."
+  },
+  {
+    "id": 38,
+    "fejezet": "22_Az IPv4 protokoll 2 CIDR_és_Vezérlő és Útválasztó protokollok",
+    "kerdes": "Az ICMP 13-as és 14-es típusú üzenetei a csomagok biztonsági titkosítási kulcsainak cseréjére szolgálnak.",
+    "valasz": "hamis",
+    "magyarazat": "A 13-as (Timestamp) és 14-es (Timestamp Reply) ICMP üzenetek időbélyeges visszhangok, amik az időszinkronizációt szolgálják."
+  },
+  {
+    "id": 39,
+    "fejezet": "22_Az IPv4 protokoll 2 CIDR_és_Vezérlő és Útválasztó protokollok",
+    "kerdes": "Az ARP (Address Resolution Protocol) feladata a 48 bites fizikai MAC-címek leképezése az ismert IP-címek alapján.",
+    "valasz": "igaz",
+    "magyarazat": "Az ARP az RFC826 alapján az IP-címekhez rendeli hozzá a 48 bites Ethernet MAC-címeket."
+  },
+  {
+    "id": 40,
+    "fejezet": "22_Az IPv4 protokoll 2 CIDR_és_Vezérlő és Útválasztó protokollok",
+    "kerdes": "Az ismeretlen MAC-címek kiderítéséhez az ARP kérés egy Ethernet Broadcast üzenetként jelenik meg az ff:ff:ff:ff:ff:ff címen.",
+    "valasz": "igaz",
+    "magyarazat": "Az ARP kérés adatkapcsolati rétegbeli szórásként fut le a csupa F-es MAC-címre."
+  },
+  {
+    "id": 41,
+    "fejezet": "22_Az IPv4 protokoll 2 CIDR_és_Vezérlő és Útválasztó protokollok",
+    "kerdes": "Az ARP által felderített párosítások az ARP Cache memóriában tárolódnak egy megadott frissítési ideig (ARP Refreshtime).",
+    "valasz": "igaz",
+    "magyarazat": "Az ARP gyorstár (Cache) átmenetileg őrzi a feltérképezett IP-MAC párokat."
+  },
+  {
+    "id": 42,
+    "fejezet": "22_Az IPv4 protokoll 2 CIDR_és_Vezérlő és Útválasztó protokollok",
+    "kerdes": "A DHCP protokoll automatikusan átadja a csatlakozó hosztoknak az IP-címet, az alhálózati maszkot és az alapértelmezett átjáró címét is.",
+    "valasz": "igaz",
+    "magyarazat": "A DHCP (RFC1541 / RFC2131) a teljes hálózati beállítás-csomagot automatikusan kiosztja."
+  },
+  {
+    "id": 43,
+    "fejezet": "22_Az IPv4 protokoll 2 CIDR_és_Vezérlő és Útválasztó protokollok",
+    "kerdes": "A DHCP háromféle címkiosztási módszere a statikus, az automatikus és a dinamikus címkiosztás.",
+    "valasz": "igaz",
+    "magyarazat": "Ez a 3 hivatalos módszer létezik a DHCP protokoll működésében."
+  },
+  {
+    "id": 44,
+    "fejezet": "22_Az IPv4 protokoll 2 CIDR_és_Vezérlő és Útválasztó protokollok",
+    "kerdes": "A DHCP dinamikus címkiosztásánál a bérleti idő (Lease Time) lejárta előtt az IP-cím azonnal kiosztható egy másik hoszt részére is.",
+    "valasz": "hamis",
+    "magyarazat": "Csak a bérleti idő (Lease Time) lejárta után osztható ki az adott IP-cím egy másik hoszt számára."
+  },
+  {
+    "id": 45,
+    "fejezet": "22_Az IPv4 protokoll 2 CIDR_és_Vezérlő és Útválasztó protokollok",
+    "kerdes": "Az egy Autonóm Rendszeren (AS) belüli útválasztást IGP (Interior Gateway Protocol), míg a rendszerek közötti útválasztást EGP (Exterior Gateway Protocol) végzi.",
+    "valasz": "igaz",
+    "magyarazat": "Az IGP a belső körzeti, az EGP a külső körzetek közötti útválasztó protokollok kategóriája."
+  },
+  {
+    "id": 46,
+    "fejezet": "22_Az IPv4 protokoll 2 CIDR_és_Vezérlő és Útválasztó protokollok",
+    "kerdes": "A RIP (Routing Information Protocol) egy távolságvektor alapú IGP protokoll, amelyet 1988-ban vezettek be az RFC1058 alapján.",
+    "valasz": "igaz",
+    "magyarazat": "A RIP az első széles körben használt távolságvektor alapú belső átjáró protokoll."
+  },
+  {
+    "id": 47,
+    "fejezet": "22_Az IPv4 protokoll 2 CIDR_és_Vezérlő és Útválasztó protokollok",
+    "kerdes": "A RIP protokoll korlátlan számú ugrást (Hop-ot) tud kezelni, így a leghatékonyabb választás a hatalmas kiterjedésű hálózatokban.",
+    "valasz": "hamis",
+    "magyarazat": "A RIP legfeljebb 15 ugrást (Hop-ot) tud kezelni, és küzd a végtelenig számolás problémájával."
+  },
+  {
+    "id": 48,
+    "fejezet": "22_Az IPv4 protokoll 2 CIDR_és_Vezérlő és Útválasztó protokollok",
+    "kerdes": "Az OSPF (Open Shortest Path First) egy kapcsolatállapot alapú (Link State) IGP protokoll, amely 1990-ben jelent meg az RFC2328/RFC1247 szabvánnyal.",
+    "valasz": "igaz",
+    "magyarazat": "Az OSPF a kapcsolatállapot alapú megközelítéssel sikeresen javította ki a RIP korlátait."
+  },
+  {
+    "id": 49,
+    "fejezet": "22_Az IPv4 protokoll 2 CIDR_és_Vezérlő és Útválasztó protokollok",
+    "kerdes": "Az OSPF protokoll a távolságvektoros módszert finomította tovább 100 ugrásos korlát bevezetésével.",
+    "valasz": "hamis",
+    "magyarazat": "Az OSPF nem távolságvektoros, hanem kapcsolatállapot alapú (Link State) hurokmentes protokoll."
+  },
+  {
+    "id": 50,
+    "fejezet": "22_Az IPv4 protokoll 2 CIDR_és_Vezérlő és Útválasztó protokollok",
+    "kerdes": "A BGP (Border Gateway Protocol) egy EGP protokoll, amely az Autonóm Rendszerek (AS-ek) közötti útválasztást végzi.",
+    "valasz": "igaz",
+    "magyarazat": "A BGP az Internet gerinchálózatának fő külső átjáró protokollja."
+  },
+  {
+    "id": 51,
+    "fejezet": "22_Az IPv4 protokoll 2 CIDR_és_Vezérlő és Útválasztó protokollok",
+    "kerdes": "A BGP az útvonal-vektorok (Path Vectors) módszerét használja, ahol minden útvonal tartalmazza a célpontig vezető teljes állomáslistát.",
+    "valasz": "igaz",
+    "magyarazat": "Az út-vektorok segítségével a BGP könnyen ellenőrzi a hurokmentességet anélkül, hogy az egész Internet topológiáját tárolnia kellene."
+  },
+  {
+    "id": 52,
+    "fejezet": "22_Az IPv4 protokoll 2 CIDR_és_Vezérlő és Útválasztó protokollok",
+    "kerdes": "A BGP út-vektoros módszerének egyetlen komoly hátránya a nagy memóriaigény, ami növeli az útválasztók táblabejegyzéseit.",
+    "valasz": "igaz",
+    "magyarazat": "A teljes útvonalak tárolása jelentősen növeli a bejegyzések méretét a memóriában."
+  },
+  {
+    "id": 53,
+    "fejezet": "22_Az IPv4 protokoll 2 CIDR_és_Vezérlő és Útválasztó protokollok",
+    "kerdes": "Az IGMP (Internet Group Management Protocol) protokoll a 'D' osztályú többesküldési (Multicast) csoporttagok nyilvántartására szolgál.",
+    "valasz": "igaz",
+    "magyarazat": "Az IGMP (RFC1112/RFC2236/RFC3376) kezeli a multicast csoporttagságokat a hosztok és útválasztók között."
+  },
+  {
+    "id": 54,
+    "fejezet": "22_Az IPv4 protokoll 2 CIDR_és_Vezérlő és Útválasztó protokollok",
+    "kerdes": "Az IGMP protokoll feladata a tetszőleges adatszórásos (Broadcast) csomagok titkosítása a helyi LAN hálózaton.",
+    "valasz": "hamis",
+    "magyarazat": "Az IGMP nem titkosít, hanem a többesküldéses (Multicast) csoporttagságokat deríti fel és kezeli."
+  },
+  {
+    "id": 55,
+    "fejezet": "22_Az IPv4 protokoll 2 CIDR_és_Vezérlő és Útválasztó protokollok",
+    "kerdes": "Az IGMP protokoll segítségével az útválasztók egy speciális többesküldés-feszítőfát (Multicast Spanning Tree) hoznak létre.",
+    "valasz": "igaz",
+    "magyarazat": "Lekérdező- és válaszcsomagok segítségével jön létre a multicast továbbítási fa a hatékony adatfolyam-küldéshez."
+  }
+]

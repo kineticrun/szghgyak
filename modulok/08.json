@@ -1,0 +1,429 @@
+[
+  {
+    "id": 1,
+    "fejezet": "08_A vezetékes átviteli közegek",
+    "kerdes": "A fizikai réteg célja az, hogy a küldött bitek egyenként és pontosan érkezzenek meg a vevő oldalára.",
+    "valasz": "igaz",
+    "magyarazat": "A fizikai réteg alapvető feladata a bitek pontos és egyenkénti továbbítása az adótól a vevőig."
+  },
+  {
+    "id": 2,
+    "fejezet": "08_A vezetékes átviteli közegek",
+    "kerdes": "A fizikai átviteli közeg vezeték használata esetén kizárólag rézvezeték lehet, optikai szál nem használható.",
+    "valasz": "hamis",
+    "magyarazat": "A vezetékes átvitel során a közeg lehet klasszikus rézvezeték vagy optikai szál is."
+  },
+  {
+    "id": 3,
+    "fejezet": "08_A vezetékes átviteli közegek",
+    "kerdes": "A Tanenbaum-könyvben szereplő mágnesszalag-szállítási példa logikai hiányossága, hogy a szalagok célba érése után az adatokat még be is kell olvasni az informatikai rendszerbe.",
+    "valasz": "igaz",
+    "magyarazat": "Az autóval történő mágnesszalag-szállítás adatátviteli sebességének számításakor a beolvasási idő jelentős plusz időt jelent, ráadásul hálózatnál az adat gépből gépbe jut."
+  },
+  {
+    "id": 4,
+    "fejezet": "08_A vezetékes átviteli közegek",
+    "kerdes": "Az IEEE 802.3 szabvány szerinti Ethernet elnevezésekben a Base szó azt fejezi ki, hogy a fizikai rétegben vivőfrekvenciás modulációt használunk.",
+    "valasz": "hamis",
+    "magyarazat": "A Base szó azt jelzi, hogy a fizikai rétegben alapsávi kódolást használunk, azaz nem vivőfrekvenciával modulálunk."
+  },
+  {
+    "id": 5,
+    "fejezet": "08_A vezetékes átviteli közegek",
+    "kerdes": "Az Ethernet típusok jelölésében a Base szó előtt álló szám az átviteli sebességet adja meg Mbit/sec egységben.",
+    "valasz": "igaz",
+    "magyarazat": "A Base előtti számérték az átviteli sebességet fejezi ki Mbit/s-ban (például 10, 100, 1000, 10G)."
+  },
+  {
+    "id": 6,
+    "fejezet": "08_A vezetékes átviteli közegek",
+    "kerdes": "A 10Base5 jelölésű vastag koaxiális kábel maximális szegmenshossza 500 méter, hullámimpedanciája pedig 50Ω.",
+    "valasz": "igaz",
+    "magyarazat": "A 10Base5 vastag koaxiális kábel hullámimpedanciája 50Ω, és legfeljebb 500 méteres szegmenshosszt tesz lehetővé."
+  },
+  {
+    "id": 7,
+    "fejezet": "08_A vezetékes átviteli közegek",
+    "kerdes": "A 10Base5 vastag koaxiális hálózatban a csatlakozáshoz BNC csatlakozót használunk.",
+    "valasz": "hamis",
+    "magyarazat": "A 10Base5 vastag koaxiális kábelnél vámpír csatlakozót használnak; a BNC csatlakozó a 10Base2 vékony koaxiális kábel jellemzője."
+  },
+  {
+    "id": 8,
+    "fejezet": "08_A vezetékes átviteli közegek",
+    "kerdes": "A 10Base5 hálózatban legfeljebb 5 darab szegmens köthető össze jelismétlőkkel (Repeater-ekkel).",
+    "valasz": "igaz",
+    "magyarazat": "A 10Base5 szabvány szerint Repeater-ek segítségével maximum 5 szegmens kapcsolható össze."
+  },
+  {
+    "id": 9,
+    "fejezet": "08_A vezetékes átviteli közegek",
+    "kerdes": "A 10Base2 vékony koaxiális kábel maximális szegmenshossza 200 méter.",
+    "valasz": "hamis",
+    "magyarazat": "A 10Base2 maximális szegmenshossza 185 méter."
+  },
+  {
+    "id": 10,
+    "fejezet": "08_A vezetékes átviteli közegek",
+    "kerdes": "A 10Base2 hálózat egyetlen szegmensében legfeljebb 32 kliens lehet, és két kliens között legfeljebb 4 jelismétlő (Repeater) helyezkedhet el.",
+    "valasz": "igaz",
+    "magyarazat": "A 10Base2 szabvány szegmensenként maximum 32 klienst engedélyez, két gép között legfeljebb 4 Repeaterrel."
+  },
+  {
+    "id": 11,
+    "fejezet": "08_A vezetékes átviteli közegek",
+    "kerdes": "A 10Base-T hálózati kábel a benne található 4 érpárból mind a 4 érpárt használja a 10 Mbit/s-os adatátvitelre.",
+    "valasz": "hamis",
+    "magyarazat": "A 10Base-T a kábel 4 érpárjából csak 2 érpárt használ."
+  },
+  {
+    "id": 12,
+    "fejezet": "08_A vezetékes átviteli közegek",
+    "kerdes": "A 10Base-F szabvány optikai kábelt alkalmaz, és maximálisan 2000 méteres szegmenshosszt biztosít SC vagy ST csatlakozóval.",
+    "valasz": "igaz",
+    "magyarazat": "A 10Base-F optikai összeköttetés épületek között max. 2000 m távolság áthidalására szolgál SC vagy ST csatlakozókkal."
+  },
+  {
+    "id": 13,
+    "fejezet": "08_A vezetékes átviteli közegek",
+    "kerdes": "A Gyors Ethernet (Fast Ethernet) szabványa az IEEE 802.3u.",
+    "valasz": "igaz",
+    "magyarazat": "A Fast Ethernet (100 Mbit/s) az IEEE 802.3u szabványhoz tartozik."
+  },
+  {
+    "id": 14,
+    "fejezet": "08_A vezetékes átviteli közegek",
+    "kerdes": "A 100Base-T4 kábelezéshez minimum Cat5 UTP kábel szükséges.",
+    "valasz": "hamis",
+    "magyarazat": "A 100Base-T4 esetében Cat3 UTP kábel is elegendő; a minimum Cat5 UTP a 100Base-TX típusnál követelmény."
+  },
+  {
+    "id": 15,
+    "fejezet": "08_A vezetékes átviteli közegek",
+    "kerdes": "A 100Base-FX szabvány fényvezető szálat használ, és a maximális szegmenshossza 2000 méter.",
+    "valasz": "igaz",
+    "magyarazat": "A 100Base-FX optikai kábelt használ 2000 méteres maximális szegmenshosszal."
+  },
+  {
+    "id": 16,
+    "fejezet": "08_A vezetékes átviteli közegek",
+    "kerdes": "A Gigabit Ethernet (IEEE 802.3z) 1000Base-SX típusánál monomódusú, 9 mikronos fényvezető szálat használnak.",
+    "valasz": "hamis",
+    "magyarazat": "A 1000Base-SX multimódusú fényvezető szálat használ (50 vagy 62.5 mikron) max. 550m hosszban; a 9 mikronos monomódusú szál a 1000Base-LX jellemzője."
+  },
+  {
+    "id": 17,
+    "fejezet": "08_A vezetékes átviteli közegek",
+    "kerdes": "A 1000Base-LX szabvány 5000 méteres maximális szegmenshosszt tesz lehetővé monomódusú optikai szálon.",
+    "valasz": "igaz",
+    "magyarazat": "A 1000Base-LX 9 mikronos monomódusú optikai szálon maximum 5000 méter távolságot ér el."
+  },
+  {
+    "id": 18,
+    "fejezet": "08_A vezetékes átviteli közegek",
+    "kerdes": "A 1000Base-CX szabvány 4 pár UTP kábelt használ 100 méteres távolságig.",
+    "valasz": "hamis",
+    "magyarazat": "A 1000Base-CX 2 pár árnyékolt STP kábelt használ legfeljebb 25 méter távolságig; a 100 méteres 4 pár UTP a 1000Base-T jellemzője."
+  },
+  {
+    "id": 19,
+    "fejezet": "08_A vezetékes átviteli közegek",
+    "kerdes": "A 10 Gigabit Ethernet az IEEE 802.3ae szabványhoz tartozik.",
+    "valasz": "igaz",
+    "magyarazat": "A 10 Gigabit Ethernet specifikációját az IEEE 802.3ae szabvány rögzíti."
+  },
+  {
+    "id": 20,
+    "fejezet": "08_A vezetékes átviteli közegek",
+    "kerdes": "A 10GBase-ER szabvány monomódusú fényvezető szálon akár 40 km-es szegmenshosszt is biztosíthat.",
+    "valasz": "igaz",
+    "magyarazat": "A 10GBase-ER (Extended Range) 9 mikronos monomódusú szálon 40 km-es távolságot tesz lehetővé."
+  },
+  {
+    "id": 21,
+    "fejezet": "08_A vezetékes átviteli közegek",
+    "kerdes": "A 10GBase-CX4 szabvány 4 pár twinaxiális rézkábelt használ 15 méteres maximális szegmenshosszal.",
+    "valasz": "igaz",
+    "magyarazat": "A 10GBase-CX4 twinaxiális rézkábelt alkalmaz maximum 15 méter távolságig."
+  },
+  {
+    "id": 22,
+    "fejezet": "08_A vezetékes átviteli közegek",
+    "kerdes": "A 10GBase-T szabvány használatához elegendő a hagyományos Cat5 UTP kábelezés.",
+    "valasz": "hamis",
+    "magyarazat": "A 10GBase-T rézalapú megvalósításához legalább Cat6A vagy Cat7 S-FTP kábel szükséges a 100 méteres távolsághoz."
+  },
+  {
+    "id": 23,
+    "fejezet": "08_A vezetékes átviteli közegek",
+    "kerdes": "Ma már a koaxiális kábel a legáltalánosabban használt kábeltípus a LAN hálózatokon.",
+    "valasz": "hamis",
+    "magyarazat": "Ma a sodrott érpár az általánosan használt kábeltípus az Ethernet hálózatokon, koaxiális kábelekkel már csak ritkán találkozunk."
+  },
+  {
+    "id": 24,
+    "fejezet": "08_A vezetékes átviteli közegek",
+    "kerdes": "A sodrott érpáros kábelek 4 érpárból, azaz összesen 8 szigetelt rézvezetékből állnak.",
+    "valasz": "igaz",
+    "magyarazat": "A sodrott érpár 4 érpárt (8 darab szigetelőanyaggal körbevett rézvezetéket) tartalmaz."
+  },
+  {
+    "id": 25,
+    "fejezet": "08_A vezetékes átviteli közegek",
+    "kerdes": "A vezetékek párosával történő összesodrása az elektromágneses és rádiófrekvenciás interferencia jeltorzító hatásának csökkentését szolgálja.",
+    "valasz": "igaz",
+    "magyarazat": "A sodrás célja a külső elektromágneses zavarok és interferenciák hatásának csökkentése."
+  },
+  {
+    "id": 26,
+    "fejezet": "08_A vezetékes átviteli közegek",
+    "kerdes": "Az árnyékolatlan érpárok közötti áthallás csökkentése érdekében az egyes párokat teljesen azonos mértékben sodorják össze.",
+    "valasz": "hamis",
+    "magyarazat": "Az érpárok közötti áthallást úgy csökkentik, hogy az egyes párokat eltérő mértékben sodorják."
+  },
+  {
+    "id": 27,
+    "fejezet": "08_A vezetékes átviteli közegek",
+    "kerdes": "A sodrott érpároknál a zöld érpár sodrási sűrűsége a legnagyobb (65,2 sodrás/méter), míg a barna érpáré a legkisebb (51,7 sodrás/méter).",
+    "valasz": "igaz",
+    "magyarazat": "A zöld érpár 1,53 cm-enként (65,2 sodrás/m), a barna érpár 1,94 cm-enként (51,7 sodrás/m) van sodorva."
+  },
+  {
+    "id": 28,
+    "fejezet": "08_A vezetékes átviteli közegek",
+    "kerdes": "A Class D osztály maximális sávszélessége 100 MHz, és szerelvényei a Cat5e szabvány szerinti elvárásoknak felelnek meg.",
+    "valasz": "igaz",
+    "magyarazat": "A Class D osztály max. 100 MHz sávszélességgel a Cat5e szerelvényeknek felel meg."
+  },
+  {
+    "id": 29,
+    "fejezet": "08_A vezetékes átviteli közegek",
+    "kerdes": "A Class E osztály maximum 500 MHz sávszélességet tesz lehetővé.",
+    "valasz": "hamis",
+    "magyarazat": "A Class E osztály maximum 250 MHz sávszélességű (Cat6 szerelvényekkel); az 500 MHz a Class EA (Cat6A) jellemzője."
+  },
+  {
+    "id": 30,
+    "fejezet": "08_A vezetékes átviteli közegek",
+    "kerdes": "A Class F osztály maximum 600 MHz sávszélességet biztosít a Cat7 szerelvények szerint.",
+    "valasz": "igaz",
+    "magyarazat": "A Class F osztály rögzíti a 600 MHz-es maximális sávszélességet a Cat7 kábelezéshez."
+  },
+  {
+    "id": 31,
+    "fejezet": "08_A vezetékes átviteli közegek",
+    "kerdes": "A Cat5 szabvány 1995-ben jelent meg, de 2002-ben felváltotta a Cat5e szabvány, így ma már jellemzően nem épül belőle új hálózat.",
+    "valasz": "igaz",
+    "magyarazat": "A Cat5-öt 2002-ben felváltotta a Cat5e, így Cat5 kábelből ma már nem építenek hálózatot."
+  },
+  {
+    "id": 32,
+    "fejezet": "08_A vezetékes átviteli közegek",
+    "kerdes": "A Cat6 kábel 250 MHz sávszélesség mellett 100 méteren 1 Gb/s, míg 500 MHz sávszélességgel 55 méteren 10 Gb/s sebességre képes.",
+    "valasz": "igaz",
+    "magyarazat": "A Cat6 kábel 1 Gb/s sebességet 100 m-en, 10 Gb/s-ot pedig korlátozott 55 m-es távolságig tud biztosítani."
+  },
+  {
+    "id": 33,
+    "fejezet": "08_A vezetékes átviteli közegek",
+    "kerdes": "A 8P8C csatlakozójelölésben a 'P' jelentése 'Power', a 'C' jelentése pedig 'Cable'.",
+    "valasz": "hamis",
+    "magyarazat": "A 'P' jelentése 'Pin' (láb), a 'C' jelentése pedig 'Connection' (bekötött láb)."
+  },
+  {
+    "id": 34,
+    "fejezet": "08_A vezetékes átviteli közegek",
+    "kerdes": "A Power on Ethernet (PoE) eljárással külön 230V-os tápellátás nélkül is üzemeltethetők hálózati eszközök (például IP kamerák vagy Access Pointok).",
+    "valasz": "igaz",
+    "magyarazat": "A PoE technológia lehetővé teszi az eszközök tápellátását az Ethernet adatkábelen keresztül."
+  },
+  {
+    "id": 35,
+    "fejezet": "08_A vezetékes átviteli közegek",
+    "kerdes": "Az IEEE 802.3af szabványú PoE maximum 25.5W teljesítményt nyújt a csatlakoztatott eszköz számára.",
+    "valasz": "hamis",
+    "magyarazat": "Az IEEE 802.3af szabvány 12.95W teljesítményt nyújt; a 25.5W teljesítményt az IEEE 802.3at (PoE+) szabvány biztosítja."
+  },
+  {
+    "id": 36,
+    "fejezet": "08_A vezetékes átviteli közegek",
+    "kerdes": "Minden nagytávolságú telekommunikációs gerinchálózat optikai kábeleket használ hatékonysága és alacsonyabb fajlagos költségei miatt.",
+    "valasz": "igaz",
+    "magyarazat": "A gerinchálózatokban kivétel nélkül optikai kábeleket alkalmaznak a nagy távolságú átvitelre."
+  },
+  {
+    "id": 37,
+    "fejezet": "08_A vezetékes átviteli közegek",
+    "kerdes": "Az optikai szál üvegmagjának törésmutatója kisebb kell legyen, mint a magot körülvevő védőrétegé (héjé).",
+    "valasz": "hamis",
+    "magyarazat": "A teljes fényvisszaverődés feltétele, hogy a mag törésmutatója nagyobb legyen, mint a héjé."
+  },
+  {
+    "id": 38,
+    "fejezet": "08_A vezetékes átviteli közegek",
+    "kerdes": "Az optikai átvitel működési elve a fénysugár teljes belső visszaverődésén alapul.",
+    "valasz": "igaz",
+    "magyarazat": "A fénysugár a mag és a héj határfelületén teljes visszaverődést szenved, így minimális veszteséggel halad végig a szálban."
+  },
+  {
+    "id": 39,
+    "fejezet": "08_A vezetékes átviteli közegek",
+    "kerdes": "A multimódusú optikai szál magátmérője jellemzően 9 mikrométer.",
+    "valasz": "hamis",
+    "magyarazat": "A multimódusú szál magátmérője 50 vagy 62.5 mikrométer; a 9 mikrométeres magátmérő a monomódusú szálra jellemző."
+  },
+  {
+    "id": 40,
+    "fejezet": "08_A vezetékes átviteli közegek",
+    "kerdes": "A monomódusú optikai szálban a fény több sugárban terjed, ezért a csillapítása lényegesen nagyobb, mint a multimódusú szálé.",
+    "valasz": "hamis",
+    "magyarazat": "A monomódusú szálban a fény a tengely mentén halad egyetlen sugárként, emiatt a csillapítása kisebb és nagyobb távolságok áthidalására alkalmas."
+  },
+  {
+    "id": 41,
+    "fejezet": "08_A vezetékes átviteli közegek",
+    "kerdes": "Az optikai kábelek mechanikailag ellenállók, nem zavarérzékenyek és nem sugároznak, de a lehallgatás ellen nem nyújtanak tökéletes védelmet.",
+    "valasz": "igaz",
+    "magyarazat": "Az optikai kábelek nem érzékenyek az elektromágneses zavarokra, de a lehallgatás ellen nem adnak abszolút védelmet."
+  },
+  {
+    "id": 42,
+    "fejezet": "08_A vezetékes átviteli közegek",
+    "kerdes": "Az optikai hálózatokban használt optikai adók monochrom, koherens lézerek, amelyek jellemzően 850, 1300 vagy 1550 nm hullámhosszon működnek.",
+    "valasz": "igaz",
+    "magyarazat": "Az optikai adók ezeken a specifikus infravörös hullámhosszokon bocsátják ki a lézerfényt."
+  },
+  {
+    "id": 43,
+    "fejezet": "08_A vezetékes átviteli közegek",
+    "kerdes": "A kromatikus diszperzió a hullám fázissebessége szerinti szóródást jelenti, amelyet az üvegszál geometriai egyenetlensége okoz.",
+    "valasz": "hamis",
+    "magyarazat": "A kromatikus diszperzió a színek (hullámhosszak) szerinti szóródás; a fázissebesség szerinti, geometriai egyenetlenség okozta szóródás a polarizációs diszperzió."
+  },
+  {
+    "id": 44,
+    "fejezet": "08_A vezetékes átviteli közegek",
+    "kerdes": "Nagy teljesítményű gáz- és szilárdtest lézerekkel akár 100 km-es távolság is áthidalható egyetlen optikai adó-vevő párral.",
+    "valasz": "igaz",
+    "magyarazat": "Nagy teljesítményű lézerek használatával egyetlen szakaszon a 100 km-es távolság is áthidalható."
+  },
+  {
+    "id": 45,
+    "fejezet": "08_A vezetékes átviteli közegek",
+    "kerdes": "Az optikai szálak kötési megoldásai közé tartozik a pig-tail csatlakozózás, a mechanikus toldás és a szálhegesztés.",
+    "valasz": "igaz",
+    "magyarazat": "Az optikai szálak csatlakoztatására pontosan e három fő eljárás használatos."
+  },
+  {
+    "id": 46,
+    "fejezet": "08_A vezetékes átviteli közegek",
+    "kerdes": "Az optikai szálak összehegesztése biztosítja a legkisebb csillapítást a csatlakozási ponton, de ez a legdrágább eljárás is.",
+    "valasz": "igaz",
+    "magyarazat": "A szálhegesztés nyújtja a technikailag legjobb, legkisebb veszteségű, ugyanakkor a legköltségesebb csatlakozást."
+  },
+  {
+    "id": 47,
+    "fejezet": "08_A vezetékes átviteli közegek",
+    "kerdes": "Az ST, SC, MTRJ és LC elterjedt optikai csatlakozótípusok.",
+    "valasz": "igaz",
+    "magyarazat": "Ezek a szabványos és gyakran alkalmazott optikai csatlakozóformák."
+  },
+  {
+    "id": 48,
+    "fejezet": "08_A vezetékes átviteli közegek",
+    "kerdes": "Irodákban és emberek által folyamatosan használt helyiségekben a PVC bevonatú beltéri kábelek használata kötelező.",
+    "valasz": "hamis",
+    "magyarazat": "A PVC burkolat csak raktárakban engedélyezett; irodákban az LSOH/LSZH (Low Smoke Zero Halogen) halogénmentes kábelek használata kötelező."
+  },
+  {
+    "id": 49,
+    "fejezet": "08_A vezetékes átviteli közegek",
+    "kerdes": "A kültéri kábelek esetében az UV-állóság és a rágcsálóvédelem (RR vagy RP jelzés) kiemelt szempont.",
+    "valasz": "igaz",
+    "magyarazat": "A kültéri kábelek védettek az időjárás (UV) és az állatok kártétele ellen (Rodent Resistant / Protected)."
+  },
+  {
+    "id": 50,
+    "fejezet": "08_A vezetékes átviteli közegek",
+    "kerdes": "A 230V-os elektromos tápvezetékeken (Powerline) keresztül lakáson belül akár 50-100 Mb/s sebességű hálózat is kiépíthető.",
+    "valasz": "igaz",
+    "magyarazat": "A meglévő 230V-os hálózat felhasználásával kisebb távolságra 50-100 Mb/s adatátviteli sebesség érhető el."
+  },
+  {
+    "id": 51,
+    "fejezet": "08_A vezetékes átviteli közegek",
+    "kerdes": "Az alapsávú átvitel során a felhasznált közegben egyszerre több vivőfrekvenciás jelsorozatot használunk.",
+    "valasz": "hamis",
+    "magyarazat": "Alapsávú átvitelről akkor beszélünk, amikor a közegben egyszerre csak egyféle jelsorozatot használunk vivőfrekvencia nélkül."
+  },
+  {
+    "id": 52,
+    "fejezet": "08_A vezetékes átviteli közegek",
+    "kerdes": "Az NRZ (Non Return to Zero) kódolásnál a '0'-ás bithez jellemzően a 0 Volt feszültségszint tartozik.",
+    "valasz": "hamis",
+    "magyarazat": "A '0'-ás bithez nem a 0 Volt feszültségszintet szokás rendelni, hanem egy negatív feszültségszintet."
+  },
+  {
+    "id": 53,
+    "fejezet": "08_A vezetékes átviteli közegek",
+    "kerdes": "Az NRZ-L kódolásnál a digitális adatok és az átvitt jelek feszültségszintjei közvetlenül kifejezik egymást.",
+    "valasz": "igaz",
+    "magyarazat": "Az NRZ-L (Positive Logic) a klasszikus NRZ kódolás, ahol a bitértékek közvetlenül feszültségszintekhez rendelődnek."
+  },
+  {
+    "id": 54,
+    "fejezet": "08_A vezetékes átviteli közegek",
+    "kerdes": "Az NRZ-M kódolásnál a jelalak változása a '0'-ás bit hatására következik be, míg az '1'-es bitnél nem változik.",
+    "valasz": "hamis",
+    "magyarazat": "Az NRZ-M (Zero Mark) esetében jelváltás csak az '1'-es bit hatására jön létre, '0'-ás bitre a jelalak változatlan marad."
+  },
+  {
+    "id": 55,
+    "fejezet": "08_A vezetékes átviteli közegek",
+    "kerdes": "Az NRZ-S kódolás az NRZ-M logikai ellentéte, ahol a jelváltás a '0'-ás bitek hatására jön létre.",
+    "valasz": "igaz",
+    "magyarazat": "Az NRZ-S kódolásnál a '0'-ás bit váltja ki a feszültségszint-váltást."
+  },
+  {
+    "id": 56,
+    "fejezet": "08_A vezetékes átviteli közegek",
+    "kerdes": "Az NRZ kódolás fő gyakorlati problémája a szinkronitás elvesztése az adó és a vevő között hosszú azonos bitorozatok esetén.",
+    "valasz": "igaz",
+    "magyarazat": "Külön órajel híján a vevő pontosan kell ismerje a szimbólumidőket, különben a bitek száma elcsúszhat."
+  },
+  {
+    "id": 57,
+    "fejezet": "08_A vezetékes átviteli közegek",
+    "kerdes": "A Manchester kódolás során az adatjel és az átviteli bitsebesség pontosan kétszeresével működő órajel között kizáró vagy (XOR) kapcsolatot képezünk.",
+    "valasz": "igaz",
+    "magyarazat": "A Manchester kódolás lényege az dupla frekvenciájú órajel és az adatjel XOR művelettel történő összekapcsolása."
+  },
+  {
+    "id": 58,
+    "fejezet": "08_A vezetékes átviteli közegek",
+    "kerdes": "A Manchester kódolási eljárás atyja G. E. Thomas volt, aki a Manchester Mark1 számítógépnél alkalmazta először 1949-ben.",
+    "valasz": "igaz",
+    "magyarazat": "G. E. Thomas 1949-ben a Victoria Egyetemen fektette le a Manchester kódolás alapjait."
+  },
+  {
+    "id": 59,
+    "fejezet": "08_A vezetékes átviteli közegek",
+    "kerdes": "Az IEEE 802.3 Ethernet hálózatok pontosan a G. E. Thomas által eredetileg megadott Manchester kódolást használják, nem annak inverzét.",
+    "valasz": "hamis",
+    "magyarazat": "Az IEEE 802.3 szabvány szerinti Manchester kódolás éppen a G. E. Thomas-féle eredeti kódolás inverze."
+  },
+  {
+    "id": 60,
+    "fejezet": "08_A vezetékes átviteli közegek",
+    "kerdes": "A Manchester kódolás egyetlen technikai hátránya, hogy a dupla frekvenciájú órajel miatt dupla sávszélességet igényel.",
+    "valasz": "igaz",
+    "magyarazat": "A beépített szinkronizáció ára a dupla sávszélesség-igény."
+  },
+  {
+    "id": 61,
+    "fejezet": "08_A vezetékes átviteli közegek",
+    "kerdes": "Az USB szabvány a Manchester kódolás elvét alkalmazza, de az XOR jel képzéséhez az NRZ-L helyett az NRZ-M jelet használja, létrehozva az NRZ-I kódolást.",
+    "valasz": "igaz",
+    "magyarazat": "Az USB szabvány az NRZ-M jelből képzi az XOR kapcsolatot, ezt nevezzük NRZ-I (Inverted) kódolásnak."
+  }
+]

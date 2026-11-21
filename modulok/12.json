@@ -1,0 +1,310 @@
+[
+  {
+    "id": 1,
+    "fejezet": "12_Hibajelző kódok és Adatkapcsolati protokollok",
+    "kerdes": "Közvetlen réz- vagy optikai kábeles átvitel esetén a kis hibaarány miatt praktikusabb a hibás adategységeket újraküldeni, mint hibajavító algoritmusokkal terhelni a gépeket.",
+    "valasz": "igaz",
+    "magyarazat": "A megbízható csatornákon a kis hibaarány miatt gazdaságosabb az újraküldés alkalmazása a hibajavítás helyett."
+  },
+  {
+    "id": 2,
+    "fejezet": "12_Hibajelző kódok és Adatkapcsolati protokollok",
+    "kerdes": "A legszélesebb körben használt három lineáris, szisztematikus hibajelző kód a paritásbit, az ellenőrző összeg és a CRC.",
+    "valasz": "igaz",
+    "magyarazat": "A három legelterjedtebb hibajelző kód pontosan a paritásbit, a checksum és a ciklikus redundancia ellenőrzés (CRC)."
+  },
+  {
+    "id": 3,
+    "fejezet": "12_Hibajelző kódok és Adatkapcsolati protokollok",
+    "kerdes": "Páros paritás generálásakor a paritásbit értéke 1 lesz, ha a kódszóban lévő 1-es bitek száma páros.",
+    "valasz": "hamis",
+    "magyarazat": "Páros paritásnál a paritásbit értéke 0, ha a kódszóban lévő 1-es bitek száma páros, és 1, ha páratlan."
+  },
+  {
+    "id": 4,
+    "fejezet": "12_Hibajelző kódok és Adatkapcsolati protokollok",
+    "kerdes": "Páratlan paritás generálása esetén a paritásbit értéke 0, ha a kódszóban lévő 1-es bitek száma páratlan.",
+    "valasz": "igaz",
+    "magyarazat": "Páratlan paritásnál a paritásbit értéke 0, ha a kódolandó egyesek száma páratlan (így a paritásbittel együtt páratlan marad)."
+  },
+  {
+    "id": 5,
+    "fejezet": "12_Hibajelző kódok és Adatkapcsolati protokollok",
+    "kerdes": "A paritásbit elnevezése (páros vagy páratlan) a paritásbit generálása előtti állapotra utal.",
+    "valasz": "hamis",
+    "magyarazat": "Az elnevezés a paritásbit hozzáadása utáni állapotban lévő egyesek számára utal."
+  },
+  {
+    "id": 6,
+    "fejezet": "12_Hibajelző kódok és Adatkapcsolati protokollok",
+    "kerdes": "Egyetlen paritásbit használatával legfeljebb 1 bitnyi hiba jelezhető biztonsággal.",
+    "valasz": "igaz",
+    "magyarazat": "Egyetlen paritásbit esetén 1 hibás bit hoz létre észlelhető eltérést, mivel a kódszó és a paritásbites alak Hamming-távolsága 2."
+  },
+  {
+    "id": 7,
+    "fejezet": "12_Hibajelző kódok és Adatkapcsolati protokollok",
+    "kerdes": "Egyetlen paritásbit tökéletesen alkalmas a több egymás utáni bitből álló hibacsomók jelezésére is.",
+    "valasz": "hamis",
+    "magyarazat": "Egyetlen paritásbit nem képes biztonsággal jelezni a hibacsomókat; erre a kétdimenziós paritás jelenthet megoldást."
+  },
+  {
+    "id": 8,
+    "fejezet": "12_Hibajelző kódok és Adatkapcsolati protokollok",
+    "kerdes": "A kétdimenziós paritás a sorok és az oszlopok paritásbites ellenőrzését egyidejűleg valósítja meg.",
+    "valasz": "igaz",
+    "magyarazat": "A kétdimenziós paritás mátrixszerkezetben vizsgálja a sorok és oszlopok paritását a hibacsomók jobb kiszűrésére."
+  },
+  {
+    "id": 9,
+    "fejezet": "12_Hibajelző kódok és Adatkapcsolati protokollok",
+    "kerdes": "Az ellenőrző összeg (Checksum) képzése kizárólag elektronikus hálózati környezetben használatos eljárás.",
+    "valasz": "hamis",
+    "magyarazat": "Ellenőrző összeget használnak a vonalkódoknál, a személyi számoknál, az adóazonosítóknál és az EURO bankjegyek sorszámainál is."
+  },
+  {
+    "id": 10,
+    "fejezet": "12_Hibajelző kódok és Adatkapcsolati protokollok",
+    "kerdes": "Az IPv4 fejléce 16 bites ellenőrző összeget tartalmaz, amely a fejléc 32 bites szavainak 16 bites részegységeiből képződik.",
+    "valasz": "igaz",
+    "magyarazat": "Az IPv4 csomagok fejléce 16 bites ellenőrző összeget alkalmaz a 4 jegyű hexadecimális számok összeadásával."
+  },
+  {
+    "id": 11,
+    "fejezet": "12_Hibajelző kódok és Adatkapcsolati protokollok",
+    "kerdes": "Az IPv4 ellenőrző összegének számítása során a keletkező átvitelt el kell dobni a végső 4 jegyű hexadecimális érték kialakításához.",
+    "valasz": "hamis",
+    "magyarazat": "A keletkezett 5 jegyű hexadecimális szám legnagyobb helyiértékét (átvitelt) hozzá kell adni az összeghez a 4 jegyű érték eléréséig."
+  },
+  {
+    "id": 12,
+    "fejezet": "12_Hibajelző kódok és Adatkapcsolati protokollok",
+    "kerdes": "Az IPv4 ellenőrző összege a számított 4 jegyű hexadecimális összeg egyes komplemenseként kerül elküldésre.",
+    "valasz": "igaz",
+    "magyarazat": "Az IPv4 fejléc ellenőrző összegeként a kapott összeg egyes komplemensét (negációját) küldik el."
+  },
+  {
+    "id": 13,
+    "fejezet": "12_Hibajelző kódok és Adatkapcsolati protokollok",
+    "kerdes": "Magyarországon a 10 jegyű magánszemélyi adóazonosító jel első számjegye minden esetben a 8-as szám.",
+    "valasz": "igaz",
+    "magyarazat": "Az adóazonosító jel első számjegye fixen 8-as."
+  },
+  {
+    "id": 14,
+    "fejezet": "12_Hibajelző kódok és Adatkapcsolati protokollok",
+    "kerdes": "Az adóazonosító jel 2–6. számjegyei a születési dátum és 1900. január 1. között eltelt napok számát tartalmazzák.",
+    "valasz": "hamis",
+    "magyarazat": "A 2–6. számjegyek a születési dátum és 1867. január 1. között eltelt napok számát adják meg."
+  },
+  {
+    "id": 15,
+    "fejezet": "12_Hibajelző kódok és Adatkapcsolati protokollok",
+    "kerdes": "Az adóazonosító jel 10. ellenőrző számjegyének kiszámításakor az első kilenc számjegyet pozíciójukkal megszorozva és összeadva 11-gyel kell elosztani.",
+    "valasz": "igaz",
+    "magyarazat": "Az ellenőrző összeg az első 9 számjegy pozíciós súlyozott összegének 11-gyel való osztási maradéka."
+  },
+  {
+    "id": 16,
+    "fejezet": "12_Hibajelző kódok és Adatkapcsolati protokollok",
+    "kerdes": "Ha az adóazonosító jel ellenőrző összegének 11-gyel való osztási maradéka 10, akkor az a szám 10-esként kerül a 10. pozícióra.",
+    "valasz": "hamis",
+    "magyarazat": "Ha a maradék 10, a számsorozat nem használható adóazonosítóként, és a 7–9. megkülönböztető számjegyeket módosítani kell."
+  },
+  {
+    "id": 17,
+    "fejezet": "12_Hibajelző kódok és Adatkapcsolati protokollok",
+    "kerdes": "A vasúti kocsik 12 jegyű pályaszámának ellenőrző összegénél a páros helyen álló számokat 1-gyel, a páratlan helyen állókat 2-vel kell megszorozni.",
+    "valasz": "igaz",
+    "magyarazat": "A vasúti pályaszámnál a páros pozíciójú jegyek 1-es, a páratlan pozíciójúak 2-es szorzót kapnak."
+  },
+  {
+    "id": 18,
+    "fejezet": "12_Hibajelző kódok és Adatkapcsolati protokollok",
+    "kerdes": "A CRC (Cyclic Redundancy Check) kódolást W. Wesley Peterson dolgozta ki 1961-ben.",
+    "valasz": "igaz",
+    "magyarazat": "A CRC kódolás elvét W. Wesley Peterson publikálta 1961-ben."
+  },
+  {
+    "id": 19,
+    "fejezet": "12_Hibajelző kódok és Adatkapcsolati protokollok",
+    "kerdes": "A CRC számításánál használt generátor polinom (G) az átvitt keret fejlécében is elküldésre kerül, hogy a vevő ki tudja olvasni.",
+    "valasz": "hamis",
+    "magyarazat": "A generátor polinomot az adónak és a vevőnek előre rögzítenie kell, az az átvitt keretben nem szerepel, így nem is sérülhet meg."
+  },
+  {
+    "id": 20,
+    "fejezet": "12_Hibajelző kódok és Adatkapcsolati protokollok",
+    "kerdes": "Az IEEE 802 szabványban a CRC-4 generátor polinomja az x^4 + x^1 + x^0, aminek bináris alakja 10011.",
+    "valasz": "igaz",
+    "magyarazat": "A CRC-4 az x^4 + x^1 + x^0 polinomnak felel meg, ami bitmintaként 10011."
+  },
+  {
+    "id": 21,
+    "fejezet": "12_Hibajelző kódok és Adatkapcsolati protokollok",
+    "kerdes": "A CRC-CCITT generátor polinomja 32 bites fokszámmal rendelkezik.",
+    "valasz": "hamis",
+    "magyarazat": "A CRC-CCITT egy 16 bites polinom (x^16 + x^12 + x^5 + x^0); a 32 bites fokszámú a CRC-32."
+  },
+  {
+    "id": 22,
+    "fejezet": "12_Hibajelző kódok és Adatkapcsolati protokollok",
+    "kerdes": "A CRC osztási műveleteit a MODULO2 algebra alapján végezzük, ahol az összeadás és kivonás az XOR műveletnek felel meg.",
+    "valasz": "igaz",
+    "magyarazat": "MODULO2 algebrában nincs átvitel, az összeadás és a kivonás egyaránt a bitenkénti XOR művelettel azonos."
+  },
+  {
+    "id": 23,
+    "fejezet": "12_Hibajelző kódok és Adatkapcsolati protokollok",
+    "kerdes": "A MODULO2 algebra szerinti szorzás a logikai OR műveletnek felel meg.",
+    "valasz": "hamis",
+    "magyarazat": "MODULO2 algebrában a szorzás a logikai AND műveletnek felel meg."
+  },
+  {
+    "id": 24,
+    "fejezet": "12_Hibajelző kódok és Adatkapcsolati protokollok",
+    "kerdes": "A CRC nem képes jelezni a hibát, ha az adatátviteli eltérés pontosan a generátor polinom többszöröse.",
+    "valasz": "igaz",
+    "magyarazat": "Ha a hiba a generátor polinom többszöröse, az osztás maradéktalanul lezajlik, de ennek valószínűsége magas fokszámú osztónál elhanyagolható."
+  },
+  {
+    "id": 25,
+    "fejezet": "12_Hibajelző kódok és Adatkapcsolati protokollok",
+    "kerdes": "A CRC kiszámítása szoftveresen nagy számítási kapacitást igényel, és hardveres alapon nem valósítható meg.",
+    "valasz": "hamis",
+    "magyarazat": "A CRC hardverbe huzalozott módon, szoftveres gépi terhelés nélkül, rendkívül gyorsan kiszámítható."
+  },
+  {
+    "id": 26,
+    "fejezet": "12_Hibajelző kódok és Adatkapcsolati protokollok",
+    "kerdes": "A korlátozás nélküli Simplex protokoll egy elméleti, idealisztikus modell, amely a gyakorlatban nem megvalósítható.",
+    "valasz": "igaz",
+    "magyarazat": "Ez a protokoll feltételezi a korlátlan sebességet, a végtelen puffert és a teljesen hibamentes csatornát, ami a valóságban nem létezik."
+  },
+  {
+    "id": 27,
+    "fejezet": "12_Hibajelző kódok és Adatkapcsolati protokollok",
+    "kerdes": "A Simplex „megáll és vár” (Stop-and-wait) protokoll megköveteli az adótól, hogy minden keret elküldése után addig várjon, amíg nyugtakeret meg nem érkezik.",
+    "valasz": "igaz",
+    "magyarazat": "A vevő túlterhelésének elkerülésére az adó csak a nyugta megérkezése után indíthat újabb keretet."
+  },
+  {
+    "id": 28,
+    "fejezet": "12_Hibajelző kódok és Adatkapcsolati protokollok",
+    "kerdes": "A Simplex „megáll és vár” protokoll a fizikai rétegben kizárólag Simplex csatornát igényel, mert az adatok csak egy irányba folynak.",
+    "valasz": "hamis",
+    "magyarazat": "Noha maga az adatforgalom egyirányú, a nyugtázás miatt a fizikai rétegben Half Duplex csatornára van szükség."
+  },
+  {
+    "id": 29,
+    "fejezet": "12_Hibajelző kódok és Adatkapcsolati protokollok",
+    "kerdes": "Ha a Simplex „megáll és vár” protokollnál a nyugtakeret megsérül vagy elveszik, az adatok megkettőződése a sorszámozás nélkül bekövetkezhet.",
+    "valasz": "igaz",
+    "magyarazat": "Nyugta hiányában az adó újra elküldi a keretet, amit a vevő sorszám híján új keretként adna át a felső rétegnek."
+  },
+  {
+    "id": 30,
+    "fejezet": "12_Hibajelző kódok és Adatkapcsolati protokollok",
+    "kerdes": "A Simplex összetett protokoll a keretek fejrészébe helyezett sorszámmal előzi meg az ismételt keretek többszörös beépülését.",
+    "valasz": "igaz",
+    "magyarazat": "A sorszámozás teszi lehetővé a vevő számára az elsődleges és az ismételt keretek megkülönböztetését."
+  },
+  {
+    "id": 31,
+    "fejezet": "12_Hibajelző kódok és Adatkapcsolati protokollok",
+    "kerdes": "A ráültetéses (Piggy-back) technika lényege, hogy az ellenirányú adatkeretbe ágyazzuk be az előzőleg kapott keret nyugtáját.",
+    "valasz": "igaz",
+    "magyarazat": "A Piggy-backing segítségével külön nyugtakeret elküldése nélkül, az adatkeret fejrészében vihető át a nyugta."
+  },
+  {
+    "id": 32,
+    "fejezet": "12_Hibajelző kódok és Adatkapcsolati protokollok",
+    "kerdes": "A ráültetéses technika akkor is tökéletesen működik, ha az egyik oldal egyáltalán nem küld adatot a másik oldalra.",
+    "valasz": "hamis",
+    "magyarazat": "Ha az egyik oldal nem küld adatot, nincs mire ráültetni a nyugtát; ilyenkor időzítés lejártakor önálló nyugtakeretet kell indítani."
+  },
+  {
+    "id": 33,
+    "fejezet": "12_Hibajelző kódok és Adatkapcsolati protokollok",
+    "kerdes": "A csúszóablakos (Sliding Window) protokollok lehetővé teszik, hogy a csatornán egyidejűleg több nyugtázatlan keret is tartózkodjon.",
+    "valasz": "igaz",
+    "magyarazat": "A csúszóablakos protokollok az adási ablak méretének megfelelően engedélyezik több keret folyamatos küldését."
+  },
+  {
+    "id": 34,
+    "fejezet": "12_Hibajelző kódok és Adatkapcsolati protokollok",
+    "kerdes": "A csúszóablakos protokollban a kimenő keretek sorszáma általában 0 és 7 közötti értéket vesz fel.",
+    "valasz": "igaz",
+    "magyarazat": "A keretek sorszámozására általánosan használt tartomány a 0 és 7 közötti érték."
+  },
+  {
+    "id": 35,
+    "fejezet": "12_Hibajelző kódok és Adatkapcsolati protokollok",
+    "kerdes": "Az adó adási ablakában lévő kereteket nem kell memóriapufferben tartani, mert azokat a csatorna automatikusan eltárolja.",
+    "valasz": "hamis",
+    "magyarazat": "Az adó ablakában lévő kereteket pufferekben kell tartani, mert egy esetleges időtúllépés (Timeout) esetén újra kell küldeni őket."
+  },
+  {
+    "id": 36,
+    "fejezet": "12_Hibajelző kódok és Adatkapcsolati protokollok",
+    "kerdes": "Ha az adó az 1-es sorszámú keretre kap nyugtát a csúszóablakos protokollban, az az azt megelőző kereteket (pl. 6, 7, 0, 1) is nyugtázza.",
+    "valasz": "igaz",
+    "magyarazat": "A kumulatív nyugtázás elve alapján az adott sorszámú nyugta az azt megelőző összes ablakbeli keret megérkezését is igazolja."
+  },
+  {
+    "id": 37,
+    "fejezet": "12_Hibajelző kódok és Adatkapcsolati protokollok",
+    "kerdes": "A vevő vételi ablaka elutasítás nélkül elfogadja az ablakon kívül érkező kereteket is.",
+    "valasz": "hamis",
+    "magyarazat": "Bármelyik keret, amely a vételi ablakon kívülre esik, eldobásra kerül."
+  },
+  {
+    "id": 38,
+    "fejezet": "12_Hibajelző kódok és Adatkapcsolati protokollok",
+    "kerdes": "Az egybites csúszóablakos protokollnál keretkettőződés léphet fel, ha mindkét állomás egyszerre kezd adni 1-es nyugtával.",
+    "valasz": "igaz",
+    "magyarazat": "Párhuzamos indításnál a kezdeti 1-es nyugta miatt a felek tévesen sikeres előző küldést feltételeznek, ami keretkettőződéshez vezethet."
+  },
+  {
+    "id": 39,
+    "fejezet": "12_Hibajelző kódok és Adatkapcsolati protokollok",
+    "kerdes": "A csővonal (Pipelining) elve azt jelenti, hogy az adó több keretet is elküldhet anélkül, hogy megvárná az egyes keretek nyugtáit.",
+    "valasz": "igaz",
+    "magyarazat": "A csővonal módszernél az adó folyamatosan küldi a kereteket a csatornába a csatornakihasználtság növelése érdekében."
+  },
+  {
+    "id": 40,
+    "fejezet": "12_Hibajelző kódok és Adatkapcsolati protokollok",
+    "kerdes": "A visszalépés „n”-el (Go-back-N) protokoll esetén a vevő a hibás keret után érkező jó kereteket eltárolja a pufferben.",
+    "valasz": "hamis",
+    "magyarazat": "A Go-back-N protokollnál a vevő a hibás keret utáni összes keretet nyugtázatlanul eldobja (1-es méretű vételi ablakot használ)."
+  },
+  {
+    "id": 41,
+    "fejezet": "12_Hibajelző kódok és Adatkapcsolati protokollok",
+    "kerdes": "Zajos vonalakon a visszalépés „n”-el protokoll nagymértékben csökkenti az adatátviteli sebességet a sok újraküldés miatt.",
+    "valasz": "igaz",
+    "magyarazat": "Mivel egyetlen hibás keret miatt az utána lévő összes keretet újra kell küldeni, a Go-back-N zajos közegekben pazarló."
+  },
+  {
+    "id": 42,
+    "fejezet": "12_Hibajelző kódok és Adatkapcsolati protokollok",
+    "kerdes": "A szelektív ismétlő (Selective Repeat) protokollnál a vevő eltárolja a hibás keret után érkező jó kereteket, és az adó csak a hibás keretet küldi újra.",
+    "valasz": "igaz",
+    "magyarazat": "A szelektív ismétlésnél kizárólag a sérült adategyeségek kerülnek újraküldésre, a jó keretek elmentődnek."
+  },
+  {
+    "id": 43,
+    "fejezet": "12_Hibajelző kódok és Adatkapcsolati protokollok",
+    "kerdes": "A szelektív ismétlő protokoll vevőjének ablakmérete pontosan 1-es értéket vesz fel.",
+    "valasz": "hamis",
+    "magyarazat": "A szelektív ismétlő protokoll vevőjének ablakmérete 1-nél mindenképpen nagyobb, hogy a hibás keret utáni jó kereteket is el tudja tárolni."
+  },
+  {
+    "id": 44,
+    "fejezet": "12_Hibajelző kódok és Adatkapcsolati protokollok",
+    "kerdes": "A szelektív ismétlő protokoll hatékonysága növelhető negatív nyugta (NAK / Negative Acknowledgement) azonnali küldésével.",
+    "valasz": "igaz",
+    "magyarazat": "A negatív nyugta értesíti az adót a hibáról még az időzítő lejárta előtt, így gyorsabb újraküldést tesz lehetővé."
+  }
+]

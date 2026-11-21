@@ -1,0 +1,352 @@
+[
+  {
+    "id": 1,
+    "fejezet": "18_A hálózati réteg_és_Az útválasztás",
+    "kerdes": "A hálózati réteg információs alapegysége a csomag (packet).",
+    "valasz": "igaz",
+    "magyarazat": "A hálózati réteg információs alapegysége a csomag."
+  },
+  {
+    "id": 2,
+    "fejezet": "18_A hálózati réteg_és_Az útválasztás",
+    "kerdes": "A hálózati réteg az alatta elhelyezkedő szállítási réteg szolgáltatásait veszi igénybe.",
+    "valasz": "hamis",
+    "magyarazat": "A hálózati réteg az alatta lévő adatkapcsolati réteg szolgáltatásait veszi igénybe, és a felette elhelyezkedő szállítási réteget szolgálja ki."
+  },
+  {
+    "id": 3,
+    "fejezet": "18_A hálózati réteg_és_Az útválasztás",
+    "kerdes": "A hálózati réteg az utolsó olyan réteg a modellben, amely a két végpont közötti közvetlen átvitellel foglalkozik.",
+    "valasz": "igaz",
+    "magyarazat": "A hálózati réteg feletti rétegek már más jellegű feladatokat látnak el, így ez az utolsó végpontok közötti átvitelt kezelő réteg."
+  },
+  {
+    "id": 4,
+    "fejezet": "18_A hálózati réteg_és_Az útválasztás",
+    "kerdes": "A hálózati réteg feladatszerkezetéhez tartozik, hogy a közzétett hálózati címek rendszere a szállítási réteg felé egységes legyen mind LAN, mind WAN hálózatokban.",
+    "valasz": "igaz",
+    "magyarazat": "A szállítási réteg felé publikált hálózati címek rendszerének függetlennek kell lennie az útválasztók felépítésétől és egységesnek kell lennie."
+  },
+  {
+    "id": 5,
+    "fejezet": "18_A hálózati réteg_és_Az útválasztás",
+    "kerdes": "Datagram alapú összeköttetés esetén a csomagtovábbítás előtt kötelező egy előzetes és direkt kapcsolatfelépítési fázis lebonyolítása.",
+    "valasz": "hamis",
+    "magyarazat": "A datagram alapú összeköttetésnél nincs szükség előzetes kapcsolatfelépítésre."
+  },
+  {
+    "id": 6,
+    "fejezet": "18_A hálózati réteg_és_Az útválasztás",
+    "kerdes": "Datagram alapú hálózatokban minden egyes csomag tartalmazza a teljes forrás- és célcímet.",
+    "valasz": "igaz",
+    "magyarazat": "Mivel nincs kiépített kapcsolat, minden egyedi datagramnak tartalmaznia kell a teljes forrás- és célcímet."
+  },
+  {
+    "id": 7,
+    "fejezet": "18_A hálózati réteg_és_Az útválasztás",
+    "kerdes": "Datagram hálózatban garantált, hogy a csomagok szigorúan a feladás sorrendjében és azonos útvonalon érkeznek meg a célállomáshoz.",
+    "valasz": "hamis",
+    "magyarazat": "A datagramok eltérő útvonalakon és nem feltétlenül sorrendben érkeznek meg a célhoz."
+  },
+  {
+    "id": 8,
+    "fejezet": "18_A hálózati réteg_és_Az útválasztás",
+    "kerdes": "Virtuálisáramkör alapú összeköttetésnél a csomagküldés előtt az útvonal felépül, és a kommunikációban részt vevő összes csomag ezt az utat követi.",
+    "valasz": "igaz",
+    "magyarazat": "Virtuális áramkör esetén az útvonalat előre lekommunikálják, és minden csomag ezen az úton halad."
+  },
+  {
+    "id": 9,
+    "fejezet": "18_A hálózati réteg_és_Az útválasztás",
+    "kerdes": "A virtuálisáramkör alapú hálózati összeköttetést más néven címkekapcsolásnak (Label Switch) is nevezzük.",
+    "valasz": "igaz",
+    "magyarazat": "A virtuális áramkör alapú átvitel címkekapcsolásként (Label Switch) is ismert."
+  },
+  {
+    "id": 10,
+    "fejezet": "18_A hálózati réteg_és_Az útválasztás",
+    "kerdes": "Virtuálisáramkör alapú hálózatban a csomagok a teljes forrás- és célcímet hordozzák egy rövid azonosító címke helyett.",
+    "valasz": "hamis",
+    "magyarazat": "Virtuális áramkör esetén a csomagok egy rövid összeköttetés-azonosító címkét tartalmaznak a teljes címinformáció helyett."
+  },
+  {
+    "id": 11,
+    "fejezet": "18_A hálózati réteg_és_Az útválasztás",
+    "kerdes": "Az útválasztók képesek a beérkező csomagok összeköttetés-azonosító címkéinek megváltoztatására a kimenő oldalon.",
+    "valasz": "igaz",
+    "magyarazat": "Az útválasztók táblázataik alapján átírhatják a kimenő csomagok azonosító címkéit a differenciált továbbításhoz."
+  },
+  {
+    "id": 12,
+    "fejezet": "18_A hálózati réteg_és_Az útválasztás",
+    "kerdes": "Egy közbülső útválasztó meghibásodásakor datagram hálózatban a teljes kapcsolat szétesik, míg virtuális áramkör esetén csak a meghibásodott útválasztóban lévő csomagok vesznek el.",
+    "valasz": "hamis",
+    "magyarazat": "Datagram esetén csak a meghibásodott útválasztóban lévő csomagok vesznek el, míg virtuális áramkör esetén az érintett virtuális áramkörök megszakadnak és a kapcsolat szétesik."
+  },
+  {
+    "id": 13,
+    "fejezet": "18_A hálózati réteg_és_Az útválasztás",
+    "kerdes": "Virtuálisáramkör alapú hálózatban a szolgáltatás minőségének (QoS) biztosítása és a torlódáskezelés könnyebb, ha előzetesen minden útválasztóban elegendő erőforrás foglalható le.",
+    "valasz": "igaz",
+    "magyarazat": "Az előzetes erőforrás-foglalás miatt virtuális áramköröknél könnyű a QoS és a torlódáskezelés biztosítása."
+  },
+  {
+    "id": 14,
+    "fejezet": "18_A hálózati réteg_és_Az útválasztás",
+    "kerdes": "Datagram alapú összeköttetés esetén az útválasztók táblázatában minden felépített összeköttetés külön erőforrást igényel.",
+    "valasz": "hamis",
+    "magyarazat": "A datagram alapú összeköttetésnél az útválasztó nem tartalmaz kapcsolati állapotinformációt; a felépített összeköttetések tárolása a virtuálisáramkör alapú hálózat jellemzője."
+  },
+  {
+    "id": 15,
+    "fejezet": "18_A hálózati réteg_és_Az útválasztás",
+    "kerdes": "Eseti, rövid ideig tartó kapcsolatokhoz (például áruházi hitelkártyás fizetéshez) a datagram alapú összeköttetés használata az indokolt.",
+    "valasz": "igaz",
+    "magyarazat": "Rövid eseti kapcsolatoknál az összeköttetés-felépítési fázis mellőzése miatt a datagram alapú modell a praktikus."
+  },
+  {
+    "id": 16,
+    "fejezet": "18_A hálózati réteg_és_Az útválasztás",
+    "kerdes": "Hosszú ideig működő telephelyi VPN kapcsolatokhoz a datagram alapú összeköttetés sokkal praktikusabb, mint a virtuális áramkör.",
+    "valasz": "hamis",
+    "magyarazat": "Hosszú ideig működő VPN kapcsolatok esetén a virtuálisáramkör alapú megoldás a praktikusabb."
+  },
+  {
+    "id": 17,
+    "fejezet": "18_A hálózati réteg_és_Az útválasztás",
+    "kerdes": "Az útválasztás a gyakorlatban két fő folyamatból áll: a csomagok továbbításából (Forwarding) és a táblázatok bejegyzéseinek folyamatos karbantartásából.",
+    "valasz": "igaz",
+    "magyarazat": "Az útválasztás feladata a forwardolás és a táblázatok aktualizálása."
+  },
+  {
+    "id": 18,
+    "fejezet": "18_A hálózati réteg_és_Az útválasztás",
+    "kerdes": "Az adaptív útválasztó algoritmusok statikus eljárások, amelyeket nem befolyásolnak a hálózati forgalom vagy topológia mérései.",
+    "valasz": "hamis",
+    "magyarazat": "Az adaptív algoritmusok dinamikus eljárások, amelyek alkalmazkodnak a hálózati forgalomhoz és a topológiához; a nem adaptív algoritmusok a statikusak."
+  },
+  {
+    "id": 19,
+    "fejezet": "18_A hálózati réteg_és_Az útválasztás",
+    "kerdes": "A nem adaptív (statikus) útválasztó algoritmusok döntéseit sem a pillanatnyi forgalommal, sem a topológiával kapcsolatos mérési adatok nem befolyásolják.",
+    "valasz": "igaz",
+    "magyarazat": "A nem adaptív algoritmusok rögzített elveken alapulnak, függetlenül a pillanatnyi hálózati mérésektől."
+  },
+  {
+    "id": 20,
+    "fejezet": "18_A hálózati réteg_és_Az útválasztás",
+    "kerdes": "A determinisztikus forgalomirányítás olyan rögzített eljárás, amelyet a változó hálózati feltételek nem befolyásolnak.",
+    "valasz": "igaz",
+    "magyarazat": "A determinisztikus forgalomirányítás változó feltételektől független, rögzített vezérlési mód."
+  },
+  {
+    "id": 21,
+    "fejezet": "18_A hálózati réteg_és_Az útválasztás",
+    "kerdes": "Elszigetelt adaptív forgalomirányítás esetén a csomópontok globális hálózati információk cseréjével hozzák meg az útválasztási döntéseket.",
+    "valasz": "hamis",
+    "magyarazat": "Elszigetelt adaptív forgalomirányítás esetén minden csomópont kizárólag helyi információk alapján hozza meg döntéseit."
+  },
+  {
+    "id": 22,
+    "fejezet": "18_A hálózati réteg_és_Az útválasztás",
+    "kerdes": "Elosztott adaptív forgalomirányításnál a csomópontok információt cserélnek egymással, hogy a helyi és a kapott információkat együtt használhassák fel.",
+    "valasz": "igaz",
+    "magyarazat": "Az elosztott adaptív irányítás során a csomópontok adatcserével kombinálják a helyi és a kapott információkat."
+  },
+  {
+    "id": 23,
+    "fejezet": "18_A hálózati réteg_és_Az útválasztás",
+    "kerdes": "Központosított adaptív forgalomirányítás esetén a csomópontok egy közös irányító központnak jelentik a helyi információkat, amely kiadja az utasításokat.",
+    "valasz": "igaz",
+    "magyarazat": "A központosított irányításnál egy kijelölt központ gyűjti az adatokat és ad ki utasításokat."
+  },
+  {
+    "id": 24,
+    "fejezet": "18_A hálózati réteg_és_Az útválasztás",
+    "kerdes": "A Delta forgalomirányításnál a központi irányító egység munkáját minden egyes csomagtovábbítási döntésnél kötelezően lekérdezik.",
+    "valasz": "hamis",
+    "magyarazat": "A Delta irányításnál a központi irányítást kizárólag akkor használják fel, ha a döntés nem alapozható a helyi információkra."
+  },
+  {
+    "id": 25,
+    "fejezet": "18_A hálózati réteg_és_Az útválasztás",
+    "kerdes": "Az összes forrásból egy közös célba tartó optimális útvonalak egy hurokmentes fa struktúrát alkotnak, amelyet nyelőfának (Sink Tree) nevezünk.",
+    "valasz": "igaz",
+    "magyarazat": "A közös célba tartó optimális útvonalak nyelőfát (Sink Tree) alkotnak, ahol a cél a fa gyökere."
+  },
+  {
+    "id": 26,
+    "fejezet": "18_A hálózati réteg_és_Az útválasztás",
+    "kerdes": "A nyelőfában lévő csomagok elméletileg végtelen ciklusba is kerülhetnek az útvonalhurok jelenléte miatt.",
+    "valasz": "hamis",
+    "magyarazat": "Mivel a nyelőfa nem tartalmaz hurkot, minden csomag véges számú ugrás után garantáltan eljut a célhoz."
+  },
+  {
+    "id": 27,
+    "fejezet": "18_A hálózati réteg_és_Az útválasztás",
+    "kerdes": "A nyelőfa definíciójában a távolságot az ugrások (hop-ok) számával határozzuk meg.",
+    "valasz": "igaz",
+    "magyarazat": "A nyelőfa struktúrában a távolság az ugrások számával van definiálva."
+  },
+  {
+    "id": 28,
+    "fejezet": "18_A hálózati réteg_és_Az útválasztás",
+    "kerdes": "Az útválasztás során az optimális útvonal minden esetben szigorúan a fizikailag legrövidebb távolságú útvonalat jelenti.",
+    "valasz": "hamis",
+    "magyarazat": "Az optimális útvonal nem feltétlenül a fizikailag legrövidebb út, mivel a sorbaállási idő, késleltetés, sávszélesség és költségek is befolyásolják."
+  },
+  {
+    "id": 29,
+    "fejezet": "18_A hálózati réteg_és_Az útválasztás",
+    "kerdes": "A szakaszok mértékének (metric) megállapításakor az átlagos sorbaállási és átviteli késleltetési időket is vizsgálhatják.",
+    "valasz": "igaz",
+    "magyarazat": "A mérték megállapításához tesztelik a szakaszok átlagos sorbaállási és átviteli késleltetését."
+  },
+  {
+    "id": 30,
+    "fejezet": "18_A hálózati réteg_és_Az útválasztás",
+    "kerdes": "A legrövidebb út megtalálására szolgáló híres gráfalgoritmus Edsger Wybe Dijkstra holland matematikustól származik 1959-ből.",
+    "valasz": "igaz",
+    "magyarazat": "Dijkstra 1959-ben dolgozta ki a legrövidebb út megtalálására szolgáló algoritmust."
+  },
+  {
+    "id": 31,
+    "fejezet": "18_A hálózati réteg_és_Az útválasztás",
+    "kerdes": "Edsger Wybe Dijkstra nevét az útválasztási algoritmus mellett az operációs rendszerekben használt szemafor koncepciója is fémjelzi.",
+    "valasz": "igaz",
+    "magyarazat": "Dijkstra a legrövidebb út algoritmus mellett a szemafor elvét is kiagyalta."
+  },
+  {
+    "id": 32,
+    "fejezet": "18_A hálózati réteg_és_Az útválasztás",
+    "kerdes": "A Dijkstra-algoritmus működése során az éppen aktív, állandónak tekintett csomópontot munkacsomópontnak nevezzük.",
+    "valasz": "igaz",
+    "magyarazat": "Az algoritmus lépéseiben az aktív csomópont a munkacsomópont."
+  },
+  {
+    "id": 33,
+    "fejezet": "18_A hálózati réteg_és_Az útválasztás",
+    "kerdes": "A véletlen forgalomirányító eljárásban a csomópont a csomagot mindig pontosan azon a vonalon küldi vissza, ahonnan az érkezett.",
+    "valasz": "hamis",
+    "magyarazat": "A véletlen forgalomirányításnál a csomagot az érkező vonaltól eltérő, véletlenszerűen kiválasztott másik vonalon küldik tovább."
+  },
+  {
+    "id": 34,
+    "fejezet": "18_A hálózati réteg_és_Az útválasztás",
+    "kerdes": "A véletlen forgalomirányításnál a csomagok bolyongásának korlátozására a bejárt szakaszok számát számlálóban rögzítik és a határértéket elérő csomagot törlik.",
+    "valasz": "igaz",
+    "magyarazat": "A végtelen bolyongás elkerülésére a megadott lépésszámot elérő csomagokat törlik."
+  },
+  {
+    "id": 35,
+    "fejezet": "18_A hálózati réteg_és_Az útválasztás",
+    "kerdes": "Az elárasztásos forgalomirányítás (Flooding) során a bejövő csomagot minden kivezető vonalra kiküldik, kivéve azt, ahonnan érkezett.",
+    "valasz": "igaz",
+    "magyarazat": "Az elárasztásos eljárás a beérkező csomagot az érkezési vonal kivételével minden kimenetre elküldi."
+  },
+  {
+    "id": 36,
+    "fejezet": "18_A hálózati réteg_és_Az útválasztás",
+    "kerdes": "Elárasztásos forgalomirányításnál a csomag legalább egy példánya garantáltan a legrövidebb úton éri el a célt.",
+    "valasz": "igaz",
+    "magyarazat": "Mivel minden útra kiküldik, a csomag legalább egy másolata a leggyorsabb/legrövidebb úton célba ér."
+  },
+  {
+    "id": 37,
+    "fejezet": "18_A hálózati réteg_és_Az útválasztás",
+    "kerdes": "Az elárasztásos forgalomirányító eljárás minimális hálózati terhelést generál, mert nem jönnek létre másolatok.",
+    "valasz": "hamis",
+    "magyarazat": "Az elárasztásos eljárás jelentősen terheli a rendszert a sok felesleges másolat és továbbítás miatt."
+  },
+  {
+    "id": 38,
+    "fejezet": "18_A hálózati réteg_és_Az útválasztás",
+    "kerdes": "Az elárasztásos forgalomirányítás rendkívül megbízható, ezért erősen sérült katonai hálózatokban is jól használható üzenetküldésre.",
+    "valasz": "igaz",
+    "magyarazat": "A megsérült, rombolt hálózatokban is nagy a valószínűsége a célba érésnek elárasztással."
+  },
+  {
+    "id": 39,
+    "fejezet": "18_A hálózati réteg_és_Az útválasztás",
+    "kerdes": "A távolságvektor alapú útválasztásnál (Distance Vector Routing) minden útválasztó egy olyan táblázatot tart karban, ahol célonként szerepel a legrövidebb távolság és a kivezető vonal.",
+    "valasz": "igaz",
+    "magyarazat": "A távolságvektor alapú eljárás lényege a célonkénti távolság és kivezető vonal vektorszintű tárolása."
+  },
+  {
+    "id": 40,
+    "fejezet": "18_A hálózati réteg_és_Az útválasztás",
+    "kerdes": "Az ARPANET 1979-ig a kapcsolatállapot alapú útválasztást használta, majd ekkor váltott a távolságvektor alapú útválasztásra.",
+    "valasz": "hamis",
+    "magyarazat": "Az ARPANET 1979-ig a távolságvektor alapú módszert használta, és 1979-ben váltott a kapcsolatállapot alapú útválasztásra."
+  },
+  {
+    "id": 41,
+    "fejezet": "18_A hálózati réteg_és_Az útválasztás",
+    "kerdes": "A kapcsolatállapot alapú útválasztás (Link State Routing) azért váltotta fel a távolságvektor alapú modellt, mert időben gyorsabban reagál a topológiai változásokra.",
+    "valasz": "igaz",
+    "magyarazat": "A kapcsolatállapot alapú útválasztás gyorsabban képes lekövetni a hálózati topológia módosulásait."
+  },
+  {
+    "id": 42,
+    "fejezet": "18_A hálózati réteg_és_Az útválasztás",
+    "kerdes": "A kapcsolatállapot alapú útválasztás algoritmusa 5 lépésre bontható, amelyek utolsó lépésében a Dijkstra-algoritmust futtatják le.",
+    "valasz": "igaz",
+    "magyarazat": "Az 5 lépéses Link State eljárás végén a felépített táblázatokra lefuttatják a Dijkstra-algoritmust."
+  },
+  {
+    "id": 43,
+    "fejezet": "18_A hálózati réteg_és_Az útválasztás",
+    "kerdes": "A hálózatok méretének növekedésével a lapos (nem hierarchikus) útválasztási táblázatok korlátlanul bővíthetők maradnak az útválasztók memóriaterhelése nélkül.",
+    "valasz": "hamis",
+    "magyarazat": "A táblázatok méretének arányos növekedése jelentős CPU- és memóriaterhelést okoz, így a korlátlan növekedés korlátokba ütközik."
+  },
+  {
+    "id": 44,
+    "fejezet": "18_A hálózati réteg_és_Az útválasztás",
+    "kerdes": "A hierarchikus útválasztás alapelve szerint a hálózatokat tartományokra (Region) kell osztani.",
+    "valasz": "igaz",
+    "magyarazat": "A hierarchikus útválasztás során a hálózatot tartományokra tagolják."
+  },
+  {
+    "id": 45,
+    "fejezet": "18_A hálózati réteg_és_Az útválasztás",
+    "kerdes": "Hierarchikus útválasztásnál az egyes útválasztóknak a tartományon belüli csomagokat kell irányítaniuk, illetve fel kell ismerniük a tartományon kívülre tartó csomagokat.",
+    "valasz": "igaz",
+    "magyarazat": "Az útválasztók a tartományon belüli forgalmat kezelik, a külső célú csomagokat pedig a tartomány kapcsolódási pontja felé továbbítják."
+  },
+  {
+    "id": 46,
+    "fejezet": "18_A hálózati réteg_és_Az útválasztás",
+    "kerdes": "A MAC-címek szerkezete önmagában kiváló területi és elhelyezkedési információkat hordozó hierarchikus címzést biztosít.",
+    "valasz": "hamis",
+    "magyarazat": "A MAC-címek semmilyen hierarchiát vagy területi elhelyezkedési információt nem hordoznak; a hierarchikus címzést az IP címek bevezetése biztosítja."
+  },
+  {
+    "id": 47,
+    "fejezet": "18_A hálózati réteg_és_Az útválasztás",
+    "kerdes": "A valóban hierarchikus címzési rendszert a hálózati rétegben az IP (Internet Protocol) címek használatával sikerült megvalósítani.",
+    "valasz": "igaz",
+    "magyarazat": "Az IP címzés teszi lehetővé a hálózati rétegben a hierarchikus elhelyezkedés alapú azonosítást."
+  },
+  {
+    "id": 48,
+    "fejezet": "18_A hálózati réteg_és_Az útválasztás",
+    "kerdes": "Az ARPANET a kapcsolatállapot alapú útválasztást egészen az 1990-ben bekövetkezett megszűnéséig alkalmazta.",
+    "valasz": "igaz",
+    "magyarazat": "Az ARPANET 1979-től az 1990-es megszűnéséig a kapcsolatállapot alapú útválasztást használta."
+  },
+  {
+    "id": 49,
+    "fejezet": "18_A hálózati réteg_és_Az útválasztás",
+    "kerdes": "Datagram alapú hálózatban a csomagok mérete kisebb fejléccímet igényel, mint a virtuális áramkör alapú hálózatokban.",
+    "valasz": "hamis",
+    "magyarazat": "Datagram esetén a teljes forrás- és célcím miatt hosszabb a fejléc, míg virtuális áramkör esetén egy rövid azonosító címke elegendő."
+  },
+  {
+    "id": 50,
+    "fejezet": "18_A hálózati réteg_és_Az útválasztás",
+    "kerdes": "A hálózati réteg függetleníti a felette lévő szállítási réteget az útválasztók fizikai kialakításától és az alkalmazott hálózati technológiától.",
+    "valasz": "igaz",
+    "magyarazat": "A hálózati réteg szolgáltatásai függetlenítik a szállítási réteget a hálózat és az útválasztók megvalósítási részleteitől."
+  }
+]

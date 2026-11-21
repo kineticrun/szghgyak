@@ -1,0 +1,352 @@
+[
+  {
+    "id": 1,
+    "fejezet": "11_Hibakezelés, hibajavítás",
+    "kerdes": "Az adatfolyam keretekre bontásának legfőbb előnye, hogy átviteli hiba esetén nem az egész adatfolyamot, hanem csak a hibás kereteket kell megismételni.",
+    "valasz": "igaz",
+    "magyarazat": "A keretekre bontás lehetővé teszi a hibás kis egységek szelektív újraküldését a teljes adatfolyam ismétlése helyett."
+  },
+  {
+    "id": 2,
+    "fejezet": "11_Hibakezelés, hibajavítás",
+    "kerdes": "A keretezés legfontosabb jellemzője a kerethatárok azonosítása.",
+    "valasz": "igaz",
+    "magyarazat": "A keretekre bontás legfőbb ismérve a kerethatárok pontos felismerése."
+  },
+  {
+    "id": 3,
+    "fejezet": "11_Hibakezelés, hibajavítás",
+    "kerdes": "Nyugtázatlan összeköttetés esetén a vevő minden keret megérkezése után azonnal visszajelzést küld az adónak.",
+    "valasz": "hamis",
+    "magyarazat": "Nyugtázatlan összeköttetésnél az adó folyamatosan küld, és a vevőtől semmilyen tájékoztatás vagy visszajelzés nem érkezik."
+  },
+  {
+    "id": 4,
+    "fejezet": "11_Hibakezelés, hibajavítás",
+    "kerdes": "Nyugtázott összeköttetésnél a vevő visszajelzést (nyugtát) küld a keretek megérkezéséről, tartalmáról és sorrendiségéről.",
+    "valasz": "igaz",
+    "magyarazat": "A nyugtázott összeköttetés lényege a vevő oldali visszacsatolás a keretek megfelelősségéről."
+  },
+  {
+    "id": 5,
+    "fejezet": "11_Hibakezelés, hibajavítás",
+    "kerdes": "A nyugtaként szolgáló visszajelzés maga is egy speciális vezérlőkaraktereket tartalmazó keret.",
+    "valasz": "igaz",
+    "magyarazat": "Mivel az adatkapcsolati réteg adategysége a keret, a nyugta is keret formájában továbbítódik."
+  },
+  {
+    "id": 6,
+    "fejezet": "11_Hibakezelés, hibajavítás",
+    "kerdes": "Ha a nyugtázó keret elveszik vagy megsérül, az adó korlátlan ideig várakozik a válaszra anélkül, hogy újraküldené az adatot.",
+    "valasz": "hamis",
+    "magyarazat": "Az adó nem várhat korlátlan ideig; egy időzítő lejárta után feltételezi a keret vagy nyugta elvesztését, és újraküldi a keretet."
+  },
+  {
+    "id": 7,
+    "fejezet": "11_Hibakezelés, hibajavítás",
+    "kerdes": "A keretek sorszámozása megakadályozza, hogy a nyugta elvesztése miatti újraküldés során a vevő duplán dolgozza fel ugyanazt a keretet.",
+    "valasz": "igaz",
+    "magyarazat": "A keretekhez rendelt sorszám alapján a vevő felismeri a duplikált kereteket, ha csak a nyugta veszett el."
+  },
+  {
+    "id": 8,
+    "fejezet": "11_Hibakezelés, hibajavítás",
+    "kerdes": "Az adatkapcsolati réteg a keretezési funkció mellett időzítőket és számlálókat is kezel.",
+    "valasz": "igaz",
+    "magyarazat": "A hibakezelés és nyugtázás megvalósításához elengedhetetlen az időzítők és sorszámlálók alkalmazása."
+  },
+  {
+    "id": 9,
+    "fejezet": "11_Hibakezelés, hibajavítás",
+    "kerdes": "A hibakezelő eljárások nem járnak többlet adatátvitellel, így egyáltalán nem terhelik a csatornát.",
+    "valasz": "hamis",
+    "magyarazat": "A hibakezelés redundanciát tartalmazó többlet adatátvitellel jár, ami szükségszerűen terheli az átviteli csatornát."
+  },
+  {
+    "id": 10,
+    "fejezet": "11_Hibakezelés, hibajavítás",
+    "kerdes": "A hibajelző kódok elnevezése Error-detecting Codes, míg a hibajavító kódoké Error-correcting Codes.",
+    "valasz": "igaz",
+    "magyarazat": "Ez a két fő kategória angol megnevezése."
+  },
+  {
+    "id": 11,
+    "fejezet": "11_Hibakezelés, hibajavítás",
+    "kerdes": "A FEC a Forward Error Correction (Előre Irányuló Hibajavítás) kifejezés rövidítése.",
+    "valasz": "igaz",
+    "magyarazat": "A FEC a hibajavító kódok elterjedt szinonimája."
+  },
+  {
+    "id": 12,
+    "fejezet": "11_Hibakezelés, hibajavítás",
+    "kerdes": "A hibajavítás kizárólag az adatkapcsolati rétegben létezik, más rétegekben nem fordulhat elő.",
+    "valasz": "hamis",
+    "magyarazat": "A hibajavítás szinte minden hálózati rétegben létezik az adott réteg adategységének megfelelően, bár az adatkapcsolati rétegben a legjellemzőbb."
+  },
+  {
+    "id": 13,
+    "fejezet": "11_Hibakezelés, hibajavítás",
+    "kerdes": "A hibajavító kódok univerzális megoldást jelentenek, és minden lehetséges átviteli hibát képesek kijavítani.",
+    "valasz": "hamis",
+    "magyarazat": "A hibajavítás nem univerzális; a javítás csak a lehetséges hibák egy meghatározott részére korlátozódik, ráadásul számítási kapacitást von el a rendszertől."
+  },
+  {
+    "id": 14,
+    "fejezet": "11_Hibakezelés, hibajavítás",
+    "kerdes": "Megbízható és gyors csatornáknál praktikusabb a hibát csak jelezni és az újraküldést választani a hibajavítás helyett.",
+    "valasz": "igaz",
+    "magyarazat": "Ritka hibáknál az újraküldés kisebb overheadet jelent, mint a folyamatos hibajavító redundancia küldése."
+  },
+  {
+    "id": 15,
+    "fejezet": "11_Hibakezelés, hibajavítás",
+    "kerdes": "Megbízhatatlan csatornáknál (például WLAN) a pusztán hibajelzésre és újraküldésre épülő rendszer hatékonyabb, mint a hibajavító kódok használata.",
+    "valasz": "hamis",
+    "magyarazat": "Megbízhatatlan csatornáknál a csatorna zaja miatt az újraküldött keretek is újra hibásak lehetnek, így a hibajavító kódok (FEC) használata a célravezető."
+  },
+  {
+    "id": 16,
+    "fejezet": "11_Hibakezelés, hibajavítás",
+    "kerdes": "A négy legszélesebb körben használt hibajavító kód: a Hamming-kódok, a bináris konvolúciós kódok, a Reed-Solomon-kódok és az LDPC-kódok.",
+    "valasz": "igaz",
+    "magyarazat": "Ez a négy alapvető hibajavító kódkategória szerepel az áttekintésben."
+  },
+  {
+    "id": 17,
+    "fejezet": "11_Hibakezelés, hibajavítás",
+    "kerdes": "A hibajavító kódoknál a keret 'm' darab üzenetbitből (Message bit) és 'r' darab redundáns vagy ellenőrző bitből (Redundant/Check bit) áll.",
+    "valasz": "igaz",
+    "magyarazat": "A keret felépítése m adatbitre és r ellenőrző bitre oszlik."
+  },
+  {
+    "id": 18,
+    "fejezet": "11_Hibakezelés, hibajavítás",
+    "kerdes": "Szisztematikus kódnak (Systematic Code) nevezzük azt az eljárást, ahol az 'm' adatbitek és az 'r' ellenőrző bitek átalakítás nélkül, közvetlenül kerülnek a keretbe.",
+    "valasz": "igaz",
+    "magyarazat": "Szisztematikus kód esetén a bitek kódolási transzformáció nélkül (közvetlenül) szerepelnek a keretben."
+  },
+  {
+    "id": 19,
+    "fejezet": "11_Hibakezelés, hibajavítás",
+    "kerdes": "Lineáris kódolásról beszélünk, ha az 'm' és 'r' bitek valamilyen lineáris függvény (például XOR művelet) szerinti kombinációban kerülnek a keretbe.",
+    "valasz": "igaz",
+    "magyarazat": "Lineáris kódolásnál a biteket kizáró vagy (Modulo 2 összeadás) függvény hozza összefüggésbe."
+  },
+  {
+    "id": 20,
+    "fejezet": "11_Hibakezelés, hibajavítás",
+    "kerdes": "A hiba legkisebb egysége a bit, amely akár egy teljes bájtot vagy adatfolyamot is elronthat.",
+    "valasz": "igaz",
+    "magyarazat": "Egyetlen bithiba is érvénytelenítheti az egész bájtot vagy keretet."
+  },
+  {
+    "id": 21,
+    "fejezet": "11_Hibakezelés, hibajavítás",
+    "kerdes": "A Hamming-távolság két azonos hosszúságú bitsorozat eltérő bitjeinek számát adja meg.",
+    "valasz": "igaz",
+    "magyarazat": "A Hamming-távolság definíció szerint azon pozíciók száma, ahol a két bitsorozat eltér."
+  },
+  {
+    "id": 22,
+    "fejezet": "11_Hibakezelés, hibajavítás",
+    "kerdes": "A 10001001 és a 10110001 bájtok közötti Hamming-távolság 5.",
+    "valasz": "hamis",
+    "magyarazat": "A két bájt közötti XOR eredménye 00111000, azaz pontosan 3 biten térnek el egymástól, így a Hamming-távolság 3."
+  },
+  {
+    "id": 23,
+    "fejezet": "11_Hibakezelés, hibajavítás",
+    "kerdes": "A Hamming-távolság fogalmát Richard Hamming vezette be 1950-ben.",
+    "valasz": "igaz",
+    "magyarazat": "A Hamming-távolság megalkotója Richard Hamming, 1950-ben."
+  },
+  {
+    "id": 24,
+    "fejezet": "11_Hibakezelés, hibajavítás",
+    "kerdes": "Egy kódrendszer Hamming-távolsága az összes érvényes kódszópár közötti Hamming-távolságok legkisebb értéke ('d').",
+    "valasz": "igaz",
+    "magyarazat": "A kódrendszer minimális Hamming-távolsága a legkisebb távolság az érvényes kódszavak között."
+  },
+  {
+    "id": 25,
+    "fejezet": "11_Hibakezelés, hibajavítás",
+    "kerdes": "Ha a minimális Hamming-távolság d = 3, akkor a kódrendszer maximum 3 hiba felfedezésére képes.",
+    "valasz": "hamis",
+    "magyarazat": "A felfedezhető hibák száma d - 1, ami d = 3 esetén 2 hibát jelent."
+  },
+  {
+    "id": 26,
+    "fejezet": "11_Hibakezelés, hibajavítás",
+    "kerdes": "Ha a minimális Hamming-távolság d = 3, a javítható hibák száma 1.",
+    "valasz": "igaz",
+    "magyarazat": "A javítható hibák száma a d/2-nél kisebb egész szám, ami d=3-nál (3/2 = 1.5) pontosan 1."
+  },
+  {
+    "id": 27,
+    "fejezet": "11_Hibakezelés, hibajavítás",
+    "kerdes": "Ahhoz, hogy 'd' darab hiba kijavítható legyen, legalább 2d + 1 Hamming-távolságú kódra van szükség.",
+    "valasz": "igaz",
+    "magyarazat": "A 2d + 1 távolság garantálja, hogy d bit megváltozása után is a hibás kódszó az eredeti érvényes kódszóhoz maradjon a legközelebb."
+  },
+  {
+    "id": 28,
+    "fejezet": "11_Hibakezelés, hibajavítás",
+    "kerdes": "A Hamming-kódokban a paritásbitek az 1-től kezdődő sorszámozás szerinti 2 egész számú hatványainál (1, 2, 4, 8 stb.) helyezkednek el.",
+    "valasz": "igaz",
+    "magyarazat": "A 2 hatványaiként megadott pozíciók a paritásbitek helyei (2^0=1, 2^1=2, 2^2=4, 2^3=8...)."
+  },
+  {
+    "id": 29,
+    "fejezet": "11_Hibakezelés, hibajavítás",
+    "kerdes": "A Hamming-kód 6. bitjét az 1-es és 4-es paritásbitek ellenőrzik.",
+    "valasz": "hamis",
+    "magyarazat": "A 6-os szám kettes számrendszerbeli alakja 6 = 4 + 2 (110_2), így a 6. bitet a 4-es és 2-es paritásbitek ellenőrzik."
+  },
+  {
+    "id": 30,
+    "fejezet": "11_Hibakezelés, hibajavítás",
+    "kerdes": "A bináris konvolúciós kódok a blokk-kódok közé tartoznak, rögzített keretmérettel.",
+    "valasz": "hamis",
+    "magyarazat": "A konvolúciós kódok nem blokk-kódok; a kimeneti kódsorozat mérete változó, nincsenek rögzített üzeneti határok."
+  },
+  {
+    "id": 31,
+    "fejezet": "11_Hibakezelés, hibajavítás",
+    "kerdes": "Konvolúciós kódolásnál az aktuális kimeneti bit függ a bemeneti bittől és a korábbi kimeneti/bemeneti bitektől is, így kódoló memóriát igényel.",
+    "valasz": "igaz",
+    "magyarazat": "A konvolúciós kód memóriát tartalmazó eljárás, ahol az előzmények is befolyásolják a kimenetet."
+  },
+  {
+    "id": 32,
+    "fejezet": "11_Hibakezelés, hibajavítás",
+    "kerdes": "A kódsebesség a kódszó azon részét jelenti, amely nem redundáns információt tartalmaz.",
+    "valasz": "igaz",
+    "magyarazat": "Minél kevesebb a redundancia a keretben, annál nagyobb (gyorsabb) a kódsebesség."
+  },
+  {
+    "id": 33,
+    "fejezet": "11_Hibakezelés, hibajavítás",
+    "kerdes": "A konvolúciós kódoló működése hasonlít egy olyan digitális szűrőhöz, amely végigcsúsztatja súlyfüggvényét az adatszimbólumokon.",
+    "valasz": "igaz",
+    "magyarazat": "A konvolúció során a súlyfüggvény végigcsúsztatása generálja a kimeneti kódszimbólumokat."
+  },
+  {
+    "id": 34,
+    "fejezet": "11_Hibakezelés, hibajavítás",
+    "kerdes": "A mintában bemutatott bináris konvolúciós kódoló elvi megvalósítása 3 regiszterből és 3 XOR összegzőből áll.",
+    "valasz": "igaz",
+    "magyarazat": "A szemléltetett modell pontosan 3 regisztert és 3 XOR kapcsolást tartalmaz."
+  },
+  {
+    "id": 35,
+    "fejezet": "11_Hibakezelés, hibajavítás",
+    "kerdes": "A 3 regiszteres konvolúciós kódoló modellben a 11100 bemeneti bitsorozatra a kimenetek sora: 11, 01, 11, 10, 00.",
+    "valasz": "igaz",
+    "magyarazat": "A lépésenkénti regiszter-léptetés és XOR összegzés ezt a kimeneti sorozatot eredményezi."
+  },
+  {
+    "id": 36,
+    "fejezet": "11_Hibakezelés, hibajavítás",
+    "kerdes": "A NASA először az 1977-es Voyager küldetés során alkalmazott konvolúciós kódolást 6 regiszteres felépítéssel.",
+    "valasz": "igaz",
+    "magyarazat": "Az 1977-es Voyager űrszondáknál használt kódoló 6 regisztert tartalmazott."
+  },
+  {
+    "id": 37,
+    "fejezet": "11_Hibakezelés, hibajavítás",
+    "kerdes": "A konvolúciós kódolás ma már elavult, a GSM szabványban egyáltalán nem használják.",
+    "valasz": "hamis",
+    "magyarazat": "A konvolúciós kódolás ma is a mindennapi mobilkommunikáció része, a GSM szabványnak is fontos eleme."
+  },
+  {
+    "id": 38,
+    "fejezet": "11_Hibakezelés, hibajavítás",
+    "kerdes": "A Reed-Solomon-kódok abban különböznek a Hamming-kódoktól, hogy bitek helyett 'm' bites szimbólumokon működnek.",
+    "valasz": "igaz",
+    "magyarazat": "A Reed-Solomon kódok szimbólum alapú lineáris blokk-kódok."
+  },
+  {
+    "id": 39,
+    "fejezet": "11_Hibakezelés, hibajavítás",
+    "kerdes": "A Reed-Solomon-kódok azon a matematikai elven alapulnak, hogy egy 'n'-edfokú polinomot 'n+1' darab pont egyértelműen meghatároz.",
+    "valasz": "igaz",
+    "magyarazat": "Ez az alapegyenlet teszi lehetővé a hibás pontok felismerését és helyreállítását."
+  },
+  {
+    "id": 40,
+    "fejezet": "11_Hibakezelés, hibajavítás",
+    "kerdes": "Ha a szimbólumok 'm' bitesek, a Reed-Solomon kódszavak hossza 2^m - 1 szimbólum.",
+    "valasz": "igaz",
+    "magyarazat": "A kódszó hossza szimbólumokban megadva 2^m - 1."
+  },
+  {
+    "id": 41,
+    "fejezet": "11_Hibakezelés, hibajavítás",
+    "kerdes": "Nyolc bites szimbólumoknál (m=8) a Reed-Solomon kódszó 255 bájt méretű.",
+    "valasz": "igaz",
+    "magyarazat": "m = 8 esetén 2^8 - 1 = 255 bájt a kódszó teljes hossza."
+  },
+  {
+    "id": 42,
+    "fejezet": "11_Hibakezelés, hibajavítás",
+    "kerdes": "A (255, 233) felosztású Reed-Solomon rendszernél 233 adatszimbólumhoz 32 redundáns szimbólum tartozik, ami maximum 16 szimbólumnyi hiba javítását teszi lehetővé.",
+    "valasz": "igaz",
+    "magyarazat": "A 32 ellenőrző szimbólum pontosan 16 hibás szimbólum helyreállítását teszi lehetővé."
+  },
+  {
+    "id": 43,
+    "fejezet": "11_Hibakezelés, hibajavítás",
+    "kerdes": "A CD/DVD lemezek összekarcolás elleni védelmét és hibátlan lejátszását a Reed-Solomon kódolás biztosítja.",
+    "valasz": "igaz",
+    "magyarazat": "Az optikai adathordozókon a Reed-Solomon hibajavító kódolást használják."
+  },
+  {
+    "id": 44,
+    "fejezet": "11_Hibakezelés, hibajavítás",
+    "kerdes": "Az LDPC (Low-Density Parity Check) kódokat Robert Gallager alkotta meg 1962-ben.",
+    "valasz": "igaz",
+    "magyarazat": "Robert Gallager 1962-ben írta le az LDPC kódokat doktori értekezésében."
+  },
+  {
+    "id": 45,
+    "fejezet": "11_Hibakezelés, hibajavítás",
+    "kerdes": "Az LDPC kódokat megalkotásukkor, 1962-ben azonnal elterjedten használták a számítógépes hálózatokban.",
+    "valasz": "hamis",
+    "magyarazat": "Noha 1962-ben született meg, csak 1995-ben vált széles körben ismertté és alkalmazottá a hardverek fejlődése révén."
+  },
+  {
+    "id": 46,
+    "fejezet": "11_Hibakezelés, hibajavítás",
+    "kerdes": "Az LDPC kód mátrixára az jellemző, hogy benne viszonylag kevés az 1-es és sok a 0 (alacsony sűrűségű).",
+    "valasz": "igaz",
+    "magyarazat": "A kód elnevezése is a ritka, alacsony sűrűségű (kevés 1-est tartalmazó) paritásmátrixból ered."
+  },
+  {
+    "id": 47,
+    "fejezet": "11_Hibakezelés, hibajavítás",
+    "kerdes": "Az LDPC kódolásnál a kódolási folyamat és a dekódolás is rendkívül alacsony számítási terhelésű művelet.",
+    "valasz": "hamis",
+    "magyarazat": "A kódolás alacsony terhelésű, de a dekódolás (helyreállítás) roppant magas számítási igényű, iteratív feladat."
+  },
+  {
+    "id": 48,
+    "fejezet": "11_Hibakezelés, hibajavítás",
+    "kerdes": "Az LDPC kódolt üzenet minden esetben hosszabb az eredeti üzenetnél.",
+    "valasz": "igaz",
+    "magyarazat": "A hibajavító redundancia miatt a kódolt üzenet mindig hosszabb az eredetinél."
+  },
+  {
+    "id": 49,
+    "fejezet": "11_Hibakezelés, hibajavítás",
+    "kerdes": "Az LDPC kódolás főleg nagy blokkméretek esetén hasznos, és hibajavító képessége a többi kódolási módszert messze meghaladja.",
+    "valasz": "igaz",
+    "magyarazat": "Nagy blokkméreteknél az LDPC nyújtja a legkiemelkedőbb hibajavító teljesítményt."
+  },
+  {
+    "id": 50,
+    "fejezet": "11_Hibakezelés, hibajavítás",
+    "kerdes": "Az LDPC kódolást alkalmazzák a DVB-T2 és DVB-S2 műholdas és földfelszíni digitális adatátviteli rendszerekben.",
+    "valasz": "igaz",
+    "magyarazat": "A DVB-T2 és DVB-S2 szabványok LDPC hibajavító kódolást használnak."
+  }
+]

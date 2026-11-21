@@ -1,0 +1,457 @@
+[
+  {
+    "id": 1,
+    "fejezet": "05_Mobiltelefon hálózatok",
+    "kerdes": "A mobil adatátvitel (hang- és adatátvitel) alapvetően a helyhez kötöttségen túlmutató technológia, ahol a kliensek akár kontinensek között is változtathatják a helyzetüket.",
+    "valasz": "igaz",
+    "magyarazat": "A mobiltelefónia lefedettség birtokában lehetővé teszi, hogy a felhasználók országok vagy kontinensek között is helyet változtassanak."
+  },
+  {
+    "id": 2,
+    "fejezet": "05_Mobiltelefon hálózatok",
+    "kerdes": "A PMR (Personal Mobile Radio) és a CB (Citizen's Band) rádiózás központi vezérlőegységű, teljesen összekapcsolt hálózati rendszerek.",
+    "valasz": "hamis",
+    "magyarazat": "A PMR és a CB rádiózás decentralizált felépítésű, ahol az azonos frekvencián lévő kliensek központ nélkül, kölcsönösen hallják egymást."
+  },
+  {
+    "id": 3,
+    "fejezet": "05_Mobiltelefon hálózatok",
+    "kerdes": "A PMR rádiózás a 446 MHz-es és CEPT rádióamatőr sávokban, a CB rádiózás pedig a 26.960 kHz és 27.410 kHz közötti sávokban működik.",
+    "valasz": "igaz",
+    "magyarazat": "A PMR a 446 MHz-es sávban, a CB rádiózás pedig a 26.960-27.410 kHz közötti frekvenciatartományban üzemel."
+  },
+  {
+    "id": 4,
+    "fejezet": "05_Mobiltelefon hálózatok",
+    "kerdes": "A PMR és CB rádiós rendszerek hatótávolsága jellemzően meghaladja az 50 kilométert.",
+    "valasz": "hamis",
+    "magyarazat": "Ezen decentralizált rendszerek hatótávolsága jellemzően nem haladja meg a 10 kilométert."
+  },
+  {
+    "id": 5,
+    "fejezet": "05_Mobiltelefon hálózatok",
+    "kerdes": "A PMR/CB rendszerek és a korai mobiltelefónia (0G, 1G) egyetlen közös hasonlósága az analóg hangátvitel.",
+    "valasz": "igaz",
+    "magyarazat": "Az egyetlen megemlíthető hasonlóság e korai rendszerek és a PMR/CB között az analóg hangátvitel."
+  },
+  {
+    "id": 6,
+    "fejezet": "05_Mobiltelefon hálózatok",
+    "kerdes": "A helyzetváltoztatás szempontjából három kliensállapotot különböztetünk meg: realtime forgalmazó online, éppen nem forgalmazó de üzemkész offline, valamint kikapcsolt állapot.",
+    "valasz": "igaz",
+    "magyarazat": "A hálózati megközelítés eltérő kezelést igényel az online forgalmazó, az üzemkész offline és a kikapcsolt kliensek esetében."
+  },
+  {
+    "id": 7,
+    "fejezet": "05_Mobiltelefon hálózatok",
+    "kerdes": "A mobil hálózatokban a rendszerbe kódolt sebességmaximum tetszőlegesen magas lehet, így akár egy házi készítésű rakéta sebességét is kiszolgálja.",
+    "valasz": "hamis",
+    "magyarazat": "A rendszerek az átlagos polgári felhasználás sebességszintjére vannak méretezve; egy 130 km/h-s autó vagy 300 km/h feletti vonat még kiszolgálásra kerül, de a rakéták sebessége meghaladja a korlátokat."
+  },
+  {
+    "id": 8,
+    "fejezet": "05_Mobiltelefon hálózatok",
+    "kerdes": "A hálózati hozzáférési technológiák közé tartozik a frekvenciaosztású (FDMA), a területosztású (SDMA), az időosztású (TDMA) és a kódosztású (CDMA) többszörös hozzáférés.",
+    "valasz": "igaz",
+    "magyarazat": "A hálózatok a hozzáférési technológiák alapján e négy fő kategóriába oszthatók."
+  },
+  {
+    "id": 9,
+    "fejezet": "05_Mobiltelefon hálózatok",
+    "kerdes": "Az FDMA és SDMA a digitális hálózatok jellemzői (~1990-től), míg a TDMA és CDMA a legkorábbi analóg hálózatokban jelent meg (~1940-től).",
+    "valasz": "hamis",
+    "magyarazat": "Az FDMA és SDMA már a legkorábbi analóg hálózatokban megjelent (~1940-től), míg a TDMA és CDMA a digitális hálózatokhoz kötődik (~1990-től)."
+  },
+  {
+    "id": 10,
+    "fejezet": "05_Mobiltelefon hálózatok",
+    "kerdes": "A mobil kommunikáció kezdetektől fogva egyetlen egységes globális szabvány szerint működött az USA-ban, Európában és Japánban.",
+    "valasz": "hamis",
+    "magyarazat": "Eleinte kontinensenként egymástól független rendszerek léteztek, és csak néhány generáció alatt idomultak egymáshoz a közös szabványok mentén."
+  },
+  {
+    "id": 11,
+    "fejezet": "05_Mobiltelefon hálózatok",
+    "kerdes": "A mobil kommunikációs rendszerek fejlődésének közös kiindulási pontja a cellaszervezés jelentőségének felismerése volt.",
+    "valasz": "igaz",
+    "magyarazat": "A független rendszerek egységesülésének és átjárhatóságának kiindulópontját a cellaszervezés elve adta."
+  },
+  {
+    "id": 12,
+    "fejezet": "05_Mobiltelefon hálózatok",
+    "kerdes": "1921-ben a Detroit-i rendőrség a 2 MHz-es sávban autókkal létesített kapcsolatot, ami funkcióját tekintve a mai személyhívóra hasonlított.",
+    "valasz": "igaz",
+    "magyarazat": "A 2 MHz-es sávban működő rendszer csak jelzéseket továbbított, beszédet nem, így a személyhívó elődjének tekinthető."
+  },
+  {
+    "id": 13,
+    "fejezet": "05_Mobiltelefon hálózatok",
+    "kerdes": "1928. április 7-én a Detroit-i rendőrségnél megindult az egyirányú (Simplex) beszédkommunikáció, majd egy évre rá a kétirányú (Half Duplex) kommunikáció.",
+    "valasz": "igaz",
+    "magyarazat": "1928-ban indult az egyirányú Simplex beszédátvitel, amit 1929-ben követett a kétirányú Half Duplex rendszer."
+  },
+  {
+    "id": 14,
+    "fejezet": "05_Mobiltelefon hálózatok",
+    "kerdes": "1946-ban a Bell Telephone System fejlesztői kidolgozták a cellákra osztás alapelvét, de az FDMA-val kombinálva is csak egy hívás volt továbbítható egy adott frekvencián.",
+    "valasz": "igaz",
+    "magyarazat": "A cellákra osztási elv korai alkalmazásával egy frekvencián még mindig csak egyetlen hívás futhatott."
+  },
+  {
+    "id": 15,
+    "fejezet": "05_Mobiltelefon hálózatok",
+    "kerdes": "1982-ben a CEPT keretében megalapították a Groupe Special Mobile (GSM) társaságot az új egységes európai szabvány kidolgozására.",
+    "valasz": "igaz",
+    "magyarazat": "A CEPT konferenciáján hozták létre a Groupe Special Mobile munkacsoportot az európai mobiltelefónia szabványosítására."
+  },
+  {
+    "id": 16,
+    "fejezet": "05_Mobiltelefon hálózatok",
+    "kerdes": "A GSM mozaikszó eredetileg a Global System for Mobile kifejezésből származott, és később változott Groupe Special Mobile-ra.",
+    "valasz": "hamis",
+    "magyarazat": "A GSM eredetileg a Groupe Special Mobile munkacsoport nevének rövidítése volt, és később kapta a Global System for Mobile értelmezést."
+  },
+  {
+    "id": 17,
+    "fejezet": "05_Mobiltelefon hálózatok",
+    "kerdes": "A GSM kezdeti célkitűzései közé tartozott a közös európai rendszer, a javított beszédminőség, a hatékony frekvenciakihasználtság, a megfelelő biztonság és az ISDN kompatibilitás.",
+    "valasz": "igaz",
+    "magyarazat": "A GSM csoport pontosan ezeket a műszaki és minőségi célokat határozta meg az új szabvány számára."
+  },
+  {
+    "id": 18,
+    "fejezet": "05_Mobiltelefon hálózatok",
+    "kerdes": "1985-ben döntés született arról, hogy az új GSM hálózatot analóg hálózatként valósítják meg.",
+    "valasz": "hamis",
+    "magyarazat": "1985-ben arról született döntés, hogy az új rendszert digitális hálózatként valósítják meg, felváltva az addigi analóg megoldásokat."
+  },
+  {
+    "id": 19,
+    "fejezet": "05_Mobiltelefon hálózatok",
+    "kerdes": "A GSM hálózatot nyitott rendszerként határozták meg, hogy a hálózat különböző részeit különböző cégek szállíthassák, elősegítve a beszállítók versenyét.",
+    "valasz": "igaz",
+    "magyarazat": "A nyílt szabványok és felületek létrehozása tette lehetővé a piaci verseny kialakulását a berendezésgyártók között."
+  },
+  {
+    "id": 20,
+    "fejezet": "05_Mobiltelefon hálózatok",
+    "kerdes": "Magyarországon 1990-ben indult el a Westel450 (Westel 0660) mint első generációs analóg mobilszolgáltatás, és 2003. június 3-ig maradt üzemben.",
+    "valasz": "igaz",
+    "magyarazat": "A 450 MHz-es analóg Westel szolgáltatás 1990-től 2003. június 3-ig működött Magyarországon."
+  },
+  {
+    "id": 21,
+    "fejezet": "05_Mobiltelefon hálózatok",
+    "kerdes": "A magyarországi mobilpiacon a szolgáltatók versenyét és a tarifacsökkentést a Westel után a Pannon (Telenor), majd a Vodafone belépése segítette elő.",
+    "valasz": "igaz",
+    "magyarazat": "A három operátor fokozatos piacra lépése eredményezett belföldi és nemzetközi tarifacsökkenést."
+  },
+  {
+    "id": 22,
+    "fejezet": "05_Mobiltelefon hálózatok",
+    "kerdes": "1986-ban az első GSM rendszer tesztje Berlinben zajlott le.",
+    "valasz": "hamis",
+    "magyarazat": "Az első GSM rendszer tesztje Párizsban volt 1986-ban, míg a fejlesztések élén a skandináv országok jártak."
+  },
+  {
+    "id": 23,
+    "fejezet": "05_Mobiltelefon hálózatok",
+    "kerdes": "1987-ben 13 európai ország vállalta, hogy 1991. július 1-jére működő GSM hálózatot állít fel a 900 MHz-es sávban (890-915 MHz uplink, 935-960 MHz downlink).",
+    "valasz": "igaz",
+    "magyarazat": "A 13 ország megállapodása rögzítette az 1991. július 1-jei határidőt és a 900 MHz-es frekvenciasávot."
+  },
+  {
+    "id": 24,
+    "fejezet": "05_Mobiltelefon hálózatok",
+    "kerdes": "A GSM szabványt 1989-ben hozták nyilvánosságra, és az első hivatalos GSM hívás 1991. július 1-jén történt Nokia termékeken.",
+    "valasz": "igaz",
+    "magyarazat": "1989-ben publikálták a szabványt, és az első hivatalos hívásra 1991. július 1-jén került sor."
+  },
+  {
+    "id": 25,
+    "fejezet": "05_Mobiltelefon hálózatok",
+    "kerdes": "1992-ben a GSM számára az 1.800 MHz-es sávot (1.710-1.785 MHz uplink, 1.805-1.880 MHz downlink) tették szabaddá.",
+    "valasz": "igaz",
+    "magyarazat": "A fővárosok és repterek lefedése után az 1.800 MHz-es sáv megnyitásával bővítették a GSM kapacitását."
+  },
+  {
+    "id": 26,
+    "fejezet": "05_Mobiltelefon hálózatok",
+    "kerdes": "1993-ban már több mint 100 millió GSM előfizető volt a világon.",
+    "valasz": "hamis",
+    "magyarazat": "1993-ban 32 GSM hálózat üzemelt, de még 1 milliónál kevesebb előfizető volt; a 120 milliós előfizetői számot 1998-ban érték el."
+  },
+  {
+    "id": 27,
+    "fejezet": "05_Mobiltelefon hálózatok",
+    "kerdes": "1995-ben 117 GSM hálózat üzemelt Európában, emellett Ausztráliában, Dél-Afrikában, Japánban és az USA-ban (1.900 MHz) is működtek hálózatok, kb. 13 millió előfizetővel.",
+    "valasz": "igaz",
+    "magyarazat": "1995-re a fő közlekedési utak lefedésével a GSM hálózatok száma és földrajzi elterjedtsége gyorsan növekedett."
+  },
+  {
+    "id": 28,
+    "fejezet": "05_Mobiltelefon hálózatok",
+    "kerdes": "A GSM sikere Nyugat-Európában a meglévő vezetékes telefonok mobilitása, Kelet-Európában pedig a kevés vezetékes telefon közvetlen alternatívája volt.",
+    "valasz": "igaz",
+    "magyarazat": "A két régió eltérő infrastruktúrája eltérő piaci hajtóerőt jelentett a GSM elterjedésében."
+  },
+  {
+    "id": 29,
+    "fejezet": "05_Mobiltelefon hálózatok",
+    "kerdes": "A digitális adatátvitel során a használt frekvenciák közötti különbség nyolcszorosa az analóg hálózatban használthoz képest, ami csökkenti az interferenciát.",
+    "valasz": "igaz",
+    "magyarazat": "A nyolcszoros frekvenciakülönbség hatékonyabb frekvenciakihasználást és kisebb zavarást eredményez."
+  },
+  {
+    "id": 30,
+    "fejezet": "05_Mobiltelefon hálózatok",
+    "kerdes": "A GSM hálózat biztonságos beszédkódolást használ, ISDN kompatibilis, és a roaming szerződések révén biztosítja a külföldi elérést.",
+    "valasz": "igaz",
+    "magyarazat": "A kódolás megakadályozza az lehallgatást, az ISDN kompatibilitás pedig az adatáramlást segíti."
+  },
+  {
+    "id": 31,
+    "fejezet": "05_Mobiltelefon hálózatok",
+    "kerdes": "A GSM kényelmi szolgáltatásai közé tartozik a hívástartás, hívásvárakoztatás, hívásátirányítás, hívószámkijelzés, hangposta és a terület alapú szolgáltatások.",
+    "valasz": "igaz",
+    "magyarazat": "A kényelmi funkciók széles skálája tette vonzóvá a GSM hálózatot a felhasználók számára."
+  },
+  {
+    "id": 32,
+    "fejezet": "05_Mobiltelefon hálózatok",
+    "kerdes": "A 0G generáció az 1970-ben kifejlesztett automatikus hívásátadás előtti, valamint az autonóm, egy frekvenciát használó analóg megoldások összefoglaló neve.",
+    "valasz": "igaz",
+    "magyarazat": "A 0G a korai, automatikus cellaváltásra még nem képes analóg rendszereket jelöli."
+  },
+  {
+    "id": 33,
+    "fejezet": "05_Mobiltelefon hálózatok",
+    "kerdes": "Az automatikus hívásátadás teszi lehetővé, hogy a felhasználó kapcsolat közben egyik cellából a másikba lépjen át a kommunikáció megszakadása nélkül.",
+    "valasz": "igaz",
+    "magyarazat": "A handover (hívásátadás) funkció biztosítja a folyamatos kapcsolatot cellaváltáskor."
+  },
+  {
+    "id": 34,
+    "fejezet": "05_Mobiltelefon hálózatok",
+    "kerdes": "Az 1G az 1980-as évektől induló tiszta analóg rendszer, amely több frekvenciát használ, támogatja az automatikus hívásátadást és kapcsolódik a vezetékes hálózathoz.",
+    "valasz": "igaz",
+    "magyarazat": "Az 1G fő előrelépése a 0G-hez képest a több csatorna, a cellaváltás és a vezetékes hálózati kapcsolat volt."
+  },
+  {
+    "id": 35,
+    "fejezet": "05_Mobiltelefon hálózatok",
+    "kerdes": "Az 1G generációhoz tartozott az amerikai AMPS (Advanced Mobile Phone System) és az európai NMT (Nordic Mobile Telephony) rendszer.",
+    "valasz": "igaz",
+    "magyarazat": "Az AMPS és az NMT az 1G analóg mobiltávközlési szabványok meghatározó képviselői."
+  },
+  {
+    "id": 36,
+    "fejezet": "05_Mobiltelefon hálózatok",
+    "kerdes": "A 2G generáció hivatalos indulása 1991-ben volt Finnországban, legfontosabb tulajdonsága pedig a digitális jelátvitel.",
+    "valasz": "igaz",
+    "magyarazat": "1991-ben indult el a 2G kereskedelmi szolgáltatása Finnországban a digitális jelátvitelre épülve."
+  },
+  {
+    "id": 37,
+    "fejezet": "05_Mobiltelefon hálózatok",
+    "kerdes": "A 2G digitális beszédtömörítése miatt a készülékek mérete és energiafogyasztása jelentősen megnövekedett.",
+    "valasz": "hamis",
+    "magyarazat": "A digitális tömörítés és a hatékonyabb energiafelhasználás révén a készülékek és cellák mérete látványosan csökkent."
+  },
+  {
+    "id": 38,
+    "fejezet": "05_Mobiltelefon hálózatok",
+    "kerdes": "A 2.5G generáció 1999-ben indult a GPRS (General Packet Radio Service) megjelenésével, ami az érdemi mobil internet kezdetét jelentette.",
+    "valasz": "igaz",
+    "magyarazat": "A GPRS bevezetésétől számítjuk a csomagkapcsolt mobil adatátvitel és mobil internet kezdetét."
+  },
+  {
+    "id": 39,
+    "fejezet": "05_Mobiltelefon hálózatok",
+    "kerdes": "A 2.5G fejlődési szakaszában a WAP (Wireless Application Protocol) és az EDGE (Enhanced Data Rates for GSM Evolution) szabványok hoztak sebességnövekedést.",
+    "valasz": "igaz",
+    "magyarazat": "A WAP és az EDGE protokollok biztosították a gyorsabb adatátvitelt a 2.5G érában."
+  },
+  {
+    "id": 40,
+    "fejezet": "05_Mobiltelefon hálózatok",
+    "kerdes": "A 3G generáció hivatalos indulása 2001-ben történt az UMTS (Universal Mobile Telecommunications System / WCDMA) szabványosításával.",
+    "valasz": "igaz",
+    "magyarazat": "2001-ben szabványosították az UMTS (WCDMA) rendszert, ami elindította a 3G korszakot."
+  },
+  {
+    "id": 41,
+    "fejezet": "05_Mobiltelefon hálózatok",
+    "kerdes": "A 3G megérkezésekor az adatátviteli sebesség elvi maximuma 100 Mbps letöltés és 50 Mbps feltöltés volt.",
+    "valasz": "hamis",
+    "magyarazat": "A 3G megjelenésekor 14 Mbps letöltési és 6 Mbps feltöltési sebesség állt rendelkezésre."
+  },
+  {
+    "id": 42,
+    "fejezet": "05_Mobiltelefon hálózatok",
+    "kerdes": "A 4G generáció hivatalosan 2006-tól indult a WiMAX és az LTE (Long Term Evolution) szabványok megjelenésével.",
+    "valasz": "igaz",
+    "magyarazat": "A 4G éra kezdetét a WiMAX és az LTE technológiák 2006-os megjelenése jelezte."
+  },
+  {
+    "id": 43,
+    "fejezet": "05_Mobiltelefon hálózatok",
+    "kerdes": "Magyarországon az első vidéki LTE antenna a Miskolci Egyetem C épületének tetején kapott helyet.",
+    "valasz": "hamis",
+    "magyarazat": "Az első vidéki LTE antenna a tananyagot készítő oktató egyetemének C épületének tetején kapott helyet (Budapesten 2011 őszén indult a kísérleti működés)."
+  },
+  {
+    "id": 44,
+    "fejezet": "05_Mobiltelefon hálózatok",
+    "kerdes": "A 4G adatátviteli sebessége fix környezetben 1 Gbps, mobil környezetben pedig 100 Mbps elvi maximumot érhet el.",
+    "valasz": "igaz",
+    "magyarazat": "Az LTE/4G elvi maximális sebességhatárai fixen 1 Gbps, mozgásban 100 Mbps."
+  },
+  {
+    "id": 45,
+    "fejezet": "05_Mobiltelefon hálózatok",
+    "kerdes": "Az 5G generáció hivatalosan 2019. április 3-án 23:00-kor indult Dél-Koreában, majd két nappal később az USA-ban.",
+    "valasz": "igaz",
+    "magyarazat": "Az 5G kereskedelmi indítása 2019. április 3-án történt Dél-Koreában, amit az USA követett."
+  },
+  {
+    "id": 46,
+    "fejezet": "05_Mobiltelefon hálózatok",
+    "kerdes": "Az 5G letöltési sebessége akár a 10 Gbps-ot is elérheti, alacsony latenciát biztosít, és alkalmas az IoT és Okosváros (Smart City) megvalósítására.",
+    "valasz": "igaz",
+    "magyarazat": "Az 5G hálózat nagy sávszélessége és kis késleltetése alapot nyújt az IoT és Smart City infrastruktúráknak."
+  },
+  {
+    "id": 47,
+    "fejezet": "05_Mobiltelefon hálózatok",
+    "kerdes": "A 3G cellafelépítés leginkább a méhsejt struktúrához hasonlítható.",
+    "valasz": "igaz",
+    "magyarazat": "A cellás lefedettség geometriai modellje a hatoldalú méhsejt rácsszerkezet."
+  },
+  {
+    "id": 48,
+    "fejezet": "05_Mobiltelefon hálózatok",
+    "kerdes": "Az interferencia elkerülése érdekében a szomszédos cellákba azonos frekvenciájú csatornákat kell kiosztani.",
+    "valasz": "hamis",
+    "magyarazat": "A szomszédos cellákba egymást nem zavaró csatornákat kell osztani; azonos frekvenciát csak egymástól távoli cellákban szabad újra felhasználni."
+  },
+  {
+    "id": 49,
+    "fejezet": "05_Mobiltelefon hálózatok",
+    "kerdes": "Az interferencia akkor következik be, ha két különböző eredetű, koherens (állandó fáziskülönbségű) hullám találkozik.",
+    "valasz": "igaz",
+    "magyarazat": "Az interferencia fizikai jelensége során a találkozó koherens hullámok bizonyos pontokban erősítik, más pontokban gyengítik egymást."
+  },
+  {
+    "id": 50,
+    "fejezet": "05_Mobiltelefon hálózatok",
+    "kerdes": "Az 1G hálózatokban a digitális átvitel miatt minden cellában ugyanazt a frekvenciát lehetett használni.",
+    "valasz": "hamis",
+    "magyarazat": "Az 1G analóg rendszerben minden hanghívás külön frekvenciasávban futott, így egy frekvencia csak egyetlen cellában volt használható."
+  },
+  {
+    "id": 51,
+    "fejezet": "05_Mobiltelefon hálózatok",
+    "kerdes": "A 3G hálózatokban a cellák irányított antennákkal szektorokra oszthatók, ami lényegesen növeli a használható csatornák számát.",
+    "valasz": "igaz",
+    "magyarazat": "A szektorokra osztás irányított antennákkal megnöveli a kapacitást és a használható csatornák számát."
+  },
+  {
+    "id": 52,
+    "fejezet": "05_Mobiltelefon hálózatok",
+    "kerdes": "A Rádiós Interfész (Air Interface) biztosítja a kapcsolatot a mobil eszköz és a bázisállomás (Cellular Base Station) között.",
+    "valasz": "igaz",
+    "magyarazat": "Az Air Interface a mobil gép és a bázisállomás közötti vezeték nélküli rádiós protokoll."
+  },
+  {
+    "id": 53,
+    "fejezet": "05_Mobiltelefon hálózatok",
+    "kerdes": "Az UMTS 3G hálózat rádiós interfésze a TDMA (időosztásos) technológián alapul.",
+    "valasz": "hamis",
+    "magyarazat": "Az UMTS 3G rádiós interfésze a CDMA (kódosztásos) technológiára épül."
+  },
+  {
+    "id": 54,
+    "fejezet": "05_Mobiltelefon hálózatok",
+    "kerdes": "A bázisállomás és a Vezérlő Csomópont (RNC – Radio Network Controller) együtt alkotják a Rádiós Hozzáférési Hálózatot (RAN).",
+    "valasz": "igaz",
+    "magyarazat": "A bázisállomások és az RNC-k együttese képezi a RAN alrendszert."
+  },
+  {
+    "id": 55,
+    "fejezet": "05_Mobiltelefon hálózatok",
+    "kerdes": "A mobil hálózat adatforgalmát a távoli hálózatok és az internet felé továbbító komponenseket összefoglaló néven Maghálózatnak (Core Network) nevezzük.",
+    "valasz": "igaz",
+    "magyarazat": "A Core Network szállítja tovább a csomag- és áramkörkapcsolt forgalmat a külső hálózatok felé."
+  },
+  {
+    "id": 56,
+    "fejezet": "05_Mobiltelefon hálózatok",
+    "kerdes": "Az MSC (Mobile Switching Center), GMSC (Gateway MSC) és MGW (Media Gateway) a csomagkapcsolt internetes adatforgalom továbbításáért felelnek.",
+    "valasz": "hamis",
+    "magyarazat": "Az MSC, GMSC és MGW a Nyilvános Kapcsolt Telefonhálózattal (PSTN) való áramkörkapcsolt adatcserét biztosítják; a csomagkapcsolt internetes forgalmat az SGSN és GGSN kezeli."
+  },
+  {
+    "id": 57,
+    "fejezet": "05_Mobiltelefon hálózatok",
+    "kerdes": "Az SGSN (Serving GPRS Support Node) és GGSN (Gateway GPRS Support Node) a csomagkapcsolt hálózatokkal, jellemzően az internettel való kapcsolatot biztosítják.",
+    "valasz": "igaz",
+    "magyarazat": "Az SGSN és GGSN a csomagkapcsolt adatok routingjáért felel a mobil maghálózatban."
+  },
+  {
+    "id": 58,
+    "fejezet": "05_Mobiltelefon hálózatok",
+    "kerdes": "A HSS (Home Subscriber Server) tartja számon az előfizető helyzetét, autentikációját és jogosultságait.",
+    "valasz": "igaz",
+    "magyarazat": "A HSS központi adatbázisként tárolja az előfizetői profilokat és helyzetadatokat."
+  },
+  {
+    "id": 59,
+    "fejezet": "05_Mobiltelefon hálózatok",
+    "kerdes": "A GSM hálózatban a BSS (Base Station Subsystem) részei a BTS (Base Transceiver Station) és a BSC (Base Station Controller).",
+    "valasz": "igaz",
+    "magyarazat": "A GSM bázisállomás alrendszert (BSS) a BTS és BSC elemek alkotják."
+  },
+  {
+    "id": 60,
+    "fejezet": "05_Mobiltelefon hálózatok",
+    "kerdes": "A VLR (Visitors Location Register) a honos előfizetők állandó regisztere, míg a HLR (Home Location Register) a látogatókat regisztrálja.",
+    "valasz": "hamis",
+    "magyarazat": "A HLR (Home Location Register) a honos azonosító regiszter, míg a VLR (Visitors Location Register) a látogató azonosító regiszter."
+  },
+  {
+    "id": 61,
+    "fejezet": "05_Mobiltelefon hálózatok",
+    "kerdes": "4G hálózatban a bázisállomás neve eNodeB (Evolved NodeB), a maghálózat neve pedig EPC (Evolved Packet Core).",
+    "valasz": "igaz",
+    "magyarazat": "A 4G LTE architektúrában az eNodeB a rádiós hozzáférési pont, az EPC pedig a csomagkapcsolt maghálózat."
+  },
+  {
+    "id": 62,
+    "fejezet": "05_Mobiltelefon hálózatok",
+    "kerdes": "4G-ben a mobilitásmenedzsmentért az MME (Mobility Management Entity), az adatcsomagok továbbításáért pedig az S-GW és P-GW felel.",
+    "valasz": "igaz",
+    "magyarazat": "Az MME vezérli a mobilitási folyamatokat, míg az S-GW és P-GW az adatcsomagok továbbításáért felel az EPC-ben."
+  },
+  {
+    "id": 63,
+    "fejezet": "05_Mobiltelefon hálózatok",
+    "kerdes": "5G hálózatban a bázisállomás elnevezése gNodeB (Next Generation NodeB), a rádiós interfész neve pedig NR (New Radio).",
+    "valasz": "igaz",
+    "magyarazat": "Az 5G architektúra új rádiós interfésze az NR, hozzáférési pontja pedig a gNodeB."
+  },
+  {
+    "id": 64,
+    "fejezet": "05_Mobiltelefon hálózatok",
+    "kerdes": "Az 5G maghálózat rövidítése NGCN (Next Generation Core Network).",
+    "valasz": "igaz",
+    "magyarazat": "Az 5G hálózat új maghálózata az NGCN nevet viseli."
+  },
+  {
+    "id": 65,
+    "fejezet": "05_Mobiltelefon hálózatok",
+    "kerdes": "Az 5G hálózat specifikus frekvenciasávjai közé tartozik a 700 MHz (alacsony frekvencia), a 3.4-3.8 GHz (magas frekvencia) és a 26 GHz (milliméteres hullám).",
+    "valasz": "igaz",
+    "magyarazat": "Az 5G különböző felhasználási célokra e három fő frekvenciatartományt alkalmazza."
+  }
+]

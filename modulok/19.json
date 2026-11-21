@@ -1,0 +1,282 @@
+[
+  {
+    "id": 1,
+    "fejezet": "19_Torlódáskezelés és A szolgáltatás minősége",
+    "kerdes": "A hálózatokban a torlódás (Congestion) jelensége akkor következik be, amikor a csomagok száma annyira megnő, hogy azok csak jelentős késedelemmel jutnak el a célállomásokra.",
+    "valasz": "igaz",
+    "magyarazat": "A torlódás akkor alakul ki, ha a csomagok száma meghaladja a hálózati erőforrások kezelőképességét, így a csomagok késett szállítást szenvednek."
+  },
+  {
+    "id": 2,
+    "fejezet": "19_Torlódáskezelés és A szolgáltatás minősége",
+    "kerdes": "A többletcsomagok átmeneti tárolása kizárólag a fizikai rétegben valósul meg, így a hálózati réteget nem terheli a torlódás.",
+    "valasz": "hamis",
+    "magyarazat": "A többletcsomagok a hálózati rétegben jelennek meg és ott tárolódnak átmenetileg, így a torlódás közvetlenül a hálózati réteget érinti."
+  },
+  {
+    "id": 3,
+    "fejezet": "19_Torlódáskezelés és A szolgáltatás minősége",
+    "kerdes": "A torlódások hatékony kezelése a hálózati réteg és a felette elhelyezkedő szállítási réteg együttműködését igényli.",
+    "valasz": "igaz",
+    "magyarazat": "Az igazi megoldást a hálózati és a szállítási réteg együttműködése adja, megakadályozva, hogy a szállítási réteg túlterhelje az alatta lévő rétegeket."
+  },
+  {
+    "id": 4,
+    "fejezet": "19_Torlódáskezelés és A szolgáltatás minősége",
+    "kerdes": "A forgalomszabályozás és a torlódáskezelés teljesen azonos fogalmak, amelyek kizárólag a két kommunikáló hoszt közötti kapcsolatot szabályozzák.",
+    "valasz": "hamis",
+    "magyarazat": "A forgalomszabályozás két kommunikáló hoszt közötti adatcserét szabályozza, míg a torlódáskezelés a hálózat (szegmens/tartomány) egészére vonatkozó globális kérdés."
+  },
+  {
+    "id": 5,
+    "fejezet": "19_Torlódáskezelés és A szolgáltatás minősége",
+    "kerdes": "Amennyiben az adó lassabb (100 Mb/s) és a vevő gyorsabb (1 Gb/s), a forgalomszabályozás szempontjából nem merül fel hálózati probléma, mert a vevő kénytelen kivárni az adót.",
+    "valasz": "igaz",
+    "magyarazat": "Gyorsabb vevő esetén nem alakul ki túlterhelés a vevőnél, így az adót nem kell külön lassítási ciklusokra kényszeríteni."
+  },
+  {
+    "id": 6,
+    "fejezet": "19_Torlódáskezelés és A szolgáltatás minősége",
+    "kerdes": "Ha a gyorsabb adót a lassabb vevő képességeihez kell igazítani, a forgalomszabályozás ciklikus megállásokra kényszeríti az adó csomagforgalmát.",
+    "valasz": "igaz",
+    "magyarazat": "Gyors adó és lassú vevő esetén a vevő túlterhelésének elkerülésére az adó adatküldési ütemét le kell lassítani."
+  },
+  {
+    "id": 7,
+    "fejezet": "19_Torlódáskezelés és A szolgáltatás minősége",
+    "kerdes": "A torlódást kizárólag a hosztok közötti helytelen forgalomszabályozás okozhatja, az aktív hálózati elemek sávszélessége nem befolyásolja azt.",
+    "valasz": "hamis",
+    "magyarazat": "A torlódást sok hoszt egyidejű kommunikációja mellett a kis sávszélességű aktív hálózati elemek is okozhatják."
+  },
+  {
+    "id": 8,
+    "fejezet": "19_Torlódáskezelés és A szolgáltatás minősége",
+    "kerdes": "A torlódás elkerülésének és kezelésének két fő iránya a hálózati terhelés csökkentése vagy a hálózati erőforrások növelése.",
+    "valasz": "igaz",
+    "magyarazat": "Mivel a torlódást az erőforrásokat meghaladó terhelés okozza, a megoldás a terhelés csökkentése vagy az erőforrások bővítése."
+  },
+  {
+    "id": 9,
+    "fejezet": "19_Torlódáskezelés és A szolgáltatás minősége",
+    "kerdes": "A beruházásvédelem elve szerint célszerű a hálózatot mindig egy kategóriával magasabb műszaki beltartalmú kábelekkel kiépíteni, mint az aktuális aktív eszközök igénye.",
+    "valasz": "igaz",
+    "magyarazat": "Az aktív eszközök cseréje egyszerűbb, mint egy épület újrakábelezése, így a jobb kábelezés hosszabb távú védelmet biztosít a növekvő igényekkel szemben."
+  },
+  {
+    "id": 10,
+    "fejezet": "19_Torlódáskezelés és A szolgáltatás minősége",
+    "kerdes": "A forgalomalapú útválasztás során használt adaptív algoritmusok kizárólag a statikus távolságokat veszik figyelembe, a pillanatnyi forgalmi terhelést figyelmen kívül hagyják.",
+    "valasz": "hamis",
+    "magyarazat": "A forgalomalapú útválasztás a komplex topológia és sávszélesség mellett az aktuális hálózati forgalmat és pillanatnyi terhelést is figyelembe veszi."
+  },
+  {
+    "id": 11,
+    "fejezet": "19_Torlódáskezelés és A szolgáltatás minősége",
+    "kerdes": "A belépés ellenőrzése (Admission Control) a datagram alapú összeköttetés nélküli hálózatok elsődleges megelőző torlódáskezelési módszere.",
+    "valasz": "hamis",
+    "magyarazat": "A belépés ellenőrzése a virtuálisáramkör alapú (összeköttetés alapú) hálózatok jellemző megoldása."
+  },
+  {
+    "id": 12,
+    "fejezet": "19_Torlódáskezelés és A szolgáltatás minősége",
+    "kerdes": "A belépés ellenőrzése során a virtuális áramkör csak akkor épül fel, ha a hálózat képes a megnövekedett forgalmat torlódás nélkül célba juttatni.",
+    "valasz": "igaz",
+    "magyarazat": "A kapcsolat felépítése megtagadásra kerül, ha a hálózat nem tudja garantálni a torlódásmentes továbbítást."
+  },
+  {
+    "id": 13,
+    "fejezet": "19_Torlódáskezelés és A szolgáltatás minősége",
+    "kerdes": "A forgalom lefojtásakor az útválasztók a bemenő és kimenő pufferek telítettségét, az elveszett csomagok számát és a CPU terheltségét figyelik.",
+    "valasz": "igaz",
+    "magyarazat": "Ezen paraméterek monitorozásával határozzák meg az útválasztók a torlódásközeli állapot kialakulását."
+  },
+  {
+    "id": 14,
+    "fejezet": "19_Torlódáskezelés és A szolgáltatás minősége",
+    "kerdes": "Az Explicit Torlódáskezelés (ECN – Explicit Congestion Notification) során a torlódó útválasztó lefojtó csomagot küld közvetlenül a küldő útválasztónak.",
+    "valasz": "hamis",
+    "magyarazat": "Az ECN esetén az útválasztó a továbbított csomagban egy speciális jelzőbitet állít be, amit a célállomás észlel, majd a célállomás értesíti a küldőt a válaszcsomagban."
+  },
+  {
+    "id": 15,
+    "fejezet": "19_Torlódáskezelés és A szolgáltatás minősége",
+    "kerdes": "Nagy kiterjedésű hálózatokban a lépésről lépésre visszaszorítás (Hop-by-Hop Backpressure) gyorsabb beavatkozást tesz lehetővé, mert a lefojtó csomag minden közbülső útválasztóra hat.",
+    "valasz": "igaz",
+    "magyarazat": "Mivel a visszaszorítás minden közbülső csomóponton azonnal kifejti hatását, nem kell megvárni a jelzés eljutását a teljes hálózaton keresztül az adóig."
+  },
+  {
+    "id": 16,
+    "fejezet": "19_Torlódáskezelés és A szolgáltatás minősége",
+    "kerdes": "A terhelés eltávolítása (Load Shedding) egy olyan megelőző módszer, amely a kapcsolat felépítése előtt visszautasítja az új virtuális áramköröket.",
+    "valasz": "hamis",
+    "magyarazat": "A terhelés eltávolítása egy drasztikus, reagáló megoldás, amely során az útválasztók eldobják a torlódást okozó vagy fenntartó csomagokat."
+  },
+  {
+    "id": 17,
+    "fejezet": "19_Torlódáskezelés és A szolgáltatás minősége",
+    "kerdes": "Fájlátvitel esetén a terhelés eltávolításakor az újabb csomagok eldobása célszerűbb, mint a régebbi csomagoké.",
+    "valasz": "igaz",
+    "magyarazat": "Fájlátvitelnél a csomagokat érkezési sorrendben kell átadni, így a régebbi csomagok megtartásával kevesebb csomagot kell pufferelni a vevő oldalon."
+  },
+  {
+    "id": 18,
+    "fejezet": "19_Torlódáskezelés és A szolgáltatás minősége",
+    "kerdes": "A valós idejű médiaátvitelnél alkalmazott „friss tej politika” szerint a régebbi csomagok megőrzése fontosabb, mint az új csomagok megérkezése.",
+    "valasz": "hamis",
+    "magyarazat": "A valós idejű médiaátvitelnél az új csomag a fontosabb („friss tej”), míg a régebbi csomag Későbbi megérkezése felesleges."
+  },
+  {
+    "id": 19,
+    "fejezet": "19_Torlódáskezelés és A szolgáltatás minősége",
+    "kerdes": "A fájlátvitelnél alkalmazott elvet „óbor politikának” nevezik, utalva arra, hogy a régi csomagok értékesebbek a folyamatosság szempontjából.",
+    "valasz": "igaz",
+    "magyarazat": "Az óbor politika kifejezés arra utal, hogy a régebbi csomagok megőrzése és az újabbak eldobása a kedvezőbb választás fájlátvitelkor."
+  },
+  {
+    "id": 20,
+    "fejezet": "19_Torlódáskezelés és A szolgáltatás minősége",
+    "kerdes": "A Véletlen Korai Detektálás (RED – Random Early Detection) algoritmus során az útválasztó megvárja, amíg a puffer teljesen megtelik, és csak ekkor kezdi eldobni a csomagokat.",
+    "valasz": "hamis",
+    "magyarazat": "A RED esetén az útválasztó a sorhossz egy megadott küszöbszintjének elérésekor (ami még nem teljes torlódás) elkezdi véletlenszerűen eldobni a beérkező csomagokat."
+  },
+  {
+    "id": 21,
+    "fejezet": "19_Torlódáskezelés és A szolgáltatás minősége",
+    "kerdes": "A RED algoritmus főleg akkor hasznos, ha az útválasztók vagy a hosztok nem képesek az ECN jelzőbitjének kezelésére.",
+    "valasz": "igaz",
+    "magyarazat": "Mivel az adó hosztok a hiányzó nyugtákból érzékelik a csomagvesztést és visszavesznek a tempóból, a RED ECN hiányában is hatékony."
+  },
+  {
+    "id": 22,
+    "fejezet": "19_Torlódáskezelés és A szolgáltatás minősége",
+    "kerdes": "A hálózaton egy adott hoszttól egy másik hosztig továbbított csomagok összességét folyamnak (Flow) nevezzük.",
+    "valasz": "igaz",
+    "magyarazat": "A folyam (Flow) szakkifejezés a két hoszt közötti csomagsorozatot jelöli."
+  },
+  {
+    "id": 23,
+    "fejezet": "19_Torlódáskezelés és A szolgáltatás minősége",
+    "kerdes": "A végtelen méretű puffer alkalmazása az útválasztókban tökéletes megoldást nyújt a torlódások kezelésére és a késleltetés megszüntetésére.",
+    "valasz": "hamis",
+    "magyarazat": "A végtelen puffer nem megoldás, mert a végtelenül felhalmozódó csomagok miatti késleltetés időzítési hibákat és csomag-időtúllépést okoz."
+  },
+  {
+    "id": 24,
+    "fejezet": "19_Torlódáskezelés és A szolgáltatás minősége",
+    "kerdes": "A lyukas vödör (Leaky Bucket) algoritmust J. S. Turner dolgozta ki 1986-ban.",
+    "valasz": "igaz",
+    "magyarazat": "A lyukas vödör algoritmus megalkotója J. S. Turner (1986)."
+  },
+  {
+    "id": 25,
+    "fejezet": "19_Torlódáskezelés és A szolgáltatás minősége",
+    "kerdes": "A lyukas vödör algoritmusnál a beáramlási sebesség ingadozásától függetlenül a kimeneti adatfolyam sebessége állandó marad (amíg a vödör nem üres).",
+    "valasz": "igaz",
+    "magyarazat": "A lyukas vödör lényege a kimeneti sebesség szigorú egyenletessé tétele a bemeneti ingadozásokkal szemben."
+  },
+  {
+    "id": 26,
+    "fejezet": "19_Torlódáskezelés és A szolgáltatás minősége",
+    "kerdes": "A lyukas vödör algoritmusban a vödör kapacitását meghaladóan érkező csomagok automatikusan átirányításra kerülnek egy másodlagos útválasztóhoz.",
+    "valasz": "hamis",
+    "magyarazat": "A megtelt lyukas vödörbe érkező többletcsomagok eldobásra (elvetésre) kerülnek."
+  },
+  {
+    "id": 27,
+    "fejezet": "19_Torlódáskezelés és A szolgáltatás minősége",
+    "kerdes": "A vezérjeles vödör (Token Bucket) algoritmus lehetővé teszi, hogy a kimenő adatfolyam rugalmasan változtassa a sebességét a generált vezérjelek ütemében.",
+    "valasz": "igaz",
+    "magyarazat": "A vezérjeles vödör a tokenek felhalmozásával és kiadásával támogatja a löketes forgalom rugalmas továbbítását."
+  },
+  {
+    "id": 28,
+    "fejezet": "19_Torlódáskezelés és A szolgáltatás minősége",
+    "kerdes": "A fő különbség a két vödör-algoritmus között, hogy a vezérjeles vödör megtelésekor jelzi a küldőnek a fogadás képtelenségét, míg a lyukas vödör egyszerűen eldobja a csomagokat.",
+    "valasz": "igaz",
+    "magyarazat": "A vezérjeles vödör visszajelzést ad a küldőnek a fogadási korlátról, elkerülve a csomagok azonnali eldobását."
+  },
+  {
+    "id": 29,
+    "fejezet": "19_Torlódáskezelés és A szolgáltatás minősége",
+    "kerdes": "A hálózati szolgáltatás minősége (QoS – Quality of Service) kifejezés teljes mértékben azonos a hálózat puszta átviteli sebességével.",
+    "valasz": "hamis",
+    "magyarazat": "A QoS nem azonos a hálózat sebességével, hanem a hálózat teljesítőképességével és a különböző alkalmazások igényeinek kielégítésével kapcsolatos."
+  },
+  {
+    "id": 30,
+    "fejezet": "19_Torlódáskezelés és A szolgáltatás minősége",
+    "kerdes": "Egy túlméretezett hálózat szolgáltatási minősége jobb, mint egy átlagosan méretezett hálózaté, azonban jelentős többletköltséggel és erőforrás-pazarlással járhat.",
+    "valasz": "igaz",
+    "magyarazat": "A túlméretezés nagy tartalékai biztosítják a jó QoS-t, de pénzügyileg és erőforrásilag pazaroló."
+  },
+  {
+    "id": 31,
+    "fejezet": "19_Torlódáskezelés és A szolgáltatás minősége",
+    "kerdes": "A hálózati szolgáltatás minőségét (QoS) négy alapvető paraméter határozza meg: a Sávszélesség, a Késleltetés, a Dzsitter és a Megbízhatóság (veszteség).",
+    "valasz": "igaz",
+    "magyarazat": "Ez a 4 fő technikai paraméter definiálja a QoS mértékét bármilyen adatforgalom esetén."
+  },
+  {
+    "id": 32,
+    "fejezet": "19_Torlódáskezelés és A szolgáltatás minősége",
+    "kerdes": "A dzsitter (Jitter) a csomagok méretének átlagos szórását jelenti a hálózati szegmensen belül.",
+    "valasz": "hamis",
+    "magyarazat": "A dzsitter a csomagok érkezési idejének szórását jelenti (a minimális és maximális késleltetés arányát/ingadozását)."
+  },
+  {
+    "id": 33,
+    "fejezet": "19_Torlódáskezelés és A szolgáltatás minősége",
+    "kerdes": "A nagy dzsitterrel (szabálytalan időközökkel) beérkező csomagok az aktív eszközben pufferelés után kis dzsitterrel (egyenletes időközökkel) távozhatnak.",
+    "valasz": "igaz",
+    "magyarazat": "A pufferelés kiegyenlíti az érkezési időzítés ingadozásait, így csökkenti a dzsittert."
+  },
+  {
+    "id": 34,
+    "fejezet": "19_Torlódáskezelés és A szolgáltatás minősége",
+    "kerdes": "Az E-mail alkalmazás nagy sávszélességet, nagy késleltetési érzékenységet és nagy dzsitter érzékenységet igényel.",
+    "valasz": "hamis",
+    "magyarazat": "Az E-mail sávszélesség-igénye kicsi, késleltetési és dzsitter érzékenysége kicsi, míg megbízhatóság-érzékenysége közepes."
+  },
+  {
+    "id": 35,
+    "fejezet": "19_Torlódáskezelés és A szolgáltatás minősége",
+    "kerdes": "A Fájlmegosztás nagy sávszélességet igényel, miközben késleltetési és dzsitter érzékenysége kicsi.",
+    "valasz": "igaz",
+    "magyarazat": "Fájlátvitelnél a nagy adatmennyiség miatt a sávszélesség a fő tényező, míg az egyes csomagok késleltetése és szórása kevésbé kritikus."
+  },
+  {
+    "id": 36,
+    "fejezet": "19_Torlódáskezelés és A szolgáltatás minősége",
+    "kerdes": "A Net Telefon (VoIP) alkalmazás sávszélesség-igénye kicsi, de késleltetési és dzsitter érzékenysége egyaránt nagy.",
+    "valasz": "igaz",
+    "magyarazat": "A beszédátvitel kevés adatot továbbít, de a valós idejű érthetőség miatt rendkívül érzékeny a késleltetésre és annak ingadozására."
+  },
+  {
+    "id": 37,
+    "fejezet": "19_Torlódáskezelés és A szolgáltatás minősége",
+    "kerdes": "A Net Videókonferencia alkalmazás mind a négy QoS paraméterre (sávszélesség, késleltetés, dzsitter, megbízhatóság) a legmagasabb érzékenységgel reagál.",
+    "valasz": "hamis",
+    "magyarazat": "A Net Videókonferencia sávszélesség-, késleltetés- és dzsitter igénye egyaránt nagy, de megbízhatóság/veszteség érzékenysége kicsi."
+  },
+  {
+    "id": 38,
+    "fejezet": "19_Torlódáskezelés és A szolgáltatás minősége",
+    "kerdes": "A VoIP alkalmazások beállításakor az aktív eszközökön jellemzően állandó adatsebességű szolgáltatási kategóriát adnak meg.",
+    "valasz": "igaz",
+    "magyarazat": "VoIP esetén az állandó adatsebességű kategória biztosítja az egyenletes beszédátvitelt."
+  },
+  {
+    "id": 39,
+    "fejezet": "19_Torlódáskezelés és A szolgáltatás minősége",
+    "kerdes": "Az online videó stream (változó adattömörítéssel) nem valós idejű, de korlátok között változó adatsebességű szolgáltatási kategóriába sorolható.",
+    "valasz": "igaz",
+    "magyarazat": "Az előre rögzített online videók pufferelhetők, így nem igényelnek szigorú valós idejű átvitelt, de a tömörítés miatt változó sebességűek."
+  },
+  {
+    "id": 40,
+    "fejezet": "19_Torlódáskezelés és A szolgáltatás minősége",
+    "kerdes": "A valós idejű videó stream (Realtime video stream) szolgáltatási kategóriája az állandó, nem változtatható adatsebesség.",
+    "valasz": "hamis",
+    "magyarazat": "A valós idejű videó stream kategóriája: valós idejű, de korlátok között változó adatsebesség."
+  }
+]

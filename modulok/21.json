@@ -1,0 +1,324 @@
+[
+  {
+    "id": 1,
+    "fejezet": "21_Az IPv4 protokoll 1",
+    "kerdes": "Az Internet tervezési elveit az IETF RFC1958 jelű, 1996 júniusában keletkezett dokumentuma foglalja össze.",
+    "valasz": "igaz",
+    "magyarazat": "Az IETF (Internet Engineering Task Force) RFC1958 dokumentuma 1996 júniusában jelent meg, és 10 fő tervezési irányelvet rögzít."
+  },
+  {
+    "id": 2,
+    "fejezet": "21_Az IPv4 protokoll 1",
+    "kerdes": "Az IETF első tervezési elve alapján a prototípusok tesztelése és elméleti működése előtt kötelező elkezdeni a szabványosítást.",
+    "valasz": "hamis",
+    "magyarazat": "Az 1. elv kimondja, hogy a megoldásnak a gyakorlatban is működnie kell, és csak kipróbált, tesztelt prototípusok után szabad a szabványosítást elkezdeni."
+  },
+  {
+    "id": 3,
+    "fejezet": "21_Az IPv4 protokoll 1",
+    "kerdes": "A tömörség vagy takarékosság elvét (lex parsimoniae) a XIV. században William Ockham angol filozófus fogalmazta meg.",
+    "valasz": "igaz",
+    "magyarazat": "A 2. elv az egyszerűségre törekvést írja elő William Ockham XIV. századi ferences szerzetes lex parsimoniae tételére hivatkozva."
+  },
+  {
+    "id": 4,
+    "fejezet": "21_Az IPv4 protokoll 1",
+    "kerdes": "Az IETF 3. elve a 'Bigger is better' (A több jobb) elvet támogatja a hálózati prioritások kiválasztásakor.",
+    "valasz": "hamis",
+    "magyarazat": "A 3. elv az egyértelmű választást írja elő, és kifejezetten ellenpéldaként említi a 'Bigger is better' megközelítést."
+  },
+  {
+    "id": 5,
+    "fejezet": "21_Az IPv4 protokoll 1",
+    "kerdes": "A moduláris rendszer elve lehetővé teszi egy független réteg megváltoztatását úgy, hogy az ne befolyásolja a többi réteg működését.",
+    "valasz": "igaz",
+    "magyarazat": "A 4. elv alapján a független rétegek egymásra épülése biztosítja a modularitást és a rétegek független módosíthatóságát."
+  },
+  {
+    "id": 6,
+    "fejezet": "21_Az IPv4 protokoll 1",
+    "kerdes": "A heterogén környezetre való felkészülés elve előírja, hogy az Internetnek kizárólag egyetlen szabványosított hardverkörnyezetben szabad működnie.",
+    "valasz": "hamis",
+    "magyarazat": "Az 5. elv (a rugalmasság elve) alapján az Internetnek a valóságban előforduló minél változatosabb hardverkörnyezetekben kell tudnia működni."
+  },
+  {
+    "id": 7,
+    "fejezet": "21_Az IPv4 protokoll 1",
+    "kerdes": "A 6. elv alapján a statikus paraméterek rögzítése csak akkor megengedett, ha az aktív elemek képtelenek maguk meghatározni a paramétereket.",
+    "valasz": "igaz",
+    "magyarazat": "A statikus opciók kerülendők; rögzítésük csak végső esetben fogadható el, ha az elemek nem tudják automatikusan meghatározni azokat."
+  },
+  {
+    "id": 8,
+    "fejezet": "21_Az IPv4 protokoll 1",
+    "kerdes": "A 7. elv értelmében az abszolút tökéletes és hibátlan megoldásra kell törekedni ahelyett, hogy egy nem minden szempontból tökéletes, de működő eljárást használnánk.",
+    "valasz": "hamis",
+    "magyarazat": "A 7. elv alapján a jó és működő megoldás többet ér a nem működő tökéletesnél (ellenpélda a 'Good enough, is not good enough')."
+  },
+  {
+    "id": 9,
+    "fejezet": "21_Az IPv4 protokoll 1",
+    "kerdes": "A 8. elv kimondja: légy szigorú a küldésnél, és elnéző a vételnél.",
+    "valasz": "igaz",
+    "magyarazat": "A 8. elv alapján a küldőnek szigorúan be kell tartania a szabályokat, míg a fogadónak fel kell készülnie a nem teljes mértékben szabványos csomagok feldolgozására is."
+  },
+  {
+    "id": 10,
+    "fejezet": "21_Az IPv4 protokoll 1",
+    "kerdes": "A skálázhatósági elv alapján egy nagy decentralizált rendszer működésének alapja egyetlen központi adatbázis kell legyen.",
+    "valasz": "hamis",
+    "magyarazat": "A 9. elv alapján a decentralizált rendszerek alapja nem lehet központi adatbázis, hanem a terhelések és erőforrások hatékony elosztása."
+  },
+  {
+    "id": 11,
+    "fejezet": "21_Az IPv4 protokoll 1",
+    "kerdes": "A 10. elv a költséghatékony ár/teljesítmény viszony fontosságát hangsúlyozza a felhasználók megtartása érdekében.",
+    "valasz": "igaz",
+    "magyarazat": "A 10. elv alapján a költségek és a teljesítőképesség egyensúlyának hiánya az ügyfelek elvesztéséhez vezet."
+  },
+  {
+    "id": 12,
+    "fejezet": "21_Az IPv4 protokoll 1",
+    "kerdes": "Az Internet egymással összekapcsolt autonóm rendszerekből (AS - Autonomous Systems) és kontinentális gerinchálózatokból épül fel.",
+    "valasz": "igaz",
+    "magyarazat": "Az Internet mint világot átfogó hálózat autonóm rendszerek és kontinentális gerinchálózatok összekapcsolódásának eredménye."
+  },
+  {
+    "id": 13,
+    "fejezet": "21_Az IPv4 protokoll 1",
+    "kerdes": "Az IP (RFC791) a TCP/IP referenciamodell szállítási rétegének protokollja, amely megbízható összeköttetést tart fenn.",
+    "valasz": "hamis",
+    "magyarazat": "Az IP a hálózati réteg protokollja, és csomagkapcsolt, datagram jellegű, megbízhatatlan szolgáltatást nyújt."
+  },
+  {
+    "id": 14,
+    "fejezet": "21_Az IPv4 protokoll 1",
+    "kerdes": "Az IPv4 protokoll nem garantálja sem a csomagok célba érését, sem azok hibátlanságát vagy megérkezési sorrendjét.",
+    "valasz": "igaz",
+    "magyarazat": "Az IPv4 protokoll megbízhatatlan jellegű; a hibakezelés és hibajavítás nem a hálózati réteg ezen protokolljának feladata."
+  },
+  {
+    "id": 15,
+    "fejezet": "21_Az IPv4 protokoll 1",
+    "kerdes": "Az IP csomagok haladási útvonala a feladás pillanatában teljes mértékben rögzített és ismert a küldő hoszt számára.",
+    "valasz": "hamis",
+    "magyarazat": "A csomagok haladási útvonala a feladáskor nem ismert, a csomagok függetlenül haladnak a hálózaton keresztül."
+  },
+  {
+    "id": 16,
+    "fejezet": "21_Az IPv4 protokoll 1",
+    "kerdes": "Minden egyes IP datagram tartalmazza mind a küldő, mind a vevő hoszt címét.",
+    "valasz": "igaz",
+    "magyarazat": "A datagram alapú működés következtében minden csomag magában hordozza a küldő és a cél IP-címét."
+  },
+  {
+    "id": 17,
+    "fejezet": "21_Az IPv4 protokoll 1",
+    "kerdes": "A szállítási rétegből származó adatokat az IPv4 hálózati réteg maximum 64 kB-os csomagokban továbbítja.",
+    "valasz": "igaz",
+    "magyarazat": "A hálózati réteg maximum 64 kB-os méretű csomagokban fogadja és adja át az adatokat."
+  },
+  {
+    "id": 18,
+    "fejezet": "21_Az IPv4 protokoll 1",
+    "kerdes": "Az IPv4 datagram két fő részből áll: a fejrészből (IPv4 Header) és a törzsrészből (hasznos teher).",
+    "valasz": "igaz",
+    "magyarazat": "Az IPv4 datagram felépítése a fejrészből és a hasznos adatokat tartalmazó törzsrészből áll."
+  },
+  {
+    "id": 19,
+    "fejezet": "21_Az IPv4 protokoll 1",
+    "kerdes": "Az IPv4 fejrész fix hossza opciók nélkül minimum 10 bájt, míg opciókkal együtt legfeljebb 30 bájt lehet.",
+    "valasz": "hamis",
+    "magyarazat": "A fejrész minimum 5 db, maximum 15 db 32 bites szóból áll, vagyis a fix alapméret minimum 20 bájt, a maximális méret pedig 60 bájt."
+  },
+  {
+    "id": 20,
+    "fejezet": "21_Az IPv4 protokoll 1",
+    "kerdes": "Ha egy IPv4 csomag Ethernet keretbe ágyazva továbbítódik, az Ethernet keret típusmezőjének értéke 0x0800.",
+    "valasz": "igaz",
+    "magyarazat": "Az Ethernet keret Típus mezőjében a 0x0800 érték jelzi az IPv4 protokoll jelenlétét."
+  },
+  {
+    "id": 21,
+    "fejezet": "21_Az IPv4 protokoll 1",
+    "kerdes": "Az IP fejrész átvitele során a bitek felsővégi (Big-Endian) sorrendben, 32 bites szavanként kerülnek elküldésre.",
+    "valasz": "igaz",
+    "magyarazat": "A hálózati bájtsorrend felsővégi (Big-Endian), így az x86-os alsóvégi rendszereknél szoftveres átalakítás szükséges adáskor és vételkor."
+  },
+  {
+    "id": 22,
+    "fejezet": "21_Az IPv4 protokoll 1",
+    "kerdes": "Az IPv4 fejrész első 32 bites szavában lévő Verzió mező értéke 4.",
+    "valasz": "igaz",
+    "magyarazat": "A Verzió mező 4 bites, és IPv4 esetén az értéke konstansan 4."
+  },
+  {
+    "id": 23,
+    "fejezet": "21_Az IPv4 protokoll 1",
+    "kerdes": "A fejrész hossza (IHL) mező a fejrész pontos méretét bájtokban adja meg, így minimális értéke 20.",
+    "valasz": "hamis",
+    "magyarazat": "Az IHL mező 32 bites (4 bájtos) egységekben számol; minimális értéke 5 (5*4=20 bájt), maximális értéke 15 (15*4=60 bájt)."
+  },
+  {
+    "id": 24,
+    "fejezet": "21_Az IPv4 protokoll 1",
+    "kerdes": "A Differenciált szolgáltatások mező 8 bitjéből 6 bitet a DSCP kódra, 2 bitet pedig az ECN torlódásértesítésre használunk.",
+    "valasz": "igaz",
+    "magyarazat": "Az RFC2474 és RFC3168 alapján a korábbi TOS mező helyett 6 bit DSCP és 2 bit ECN alkotja a 8 bites mezőt."
+  },
+  {
+    "id": 25,
+    "fejezet": "21_Az IPv4 protokoll 1",
+    "kerdes": "A Teljes hossz mező egy 16 bites érték, amely kizárólag a törzsrész hosszát tartalmazza bájtokban.",
+    "valasz": "hamis",
+    "magyarazat": "A Teljes hossz mező a datagram együttes hosszát (fejrész + törzsrész) tartalmazza bájtokban, maximum 65535 bájtig."
+  },
+  {
+    "id": 26,
+    "fejezet": "21_Az IPv4 protokoll 1",
+    "kerdes": "Csomagdarabolás esetén egy adott datagram minden darabja ugyanazt az értéket tartalmazza az Azonosítás mezőben.",
+    "valasz": "igaz",
+    "magyarazat": "Az Azonosítás mező alapján tudja a vevő beazonosítani, hogy a különálló darabok ugyanahhoz az eredeti datagramhoz tartoznak."
+  },
+  {
+    "id": 27,
+    "fejezet": "21_Az IPv4 protokoll 1",
+    "kerdes": "A DF (Do Not Fragment) bit 1-es értéke azt jelzi, hogy a csomag tetszőlegesen darabolható a routerek által.",
+    "valasz": "hamis",
+    "magyarazat": "A DF (Do Not Fragment) bit 1-es értéke megtiltja a csomag darabolását."
+  },
+  {
+    "id": 28,
+    "fejezet": "21_Az IPv4 protokoll 1",
+    "kerdes": "Az MF (More Fragments) bit értéke az utolsó csomagdarab esetében 0, míg az összes korábbi darabnál 1.",
+    "valasz": "igaz",
+    "magyarazat": "Az MF bit jelzi a további darabok jelenlétét; 0 értéke azt jelenti, hogy az adott darab az utolsó."
+  },
+  {
+    "id": 29,
+    "fejezet": "21_Az IPv4 protokoll 1",
+    "kerdes": "A Darabeltolás (Fragment Offset) mező 13 bit hosszú, és az elemi darabméret 8 bájt.",
+    "valasz": "igaz",
+    "magyarazat": "A Darabeltolás 13 bites mező, amely 8 bájtos egységekben adja meg a darab pozícióját az eredeti csomagban."
+  },
+  {
+    "id": 30,
+    "fejezet": "21_Az IPv4 protokoll 1",
+    "kerdes": "A csomagdarabok mérete kivétel nélkül minden esetben a 8 bájt szigorú egész számú többszöröse kell legyen, az utolsó darabot is beleértve.",
+    "valasz": "hamis",
+    "magyarazat": "A darabok mérete a 8 bájt többszöröse, de az utolsó darab ez alól kivétel, mert az lehet ennél rövidebb is."
+  },
+  {
+    "id": 31,
+    "fejezet": "21_Az IPv4 protokoll 1",
+    "kerdes": "Az élettartam (TTL) mező egy 8 bites számláló, amelynek maximális értéke 255.",
+    "valasz": "igaz",
+    "magyarazat": "A TTL mező 8 bites, maximális értéke 255, amely másodpercenként és routerenként 1-gyel csökken."
+  },
+  {
+    "id": 32,
+    "fejezet": "21_Az IPv4 protokoll 1",
+    "kerdes": "Ha a TTL értéke eléri a 0-t, a router köteles a csomagot továbbítani a célállomás felé a legközelebbi úton.",
+    "valasz": "hamis",
+    "magyarazat": "Amikor a TTL értéke 0 lesz, a csomagot kötelezően el kell dobni, és a küldő hosztot értesíteni kell az eldobásról."
+  },
+  {
+    "id": 33,
+    "fejezet": "21_Az IPv4 protokoll 1",
+    "kerdes": "A Protokoll mező számozását az RFC1700 dokumentum tartalmazza, és ez határozza meg a felsőbb rétegbeli célfolyamatot (pl. TCP vagy UDP).",
+    "valasz": "igaz",
+    "magyarazat": "A Protokoll mező tájékoztatja a fogadót arról, hogy a datagramot melyik szállítási folyamatnak (TCP, UDP stb.) kell átadni."
+  },
+  {
+    "id": 34,
+    "fejezet": "21_Az IPv4 protokoll 1",
+    "kerdes": "A TCP protokoll használatánál a fő szempont a kis késleltetés, míg az UDP esetében a csomagvesztés elkerülése a legfontosabb.",
+    "valasz": "hamis",
+    "magyarazat": "A TCP-nél a csomagvesztés elkerülése és a megbízhatóság a fő szempont, míg az UDP-nél a kis késleltetés a meghatározó."
+  },
+  {
+    "id": 35,
+    "fejezet": "21_Az IPv4 protokoll 1",
+    "kerdes": "A fejrész ellenőrző összege (Header Checksum) konstans érték marad a csomag teljes útvonala során.",
+    "valasz": "hamis",
+    "magyarazat": "Mivel a TTL értéke minden routeren csökken, a fejrész ellenőrző összegét minden ugrásnál újra ki kell számítani."
+  },
+  {
+    "id": 36,
+    "fejezet": "21_Az IPv4 protokoll 1",
+    "kerdes": "A fejrész ellenőrző összeg kiszámításakor a 16 bites szavak összeadása után az így kapott összeg egyes komplemensét kell elküldeni.",
+    "valasz": "igaz",
+    "magyarazat": "Az RFC1071-ben leírt algoritmus alapján a 16 bites szavak összeadása és az átvitel hozzáadása után a kapott érték egyes komplemense képezi az ellenőrző összeget."
+  },
+  {
+    "id": 37,
+    "fejezet": "21_Az IPv4 protokoll 1",
+    "kerdes": "A küldő IP-címe (Source Address) és a cél IP-címe egyenként 4 bájtos (32 bites) mezőket foglal el a fejrészben.",
+    "valasz": "igaz",
+    "magyarazat": "Az IPv4 címek 32 bit (4 bájt) terjedelműek, amelyeket pontokkal elválasztott tízes számrendszerbeli alakban (0-255) szoktunk felírni."
+  },
+  {
+    "id": 38,
+    "fejezet": "21_Az IPv4 protokoll 1",
+    "kerdes": "Az opciók az IP fejrész 6. 32 bites szavától kezdődhetnek, és a fejrész legfeljebb a 15. szóból állhat.",
+    "valasz": "igaz",
+    "magyarazat": "Az opcionális mezők a 20 bájtos alapfejléc után következnek, a fejrész maximum 60 bájtos (15 szavas) korlátjáig."
+  },
+  {
+    "id": 39,
+    "fejezet": "21_Az IPv4 protokoll 1",
+    "kerdes": "Az Opciók vége (End Of Options) opció egy csupa 0-kból álló (00000000) bitsorozat.",
+    "valasz": "igaz",
+    "magyarazat": "Az Opciók vége jelzés a csupa nullás 1 bájtos bitsorozat, amely lezárja a kiegészítő opciók listáját."
+  },
+  {
+    "id": 40,
+    "fejezet": "21_Az IPv4 protokoll 1",
+    "kerdes": "A Nincs művelet (No Operation) opció kódja 00000001, és a 32 bites határokra történő kitöltésre szolgál.",
+    "valasz": "igaz",
+    "magyarazat": "A No Operation opció 1 bájtos kitöltő elemként biztosítja a rákövetkező opció 32 bites szóbeli igazítását."
+  },
+  {
+    "id": 41,
+    "fejezet": "21_Az IPv4 protokoll 1",
+    "kerdes": "A Biztonság (Security) opciót a mai modern operációs rendszerek, például a Linux, kötelezően alkalmazzák minden csomagnál.",
+    "valasz": "hamis",
+    "magyarazat": "A Biztonság opció egykori katonai alkalmazások öröksége; a Linux operációs rendszer például figyelembe sem veszi."
+  },
+  {
+    "id": 42,
+    "fejezet": "21_Az IPv4 protokoll 1",
+    "kerdes": "A Szigorú útvonal-kijelölés (Strict Source Routing) esetén, ha két felsorolt állomás a valóságban nem szomszédos, a csomag elveszik és ICMP hibaüzenet keletkezik.",
+    "valasz": "igaz",
+    "magyarazat": "Szigorú útvonal-kijelölésnél a csomag csak a megadott pontos útvonalon haladhat; ha eltérés van, a csomag eldobásra kerül és ICMP hibaüzenet (Source Routing Failed) jön létre."
+  },
+  {
+    "id": 43,
+    "fejezet": "21_Az IPv4 protokoll 1",
+    "kerdes": "Laza útvonal-kijelölésnél (Loose Source Routing), ha két megadott állomás nem szomszédos, a csomag megsemmisül.",
+    "valasz": "hamis",
+    "magyarazat": "Laza útvonal-kijelölésnél a csomag továbbítódik a lista következő eleme felé a routerek által kijelölt alternatív útvonalon."
+  },
+  {
+    "id": 44,
+    "fejezet": "21_Az IPv4 protokoll 1",
+    "kerdes": "Az Útvonalrögzítés (Record Route) opció max 40 bájtos méretkorlátja miatt ma már nem minden esetben tudja a teljes útvonalat rögzíteni.",
+    "valasz": "igaz",
+    "magyarazat": "A 40 bájtos opciókeretbe csak korlátozott számú IP-cím fér be, így a hosszú útvonalak teljes rögzítésére nem elegendő."
+  },
+  {
+    "id": 45,
+    "fejezet": "21_Az IPv4 protokoll 1",
+    "kerdes": "Az Adatfolyam azonosító (Stream ID) opció hossza fixen 4 bájt, és darabolt csomag esetén annak minden darabjában szerepelnie kell.",
+    "valasz": "igaz",
+    "magyarazat": "A Stream ID opció kapcsolatorientált működéshez használható (pl. hálózatos játékok), és daraboláskor minden különálló darabba be kell kerülnie."
+  },
+  {
+    "id": 46,
+    "fejezet": "21_Az IPv4 protokoll 1",
+    "kerdes": "Az Időbélyeg (Internet Time Stamp) opció egy-egy 32 bites időbélyeget rögzít a csomagban az érintett állomások IP-címei mellett.",
+    "valasz": "igaz",
+    "magyarazat": "Az Időbélyeg opció az útvonal-azonosítóval együttműködve 32 bites időadatot társít a rögzített IP-címekhez."
+  }
+]

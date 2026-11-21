@@ -1,0 +1,345 @@
+[
+  {
+    "id": 1,
+    "fejezet": "14_Többszörös hozzáférésü protokollok 2",
+    "kerdes": "Az egyszerű ALOHA hatékonysági problémái főként arra vezethetők vissza, hogy az adók tetszőleges időpillanatban kezdeményezhettek adást.",
+    "valasz": "igaz",
+    "magyarazat": "Az egyszerű ALOHA esetében az időbeli megkötés hiánya miatt bármikor történhetett ütközés az adások között."
+  },
+  {
+    "id": 2,
+    "fejezet": "14_Többszörös hozzáférésü protokollok 2",
+    "kerdes": "A réselt (időszeletelt) ALOHA módszert Lawrence G. Roberts publikálta 1972-ben.",
+    "valasz": "igaz",
+    "magyarazat": "Lawrence G. Roberts, az ARPANET fejlesztőcsapatának tagja 1972-ben publikálta a réselt ALOHA eljárást."
+  },
+  {
+    "id": 3,
+    "fejezet": "14_Többszörös hozzáférésü protokollok 2",
+    "kerdes": "A réselt ALOHA használatával a csatorna áteresztőképessége a duplájára, körülbelül 36%-ra növekedett az egyszerű ALOHA ~18%-os értékéhez képest.",
+    "valasz": "igaz",
+    "magyarazat": "Az időrésekre bontással a maximális áteresztőképesség megduplázódott és elerte a ~36%-ot."
+  },
+  {
+    "id": 4,
+    "fejezet": "14_Többszörös hozzáférésü protokollok 2",
+    "kerdes": "Réselt ALOHA esetén az adók az időrések közepén és végén is elindíthatják a keretek küldését.",
+    "valasz": "hamis",
+    "magyarazat": "Réselt ALOHA esetén az adás kizárólag az időrések kezdetén indítható el a központi gép szinkronjele alapján."
+  },
+  {
+    "id": 5,
+    "fejezet": "14_Többszörös hozzáférésü protokollok 2",
+    "kerdes": "Réselt ALOHA protokollnál az időrés hossza egyben a keretek hosszát is meghatározza, mivel egy időrésben csak egy üzenet lehet.",
+    "valasz": "igaz",
+    "magyarazat": "Az időrés egyetlen üzenet továbbítására alkalmas, így a kerethosszt az időrés hossza rögzíti."
+  },
+  {
+    "id": 6,
+    "fejezet": "14_Többszörös hozzáférésü protokollok 2",
+    "kerdes": "A CSMA (Carrier Sense Multiple Access) mozaikszó magyar jelentése: Csomagkapcsolt Száloptikás Mátrix Architektúra.",
+    "valasz": "hamis",
+    "magyarazat": "A CSMA jelentése Vivőjel-érzékeléses többszörös hozzáférés (Carrier Sense Multiple Access)."
+  },
+  {
+    "id": 7,
+    "fejezet": "14_Többszörös hozzáférésü protokollok 2",
+    "kerdes": "A CSMA protokoll alapelve, hogy az állomások adás előtt belehallgatnak a csatornába, és foglaltság esetén nem kezdeményeznek adást.",
+    "valasz": "igaz",
+    "magyarazat": "A CSMA csatornafigyelésre épül, és csak szabad csatorna észlelésekor indít adást."
+  },
+  {
+    "id": 8,
+    "fejezet": "14_Többszörös hozzáférésü protokollok 2",
+    "kerdes": "A CSMA eljárást leginkább vezeték nélküli, nagy távolságú műholdas kapcsolatoknál használják, mert ott a legkönnyebb a csatorna figyelése.",
+    "valasz": "hamis",
+    "magyarazat": "A CSMA módszer leginkább vezetékes összeköttetésekben használatos, ahol az állomások könnyen érzékelhetik egymás tevékenységét."
+  },
+  {
+    "id": 9,
+    "fejezet": "14_Többszörös hozzáférésü protokollok 2",
+    "kerdes": "Az 1-perzisztens CSMA protokollnál a szabad csatorna észlelésekor az adás megkezdésének valószínűsége pontosan 1.",
+    "valasz": "igaz",
+    "magyarazat": "Az elnevezésben szereplő '1' azt jelzi, hogy szabad csatorna esetén 1 (azaz 100%) a küldés valószínűsége."
+  },
+  {
+    "id": 10,
+    "fejezet": "14_Többszörös hozzáférésü protokollok 2",
+    "kerdes": "Az 1-perzisztens CSMA esetén, ha a csatorna foglalt, az állomás feladja az adási szándékot és azonnal eldobja a keretet.",
+    "valasz": "hamis",
+    "magyarazat": "Ha a csatorna foglalt, az 1-perzisztens CSMA várakozni kezd, amíg a csatorna fel nem szabadul."
+  },
+  {
+    "id": 11,
+    "fejezet": "14_Többszörös hozzáférésü protokollok 2",
+    "kerdes": "Az 1-perzisztens CSMA-nál ütközés alakulhat ki, ha két állomás egy harmadik adása alatt várakozik, majd annak végeztével egyszerre kezdi meg az adást.",
+    "valasz": "igaz",
+    "magyarazat": "Mivel mindkét várakozó állomás 1-es valószínűséggel kezd adni a csatorna felszabadulásakor, adásaik ütközni fognak."
+  },
+  {
+    "id": 12,
+    "fejezet": "14_Többszörös hozzáférésü protokollok 2",
+    "kerdes": "A nem-perzisztens CSMA protokoll türelmesebb az 1-perzisztensnél, és ha a csatornát foglaltnak találja, egy 't' ideig vár, mielőtt újra ellenőrizné a csatornát.",
+    "valasz": "igaz",
+    "magyarazat": "A nem-perzisztens CSMA nem figyel folyamatosan, hanem rögzített/véletlen várakozás után ellenőriz újra."
+  },
+  {
+    "id": 13,
+    "fejezet": "14_Többszörös hozzáférésü protokollok 2",
+    "kerdes": "A nem-perzisztens CSMA a jeltovábbítás késleltetése szempontjából sokkal hatékonyabb, mint az 1-perzisztens CSMA.",
+    "valasz": "hamis",
+    "magyarazat": "A nem-perzisztens CSMA az áteresztőképesség szempontjából hatékonyabb, de a jeltovábbítás késleltetése szempontjából kevésbé hatékony."
+  },
+  {
+    "id": 14,
+    "fejezet": "14_Többszörös hozzáférésü protokollok 2",
+    "kerdes": "A p-perzisztens CSMA protokollnál a szabad csatorna észlelésekor az adáskezdés valószínűsége a 'p' paraméter értéke (0 < p < 1).",
+    "valasz": "igaz",
+    "magyarazat": "A p-perzisztens CSMA-nál a szabad csatorna észlelése után csak 'p' valószínűséggel indul el az adás."
+  },
+  {
+    "id": 15,
+    "fejezet": "14_Többszörös hozzáférésü protokollok 2",
+    "kerdes": "A p-perzisztens CSMA-nál minél kisebb a 'p' értéke, annál rosszabb a csatornakihasználtság és annál rövidebb az átlagos késleltetés.",
+    "valasz": "hamis",
+    "magyarazat": "Minél kisebb a 'p' értéke, annál jobb a csatornakihasználtság, de egyben annál hosszabb az átlagos késleltetési idő."
+  },
+  {
+    "id": 16,
+    "fejezet": "14_Többszörös hozzáférésü protokollok 2",
+    "kerdes": "Például p=0.01 esetén a p-perzisztens CSMA-t használó állomás a szabad csatorna észlelésekor is csak 1%-os valószínűséggel kezd adni.",
+    "valasz": "igaz",
+    "magyarazat": "A p=0.01 érték 0.01-es (azaz 1%-os) adásindítási valószínűséget jelent, így az esetek többségében várakozik."
+  },
+  {
+    "id": 17,
+    "fejezet": "14_Többszörös hozzáférésü protokollok 2",
+    "kerdes": "A hálózati terjedési késleltetés miatt az üresnek érzékelt csatorna nem biztos, hogy valóban üres.",
+    "valasz": "igaz",
+    "magyarazat": "Egy távoli állomás által indított adás a terjedési idő miatt még nem feltétlenül ért el a megfigyelő állomáshoz."
+  },
+  {
+    "id": 18,
+    "fejezet": "14_Többszörös hozzáférésü protokollok 2",
+    "kerdes": "A fizikai rétegben a 0V feszültségszint minden esetben a logikai '0' bitet jelöli.",
+    "valasz": "hamis",
+    "magyarazat": "A 0V feszültségszint a legtöbb esetben nem azonos a '0' bittel, mert feszültség hiányában lehetetlen lenne két ütköző '0' bitet érzékelni."
+  },
+  {
+    "id": 19,
+    "fejezet": "14_Többszörös hozzáférésü protokollok 2",
+    "kerdes": "A jel terjedési sebessége réz- és üvegkábelben egyaránt megközelítőleg 200 m/µs.",
+    "valasz": "igaz",
+    "magyarazat": "A jelek terjedési sebessége a kábeles átviteli közegekben nagyjából 200 méter mikromásodpercenként."
+  },
+  {
+    "id": 20,
+    "fejezet": "14_Többszörös hozzáférésü protokollok 2",
+    "kerdes": "Ha két versengő állomás közötti jelterjedési idő 'T', akkor a keret idejének '2T'-nél hosszabbnak kell lennie a biztonságos ütközésérzékeléshez.",
+    "valasz": "igaz",
+    "magyarazat": "A keret hossza legalább az oda-vissza terjedési időt (2T ütközési ablakot) meg kell hogy haladja."
+  },
+  {
+    "id": 21,
+    "fejezet": "14_Többszörös hozzáférésü protokollok 2",
+    "kerdes": "A keret méretének növelése csökkenti a hálózat fizikai kiterjedésének lehetséges maximális méretét.",
+    "valasz": "hamis",
+    "magyarazat": "A keret méretének növelésével a hálózat (szegmens) fizikai mérete is megnövelhető, míg a túl kicsi keret korlátozza a szegmens méretét."
+  },
+  {
+    "id": 22,
+    "fejezet": "14_Többszörös hozzáférésü protokollok 2",
+    "kerdes": "A CSMA/CD (Collision Detection) protokoll adás közben is folyamatosan figyeli a csatornát, és ütközés esetén azonnal megszakítja az adást.",
+    "valasz": "igaz",
+    "magyarazat": "A CSMA/CD legfőbb jellemzője, hogy ütközés észlelésekor nem küldi végig a keretet, hanem azonnal leállítja az adást."
+  },
+  {
+    "id": 23,
+    "fejezet": "14_Többszörös hozzáférésü protokollok 2",
+    "kerdes": "CSMA/CD esetén az ütközés érzékelése teljesítményméréssel történik: ha a saját adási teljesítménynél nagyobbat érzékel az adó, ütközés történt.",
+    "valasz": "igaz",
+    "magyarazat": "Az adó a csatornán megjelenő teljesítményszintből állapítja meg, hogy más adó is jelen van-e."
+  },
+  {
+    "id": 24,
+    "fejezet": "14_Többszörös hozzáférésü protokollok 2",
+    "kerdes": "A nagytávolságú üvegszálas hálózatokon a CSMA protokollok kifejezetten hatékonyak a minimális terjedési késleltetés miatt.",
+    "valasz": "hamis",
+    "magyarazat": "Nagy távolságokon a nagy késleltetési idő miatt a CSMA nem hatékony, mert túlságosan hosszú minimális keretméretet igényelne."
+  },
+  {
+    "id": 25,
+    "fejezet": "14_Többszörös hozzáférésü protokollok 2",
+    "kerdes": "A valós idejű átvitel (például a VoIP) alapvető követelménye az ütközésmentesség.",
+    "valasz": "igaz",
+    "magyarazat": "A valós idejű alkalmazások a szigorú késleltetési korlátok miatt nem viselik el a versengésből eredő ütközéseket és újraküldéseket."
+  },
+  {
+    "id": 26,
+    "fejezet": "14_Többszörös hozzáférésü protokollok 2",
+    "kerdes": "A helyfoglalásos (Reservation) protokollok a tényleges forgalmazás kezdete előtt adatszórással jelzik adási igényüket.",
+    "valasz": "igaz",
+    "magyarazat": "A helyfoglalásos eljárások lényege a küldési szándék előzetes bejelentése adatszórásos kerettel."
+  },
+  {
+    "id": 27,
+    "fejezet": "14_Többszörös hozzáférésü protokollok 2",
+    "kerdes": "Az alapvető bit-térkép (Basic Bit-Map) protokollban a versengési periódus pontosan N darab időrésből áll N darab állomás esetén.",
+    "valasz": "igaz",
+    "magyarazat": "Minden állomáshoz egy saját dedikált bit-időrés tartozik a versengési periódusban."
+  },
+  {
+    "id": 28,
+    "fejezet": "14_Többszörös hozzáférésü protokollok 2",
+    "kerdes": "A bit-térkép protokollban, ha az i-edik állomás adni szeretne, az i-edik időrésbe egy '0' értékű bitet helyez el.",
+    "valasz": "hamis",
+    "magyarazat": "Az adni kívánó állomás egy '1' értékű bitet helyez a saját sorszámának megfelelő időrésbe."
+  },
+  {
+    "id": 29,
+    "fejezet": "14_Többszörös hozzáférésü protokollok 2",
+    "kerdes": "A bit-térkép protokoll felépítése miatt az alacsonyabb sorszámú állomások nagyobb valószínűséggel tudnak adni, mint a magasabb sorszámúak.",
+    "valasz": "igaz",
+    "magyarazat": "Az alacsony sorszámú állomások a foglalási periódus elején jelentenek be, és az adások befejeztével hamarabb felkészülhetnek a következő foglalásra."
+  },
+  {
+    "id": 30,
+    "fejezet": "14_Többszörös hozzáférésü protokollok 2",
+    "kerdes": "Az állomásszámok permutálásával a bit-térkép protokoll adási valószínűségi egyenlőtlenségei kiegyenlíthetők.",
+    "valasz": "igaz",
+    "magyarazat": "A sorszámok ciklikus cseréjével (permutációjával) biztosítható az igazságos hozzáférés."
+  },
+  {
+    "id": 31,
+    "fejezet": "14_Többszörös hozzáférésü protokollok 2",
+    "kerdes": "A bit-térkép protokoll alacsony hálózati terhelés mellett is kiváló hatásfokot nyújt, mert kihagyja az üres állomások időréseit.",
+    "valasz": "hamis",
+    "magyarazat": "Alacsony terhelésnél a versengési időrések jelentősen rontják a hatásfokot, mert még 1 adó esetén is végig kell várni az összes foglalási időrést."
+  },
+  {
+    "id": 32,
+    "fejezet": "14_Többszörös hozzáférésü protokollok 2",
+    "kerdes": "A Vezérjeles gyűrű (Token Ring) és Vezérjeles sín (Token Bus) esetén kizárólag az az állomás adhat, amelyik a vezérlőjelet (Token) birtokolja.",
+    "valasz": "igaz",
+    "magyarazat": "A token birtoklása adja meg a kizárólagos jogot az adásra mindkét topológiában."
+  },
+  {
+    "id": 33,
+    "fejezet": "14_Többszörös hozzáférésü protokollok 2",
+    "kerdes": "A Vezérjeles sín (Token Bus) esetében a fizikai sínt logikailag gyűrűként kezelik az állomások.",
+    "valasz": "igaz",
+    "magyarazat": "A Token Bus logikai gyűrűt alakít ki a sín topológián elhelyezkedő állomások között."
+  },
+  {
+    "id": 34,
+    "fejezet": "14_Többszörös hozzáférésü protokollok 2",
+    "kerdes": "A Token Ring hálózatokban a kereteket a küldő állomás közvetlenül a célállomásnak küldi el, a köztes állomások nem is találkoznak a kerettel.",
+    "valasz": "hamis",
+    "magyarazat": "Minden állomás csak a következő állomásig juttatja el a keretet, így a köztes állomások megismétlik és továbbítják azt a címzettig."
+  },
+  {
+    "id": 35,
+    "fejezet": "14_Többszörös hozzáférésü protokollok 2",
+    "kerdes": "A Token Ring és Token Bus eljárásoknál az ütközés teljes mértékben kizárt.",
+    "valasz": "igaz",
+    "magyarazat": "Mivel egyszerre csak a token tulajdonosa adhat, ütközés nem fordulhat elő."
+  },
+  {
+    "id": 36,
+    "fejezet": "14_Többszörös hozzáférésü protokollok 2",
+    "kerdes": "A Bináris visszaszámlálás protokollban (Binary Countdown) N állomás esetén N darab időrésre van szükség a versengéshez.",
+    "valasz": "hamis",
+    "magyarazat": "A Bináris visszaszámlálásnál az állomások bináris címét használják, így N állomáshoz elegendő log2(N) darab időrés (pl. 63 állomáshoz 6 bit/időrés)."
+  },
+  {
+    "id": 37,
+    "fejezet": "14_Többszörös hozzáférésü protokollok 2",
+    "kerdes": "Például 63 állomás azonosításához 6 bit, míg 15 állomás azonosításához 4 bit szükséges a bináris visszaszámlálásnál.",
+    "valasz": "igaz",
+    "magyarazat": "A 2^6 = 64 és 2^4 = 16 alapján a 6, illetve 4 bites versengési hossz elegendő."
+  },
+  {
+    "id": 38,
+    "fejezet": "14_Többszörös hozzáférésü protokollok 2",
+    "kerdes": "A Bináris visszaszámlálás protokoll során a csatornára kerülő érték az adni kívánó állomások bitjeinek ÉS (AND) logikai kapcsolatából adódik.",
+    "valasz": "hamis",
+    "magyarazat": "A csatornára kerülő érték a beküldött bitek VAGY (OR) logikai kapcsolatából származik (ha legalább egy állomás 1-est küld, 1-es lesz a csatornán)."
+  },
+  {
+    "id": 39,
+    "fejezet": "14_Többszörös hozzáférésü protokollok 2",
+    "kerdes": "A Bináris visszaszámlálás során az az állomás esik ki a versengésből, amelyik 0-t küldött, miközben a csatornára 1-es érték került.",
+    "valasz": "igaz",
+    "magyarazat": "A kisebb értékű bitet küldő állomás észleli a magasabb értéket a csatornán, és visszalép az adástól."
+  },
+  {
+    "id": 40,
+    "fejezet": "14_Többszörös hozzáférésü protokollok 2",
+    "kerdes": "A Bináris visszaszámlálás alapértelmezésben a magasabb sorszámú (című) állomásoknak kedvez.",
+    "valasz": "igaz",
+    "magyarazat": "Mivel az 1-es bit nyer a VAGY kapcsolatban, a nagyobb bináris számmal rendelkező állomások nyerik a versenyt."
+  },
+  {
+    "id": 41,
+    "fejezet": "14_Többszörös hozzáférésü protokollok 2",
+    "kerdes": "A virtuális állomásszámok használatával és a sorszámok permutálásával megelőzhető az alacsony címzésű állomások kiéheztetése.",
+    "valasz": "igaz",
+    "magyarazat": "Minden sikeres átvitelt követően a virtuális címek permutálódnak, így garantált az igazságos hozzáférés."
+  },
+  {
+    "id": 42,
+    "fejezet": "14_Többszörös hozzáférésü protokollok 2",
+    "kerdes": "A korlátozott versenyes protokollok a versenyes protokollok kis terhelésbeli jó tulajdonságait ötvözik az ütközésmentes protokollok nagy terhelésbeli jó hatásfokával.",
+    "valasz": "igaz",
+    "magyarazat": "A korlátozott versenyes eljárások célja a két megközelítés előnyeinek egyesítése."
+  },
+  {
+    "id": 43,
+    "fejezet": "14_Többszörös hozzáférésü protokollok 2",
+    "kerdes": "A korlátozott versenyes protokollok az állomásokat csoportokba rendezik, és egy időrésben csak az adott csoportba tartozó állomások versengenek.",
+    "valasz": "igaz",
+    "magyarazat": "A csoportosítás csökkenti a versengők számát egy adott időrésben."
+  },
+  {
+    "id": 44,
+    "fejezet": "14_Többszörös hozzáférésü protokollok 2",
+    "kerdes": "Az Adaptív fa-bejárási protokoll (Adaptive Tree Walk Protocol) történelmi előzménye a II. világháborús szifilisz-szűrési eljárás (Robert Dorfman, 1943).",
+    "valasz": "igaz",
+    "magyarazat": "Robert Dorfman 1943-ban katonák vérmintáinak kevert felezéses szűrésével dolgozta ki az elvi alapot."
+  },
+  {
+    "id": 45,
+    "fejezet": "14_Többszörös hozzáférésü protokollok 2",
+    "kerdes": "Az Adaptív fa-bejárási protokoll számítógépes modelljét kizárólag amerikai kutatók dolgozták ki 1995-ben.",
+    "valasz": "hamis",
+    "magyarazat": "Egymástól függetlenül Tsybakov és Mikhailov (1978), valamint Capetanakis/Cepetakis (1979) dolgozta ki a modellt."
+  },
+  {
+    "id": 46,
+    "fejezet": "14_Többszörös hozzáférésü protokollok 2",
+    "kerdes": "Az Adaptív fa-bejárási protokollban az állomásokat egy bináris fa levelei szimbolizálják.",
+    "valasz": "igaz",
+    "magyarazat": "A bináris fa struktúra legalsó levelei felelnek meg a hálózati állomásoknak."
+  },
+  {
+    "id": 47,
+    "fejezet": "14_Többszörös hozzáférésü protokollok 2",
+    "kerdes": "Ha az Adaptív fa-bejárási protokoll 0. időrésében ütközés történik, megkezdődik a fa mélységi bejárása, és nem fogadnak újabb csomagot a hálózati rétegtől.",
+    "valasz": "igaz",
+    "magyarazat": "Ütközéskor a meglévő keretek felosztása indul el mélységi bejárással, zárolva az új csomagok fogadását."
+  },
+  {
+    "id": 48,
+    "fejezet": "14_Többszörös hozzáférésü protokollok 2",
+    "kerdes": "Az Adaptív fa-bejárási protokollban a fa 'x'-edik szintjének minden csomópontjához az alattuk lévő állomások 2^(-x) része tartozik.",
+    "valasz": "igaz",
+    "magyarazat": "A 0. szinten az összes (2^0=1), az 1. szinten a fele (2^-1=0.5), a 2. szinten a negyede (2^-2=0.25) tartozik a csomóponthoz."
+  },
+  {
+    "id": 49,
+    "fejezet": "14_Többszörös hozzáférésü protokollok 2",
+    "kerdes": "Ha 'y' adásra kész állomás található a fában, az optimális kezdő keresési szint megadására a képlet: x = log2(y).",
+    "valasz": "igaz",
+    "magyarazat": "Az y * 2^(-x) = 1 összefüggésből rendezve az x = log2(y) adja meg a legkedvezőbb kezdő szintet."
+  }
+]

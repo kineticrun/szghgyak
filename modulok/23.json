@@ -1,0 +1,338 @@
+[
+  {
+    "id": 1,
+    "fejezet": "23_Az IPv6 protokoll",
+    "kerdes": "Az IPv6 protokoll kifejlesztésének legfőbb indoka az IPv4 protokoll ismert korlátainak kiküszöbölése volt.",
+    "valasz": "igaz",
+    "magyarazat": "Az IPv6 tervezését és megjelenését az IPv4 korlátai tették szükségessé az IPv4 lecserélésére."
+  },
+  {
+    "id": 2,
+    "fejezet": "23_Az IPv6 protokoll",
+    "kerdes": "Az első IPv6-tal kapcsolatos szabványok 1998 végére készültek el, és 2000-ben váltak véglegessé.",
+    "valasz": "hamis",
+    "magyarazat": "Az első szabványok 1992 végére készültek el, és egy evolúció során 1994-re született meg az IPv6 néven ismert protokoll."
+  },
+  {
+    "id": 3,
+    "fejezet": "23_Az IPv6 protokoll",
+    "kerdes": "Az Internet Engineering Steering Group (IESG) 1994. november 17-én fogadta el az IPv6 protokollt és javasolta annak felhasználását.",
+    "valasz": "igaz",
+    "magyarazat": "Az IESG 1994. november 17-én fogadta el hivatalosan az IPv6 protokollt."
+  },
+  {
+    "id": 4,
+    "fejezet": "23_Az IPv6 protokoll",
+    "kerdes": "Az IPv6 protokoll alapvető specifikációját és leírását az RFC1809 dokumentum tartalmazza.",
+    "valasz": "hamis",
+    "magyarazat": "Az IPv6 protokoll leírását az RFC2460 dokumentum tartalmazza (az RFC1809 a folyamcímkét írja le)."
+  },
+  {
+    "id": 5,
+    "fejezet": "23_Az IPv6 protokoll",
+    "kerdes": "2011. június 8-án a Google, a Facebook és a Yahoo közösen kezdeményezte a World IPv6 Day nevű világméretű tesztnapot.",
+    "valasz": "igaz",
+    "magyarazat": "Ezen a napon tartották meg a tartalomszolgáltatók az IPv6-világnapot."
+  },
+  {
+    "id": 6,
+    "fejezet": "23_Az IPv6 protokoll",
+    "kerdes": "Az IPv6 bevezetésével a TCP, UDP és DNS protokollok működése és struktúrája is gyökeresen megváltozott.",
+    "valasz": "hamis",
+    "magyarazat": "Sem a TCP, sem az UDP, sem a DNS nem változik, csupán maga az IP protokoll módosul."
+  },
+  {
+    "id": 7,
+    "fejezet": "23_Az IPv6 protokoll",
+    "kerdes": "Az IPv6 protokoll megtartotta az megbízhatatlan szolgáltatást nyújtó datagram hálózati modellt.",
+    "valasz": "igaz",
+    "magyarazat": "Az IPv6 továbbra is megbízhatatlan datagram hálózatként működik."
+  },
+  {
+    "id": 8,
+    "fejezet": "23_Az IPv6 protokoll",
+    "kerdes": "Az IPv6 architektúrájának egyik fő változása, hogy az ARP helyett az IP szerves részeként működő NDP (Neighbour Discovery Protocol) felel a szomszédok felismeréséért.",
+    "valasz": "igaz",
+    "magyarazat": "Az ARP nem külön protokollként létezik tovább, hanem az IP része lett NDP néven."
+  },
+  {
+    "id": 9,
+    "fejezet": "23_Az IPv6 protokoll",
+    "kerdes": "Az IPv6 opciói mindig egy típus és egy adatmezőből állnak, a hosszúságuk pedig rögzítetten 8 bájt.",
+    "valasz": "hamis",
+    "magyarazat": "A változó hosszúságú opciók mindig egy hossz, egy típus és egy adatmezőből állnak."
+  },
+  {
+    "id": 10,
+    "fejezet": "23_Az IPv6 protokoll",
+    "kerdes": "Az IPv6 megalkotásakor a hatékony címtartomány-hozzárendelés fontosabb szempont volt, mint a kiosztható hosztok száma.",
+    "valasz": "hamis",
+    "magyarazat": "A kiosztható hosztok milliárdos nagyságrendje fontosabb szempont volt, mint a hatékony címtartomány-hozzárendelés."
+  },
+  {
+    "id": 11,
+    "fejezet": "23_Az IPv6 protokoll",
+    "kerdes": "Az IPv6 tervezési céljai között szerepelt az útválasztók táblázatméretének csökkentése és a csomagfeldolgozás gyorsítása.",
+    "valasz": "igaz",
+    "magyarazat": "A protokoll egyszerűsítésével a táblázatméret csökkentése és a csomagfeldolgozás gyorsítása volt a cél."
+  },
+  {
+    "id": 12,
+    "fejezet": "23_Az IPv6 protokoll",
+    "kerdes": "Az IPv6 megalkotásakor a Multicast hatékonyságát a hatósugár megadásának lehetőségével kívánták növelni.",
+    "valasz": "igaz",
+    "magyarazat": "A többesküldés hatékonnyá tétele a hatósugár megadásával az egyik rögzített tervezési cél volt."
+  },
+  {
+    "id": 13,
+    "fejezet": "23_Az IPv6 protokoll",
+    "kerdes": "Az IPv6 tervezése során elvárás volt, hogy a hosztok barangolásuk (roaming) során folyamatosan új IPv6 címet kapjanak és megváltozzon a címük.",
+    "valasz": "hamis",
+    "magyarazat": "A cél az volt, hogy lehetővé tegyék a hosztok barangolását anélkül, hogy IPv6 címük eközben megváltozna."
+  },
+  {
+    "id": 14,
+    "fejezet": "23_Az IPv6 protokoll",
+    "kerdes": "Az IPv6 megalkotásánál elvárás volt, hogy az IPv4 és IPv6 protokollok akár évekig egymás mellett létezhessenek egymás zavarása nélkül.",
+    "valasz": "igaz",
+    "magyarazat": "A két protokoll hosszas párhuzamos együttélése tervezési követelmény volt."
+  },
+  {
+    "id": 15,
+    "fejezet": "23_Az IPv6 protokoll",
+    "kerdes": "Az IPv6 biztonsági protokollja, az IPsec külön letölthető kiegészítő modul, amely nem része az alapvető IPv6 címzésnek.",
+    "valasz": "hamis",
+    "magyarazat": "Az IPsec az IPv6 címzés szerves része, amely hálózati szintű azonosítást és titkosított alagutakat biztosít."
+  },
+  {
+    "id": 16,
+    "fejezet": "23_Az IPv6 protokoll",
+    "kerdes": "A Dual Stack IP technológia lehetővé teszi a két különböző hálózati alrendszer és protokollverzió egyidejű, egymást nem zavaró működését egyetlen hoszton is.",
+    "valasz": "igaz",
+    "magyarazat": "A kettős protokollcsomag (Dual Stack IP) mindkét protokollt egy időben támogatja."
+  },
+  {
+    "id": 17,
+    "fejezet": "23_Az IPv6 protokoll",
+    "kerdes": "Az IPv6 használatával minden végfelhasználó fix IPv6 címhez juthat, így a NAT alkalmazása elvileg okafogyottá válik.",
+    "valasz": "igaz",
+    "magyarazat": "A megnövekedett címtartomány miatt minden eszköz saját nyilvános címet kaphat, így nincs szükség NAT-ra."
+  },
+  {
+    "id": 18,
+    "fejezet": "23_Az IPv6 protokoll",
+    "kerdes": "Az IPv6 címtartománya 128 bitre nőtt, ami körülbelül 3,4 * 10^38 darab osztható IPv6 címet jelent.",
+    "valasz": "igaz",
+    "magyarazat": "A 128 bites címhossz 2^128, vagyis több mint háromezer milliárd milliárd milliárd címet tesz lehetővé."
+  },
+  {
+    "id": 19,
+    "fejezet": "23_Az IPv6 protokoll",
+    "kerdes": "Az IPv6 alapejrésze a kiegészítő fejrészek nélkül 13 mezőt tartalmaz, csakúgy mint az IPv4 alapejrésze.",
+    "valasz": "hamis",
+    "magyarazat": "Az IPv6 fejrész csak 8 mezőt tartalmaz, míg az IPv4 fejrész 13 mezőből áll."
+  },
+  {
+    "id": 20,
+    "fejezet": "23_Az IPv6 protokoll",
+    "kerdes": "Az alap IPv6 fejrész hossza rögzítetten 10 darab 32 bites szóból áll, vagyis 320 bit (40 bájt).",
+    "valasz": "igaz",
+    "magyarazat": "Az IPv6 alapfejléc rögzített méretű: 40 bájt hosszú."
+  },
+  {
+    "id": 21,
+    "fejezet": "23_Az IPv6 protokoll",
+    "kerdes": "Az IPv6 fejrész Verzió mezőjének értéke binárisan 0110, azaz 6.",
+    "valasz": "igaz",
+    "magyarazat": "Az IPv6 esetében a Verzió mező értéke rögzítetten 6."
+  },
+  {
+    "id": 22,
+    "fejezet": "23_Az IPv6 protokoll",
+    "kerdes": "A Differenciált szolgáltatások mező első 6 bitje az explicit torlódás jelzésére, utolsó 2 bitje pedig a prioritási szintekre szolgál.",
+    "valasz": "hamis",
+    "magyarazat": "Az első 2 bit szolgál az explicit torlódás jelzésére (ECN), az utolsó 6 bit pedig a prioritási szintekre (DSCP)."
+  },
+  {
+    "id": 23,
+    "fejezet": "23_Az IPv6 protokoll",
+    "kerdes": "A Folyamcímke (Flow Label) mező 0 értéke azt jelzi, hogy a csomag nem tartozik egyetlen specifikus folyamhoz sem.",
+    "valasz": "igaz",
+    "magyarazat": "A folyamcímke 0 értéke a folyamhoz nem tartozó csomagok jelzése."
+  },
+  {
+    "id": 24,
+    "fejezet": "23_Az IPv6 protokoll",
+    "kerdes": "Az IPv6 Adatmező hossza (Payload Length) mezőjének számításába az alapvető 40 bájtos fejrész hossza is beleszámít.",
+    "valasz": "hamis",
+    "magyarazat": "Az IPv6 esetében a fejrész 40 bájtja már nem számít bele az adatmező hosszába."
+  },
+  {
+    "id": 25,
+    "fejezet": "23_Az IPv6 protokoll",
+    "kerdes": "Az Adatmező hossza mező 16 bit terjedelmű, így a maximális adatmezőhossz kiegészítések nélkül 65535 bájt lehet.",
+    "valasz": "igaz",
+    "magyarazat": "A 16 bites mezővel legfeljebb 65535 bájt adatméret adható meg."
+  },
+  {
+    "id": 26,
+    "fejezet": "23_Az IPv6 protokoll",
+    "kerdes": "Az Ugráskorlát (Hop Limit) mező csökkentése az IPv6-ban az eltelt idő alapján másodpercenként történik.",
+    "valasz": "hamis",
+    "magyarazat": "A csökkentésnek az IPv6 esetében időhöz nincs köze, kizárólag az ugrások (hop-ok) számához."
+  },
+  {
+    "id": 27,
+    "fejezet": "23_Az IPv6 protokoll",
+    "kerdes": "Az IPv6 fejrészből az IPv4-hez képest teljesen kikerültek a darabolásra vonatkozó mezők és a fejrész ellenőrző összege (Header Checksum).",
+    "valasz": "igaz",
+    "magyarazat": "A darabolási mezők és az ellenőrző összeg eltűntek a rögzített IPv6 fejrészből."
+  },
+  {
+    "id": 28,
+    "fejezet": "23_Az IPv6 protokoll",
+    "kerdes": "Az IPv6-ban az útválasztók általi útközbeni csomagdarabolás a preferált eljárás a túl nagy csomagok kezelésére.",
+    "valasz": "hamis",
+    "magyarazat": "Az útválasztók általi darabolás kevéssé preferált; a preferált módszer az útvonal MTU-jának gyors felderítése és a megfelelő méretű csomagok adó általi előállítása."
+  },
+  {
+    "id": 29,
+    "fejezet": "23_Az IPv6 protokoll",
+    "kerdes": "Az IPv6 kiegészítő fejrészeinek száma jelenleg 8, és ezek sorrendje szigorúan kötött.",
+    "valasz": "igaz",
+    "magyarazat": "Jelenleg 8-féle kiegészítő fejrész létezik, és sorrendjük rögzített."
+  },
+  {
+    "id": 30,
+    "fejezet": "23_Az IPv6 protokoll",
+    "kerdes": "A Hop-by-Hop Options header egyetlen opciója a Jumbogram, amely a 64 kB-nál nagyobb datagramok támogatását szolgálja.",
+    "valasz": "igaz",
+    "magyarazat": "A Hop-by-Hop opció a 64kB feletti jumbogramok kezelését teszi lehetővé."
+  },
+  {
+    "id": 31,
+    "fejezet": "23_Az IPv6 protokoll",
+    "kerdes": "A Destination Options header az egyetlen olyan kiegészítő fejrész, amely kétszer is előfordulhat egy csomagban.",
+    "valasz": "igaz",
+    "magyarazat": "A Destination Options fejrész a közbülső állomások és a végcél számára külön-külön is beilleszthető."
+  },
+  {
+    "id": 32,
+    "fejezet": "23_Az IPv6 protokoll",
+    "kerdes": "A Routing header az IPv4-ben megismert forrás általi útválasztás (Source Routing Option) megfelelője.",
+    "valasz": "igaz",
+    "magyarazat": "A Routing fejrész tartalmazza a laza vagy szigorú útvonaljelölést."
+  },
+  {
+    "id": 33,
+    "fejezet": "23_Az IPv6 protokoll",
+    "kerdes": "Az Authentication header (AH) feladata a csomag tartalmának titkosítása, hogy a közbülső állomások ne tudják elolvasni azt.",
+    "valasz": "hamis",
+    "magyarazat": "Az Authentication header feladata a küldő hitelesítése és az adatok sértetlenségének ellenőrzése; a titkosítást az Encrypted Security Payload (ESP) végzi."
+  },
+  {
+    "id": 34,
+    "fejezet": "23_Az IPv6 protokoll",
+    "kerdes": "Az Encrypted Security Payload (ESP) kiegészítő fejrész biztosítja a titkosítást az IPv6 csomagokban.",
+    "valasz": "igaz",
+    "magyarazat": "Az ESP fejrész célja a titkosítás, hogy csak a valódi címzett tudja elolvasni az adatokat."
+  },
+  {
+    "id": 35,
+    "fejezet": "23_Az IPv6 protokoll",
+    "kerdes": "Az IPv6 címzési rendszere megtartotta az IPv4 A, B és C osztályos felosztását.",
+    "valasz": "hamis",
+    "magyarazat": "Az IPv6 címzési rendszere egyáltalán nem tartalmaz osztályokat."
+  },
+  {
+    "id": 36,
+    "fejezet": "23_Az IPv6 protokoll",
+    "kerdes": "Egy IPv6 cím teljes alakjában 8 darab, kettősponttal elválasztott, egyenként 4 hexadecimális számjegyből álló csoportból áll.",
+    "valasz": "igaz",
+    "magyarazat": "Ez az IPv6 cím szabványos hexadecimális leírási formája."
+  },
+  {
+    "id": 37,
+    "fejezet": "23_Az IPv6 protokoll",
+    "kerdes": "Az IPv6 címekben a csupa nullákból álló csoportok elhagyására szolgáló dupla kettőspont (::) jelölés tetszőleges számossággal, akár többször is használható egyetlen címen belül.",
+    "valasz": "hamis",
+    "magyarazat": "A dupla kettőspont (::) rövidítést egy címben csak egyetlen alkalommal szabad használni az egyértelmű visszafejthetőség miatt."
+  },
+  {
+    "id": 38,
+    "fejezet": "23_Az IPv6 protokoll",
+    "kerdes": "Az IPv6 hálózati maszkját kizárólag a prefix értéke (például /64) jelöli.",
+    "valasz": "igaz",
+    "magyarazat": "IPv6-ban nincsenek külön alhálózati maszk számsorok, kizárólag a per-jel utáni prefix jelzi a maszkot."
+  },
+  {
+    "id": 39,
+    "fejezet": "23_Az IPv6 protokoll",
+    "kerdes": "A ::/128 cím a Loopback (visszacsatolásos tesztelés) tartományt jelöli az IPv6 címzésben.",
+    "valasz": "hamis",
+    "magyarazat": "A ::/128 az Unspecified Address (nem megadott cím), míg a Loopback cím a ::1/128."
+  },
+  {
+    "id": 40,
+    "fejezet": "23_Az IPv6 protokoll",
+    "kerdes": "A 2000::/3 prefix a Global Unicast (globálisan egyedi) IPv6 címek tartományát jelöli.",
+    "valasz": "igaz",
+    "magyarazat": "A 2000::/3 a publikusan útvonalazható Global Unicast tartomány."
+  },
+  {
+    "id": 41,
+    "fejezet": "23_Az IPv6 protokoll",
+    "kerdes": "Az FC00::/7 (RFC4139) a Unique Local Unicast tartomány, amely a privát hálózati címeknek felel meg hivatalos prefix hiányában.",
+    "valasz": "igaz",
+    "magyarazat": "Az FC00::/7 a helyi privát IPv6 címek rögzített tartománya."
+  },
+  {
+    "id": 42,
+    "fejezet": "23_Az IPv6 protokoll",
+    "kerdes": "A Link-Local Unicast címek (FE80::/10, RFC4862) az egész globális Interneten útvonalazhatók.",
+    "valasz": "hamis",
+    "magyarazat": "A Link-Local címek csak egy adott fizikai linken vagy szegmensen belül érvényesek."
+  },
+  {
+    "id": 43,
+    "fejezet": "23_Az IPv6 protokoll",
+    "kerdes": "A Site-Local Unicast tartomány (FEC0::/10, RFC3978) ma is a legelterjedtebb címzési mód a vállalati belső hálózatokban.",
+    "valasz": "hamis",
+    "magyarazat": "A Site-Local tartomány már nincs használatban, mert a 'Site' fogalma nem volt pontosan meghatározva."
+  },
+  {
+    "id": 44,
+    "fejezet": "23_Az IPv6 protokoll",
+    "kerdes": "Az FF00::/8 tartomány a Multicast és Broadcast céljára felhasználható IPv6 címeket foglalja magában.",
+    "valasz": "igaz",
+    "magyarazat": "Az FF00::/8 a többesküldési (Multicast) címcsoport."
+  },
+  {
+    "id": 45,
+    "fejezet": "23_Az IPv6 protokoll",
+    "kerdes": "Az NDP (Neighbour Discovery Protocol) részletes leírását az RFC4861 dokumentum tartalmazza.",
+    "valasz": "igaz",
+    "magyarazat": "Az NDP protokoll szabványát az RFC4861 rögzíti."
+  },
+  {
+    "id": 46,
+    "fejezet": "23_Az IPv6 protokoll",
+    "kerdes": "Az NDP feladatai közé tartozik a Router Discovery, a Prefix Discovery, az Address Autoconfiguration és a Duplicate Address Detection (DAD).",
+    "valasz": "igaz",
+    "magyarazat": "Mindegyik felsorolt eljárás az NDP protokoll hivatalos feladatai közé tartozik."
+  },
+  {
+    "id": 47,
+    "fejezet": "23_Az IPv6 protokoll",
+    "kerdes": "Az NDP protokoll feladatai ellátásához különálló, Layer 2-es Ethernet kerettípusokat használ, elkerülve az ICMPv6 csomagokat.",
+    "valasz": "hamis",
+    "magyarazat": "Az NDP protokoll az IPv6 részeként ICMPv6 csomagokat használ fel a feladatai megoldásához."
+  },
+  {
+    "id": 48,
+    "fejezet": "23_Az IPv6 protokoll",
+    "kerdes": "A környezet felmérésének céljára az ICMPv6 pontosan ötféle üzenetet használ: Router Solicitation, Router Advertisement, Neighbor Solicitation, Neighbor Advertisement és Redirect.",
+    "valasz": "igaz",
+    "magyarazat": "Az NDP környezetfelmérésre ez az öt ICMPv6 üzenettípus szolgál."
+  }
+]

@@ -1,0 +1,296 @@
+[
+  {
+    "id": 1,
+    "fejezet": "13_Közeg-hozzáférési alréteg_és_Többszörös hozzáférésü protokollok 1",
+    "kerdes": "A számítógép-hálózatok az adatszórásos (Broadcast) és a pont-pont (Point-to-Point) összeköttetésű hálózatok két fő csoportjára oszthatók.",
+    "valasz": "igaz",
+    "magyarazat": "A hálózatok egyik alapvető csoportosítása az adatszóró és a pont-pont hálózatok megkülönböztetése."
+  },
+  {
+    "id": 2,
+    "fejezet": "13_Közeg-hozzáférési alréteg_és_Többszörös hozzáférésü protokollok 1",
+    "kerdes": "Adatszórásos hálózatokban a fő kihívás az, hogy miként határozható meg, melyik adó nyeri el a közös csatorna használati jogát.",
+    "valasz": "igaz",
+    "magyarazat": "Az adatszórásos közegekben a versengő adók csatornahozzáférésének rendezése a fő feladat."
+  },
+  {
+    "id": 3,
+    "fejezet": "13_Közeg-hozzáférési alréteg_és_Többszörös hozzáférésü protokollok 1",
+    "kerdes": "A csatornahozzáférés problémájának szemléltetésére használt hatrésztvevős telefonos konferenciabeszélgetésben a résztvevők kézfeltartással jelzik hozzászólási szándékukat.",
+    "valasz": "hamis",
+    "magyarazat": "A telefonos konferencián a résztvevők nem látják egymást, így nem tudnak kézfeltartással jelezni; a kézfeltartás csak személyes vagy videós találkozón működne."
+  },
+  {
+    "id": 4,
+    "fejezet": "13_Közeg-hozzáférési alréteg_és_Többszörös hozzáférésü protokollok 1",
+    "kerdes": "A közeg-hozzáférési alréteg (MAC – Media Access Control) a hálózati réteg alsó alrétege.",
+    "valasz": "hamis",
+    "magyarazat": "A MAC alréteg az adatkapcsolati réteg (nem a hálózati réteg) egyik alrétege."
+  },
+  {
+    "id": 5,
+    "fejezet": "13_Közeg-hozzáférési alréteg_és_Többszörös hozzáférésü protokollok 1",
+    "kerdes": "A MAC alréteg protokolljai felelősek az adatszórásos csatorna használatáért és a csatornakiosztás problémájának megoldásáért.",
+    "valasz": "igaz",
+    "magyarazat": "A MAC alréteg feladata a közös adatszóró csatorna hozzáférésének és kiosztásának szabályozása."
+  },
+  {
+    "id": 6,
+    "fejezet": "13_Közeg-hozzáférési alréteg_és_Többszörös hozzáférésü protokollok 1",
+    "kerdes": "A MAC alréteg a vezetékes LAN hálózatoknál fontos, de a WLAN hálózatoknál nem alkalmazható.",
+    "valasz": "hamis",
+    "magyarazat": "A MAC alréteg a LAN hálózatoknál fontos, de a WLAN hálózatoknál kiemelten fontos, mivel a WLAN működése alapvetően adatszórásos."
+  },
+  {
+    "id": 7,
+    "fejezet": "13_Közeg-hozzáférési alréteg_és_Többszörös hozzáférésü protokollok 1",
+    "kerdes": "Az adatkapcsolati rétegben a MAC alréteg felett elhelyezkedő másik alréteg a kapcsolatvezérlési alréteg (LLC – Logical Link Control).",
+    "valasz": "igaz",
+    "magyarazat": "Az adatkapcsolati réteg két alrétege a felül lévő LLC (Logical Link Control) és az alul lévő MAC (Media Access Control)."
+  },
+  {
+    "id": 8,
+    "fejezet": "13_Közeg-hozzáférési alréteg_és_Többszörös hozzáférésü protokollok 1",
+    "kerdes": "Az LLC alréteg feladata a vett keretek épségének ellenőrzése, a hibás keretek újrakérése és az egyes hálózatok sajátosságainak elrejtése egységes szolgáltatások nyújtásával.",
+    "valasz": "igaz",
+    "magyarazat": "Az LLC alréteg végzi a keretellenőrzést, az újraküldést, a kapcsolatszervezést és a hálózati különbségek elrejtését."
+  },
+  {
+    "id": 9,
+    "fejezet": "13_Közeg-hozzáférési alréteg_és_Többszörös hozzáférésü protokollok 1",
+    "kerdes": "A 7 rétegű OSI modellben a Megjelenítési és a Viszonyréteg megtalálható a TCP/IP modellben is.",
+    "valasz": "hamis",
+    "magyarazat": "A TCP/IP modellben nem létezik külön Megjelenítési (6.) és Viszonyréteg (5.)."
+  },
+  {
+    "id": 10,
+    "fejezet": "13_Közeg-hozzáférési alréteg_és_Többszörös hozzáférésü protokollok 1",
+    "kerdes": "A gyakorlati ötrétegű modell 2. rétegéhez (Adatkapcsolati réteg) tartozó eszközök a Bridge és a Switch.",
+    "valasz": "igaz",
+    "magyarazat": "Az adatkapcsolati réteg aktív eszközei a Bridge és a Switch, kommunikációs egysége pedig a keret."
+  },
+  {
+    "id": 11,
+    "fejezet": "13_Közeg-hozzáférési alréteg_és_Többszörös hozzáférésü protokollok 1",
+    "kerdes": "A fizikai réteg (1. réteg) kommunikációs egysége a csomag, eszközei pedig a Routerek.",
+    "valasz": "hamis",
+    "magyarazat": "A fizikai réteg kommunikációs egysége a bit vagy digitális/analóg jel, eszközei a Hub, Repeater és Media converter; a csomag és a Router a 3. (Hálózati) réteghez tartozik."
+  },
+  {
+    "id": 12,
+    "fejezet": "13_Közeg-hozzáférési alréteg_és_Többszörös hozzáférésü protokollok 1",
+    "kerdes": "A szállítási réteg (4. réteg) feladata a forrás és cél közötti kommunikáció és megbízhatóság biztosítása, kommunikációs egysége a szegmens.",
+    "valasz": "igaz",
+    "magyarazat": "A 4. szállítási réteg feladata a végpontok közötti megbízható adatátvitel, egysége a szegmens."
+  },
+  {
+    "id": 13,
+    "fejezet": "13_Közeg-hozzáférési alréteg_és_Többszörös hozzáférésü protokollok 1",
+    "kerdes": "Statikus csatornakiosztás esetén a csatorna együttes használata során az adók nem zavarják egymást semmilyen körülmények között.",
+    "valasz": "hamis",
+    "magyarazat": "Adatszóró csatornán a csatorna együttes használata azzal jár, hogy védelem hiányában bárki zavarhatja a többi felhasználót, ezért van szükség kiosztási eljárásokra."
+  },
+  {
+    "id": 14,
+    "fejezet": "13_Közeg-hozzáférési alréteg_és_Többszörös hozzáférésü protokollok 1",
+    "kerdes": "Az FDM (Frequency Division Multiplexing) a csatornát 'n' egyenlő frekvenciasávra osztja, így 'n' felhasználó egymás zavarása nélkül kommunikálhat.",
+    "valasz": "igaz",
+    "magyarazat": "Az FDM a frekvenciatartományt osztja fel fix szeletekre a felhasználók között."
+  },
+  {
+    "id": 15,
+    "fejezet": "13_Közeg-hozzáférési alréteg_és_Többszörös hozzáférésü protokollok 1",
+    "kerdes": "A KábelTV és az FM rádió műsorszórás a TDM (Time Division Multiplexing) statikus csatornakiosztási elven alapul.",
+    "valasz": "hamis",
+    "magyarazat": "A KábelTV és az FM rádió az FDM (frekvenciaosztásos) elven működik, ahol fix frekvenciasávok vannak kijelölve."
+  },
+  {
+    "id": 16,
+    "fejezet": "13_Közeg-hozzáférési alréteg_és_Többszörös hozzáférésü protokollok 1",
+    "kerdes": "Ha a küldő felek száma változik vagy az adatforgalom löketes jellegű, célszerűbb a TDM használata, ahol egy ügyfélhez időszeletet rendelünk.",
+    "valasz": "igaz",
+    "magyarazat": "Löketes forgalomnál a TDM időszelet-kiosztása célszerűbb, mint a frekvencia sávok statikus elhatárolása."
+  },
+  {
+    "id": 17,
+    "fejezet": "13_Közeg-hozzáférési alréteg_és_Többszörös hozzáférésü protokollok 1",
+    "kerdes": "Mind az FDM, mind a TDM statikus csatornakiosztás tökéletes hatásfokkal és pazarolásmentesen szolgálja ki a változó hálózati igényeket.",
+    "valasz": "hamis",
+    "magyarazat": "Mindkét statikus megoldás pazarlóan bánik az erőforrásokkal: az FDM-nél a frekvenciasávban, a TDM-nél az időben maradnak kihasználatlan lyukak."
+  },
+  {
+    "id": 18,
+    "fejezet": "13_Közeg-hozzáférési alréteg_és_Többszörös hozzáférésü protokollok 1",
+    "kerdes": "A telefónia hőskorából származó 'Fantom áramkör' egy ismert trükk a csatornakapacitás kihasználására.",
+    "valasz": "igaz",
+    "magyarazat": "A leírás külön megemlíti a telefónia hőskorából a 'Fantom áramkör' néven ismert megoldást."
+  },
+  {
+    "id": 19,
+    "fejezet": "13_Közeg-hozzáférési alréteg_és_Többszörös hozzáférésü protokollok 1",
+    "kerdes": "A dinamikus csatornakiosztás célja a statikus korlátok lebontása és a változó igényekhez való rugalmas alkalmazkodás.",
+    "valasz": "igaz",
+    "magyarazat": "A dinamikus csatornakiosztás a csatorna minél jobb kihasználására törekszik változó terhelés mellett."
+  },
+  {
+    "id": 20,
+    "fejezet": "13_Közeg-hozzáférési alréteg_és_Többszörös hozzáférésü protokollok 1",
+    "kerdes": "A dinamikus csatornakiosztás modelljében feltételezzük, hogy ha egy állomás előállított egy keretet, azonnal újat is generálhat, mielőtt az előzőt elküldené.",
+    "valasz": "hamis",
+    "magyarazat": "A modell feltételezi, hogy az állomás addig nem állít elő új keretet, amíg a meglévőt el nem küldte."
+  },
+  {
+    "id": 21,
+    "fejezet": "13_Közeg-hozzáférési alréteg_és_Többszörös hozzáférésü protokollok 1",
+    "kerdes": "A dinamikus csatornakiosztási modell független forgalmi peremfeltétele szerint Δt idő alatt a keret keletkezésének valószínűsége λ * Δt, ahol λ az érkezési intenzitás.",
+    "valasz": "igaz",
+    "magyarazat": "A független forgalom modelljében a keretkeletkezés valószínűségét a λ konstans intenzitással megadott képlet írja le."
+  },
+  {
+    "id": 22,
+    "fejezet": "13_Közeg-hozzáférési alréteg_és_Többszörös hozzáférésü protokollok 1",
+    "kerdes": "Az 'Egyetlen csatorna' peremfeltétel maradéktalanul teljesül mind az ISDN, mind a GSM rendszerekben.",
+    "valasz": "hamis",
+    "magyarazat": "Az egyetlen csatorna feltétele sem az ISDN, sem a GSM rendszerben nem teljesül, mert azokban külön adat- és jelzésátviteli csatornák vannak."
+  },
+  {
+    "id": 23,
+    "fejezet": "13_Közeg-hozzáférési alréteg_és_Többszörös hozzáférésü protokollok 1",
+    "kerdes": "Ütközés (Collision) akkor keletkezik, ha két vagy több keret egy időben jelenik meg a vevő bemenetén és azokat nem lehet szétválasztani.",
+    "valasz": "igaz",
+    "magyarazat": "Az ütközés definíció szerint az egyidejűleg érkező, szétválaszthatatlan keretek egymást zavaró állapota."
+  },
+  {
+    "id": 24,
+    "fejezet": "13_Közeg-hozzáférési alréteg_és_Többszörös hozzáférésü protokollok 1",
+    "kerdes": "Vezeték nélküli hálózatokban az ütközések detektálása lényegesen könnyebb feladat, mint vezetékes hálózatokban.",
+    "valasz": "hamis",
+    "magyarazat": "Vezeték nélküli hálózatokban az ütközések detektálása lényegesen nehezebb feladat a saját adási jel elnyomó hatása és a rejtett állomások miatt."
+  },
+  {
+    "id": 25,
+    "fejezet": "13_Közeg-hozzáférési alréteg_és_Többszörös hozzáférésü protokollok 1",
+    "kerdes": "Folytonos időmodell esetén a keretek továbbítása bármely időpillanatban megkezdődhet.",
+    "valasz": "igaz",
+    "magyarazat": "Folytonos időmodellben nincs időréses megkötés, az adás tetszőleges pillanatban indulhat."
+  },
+  {
+    "id": 26,
+    "fejezet": "13_Közeg-hozzáférési alréteg_és_Többszörös hozzáférésü protokollok 1",
+    "kerdes": "Diszkrét időről (Slotted Time) beszélünk, ha az idő szeletekre van bontva, és a keretek adása az időszeletben bármikor megkezdődhet.",
+    "valasz": "hamis",
+    "magyarazat": "Diszkrét (réselt) idő esetén a keretek továbbítása kizárólag az időszelet elején kezdődhet meg."
+  },
+  {
+    "id": 27,
+    "fejezet": "13_Közeg-hozzáférési alréteg_és_Többszörös hozzáférésü protokollok 1",
+    "kerdes": "Diszkrét időmodellben egy időszelet 0, 1 vagy több keretet tartalmazhat, azaz lehet üres, sikeres vagy ütközéses.",
+    "valasz": "igaz",
+    "magyarazat": "Az időszeletek a tartalmuk szerint pontosan e három kategóriába (üres, sikeres, ütközéses) sorolhatók."
+  },
+  {
+    "id": 28,
+    "fejezet": "13_Közeg-hozzáférési alréteg_és_Többszörös hozzáférésü protokollok 1",
+    "kerdes": "A vivőjel-érzékelést (Carrier Sense) használó állomások nem próbálják használni a csatornát, amíg azt foglaltnak érzékelik.",
+    "valasz": "igaz",
+    "magyarazat": "A vivőjel-érzékelés lényege a csatorna állapotának ellenőrzése az adás megkezdése előtt."
+  },
+  {
+    "id": 29,
+    "fejezet": "13_Közeg-hozzáférési alréteg_és_Többszörös hozzáférésü protokollok 1",
+    "kerdes": "Vivőjel-érzékelés nélkül az állomások azonnal adni kezdenek, és a sikerességről csak az adás végén tudnak meggyőződni.",
+    "valasz": "igaz",
+    "magyarazat": "Mivel nem érzékelik a vivőt, az állomások vakon elindítják az adást, majd a visszajelzésből értesülnek az eredményről."
+  },
+  {
+    "id": 30,
+    "fejezet": "13_Közeg-hozzáférési alréteg_és_Többszörös hozzáférésü protokollok 1",
+    "kerdes": "A vivőjel-érzékelés hiánya kizárólag elméleti lehetőség, a valóságban soha nem fordul elő ilyen helyzet.",
+    "valasz": "hamis",
+    "magyarazat": "A valóságban sokszor előfordul ez a helyzet; például ha a vezeték nélküli állomások kívül esnek egymás hatósugarán, vagy kábelmodemeknél, amik a fejállomáson át kommunikálnak."
+  },
+  {
+    "id": 31,
+    "fejezet": "13_Közeg-hozzáférési alréteg_és_Többszörös hozzáférésü protokollok 1",
+    "kerdes": "Egy többszörös hozzáférésű protokoll önmagában is teljes megbízhatóságot és hibamentes átvitelt garantál.",
+    "valasz": "hamis",
+    "magyarazat": "Önmagában egyetlen többszörös hozzáférésű protokoll sem biztosít megbízható átvitelt; a megbízhatóságért az adatkapcsolati réteg más részei vagy felsőbb rétegek felelnek."
+  },
+  {
+    "id": 32,
+    "fejezet": "13_Közeg-hozzáférési alréteg_és_Többszörös hozzáférésü protokollok 1",
+    "kerdes": "Az ALOHA protokoll mozaikszava az 'Additive Link Off Hawaiian Access' kifejezésből származik.",
+    "valasz": "igaz",
+    "magyarazat": "Az ALOHA hivatalos kibontása az Additive Link Off Hawaiian Access."
+  },
+  {
+    "id": 33,
+    "fejezet": "13_Közeg-hozzáférési alréteg_és_Többszörös hozzáférésü protokollok 1",
+    "kerdes": "Az ALOHA protokollt az 1970-es évek elején, a Hawaii Egyetemen dolgozta ki Norman Abramson a szigetek közötti vezeték nélküli adatátvitelre.",
+    "valasz": "igaz",
+    "magyarazat": "A rendszert Norman Abramson fejlesztette ki a Hawaii szigetek összekapcsolására."
+  },
+  {
+    "id": 34,
+    "fejezet": "13_Közeg-hozzáférési alréteg_és_Többszörös hozzáférésü protokollok 1",
+    "kerdes": "Az ALOHA hálózatban a külső szigeten lévő állomások közvetlenül hallják egymás adását, mert nincs köztük földrajzi akadály.",
+    "valasz": "hamis",
+    "magyarazat": "A külső szigeten lévő állomások nem hallják egymást, mert a központi sziget leárnyékolja őket."
+  },
+  {
+    "id": 35,
+    "fejezet": "13_Közeg-hozzáférési alréteg_és_Többszörös hozzáférésü protokollok 1",
+    "kerdes": "Az ALOHA rendszerben a felhasználók a központi számítógép felé történő feltöltéshez (Upstream) ugyanazt a közös frekvenciasávot használták.",
+    "valasz": "igaz",
+    "magyarazat": "A feltöltési (Upstream) irányban minden állomás egy közös rádiós frekvenciasávot használt versengve."
+  },
+  {
+    "id": 36,
+    "fejezet": "13_Közeg-hozzáférési alréteg_és_Többszörös hozzáférésü protokollok 1",
+    "kerdes": "Az ALOHA hálózatban a központi számítógép és az állomások egyenrangú Peer-to-Peer viszonyban állnak egymással.",
+    "valasz": "hamis",
+    "magyarazat": "A központ és az állomások mester–szolga (Master–Slave) hierarchiában működnek."
+  },
+  {
+    "id": 37,
+    "fejezet": "13_Közeg-hozzáférési alréteg_és_Többszörös hozzáférésü protokollok 1",
+    "kerdes": "Az ALOHA hálózatban az üzemi csatorna mellett egy külön nyugtázó csatorna is működik, amelyet kizárólag a központi számítógép használ.",
+    "valasz": "igaz",
+    "magyarazat": "A két csatornás modellben a nyugtázó csatornát csak a központ használja, így azon nem fordulhat elő ütközés."
+  },
+  {
+    "id": 38,
+    "fejezet": "13_Közeg-hozzáférési alréteg_és_Többszörös hozzáférésü protokollok 1",
+    "kerdes": "Hawaii nyelven az 'aloha' szó jelentése magyarul 'békesség'.",
+    "valasz": "hamis",
+    "magyarazat": "A szöveges kiegészítés szerint Hawaii nyelven az 'aloha' szó jelentése magyarul 'szerelem'."
+  },
+  {
+    "id": 39,
+    "fejezet": "13_Közeg-hozzáférési alréteg_és_Többszörös hozzáférésü protokollok 1",
+    "kerdes": "Az egyszerű (tiszta) ALOHA alapgondolata: mindenki akkor ad, amikor akar, a sikertelen kereteket pedig azonnal, várakozás nélkül újraküldi.",
+    "valasz": "hamis",
+    "magyarazat": "A sikertelen keretek azonnali újraadása újabb ütközéshez vezetne, ezért a kereteket véletlenszerű késleltetéssel adják újra."
+  },
+  {
+    "id": 40,
+    "fejezet": "13_Közeg-hozzáférési alréteg_és_Többszörös hozzáférésü protokollok 1",
+    "kerdes": "Az egyszerű ALOHA esetében a nyugtázatlan kereteket véletlenszerű, Poisson-eloszlást követő késleltetéssel küldik újra.",
+    "valasz": "igaz",
+    "magyarazat": "Az újraküldés véletlenszerűsítését a Poisson-eloszlás segítségével valósítják meg."
+  },
+  {
+    "id": 41,
+    "fejezet": "13_Közeg-hozzáférési alréteg_és_Többszörös hozzáférésü protokollok 1",
+    "kerdes": "A Poisson-eloszlás a valószínűség-számításban a binomiális eloszlás határeloszlása, amely kifejezi az adott idő alatt bekövetkező események számát.",
+    "valasz": "igaz",
+    "magyarazat": "Ez a Poisson-eloszlás pontos valószínűségszámítási definíciója."
+  },
+  {
+    "id": 42,
+    "fejezet": "13_Közeg-hozzáférési alréteg_és_Többszörös hozzáférésü protokollok 1",
+    "kerdes": "A sok ütközés miatt az egyszerű ALOHA csatornakihasználtsága rendkívül gyenge, maximális áteresztőképessége mindössze 18%.",
+    "valasz": "igaz",
+    "magyarazat": "A tiszta (egyszerű) ALOHA elméleti maximális csatornahasználata 18% (pontosabban 1/2e ≈ 18.4%)."
+  }
+]

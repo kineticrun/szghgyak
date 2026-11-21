@@ -1,0 +1,338 @@
+[
+  {
+    "id": 1,
+    "fejezet": "07_A fizikai réteg",
+    "kerdes": "A fizikai réteg a hivatkozási modellek legalsó rétege, melynek fő feladata a fizikai összeköttetés biztosítása az adó és a vevő között.",
+    "valasz": "igaz",
+    "magyarazat": "A fizikai réteg a legalsó réteg, feladata a jelek eljuttatása az adótól a vevőig a fizikai átviteli közegen keresztül."
+  },
+  {
+    "id": 2,
+    "fejezet": "07_A fizikai réteg",
+    "kerdes": "A fizikai rétegen áthaladó jelek feldolgozása és értelmezése kizárólag analóg formában történik.",
+    "valasz": "hamis",
+    "magyarazat": "Noha a jelek az átvitel során lehetnek analógok vagy digitálisak, a jelek feldolgozása és értelmezése mindenképpen digitális formában történik."
+  },
+  {
+    "id": 3,
+    "fejezet": "07_A fizikai réteg",
+    "kerdes": "A legelterjedtebb Ethernet hálózatok a klasszikus TTL (0V / +5V) feszültségszintekkel működnek.",
+    "valasz": "hamis",
+    "magyarazat": "Az Ethernet hálózatok nem a klasszikus TTL vagy CMOS szintekkel dolgoznak, hanem jellemzően +2.5V és -2.5V közötti feszültségszintekkel."
+  },
+  {
+    "id": 4,
+    "fejezet": "07_A fizikai réteg",
+    "kerdes": "Az Ethernet hálózatokban a +2.5V és -2.5V közötti feszültségszintek használatával elkerülhető a 0V nulla bitként való értelmezése, így a kábelszakadás nem okoz 0-ás bitsorozatot.",
+    "valasz": "igaz",
+    "magyarazat": "A szimmetrikus pozitív és negatív feszültségszintek használata megelőzi a 0V téves 0-ás bitként történő értelmezését kábelszakadás esetén."
+  },
+  {
+    "id": 5,
+    "fejezet": "07_A fizikai réteg",
+    "kerdes": "A soros kommunikációban használt RS-232 rövidítés jelentése 'Recommended Standard'.",
+    "valasz": "igaz",
+    "magyarazat": "Az RS-232 a Recommended Standard (Javasolt Szabvány) angol kifejezés rövidítése."
+  },
+  {
+    "id": 6,
+    "fejezet": "07_A fizikai réteg",
+    "kerdes": "Az USART kommunikációs mód egyszerűbb megvalósíthatósága miatt jóval elterjedtebb, mint az UART mód.",
+    "valasz": "hamis",
+    "magyarazat": "A szinkronizáció megvalósítása az USART esetében bonyolultabb, ezért a könnyebben megvalósítható UART az elterjedtebb."
+  },
+  {
+    "id": 7,
+    "fejezet": "07_A fizikai réteg",
+    "kerdes": "A soros aszinkron adatátvitel nem tartalmaz az adatforgalom szinkronizálását végző közös órajelet (clock).",
+    "valasz": "igaz",
+    "magyarazat": "Aszinkron átvitelnél nincs közös órajel-vezeték, az adónak és a vevőnek előre meghatározott frekvenciával kell adnia, illetve mintát vennie."
+  },
+  {
+    "id": 8,
+    "fejezet": "07_A fizikai réteg",
+    "kerdes": "Az RS-232 szabvány szerint a logikai 1-es szinthez +12V, míg a logikai 0-s szinthez -12V tartozik.",
+    "valasz": "hamis",
+    "magyarazat": "Az RS-232 esetében a logikai 1-es szinthez negatív feszültség (-12V), a logikai 0-s szinthez pedig pozitív feszültség (+12V) tartozik."
+  },
+  {
+    "id": 9,
+    "fejezet": "07_A fizikai réteg",
+    "kerdes": "Az RS-232 csatlakozó 9 vezetékéből a gyakorlatban csak 3 vezeték (Rx, Tx, GND) aktív.",
+    "valasz": "igaz",
+    "magyarazat": "Az RS-232 csatlakozó 9 érintkezőjéből az alapszintű adatátvitelhez mindössze 3 aktív vezeték szükséges: az adás (Tx), a vétel (Rx) és a földelés (GND)."
+  },
+  {
+    "id": 10,
+    "fejezet": "07_A fizikai réteg",
+    "kerdes": "Az USB interfész fizikai rétegben 4 vezetéket használ: DATA+, DATA-, +5V és GND.",
+    "valasz": "igaz",
+    "magyarazat": "Az USB csatlakozás 4 eret tartalmaz: a két adatvezetéket (DATA+, DATA-), a tápvonalat (+5V) és a földelést (GND)."
+  },
+  {
+    "id": 11,
+    "fejezet": "07_A fizikai réteg",
+    "kerdes": "A TTL logikai rétegben a logikai 1-es szinthez 0V, a logikai 0-s szinthez pedig +5V tartozik.",
+    "valasz": "hamis",
+    "magyarazat": "A TTL logikai rétegben a logikai 1-es szint +5V, a logikai 0-s szint pedig 0V."
+  },
+  {
+    "id": 12,
+    "fejezet": "07_A fizikai réteg",
+    "kerdes": "Ha egy 10 bites adatcsomaghoz paritásbitet adunk hozzá, a kódolt csomag hossza 11 bitesre bővül.",
+    "valasz": "igaz",
+    "magyarazat": "A paritásbit hozzáadásával az alkalmazási réteg 10 bites csomagja 11 bites kódszóvá egészül ki."
+  },
+  {
+    "id": 13,
+    "fejezet": "07_A fizikai réteg",
+    "kerdes": "Páros paritás generálása esetén a paritásbit értéke 1 lesz, ha a kódszóban lévő 1-es bitek száma páros.",
+    "valasz": "hamis",
+    "magyarazat": "Páros paritásnál a paritásbit értéke 0, ha a kódszóban lévő 1-esek száma páros, és 1, ha páratlan, így a paritásbit hozzáadása utáni 1-esek száma páros marad."
+  },
+  {
+    "id": 14,
+    "fejezet": "07_A fizikai réteg",
+    "kerdes": "A paritásbit elnevezése (páros vagy páratlan) a paritásbit kódszóhoz történő hozzáadása utáni állapotra utal.",
+    "valasz": "igaz",
+    "magyarazat": "Az elnevezés az elkészült 11 bites bitsorozatban található egyesek számára vonatkozik a paritásbit hozzáadását követően."
+  },
+  {
+    "id": 15,
+    "fejezet": "07_A fizikai réteg",
+    "kerdes": "A klasszikus CRC (Ciklikus Redundancia Ellenőrzés) a páratlan paritás generálás elvének megfelelően működik.",
+    "valasz": "hamis",
+    "magyarazat": "A CRC ellenőrzés a páros paritás generálás elvének megfelelően történik."
+  },
+  {
+    "id": 16,
+    "fejezet": "07_A fizikai réteg",
+    "kerdes": "Egyetlen paritásbit használatával kettő vagy több sérült bit hibája is minden esetben megbízhatóan detektálható.",
+    "valasz": "hamis",
+    "magyarazat": "Egyetlen paritásbit csak 1 bites hiba felismerését garantálja; ha kettő vagy több bit sérül, az ellenőrzés tévesen hibátlannak mutathatja az átvitelt."
+  },
+  {
+    "id": 17,
+    "fejezet": "07_A fizikai réteg",
+    "kerdes": "A CMOS technológia tetszőleges 3V és 18V közötti tápfeszültsége hátránnyá válik a hálózati illesztőknél, mert nem garantált a két oldal azonos feszültsége.",
+    "valasz": "igaz",
+    "magyarazat": "A CMOS feszültségrugalmassága meggátolja a két oldal közötti egységes logikai feszültségszintek biztosítását."
+  },
+  {
+    "id": 18,
+    "fejezet": "07_A fizikai réteg",
+    "kerdes": "A fizikai közegen átfolyó áram erőssége, a kapocsfeszültség és a frekvencia mind módosítható fizikai paraméterek az információ továbbítására.",
+    "valasz": "igaz",
+    "magyarazat": "A feszültség, az áramerősség és a frekvencia segítségével írható le a változó jel egyváltozós időfüggvénnyel."
+  },
+  {
+    "id": 19,
+    "fejezet": "07_A fizikai réteg",
+    "kerdes": "A szuperpozíció a független fizikai mennyiségek vektoriális összegződésének elve.",
+    "valasz": "igaz",
+    "magyarazat": "A szuperpozíció definíció szerint a független fizikai mennyiségek vektoriális összegződését jelenti."
+  },
+  {
+    "id": 20,
+    "fejezet": "07_A fizikai réteg",
+    "kerdes": "Egy összetett négyszögjel szinuszos alapharmonikusból és annak felharmonikusaiból szuperponálással tetszőleges pontossággal előállítható.",
+    "valasz": "igaz",
+    "magyarazat": "A négyszögjel előállítható a szinuszos alapharmonikus és a felharmonikusok megfelelő amplitúdójú összegzésével."
+  },
+  {
+    "id": 21,
+    "fejezet": "07_A fizikai réteg",
+    "kerdes": "A jel legkisebb frekvenciájú összetevőjét felharmonikusnak, a többszörös frekvenciájú összetevőket alapharmonikusnak nevezzük.",
+    "valasz": "hamis",
+    "magyarazat": "A legkisebb frekvenciájú összetevő az alapharmonikus, míg a többszörös frekvenciájú összetevők a felharmonikusok."
+  },
+  {
+    "id": 22,
+    "fejezet": "07_A fizikai réteg",
+    "kerdes": "A tisztán szinuszos váltakozó áram olyan speciális eset, ahol a felharmonikusok amplitúdója és az egyenáramú összetevő egyaránt nulla.",
+    "valasz": "igaz",
+    "magyarazat": "Tiszta szinuszos jel esetén sem egyenáramú komponens, sem felharmonikus összetevők nincsenek jelen."
+  },
+  {
+    "id": 23,
+    "fejezet": "07_A fizikai réteg",
+    "kerdes": "A digitális jelfeldolgozás szempontjából ideális négyszögjel nagy távolságra is teljesen torzításmentesen továbbítható.",
+    "valasz": "hamis",
+    "magyarazat": "A négyszögjel nem továbbítható nagy távolságra torzításmentesen, mert az egyes frekvenciakomponensek eltérő csillapítást és torzulást szenvednek."
+  },
+  {
+    "id": 24,
+    "fejezet": "07_A fizikai réteg",
+    "kerdes": "Jean Baptiste Joseph Fourier francia matematikus és fizikus (1768–1830) fő kutatási területe a hőtan és a hőáramlás volt.",
+    "valasz": "igaz",
+    "magyarazat": "Fourier fő kutatási területe a hőtan és a homogén rúdban zajló hőáramlás vizsgálata volt."
+  },
+  {
+    "id": 25,
+    "fejezet": "07_A fizikai réteg",
+    "kerdes": "W. R. Wade professzor idézete szerint a hegedű és a harsona azonos zenei hangjának megkülönböztetését a fülünkbe épített természetes Fourier-analízis teszi lehetővé a felhangok alapján.",
+    "valasz": "igaz",
+    "magyarazat": "Wade kifejti, hogy az azonos alapfrekvenciájú hangok a különböző felharmonikus-összetevőik miatt különíthetők el."
+  },
+  {
+    "id": 26,
+    "fejezet": "07_A fizikai réteg",
+    "kerdes": "A Fourier-sor matematika képletében az f = 1/T kifejezés az alapharmonikus frekvenciáját határozza meg a T periódusidőből.",
+    "valasz": "igaz",
+    "magyarazat": "Az alapfrekvencia a T periódusidő reciproka (f = 1/T)."
+  },
+  {
+    "id": 27,
+    "fejezet": "07_A fizikai réteg",
+    "kerdes": "Azt a frekvenciatartományt, amelyen belül a jelek csillapítása és torzulása még elviselhető tartományban marad, sávszélességnek (Bandwidth) nevezzük.",
+    "valasz": "igaz",
+    "magyarazat": "A sávszélesség az a korlátozott frekvenciasáv, ahol a csatorna torzítása a digitális átvitel számára még elfogadható."
+  },
+  {
+    "id": 28,
+    "fejezet": "07_A fizikai réteg",
+    "kerdes": "Az FDM (Frequency Division Multiplexing) eljárás főként a tisztán digitális technológiákban használatos multiplexelési módszer.",
+    "valasz": "hamis",
+    "magyarazat": "Az FDM (Frekvenciaosztásos Multiplexelés) főleg az analóg technológiában használatos."
+  },
+  {
+    "id": 29,
+    "fejezet": "07_A fizikai réteg",
+    "kerdes": "A klasszikus analóg telefon beszédcsatornája a 300 Hz és 3400 Hz közötti frekvenciatartományban működik.",
+    "valasz": "igaz",
+    "magyarazat": "A hagyományos analóg telefonvonalak átviteli sávja 300 Hz-től 3400 Hz-ig terjed."
+  },
+  {
+    "id": 30,
+    "fejezet": "07_A fizikai réteg",
+    "kerdes": "Magyarországon a hagyományos analóg televíziós adás 2013-ban szűnt meg.",
+    "valasz": "igaz",
+    "magyarazat": "A hazai analóg földfelszíni TV adás lekapcsolása 2013-ban történt meg."
+  },
+  {
+    "id": 31,
+    "fejezet": "07_A fizikai réteg",
+    "kerdes": "Az analóg TV adás csatornaszélessége az OIRT szabvány szerint 5,5 MHz, a CCIRT szabvány szerint pedig 6,5 MHz volt.",
+    "valasz": "hamis",
+    "magyarazat": "Az OIRT szabvány szerint 6,5 MHz, míg a CCIRT szabvány szerint 5,5 MHz volt egy analóg TV csatorna szélessége."
+  },
+  {
+    "id": 32,
+    "fejezet": "07_A fizikai réteg",
+    "kerdes": "Egy 150 kHz sávszélességű telefonvezetéken 4 kHz-es csatornákkal számolva legfeljebb 37 egyidejű beszélgetés valósítható meg.",
+    "valasz": "igaz",
+    "magyarazat": "150 / 4 = 37,5, azaz legfeljebb 37 különálló hangcsatorna fér el a megadott sávban."
+  },
+  {
+    "id": 33,
+    "fejezet": "07_A fizikai réteg",
+    "kerdes": "Az OFDM (Orthogonal Frequency Division Multiplexing) során az alvivők teljesen elkülönülnek és széles védősávok választják el őket egymástól.",
+    "valasz": "hamis",
+    "magyarazat": "Az OFDM technológiában nincs szükség FDM védősávokra; az alvivők részben átfedik egymást, így 2 csatornányi helyen 3 csatorna is elhelyezkedhet."
+  },
+  {
+    "id": 34,
+    "fejezet": "07_A fizikai réteg",
+    "kerdes": "Az OFDM esetében az alvivők átfedése nem okoz zavart, mert a mintavételezés az alvivők középfrekvenciáin történik, ahol a szomszédos csatornák amplitúdója nulla.",
+    "valasz": "igaz",
+    "magyarazat": "Az ortogonalitás biztosítja, hogy a mintavételi pontokban a szomszédos alvivők jelei nem zavarják a mérést."
+  },
+  {
+    "id": 35,
+    "fejezet": "07_A fizikai réteg",
+    "kerdes": "Az OFDM eljárást többek között az LTE és az IEEE 802.11 a/g/n vezeték nélküli szabványok is alkalmazzák.",
+    "valasz": "igaz",
+    "magyarazat": "Az OFDM széles körben elterjedt mind a vezetékes, mind a modern vezeték nélküli (LTE, Wi-Fi) adatátvitelben."
+  },
+  {
+    "id": 36,
+    "fejezet": "07_A fizikai réteg",
+    "kerdes": "Az FFT rövidítés jelentése Fast Fourier Transformation (Gyors Fourier Transzformáció), amely nagyszámú mintavételezést igényel.",
+    "valasz": "igaz",
+    "magyarazat": "Az FFT a digitális jelfeldolgozásban használt gyors Fourier-transzformáció rövidítése."
+  },
+  {
+    "id": 37,
+    "fejezet": "07_A fizikai réteg",
+    "kerdes": "Egy jó minőségű koaxiális kábelTV hálózat akár 750 MHz átviteli sávszélességre is képes.",
+    "valasz": "igaz",
+    "magyarazat": "A jó minőségű koax kábelek átviteli kapacitása eléri a 750 MHz-es frekvenciatartományt."
+  },
+  {
+    "id": 38,
+    "fejezet": "07_A fizikai réteg",
+    "kerdes": "A KábelTV hálózatokban a feltöltés (Upstream) a spektrum felső tartományában, míg a letöltés (Downstream) a spektrum alján helyezkedik el.",
+    "valasz": "hamis",
+    "magyarazat": "A feltöltés (Upstream) a spektrum alján található (keskeny sávban az előfizetői oldalon), míg a letöltés (Downstream) a feltöltés feletti szélesebb tartományban kap helyet."
+  },
+  {
+    "id": 39,
+    "fejezet": "07_A fizikai réteg",
+    "kerdes": "A sávszélesség mértékegysége a villamosmérnök számára Hertz (Hz), míg a mérnök informatikus számára bit/sec jellegű mennyiség.",
+    "valasz": "igaz",
+    "magyarazat": "A villamosmérnök frekvenciatartományként (Hz), az informatikus pedig átviteli sebességként (bit/s) tekint a sávszélességre."
+  },
+  {
+    "id": 40,
+    "fejezet": "07_A fizikai réteg",
+    "kerdes": "Henry Nyquist (USA) 1924-ben ismert fel összefüggést az ideális, tökéletesen csillapítás- és torzításmentes csatornák maximális átviteli kapacitására.",
+    "valasz": "igaz",
+    "magyarazat": "Nyquist 1924-ben bizonyította a zajmentes, aluláteresztő csatornák maximális adatátviteli határát."
+  },
+  {
+    "id": 41,
+    "fejezet": "07_A fizikai réteg",
+    "kerdes": "Claude Shannon (USA) 1948-ban kiegészítette Nyquist munkáját a zajos csatornákra vonatkozó számításokkal.",
+    "valasz": "igaz",
+    "magyarazat": "Shannon 1948-as tétele a valós, zajos (pl. termodinamikus zajjal terhelt) csatornák maximális kapacitását adja meg."
+  },
+  {
+    "id": 42,
+    "fejezet": "07_A fizikai réteg",
+    "kerdes": "Nyquist tétele szerint egy B sávszélességű aluláteresztő szűrőn átbocsátott jelből másodpercenként B darab minta elegendő a jel teljes visszaállításához.",
+    "valasz": "hamis",
+    "magyarazat": "Nyquist mintavételezési tétele szerint másodpercenként pontosan 2B minta vételezésére van szükség a jel torzításmentes rekonstrukciójához."
+  },
+  {
+    "id": 43,
+    "fejezet": "07_A fizikai réteg",
+    "kerdes": "Nyquist képlete szerint a maximális adatsebesség = 2 * B * log2(V) [bit/sec], ahol V a jel diszkrét szintjeinek száma.",
+    "valasz": "igaz",
+    "magyarazat": "Ez a zajmentes csatornára vonatkozó Nyquist-képlet pontos alakja."
+  },
+  {
+    "id": 44,
+    "fejezet": "07_A fizikai réteg",
+    "kerdes": "A jel/zaj viszony (SNR) a jel teljesítményének (S) és a zaj teljesítményének (N) hányadosa, melyet logaritmikus deciBel (dB) skálán ábrázolunk.",
+    "valasz": "igaz",
+    "magyarazat": "Az SNR az S/N hányados, amit a 10 * log10(S/N) képlettel számítunk át deciBel értékre."
+  },
+  {
+    "id": 45,
+    "fejezet": "07_A fizikai réteg",
+    "kerdes": "A deciBel (dB) mértékegységet a telefon feltalálójáról, Alexander Graham Bell-ről nevezték el.",
+    "valasz": "igaz",
+    "magyarazat": "A deciBel elnevezés Alexander Graham Bell nevét őrzi."
+  },
+  {
+    "id": 46,
+    "fejezet": "07_A fizikai réteg",
+    "kerdes": "Ha egy csatorna S/N jel/zaj teljesítményhányadosa 100, akkor az a logaritmikus skálán 40 dB-nek felel meg.",
+    "valasz": "hamis",
+    "magyarazat": "Ha S/N = 100, akkor 10 * log10(100) = 10 * 2 = 20 dB (a 40 dB az S/N = 10 000 értéknél jelentkezne)."
+  },
+  {
+    "id": 47,
+    "fejezet": "07_A fizikai réteg",
+    "kerdes": "Ha az S/N hányados értéke 1000, akkor a jel-zaj viszony 30 dB.",
+    "valasz": "igaz",
+    "magyarazat": "10 * log10(1000) = 10 * 3 = 30 dB."
+  },
+  {
+    "id": 48,
+    "fejezet": "07_A fizikai réteg",
+    "kerdes": "Shannon tétele szerint a zajos csatorna maximális adatsebessége = B * log2(1 + S/N) [bit/sec].",
+    "valasz": "igaz",
+    "magyarazat": "Ez a valós, zajos csatornák maximális átviteli kapacitását megadó Shannon-képlet."
+  }
+]

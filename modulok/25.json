@@ -1,0 +1,303 @@
+[
+  {
+    "id": 1,
+    "fejezet": "25_Az alkalmazási réteg",
+    "kerdes": "Az alkalmazási réteg alatt elhelyezkedő rétegek működése a felhasználó számára közvetlenül látható és érzékelhető.",
+    "valasz": "hamis",
+    "magyarazat": "Az alkalmazási réteg alatti rétegek a felhasználó számára láthatatlan és érzékelhetetlen módon végzik a dolgukat."
+  },
+  {
+    "id": 2,
+    "fejezet": "25_Az alkalmazási réteg",
+    "kerdes": "Az alkalmazási réteg tartalmazza az összes magasabb szintű hálózati protokollt.",
+    "valasz": "igaz",
+    "magyarazat": "Az alkalmazási réteg foglalja magában az összes magas szintű protokollt és felhasználói szolgáltatást."
+  },
+  {
+    "id": 3,
+    "fejezet": "25_Az alkalmazási réteg",
+    "kerdes": "A DNS (Domain Name Service) teszi lehetővé, hogy a felhasználók az IP-cím ismerete nélkül, név alapján érjék el a weboldalakat.",
+    "valasz": "igaz",
+    "magyarazat": "A Körzetnév kezelő rendszer (DNS) a humán-olvasható tartományneveket képezi le a mögöttük álló IP-címekre."
+  },
+  {
+    "id": 4,
+    "fejezet": "25_Az alkalmazási réteg",
+    "kerdes": "A weboldalak eléréséhez kizárólag a doménnevek használhatók, az IP-cím közvetlen beírása a böngészőbe nem lehetséges.",
+    "valasz": "hamis",
+    "magyarazat": "Az IP-cím is beírható közvetlenül a webböngésző címsorába, de a gyakorlatban a névvel történő hivatkozás az elterjedt."
+  },
+  {
+    "id": 5,
+    "fejezet": "25_Az alkalmazási réteg",
+    "kerdes": "Az URL (Uniform Resource Locator) koncepcióját Tim Berners-Lee alkotta meg 1991-ben.",
+    "valasz": "igaz",
+    "magyarazat": "Az egységes erőforrás-azonosítót (URL) Tim Berners-Lee dolgozta ki 1991-ben, leírását az RFC1738 tartalmazza."
+  },
+  {
+    "id": 6,
+    "fejezet": "25_Az alkalmazási réteg",
+    "kerdes": "Az URL specifikációját és szabványos leírását az RFC1035 dokumentum rögzíti.",
+    "valasz": "hamis",
+    "magyarazat": "Az URL leírását az RFC1738 dokumentum tartalmazza, míg az RFC1035 a DNS specifikációjához tartozik."
+  },
+  {
+    "id": 7,
+    "fejezet": "25_Az alkalmazási réteg",
+    "kerdes": "A történelem legelső weblapja a CERN oldala volt, a http://info.cern.ch:80 címen.",
+    "valasz": "igaz",
+    "magyarazat": "Az első weboldal a CERN szerverén futott a megadott címen és 80-as portszámon."
+  },
+  {
+    "id": 8,
+    "fejezet": "25_Az alkalmazási réteg",
+    "kerdes": "Az URL egyetlen egységes címben négy alapvető információt ötvöz: a protokollt, a hoszt nevét, a portszámot és az elérési utat.",
+    "valasz": "igaz",
+    "magyarazat": "Az URL összetett szerkezete tartalmazza a kommunikációs protokollt, a célhoszt nevét, a szolgáltatási portot és a fájl pontos elérési útját."
+  },
+  {
+    "id": 9,
+    "fejezet": "25_Az alkalmazási réteg",
+    "kerdes": "A DNS szolgáltatás 1983-ban jelent meg, időben lényegesen megelőzve az URL megalkotását.",
+    "valasz": "igaz",
+    "magyarazat": "A DNS-t 1983-ban specifikálták (RFC1034, RFC1035), míg az URL-t csak 1991-ben hozták létre."
+  },
+  {
+    "id": 10,
+    "fejezet": "25_Az alkalmazási réteg",
+    "kerdes": "A DNS működéséhez egyetlen központi címtárat tartanak fenn, amely az összes internetes név-IP párosítást tárolja.",
+    "valasz": "hamis",
+    "magyarazat": "A DNS elosztott és hibatűrő rendszert alkot, ahol a felelősséget delegálják a zónákért felelős autoritatív névszerverek között."
+  },
+  {
+    "id": 11,
+    "fejezet": "25_Az alkalmazási réteg",
+    "kerdes": "Minden egyes DNS-tartományhoz tartozik egy mérvadó (autoritatív) névkiszolgáló szerver, amely felelős az adott doménért.",
+    "valasz": "igaz",
+    "magyarazat": "Az autoritatív névszerverek felelnek a saját tartományukért, és a felelősséget al-doménekre tovább delegálhatják."
+  },
+  {
+    "id": 12,
+    "fejezet": "25_Az alkalmazási réteg",
+    "kerdes": "A DNS kizárólag weboldalak IP-címének feloldására alkalmas, egyéb információk tárolására nem használható.",
+    "valasz": "hamis",
+    "magyarazat": "A DNS egyéb információkat is tárol, például az adott tartomány e-mailjeit fogadó levelező szerverek (MX rekordok) listáját."
+  },
+  {
+    "id": 13,
+    "fejezet": "25_Az alkalmazási réteg",
+    "kerdes": "Az országspecifikus felső szintű tartománykódokat az ISO3166 szabvány foglalja össze.",
+    "valasz": "igaz",
+    "magyarazat": "Az ISO3166 nemzetközi szabvány határozza meg a kétbetűs országkódos TLD végződéseket."
+  },
+  {
+    "id": 14,
+    "fejezet": "25_Az alkalmazási réteg",
+    "kerdes": "A TLD kiterjesztések közül a '.gov' a nonprofit szervezetek, míg az '.org' a kormányzati szervek megjelölésére szolgál.",
+    "valasz": "hamis",
+    "magyarazat": "A '.gov' jelöli a kormányzati (government), és az '.org' a nonprofit szervezeteket (organization)."
+  },
+  {
+    "id": 15,
+    "fejezet": "25_Az alkalmazási réteg",
+    "kerdes": "Az oktatási intézmények számára fenntartott elsődleges doménvégződés az '.edu'.",
+    "valasz": "igaz",
+    "magyarazat": "Az '.edu' (education) a felsőfokú és oktatási intézmények nemzetközi TLD kiterjesztése."
+  },
+  {
+    "id": 16,
+    "fejezet": "25_Az alkalmazási réteg",
+    "kerdes": "Tuvalu óceániai állam '.tv' tartománykódját több televíziós társaság is megvásárolta és használja üzleti célokra.",
+    "valasz": "igaz",
+    "magyarazat": "A '.tv' eredetileg Tuvalu országkódja, amelyet a mozaikszó egybeesése miatt televíziós médiumok használnak."
+  },
+  {
+    "id": 17,
+    "fejezet": "25_Az alkalmazási réteg",
+    "kerdes": "A 'Domain Hack' kifejezés olyan ötletes doménbejegyzésekre utal, mint az instagr.am (Örményország) vagy a goo.gl (Grönland).",
+    "valasz": "igaz",
+    "magyarazat": "A Domain Hack során az országkódot a szótő szerves részeként használják fel a teljes név megformálására."
+  },
+  {
+    "id": 18,
+    "fejezet": "25_Az alkalmazási réteg",
+    "kerdes": "A DNS névhierarchia csúcsán található gyökérnévszervereket (Root Name Server) 'A'-tól 'M'-ig terjedő betűkkel jelölik.",
+    "valasz": "igaz",
+    "magyarazat": "A 13 gyökérnévszerver jelölése 'A'-tól 'M'-ig terjed (pl. a.root-servers.net ... m.root-servers.net)."
+  },
+  {
+    "id": 19,
+    "fejezet": "25_Az alkalmazási réteg",
+    "kerdes": "A gyökérnévszerverek pontosan 10 darab fizikai kiszolgálóból állnak világszerte.",
+    "valasz": "hamis",
+    "magyarazat": "A gyökérnév-szolgáltatást 13 logikai gyökérszerver címen ('A'-tól 'M'-ig) érhetik el a névszerverek."
+  },
+  {
+    "id": 20,
+    "fejezet": "25_Az alkalmazási réteg",
+    "kerdes": "Minden DNS szervernek ismernie kell az összes gyökérnévszerver IPv4 és IPv6 címét.",
+    "valasz": "igaz",
+    "magyarazat": "A gyökérszerverek IP-címeinek ismerete elengedhetetlen a DNS névtér hierarchikus bejárásához."
+  },
+  {
+    "id": 21,
+    "fejezet": "25_Az alkalmazási réteg",
+    "kerdes": "A DNS névtérben zónának (Zone) nevezzük a struktúra egy olyan delegált ágát, amelyért egy kitüntetett szerver felelős.",
+    "valasz": "igaz",
+    "magyarazat": "A zóna a DNS-fa egy egymást el nem fedő, önállóan adminisztrált és delegált ága."
+  },
+  {
+    "id": 22,
+    "fejezet": "25_Az alkalmazási réteg",
+    "kerdes": "A DNS kliens oldali szoftvermodulját DNS-névfeloldónak (DNS Resolver) nevezik.",
+    "valasz": "igaz",
+    "magyarazat": "A DNS Resolver a kliens hoszton futó kód, amely a tartománynév IP-címre fordítását végzi az alkalmazások számára."
+  },
+  {
+    "id": 23,
+    "fejezet": "25_Az alkalmazási réteg",
+    "kerdes": "A teljes tartománynevet az FQDN (Fully Qualified Domain Name) rövidítés jelöli.",
+    "valasz": "igaz",
+    "magyarazat": "Az FQDN a hiánytalanul megadott, pontos és egyértelmű teljes tartománynevet jelenti."
+  },
+  {
+    "id": 24,
+    "fejezet": "25_Az alkalmazási réteg",
+    "kerdes": "Nem rekurzív kérés esetén a DNS szerver minden esetben köteles más kiszolgálókat is lekérdezni a válasz megszerzéséhez.",
+    "valasz": "hamis",
+    "magyarazat": "Nem rekurzív kérésnél a DNS szerver csak a saját autoritatív adataiból válaszol, vagy más szerverek lekérdezése nélkül ad részleges hivatkozást."
+  },
+  {
+    "id": 25,
+    "fejezet": "25_Az alkalmazási réteg",
+    "kerdes": "Minden internetes DNS szerver számára kötelező előírás a rekurzív lekérdezések támogatása.",
+    "valasz": "hamis",
+    "magyarazat": "A DNS szerverekkel szemben nem általános követelmény a rekurzív lekérdezések támogatása."
+  },
+  {
+    "id": 26,
+    "fejezet": "25_Az alkalmazási réteg",
+    "kerdes": "Rekurzív üzemmódban a teljes névfeloldási munkát a beállított rekurzív DNS szerver végzi el a kliens helyett.",
+    "valasz": "igaz",
+    "magyarazat": "Rekurzív módban a kliens átadja a feladatot a rekurzív kiszolgálónak, amely visszatér a kész IP-címmel vagy hibajelzéssel."
+  },
+  {
+    "id": 27,
+    "fejezet": "25_Az alkalmazási réteg",
+    "kerdes": "Iteratív üzemmódban a DNS-névfeloldó lépésről lépésre haladva saját maga kérdezi le a kapott hivatkozások alapján a névszervereket.",
+    "valasz": "igaz",
+    "magyarazat": "Iteratív feldolgozáskor a resolver a visszakapott szerverhivatkozásokat követve egymás után teszi fel kérdéseit a névszervereknek."
+  },
+  {
+    "id": 28,
+    "fejezet": "25_Az alkalmazási réteg",
+    "kerdes": "Az egyszerű felhasználói DNS-névfeloldók általában képesek a teljes iteratív bejárásra, így nincs szükségük rekurzív DNS szerverre.",
+    "valasz": "hamis",
+    "magyarazat": "Az egyszerű klies oldali resolverek csak egyetlen rekurzív DNS szervert tudnak lekérdezni, ezért elengedhetetlen számukra egy rekurzív kiszolgáló."
+  },
+  {
+    "id": 29,
+    "fejezet": "25_Az alkalmazási réteg",
+    "kerdes": "Az autoritatív névszerverek közül az adminisztrátor által konfigurált kitüntetett szervert elsődleges (Primary) szervernek nevezzük.",
+    "valasz": "igaz",
+    "magyarazat": "A zóna mesterpéldányát az elsődleges (Primary) szerver tárolja, míg a többi autoritatív szerver ezt a zónát tükrözi (Secondary)."
+  },
+  {
+    "id": 30,
+    "fejezet": "25_Az alkalmazási réteg",
+    "kerdes": "A másodlagos (Secondary) DNS szerverek a zóna adatait a Primary szerverről tükrözik.",
+    "valasz": "igaz",
+    "magyarazat": "A másodlagos szerverek feladata a zónaadatok tükrözése az elsődleges szerverről a hibatűrés és terheléselosztás érdekében."
+  },
+  {
+    "id": 31,
+    "fejezet": "25_Az alkalmazási réteg",
+    "kerdes": "A DNS szerverek a több autoritatív szerver közül mindig a legrégebben indítottat választják ki a kommunikációhoz.",
+    "valasz": "hamis",
+    "magyarazat": "A szerverek megmérik a válaszidőket, és azt a szervert preferálják, amelyik a leggyorsabban válaszolt."
+  },
+  {
+    "id": 32,
+    "fejezet": "25_Az alkalmazási réteg",
+    "kerdes": "A 'Caching only' DNS szerverek egyetlen zónáért sem autoritatívak, feladatuk kizárólag a névfeloldás és az eredmények gyorstárazása.",
+    "valasz": "igaz",
+    "magyarazat": "A csak cache-elő szerverek nem tárolnak saját zónát, de jelentősen gyorsítják a helyi hálózat névfeloldását."
+  },
+  {
+    "id": 33,
+    "fejezet": "25_Az alkalmazási réteg",
+    "kerdes": "A Forwarder szerver a beérkező kéréseket közvetlenül a gyökérszervereknek továbbítja, megkerülve az ISP DNS szerverét.",
+    "valasz": "hamis",
+    "magyarazat": "A helyi forwarder szerver a kéréseket a szolgáltató (ISP) DNS szervere felé továbbítja."
+  },
+  {
+    "id": 34,
+    "fejezet": "25_Az alkalmazási réteg",
+    "kerdes": "A Slave DNS szerver olyan továbbító szerver, amelyet például tűzfal mögött alkalmaznak, ahol nincs közvetlen kijárat az Internetre.",
+    "valasz": "igaz",
+    "magyarazat": "A Slave szerver kizárólag forwarder szervereken keresztül tudja feloldani a neveket az elszigetelt hálózati környezetben."
+  },
+  {
+    "id": 35,
+    "fejezet": "25_Az alkalmazási réteg",
+    "kerdes": "A DNS kéréseket és válaszokat jellemzően TCP protokoll hordozza a 80-as porton.",
+    "valasz": "hamis",
+    "magyarazat": "A DNS üzeneteket alapesetben UDP datagramok szállítják a 53-as szolgáltatási porton."
+  },
+  {
+    "id": 36,
+    "fejezet": "25_Az alkalmazási réteg",
+    "kerdes": "A DNS kérések a gyorsaság és alacsony késleltetés érdekében UDP üzenetekben haladnak az 53-as porton.",
+    "valasz": "igaz",
+    "magyarazat": "Az 53-as UDP port használata biztosítja a névfeloldási kérések minimális késleltetését."
+  },
+  {
+    "id": 37,
+    "fejezet": "25_Az alkalmazási réteg",
+    "kerdes": "A DNS szerverek gyorstárában (Cache) az adatok végtelen ideig érvényesek maradnak frissítés nélkül.",
+    "valasz": "hamis",
+    "magyarazat": "A gyorstárba kerülő elemek élettartamjelzővel (TTL) rendelkeznek, mivel az adatok érvényessége a hálózat dinamikus változásai miatt véges."
+  },
+  {
+    "id": 38,
+    "fejezet": "25_Az alkalmazási réteg",
+    "kerdes": "A DNS megtévesztés (DNS Spoofing) során a támadó hamis DNS információkkal csaló weboldalra irányíthatja a felhasználót adatlopás céljából.",
+    "valasz": "igaz",
+    "magyarazat": "A DNS Spoofing során a megváltoztatott névfeloldási adat miatt a felhasználó a valódi helyett csaló kiszolgálóhoz csatlakozik."
+  },
+  {
+    "id": 39,
+    "fejezet": "25_Az alkalmazási réteg",
+    "kerdes": "A DNSSEC (Domain Name System Security Extensions) az IETF által specifikált biztonsági kiterjesztés a DNS adatok védelmére.",
+    "valasz": "igaz",
+    "magyarazat": "A DNSSEC a DNS adatok integritásának és hitelességének igazolására szolgáló IETF szabványcsalád."
+  },
+  {
+    "id": 40,
+    "fejezet": "25_Az alkalmazási réteg",
+    "kerdes": "A DNSSEC első verziójának leírását az RFC2065 tartalmazza 1997-ből, amit később az RFC2535 és az RFC4033-4035 módosított.",
+    "valasz": "igaz",
+    "magyarazat": "A DNSSEC specifikációja az RFC2065 (1997), RFC2535 (1998) és RFC4033-4035 (2005) dokumentumok evolúcióján ment keresztül."
+  },
+  {
+    "id": 41,
+    "fejezet": "25_Az alkalmazási réteg",
+    "kerdes": "A DNSSEC fő célja az adatok teljes körű titkosítása a hálózaton és a weboldalak tényleges elérhetőségének garantálása.",
+    "valasz": "hamis",
+    "magyarazat": "A DNSSEC célja az adatok integritása, autentikussága és a nem létezés bizonyítása; NEM célja a titkosítás vagy az elérhetőség igazolása."
+  },
+  {
+    "id": 42,
+    "fejezet": "25_Az alkalmazási réteg",
+    "kerdes": "A DNSSEC protokollban minden válaszüzenet digitális aláírással van ellátva az adatmodosítások kiszűrésére.",
+    "valasz": "igaz",
+    "magyarazat": "A válaszok digitális aláírásának ellenőrzésével bizonyítható, hogy az adat megegyezik az autoritatív névszerver által kiadott információval."
+  },
+  {
+    "id": 43,
+    "fejezet": "25_Az alkalmazási réteg",
+    "kerdes": "A DNSSEC képes autentikusan bizonyítani egy adott DNS rekord nem létezését is.",
+    "valasz": "igaz",
+    "magyarazat": "A DNSSEC egyik kulcsfontosságú funkciója a rekord hiányának hiteles igazolása (authenticated denial of existence)."
+  }
+]

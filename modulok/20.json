@@ -1,0 +1,282 @@
+[
+  {
+    "id": 1,
+    "fejezet": "20_Hálózatok összekapcsolása",
+    "kerdes": "Az internetwork (hálózatok összekapcsolása) fogalma a különböző műszaki paraméterű hálózatok közötti adatforgalom megvalósítását jelenti.",
+    "valasz": "igaz",
+    "magyarazat": "Az internetwork fogalom lényege a különféle műszaki paraméterű hálózatok összekötése és az azok közötti adatátvitel biztosítása."
+  },
+  {
+    "id": 2,
+    "fejezet": "20_Hálózatok összekapcsolása",
+    "kerdes": "A hálózatok közötti eltérések kizárólag a fizikai és adatkapcsolati rétegre korlátozódnak, a hálózati rétegben a hálózatok mindig teljesen egyformák.",
+    "valasz": "hamis",
+    "magyarazat": "A különbségek a hálózati rétegben is sokfélék lehetnek, például a hálózat jellege, a címzés módja, a csomagméret, a megbízhatóság és a biztonság tekintetében."
+  },
+  {
+    "id": 3,
+    "fejezet": "20_Hálózatok összekapcsolása",
+    "kerdes": "A hálózati réteg különbségei közé tartozik a hálózat jellege, amely lehet összeköttetés alapú vagy összeköttetés nélküli.",
+    "valasz": "igaz",
+    "magyarazat": "A hálózati réteg egyik alapvető eltérési paramétere a hálózat összeköttetés alapú vagy összeköttetés nélküli jellege."
+  },
+  {
+    "id": 4,
+    "fejezet": "20_Hálózatok összekapcsolása",
+    "kerdes": "A hálózati rétegbeli különbségek között szerepel a címzés módja is, amely vagy tartalmaz hierarchiát, vagy nem.",
+    "valasz": "igaz",
+    "magyarazat": "A címzés hierarchikus vagy nem hierarchikus felépítése a hálózati réteg eltérései közé tartozik."
+  },
+  {
+    "id": 5,
+    "fejezet": "20_Hálózatok összekapcsolása",
+    "kerdes": "A csomagméret a hálózatokban kivétel nélkül minden protokollnál szigorúan kötött, fix értékű.",
+    "valasz": "hamis",
+    "magyarazat": "A csomagméret lehet fix méretű, de elmozdulhat megadott alsó és felső határértékek között is."
+  },
+  {
+    "id": 6,
+    "fejezet": "20_Hálózatok összekapcsolása",
+    "kerdes": "A hálózatok eltérhetnek a csomagok átviteli időkorlátaiban (időzítések) és a sorrendiség kezelésében is.",
+    "valasz": "igaz",
+    "magyarazat": "Az időzítések és a sorrendiség megtartása a hálózati réteg eltérő paraméterei közé tartozik."
+  },
+  {
+    "id": 7,
+    "fejezet": "20_Hálózatok összekapcsolása",
+    "kerdes": "A hálózatok összekapcsolásakor a szolgáltatás minősége (QoS), a megbízhatóság, a biztonság és a költségek is fontos eltérő tényezők.",
+    "valasz": "igaz",
+    "magyarazat": "Mind a nyolc felsorolt paraméter (köztük a QoS, megbízhatóság, biztonság és költségek) eltérést mutathat a hálózatok között."
+  },
+  {
+    "id": 8,
+    "fejezet": "20_Hálózatok összekapcsolása",
+    "kerdes": "Sikeres információcseréhez a küldő és célhoszt címének és elérhetőségének az összes érintett hálózatban ugyanazt kell jelentenie.",
+    "valasz": "igaz",
+    "magyarazat": "Ha a címzés nem egységes értelmezésű minden érintett hálózatban, az információcsere meghiúsul."
+  },
+  {
+    "id": 9,
+    "fejezet": "20_Hálózatok összekapcsolása",
+    "kerdes": "A hálózatok összekapcsolásának hardveres útjánál az összekapcsoló aktív eszközöknek ismerniük kell az egyes hálózatok egyedi igényeit.",
+    "valasz": "igaz",
+    "magyarazat": "A hardveres megközelítésnél az aktív eszközök szolgálják ki az egyes hálózatok egyedi paramétereit és igényeit."
+  },
+  {
+    "id": 10,
+    "fejezet": "20_Hálózatok összekapcsolása",
+    "kerdes": "A hálózatok összekapcsolásának szoftveres útja egy hálózatok feletti közös átjárási réteg hozzáadását jelenti.",
+    "valasz": "igaz",
+    "magyarazat": "A szoftveres megoldás lényege egy olyan közös réteg beiktatása a modellhez, amely biztosítja az átjárást."
+  },
+  {
+    "id": 11,
+    "fejezet": "20_Hálózatok összekapcsolása",
+    "kerdes": "A ma általánosan használt szoftveres megoldás alapját képező TCP/IP protokollkészlet 1974-ben született meg Vinton Gray Cerf és Bob Kahn munkája nyomán.",
+    "valasz": "igaz",
+    "magyarazat": "A TCP/IP protokollkészletet Vinton Cerf és Bob Kahn dolgozta ki 1974-ben."
+  },
+  {
+    "id": 12,
+    "fejezet": "20_Hálózatok összekapcsolása",
+    "kerdes": "A TCP/IP protokollkészlet eredetileg az Ethernet hálózatok összekapcsolására készült, de később átültették az ARPANET-re is.",
+    "valasz": "hamis",
+    "magyarazat": "A TCP/IP eredetileg az ARPANET-hez készült, és annak megszűnése után is sikeresen megmaradt."
+  },
+  {
+    "id": 13,
+    "fejezet": "20_Hálózatok összekapcsolása",
+    "kerdes": "Az IEEE 802.11 (WLAN) összeköttetés nélküli szolgáltatást nyújt, míg az MPLS virtuálisáramkör alapú összeköttetést valósít meg.",
+    "valasz": "igaz",
+    "magyarazat": "A WLAN összeköttetés nélküli, míg az MPLS (Többprotokollos Címkekapcsolás) virtuálisáramkör alapú hálózat."
+  },
+  {
+    "id": 14,
+    "fejezet": "20_Hálózatok összekapcsolása",
+    "kerdes": "Az MPLS és az IEEE 802.11 kisebb méretű csomagokat kezel, mint a klasszikus Ethernet (IEEE 802.3).",
+    "valasz": "hamis",
+    "magyarazat": "Az IEEE 802.11 és az MPLS is nagyobb csomagméretet kezel, mint az Ethernet, így az MPLS-ből az Ethernetbe lépő csomagokat fel kell darabolni."
+  },
+  {
+    "id": 15,
+    "fejezet": "20_Hálózatok összekapcsolása",
+    "kerdes": "A küldő hoszt által előállított csomag a MAC-cím mellett az összes érintett hálózatban értelmezhető IP-címet is tartalmazza.",
+    "valasz": "igaz",
+    "magyarazat": "Az IP-cím az a közös hálózati rétegbeli cím, amely minden érintett hálózatban azonosítja a hosztot."
+  },
+  {
+    "id": 16,
+    "fejezet": "20_Hálózatok összekapcsolása",
+    "kerdes": "Az MPLS hálózatba lépve az IP-cím törlődik a csomagból, és helyette csak a MAC-cím marad meg.",
+    "valasz": "hamis",
+    "magyarazat": "Az adat és az IP-cím beágyazódik az MPLS fejléc után, így az IP-cím megmarad a csomagban."
+  },
+  {
+    "id": 17,
+    "fejezet": "20_Hálózatok összekapcsolása",
+    "kerdes": "A Layer 2 Switch a beérkező keretekből összeállítja a csomagot és az IP-cím alapján hoz továbbítási döntést.",
+    "valasz": "hamis",
+    "magyarazat": "A Layer 2 Switch csak a kereteket továbbítja MAC-cím alapján, hálózati rétegbeli IP-címet a Router (útválasztó) használ."
+  },
+  {
+    "id": 18,
+    "fejezet": "20_Hálózatok összekapcsolása",
+    "kerdes": "Az útválasztónak (Router) ismernie kell a hálózati réteg protokollját, míg a Switch-nek nem szükséges ismernie azt.",
+    "valasz": "igaz",
+    "magyarazat": "Az útválasztó a hálózati réteg csomagjait és IP-címeit dolgozza fel, a Switch csupán a 2. réteg MAC-címeivel dolgozik."
+  },
+  {
+    "id": 19,
+    "fejezet": "20_Hálózatok összekapcsolása",
+    "kerdes": "Az Ethernet (IEEE 802.3) maximális adatmező-mérete 1500 bájt, a WLAN (IEEE 802.11) adatmezője 2312 bájt, az IP-csomagok pedig akár 65515 bájtosak is lehetnek.",
+    "valasz": "igaz",
+    "magyarazat": "A hálózatok adatmező-kapacitásai és az IP-csomagok elméleti maximális mérete pontosan ezeket az értékeket veszik fel."
+  },
+  {
+    "id": 20,
+    "fejezet": "20_Hálózatok összekapcsolása",
+    "kerdes": "Az MTU (Maximum Transfer Unit) az a legkisebb adategység, amit a hálózat még képes továbbítani.",
+    "valasz": "hamis",
+    "magyarazat": "Az MTU a legnagyobb átvihető adategység, ami az átvitel során biztosan mindvégig használható darabolás nélkül."
+  },
+  {
+    "id": 21,
+    "fejezet": "20_Hálózatok összekapcsolása",
+    "kerdes": "A csomagok darabolás nélküli átvitele elkerüli a tördeléshez és egyesítéshez szükséges többletkapacitások igénylését.",
+    "valasz": "igaz",
+    "magyarazat": "Tördelés hiányában nem szükséges a darabolási és pufferelési számítási kapacitások bevetése az útválasztókban."
+  },
+  {
+    "id": 22,
+    "fejezet": "20_Hálózatok összekapcsolása",
+    "kerdes": "A kisebb csomagok átvitele jellemzően kevesebb redundáns és többlet információval jár, mint a nagyobb csomagoké.",
+    "valasz": "hamis",
+    "magyarazat": "A kisebb csomagok átvitele a viszonylagos fejléc-overhead miatt több redundáns és többlet információ átvitelével jár."
+  },
+  {
+    "id": 23,
+    "fejezet": "20_Hálózatok összekapcsolása",
+    "kerdes": "Az átlátszó darabolás és összerakás során az egyes hálózatok kilépő útválasztói összerakják a darabokat, mielőtt átadnák a csomagot a következő hálózatnak.",
+    "valasz": "igaz",
+    "magyarazat": "Átlátszó darabolásnál a közbülső hálózat elhagyásakor az útválasztó újra egyesíti a darabokat."
+  },
+  {
+    "id": 24,
+    "fejezet": "20_Hálózatok összekapcsolása",
+    "kerdes": "Az átlátszó darabolásnál a közbülső hálózatok tudomást szereznek arról, hogy a csomagot a többi hálózatban mennyire darabolták szét.",
+    "valasz": "hamis",
+    "magyarazat": "Az elnevezés arra utal, hogy a közbülső hálózatok az eredeti csomagot kapják meg, és nem értesülnek a többi hálózatbeli darabolásról."
+  },
+  {
+    "id": 25,
+    "fejezet": "20_Hálózatok összekapcsolása",
+    "kerdes": "Átlátszó darabolásnál az összes darabnak ugyanahhoz az útválasztóhoz kell megérkeznie, és az utolsó darabig pufferelni kell azokat.",
+    "valasz": "igaz",
+    "magyarazat": "Az egyesítéshez elengedhetetlen a darabok egyetlen útválasztóba terelése és pufferelése az utolsó elem megérkezéséig."
+  },
+  {
+    "id": 26,
+    "fejezet": "20_Hálózatok összekapcsolása",
+    "kerdes": "A nem átlátszó darabolás és összerakás során a darabok összeállítása kizárólag a célállomáson (fogadó hoszton) történik meg.",
+    "valasz": "igaz",
+    "magyarazat": "Nem átlátszó darabolásnál a közbülső útválasztók nem egyesítik a darabokat, az kizárólag a célhoszton történik meg."
+  },
+  {
+    "id": 27,
+    "fejezet": "20_Hálózatok összekapcsolása",
+    "kerdes": "Az IP protokoll az átlátszó darabolás elvét alkalmazza a csomagok kezelésekor.",
+    "valasz": "hamis",
+    "magyarazat": "Az IP protokoll a nem átlátszó darabolás és összerakás módszerét használja."
+  },
+  {
+    "id": 28,
+    "fejezet": "20_Hálózatok összekapcsolása",
+    "kerdes": "Az IP protokollnál alkalmazott nem átlátszó darabolás 8 bájtos határon következhet be.",
+    "valasz": "igaz",
+    "magyarazat": "A darabolási határ az IP protokollban 8 bájtos egységekben van meghatározva."
+  },
+  {
+    "id": 29,
+    "fejezet": "20_Hálózatok összekapcsolása",
+    "kerdes": "Nem átlátszó darabolásnál minden darab tartalmaz csomagszámot, egy jelzőbájtot és az abszolút bájteltolást (Fragment Offset).",
+    "valasz": "igaz",
+    "magyarazat": "Ez a három kötelező adatmező azonosítja a darab csomaghoz tartozását, utolsó jellegét és eltolási pozícióját."
+  },
+  {
+    "id": 30,
+    "fejezet": "20_Hálózatok összekapcsolása",
+    "kerdes": "A bájteltolás (Fragment Offset) értéke a darab első bájtjának helyét jelzi az eredeti csomagban, 8 bájtos egységekben számolva.",
+    "valasz": "igaz",
+    "magyarazat": "A Fragment Offset az eredeti pozíciót mutatja 8 bájtos egységekre vetítve."
+  },
+  {
+    "id": 31,
+    "fejezet": "20_Hálózatok összekapcsolása",
+    "kerdes": "A csomagok darabolása kivétel nélkül minden hálózati alkalmazásnál és rendszernél engedélyezett és kötelező művelet.",
+    "valasz": "hamis",
+    "magyarazat": "Sok esetben adatvédelmi vagy műszaki okokból (például boot programoknál) a darabolás nincsen engedélyezve."
+  },
+  {
+    "id": 32,
+    "fejezet": "20_Hálózatok összekapcsolása",
+    "kerdes": "Az útvonal MTU felderítése (Path MTU Discovery) során az aktív eszközök hibacsomagok visszaküldésével jelzik az adónak, ha a csomag túl nagy.",
+    "valasz": "igaz",
+    "magyarazat": "A Path MTU Discovery során visszaküldött hibacsomagok tájékoztatják az adót az átviteli útvonal MTU korlátjáról."
+  },
+  {
+    "id": 33,
+    "fejezet": "20_Hálózatok összekapcsolása",
+    "kerdes": "Path MTU Discovery használatakor a küldő állomás a visszajelzések alapján az aktuális MTU-nak megfelelő méretű csomagot állít elő.",
+    "valasz": "igaz",
+    "magyarazat": "A küldő a kapott MTU értékhez igazítja az általa kibocsátott csomagok méretét."
+  },
+  {
+    "id": 34,
+    "fejezet": "20_Hálózatok összekapcsolása",
+    "kerdes": "A többprotokollos útválasztók (Multiprotocol Router) csak az IP protokollt képesek kezelni, más hálózati protokollokat nem.",
+    "valasz": "hamis",
+    "magyarazat": "A többprotokollos útválasztók az IP mellett többféle egyéb hálózati protokollt is képesek kezelni."
+  },
+  {
+    "id": 35,
+    "fejezet": "20_Hálózatok összekapcsolása",
+    "kerdes": "Az IPX a Novell által bevezetett NetWare protokollja, míg az SNA az IBM hálózati protokollja.",
+    "valasz": "igaz",
+    "magyarazat": "Az IPX a Novell NetWare, az SNA pedig az IBM hálózati protokollja."
+  },
+  {
+    "id": 36,
+    "fejezet": "20_Hálózatok összekapcsolása",
+    "kerdes": "Az AppleTalk protokoll a Macintosh hálózatok, míg az ATM (Asynchronous Transfer Mode) a telefonrendszerek (pl. ISDN) által használt protokoll.",
+    "valasz": "igaz",
+    "magyarazat": "Az AppleTalk a Macintosh gépekhez, az ATM pedig a telefonrendszerekhez kapcsolódó protokoll."
+  },
+  {
+    "id": 37,
+    "fejezet": "20_Hálózatok összekapcsolása",
+    "kerdes": "Az alagút típusú átvitel (Tunneling) során az adó- és célhálózat eltérő típusú, de a köztük lévő hálózat azonos az egyikkel.",
+    "valasz": "hamis",
+    "magyarazat": "Alagút átvitelnél a küldő és fogadó hálózat egyforma, és a köztük lévő közbülső hálózat tér el tőlük."
+  },
+  {
+    "id": 38,
+    "fejezet": "20_Hálózatok összekapcsolása",
+    "kerdes": "IPv6 hálózatok IPv4 hálózaton keresztüli összekapcsolásakor az IPv6 csomag beágyazódik az IPv4 csomagba a küldő oldali útválasztónál.",
+    "valasz": "igaz",
+    "magyarazat": "A küldő oldali útválasztó beágyazza az IPv6 csomagot az IPv4 csomagba, majd a fogadó oldali útválasztó kicsomagolja azt."
+  },
+  {
+    "id": 39,
+    "fejezet": "20_Hálózatok összekapcsolása",
+    "kerdes": "Az alagút típusú átvitelnél a közbülső hálózat hosztjai közvetlenül elérhetik és módosíthatják az átvitt csomagokat.",
+    "valasz": "hamis",
+    "magyarazat": "Az alagút átvitel elrejti a csomagot, így a közbülső hálózat hosztjai nem érhetik el a beágyazott adatokat."
+  },
+  {
+    "id": 40,
+    "fejezet": "20_Hálózatok összekapcsolása",
+    "kerdes": "Az alagút típusú átvitel által alkotott elfedő hálózat (Overlay Network) a virtuális magánhálózatok (VPN) és a titkosítás egyik alapvető eleme.",
+    "valasz": "igaz",
+    "magyarazat": "A közbülső hálózat elfedése és a csomagok beágyazása a VPN-ek és a hálózati titkosítás alapja."
+  }
+]

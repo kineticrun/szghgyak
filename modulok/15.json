@@ -1,0 +1,359 @@
+[
+  {
+    "id": 1,
+    "fejezet": "15_A klasszikus Ethernet MAC protokollja_és_Az Ethernet evolúciója",
+    "kerdes": "A klasszikus Ethernet hálózati keretének két fő szabványos változata a DIX (1978) és az IEEE 802.3 (1983).",
+    "valasz": "igaz",
+    "magyarazat": "Az Ethernet keretstruktúra fejlődésében az 1978-as DIX és az 1983-as IEEE 802.3 szabvány a két meghatározó alapelv."
+  },
+  {
+    "id": 2,
+    "fejezet": "15_A klasszikus Ethernet MAC protokollja_és_Az Ethernet evolúciója",
+    "kerdes": "A DIX mozaikszó a Digital Equipment Corporation (DEC), az IBM és a Xerox cégek neveiből tevődik össze.",
+    "valasz": "hamis",
+    "magyarazat": "A DIX a DEC, az Intel és a Xerox cégek neveiből képzett betűszó (az IBM nem szerepel benne)."
+  },
+  {
+    "id": 3,
+    "fejezet": "15_A klasszikus Ethernet MAC protokollja_és_Az Ethernet evolúciója",
+    "kerdes": "Az Ethernet keret „Előtag” (Preamble) mezője pontosan 8 bájt hosszúságú.",
+    "valasz": "igaz",
+    "magyarazat": "Az Előtag mező hossza 8 bájt."
+  },
+  {
+    "id": 4,
+    "fejezet": "15_A klasszikus Ethernet MAC protokollja_és_Az Ethernet evolúciója",
+    "kerdes": "Az Előtag mező mind az 8 bájta kivétel nélkül 10101010 bitmintázatot tartalmaz.",
+    "valasz": "hamis",
+    "magyarazat": "Az Előtag mező 7 darab 10101010 mintázatú bájtot és 1 darab 10101011 mintázatú záróbájtot (SOF) tartalmaz."
+  },
+  {
+    "id": 5,
+    "fejezet": "15_A klasszikus Ethernet MAC protokollja_és_Az Ethernet evolúciója",
+    "kerdes": "Az Előtag mintázatának Manchester kódolása egy 10 MHz-es, 6,4 µs ideig tartó négyszögjel-sorozatot eredményez, amely az órajel-szinkronizációt biztosítja.",
+    "valasz": "igaz",
+    "magyarazat": "A Manchester kódolás után kapott 10 MHz-es, 6,4 µs-os jel a vevő és adó órájának összehangolására szolgál."
+  },
+  {
+    "id": 6,
+    "fejezet": "15_A klasszikus Ethernet MAC protokollja_és_Az Ethernet evolúciója",
+    "kerdes": "Az Előtag utolsó bájtsorrendje a keret kezdetét jelzi, ezt Start of Frame (SOF) határolónak nevezzük.",
+    "valasz": "igaz",
+    "magyarazat": "Az utolsó két bitjében eltérő 8. bájt a Start of Frame (SOF) határoló."
+  },
+  {
+    "id": 7,
+    "fejezet": "15_A klasszikus Ethernet MAC protokollja_és_Az Ethernet evolúciója",
+    "kerdes": "Az Ethernet keretben a Célcím és a Forráscím mezők egyenként 4 bájtos hálózati IP-címeket tartalmaznak.",
+    "valasz": "hamis",
+    "magyarazat": "A Célcím és a Forráscím mezők egyenként 6 bájtos (48 bites) fizikai MAC-címeket tartalmaznak."
+  },
+  {
+    "id": 8,
+    "fejezet": "15_A klasszikus Ethernet MAC protokollja_és_Az Ethernet evolúciója",
+    "kerdes": "A 6 bájtos MAC-cím első 3 bájta az OUI (Szervezetenkénti egyedi azonosító), amelyet az IEEE oszt ki a gyártóknak 2^24 címből álló blokkokban.",
+    "valasz": "igaz",
+    "magyarazat": "Az OUI a gyártót azonosító 3 bájtos kód, amelyet az IEEE oszt ki 2^24-es blokkokban."
+  },
+  {
+    "id": 9,
+    "fejezet": "15_A klasszikus Ethernet MAC protokollja_és_Az Ethernet evolúciója",
+    "kerdes": "A MAC-cím második 3 bájtsorozata a gyártó által szabadon hozzárendelhető sorozatszámot és típusazonosítót tartalmazza.",
+    "valasz": "igaz",
+    "magyarazat": "A MAC-cím alsó 3 bájtsorozatát a gyártó programozza be az eszközbe."
+  },
+  {
+    "id": 10,
+    "fejezet": "15_A klasszikus Ethernet MAC protokollja_és_Az Ethernet evolúciója",
+    "kerdes": "Ha a cél MAC-cím első bitje 1-es, akkor az egyedi (unicast) címet jelöl.",
+    "valasz": "hamis",
+    "magyarazat": "Ha az első bit 0, az normál/egyedi (unicast) cím; ha 1, az csoportcím (multicast)."
+  },
+  {
+    "id": 11,
+    "fejezet": "15_A klasszikus Ethernet MAC protokollja_és_Az Ethernet evolúciója",
+    "kerdes": "A csupa 1-es bitből álló 48 bites célcím az adatszórásos (broadcast) keret megjelölésére szolgál.",
+    "valasz": "igaz",
+    "magyarazat": "A csupa 1-esből álló cél MAC-cím a broadcast címzés."
+  },
+  {
+    "id": 12,
+    "fejezet": "15_A klasszikus Ethernet MAC protokollja_és_Az Ethernet evolúciója",
+    "kerdes": "A keret Forráscím mezője lehet egyedi cím vagy adatszórási (broadcast) csoportcím is.",
+    "valasz": "hamis",
+    "magyarazat": "A Forráscím mindig egyedi, normál 48 bites MAC-cím, csoportcímként vagy broadcastként nem szerepelhet."
+  },
+  {
+    "id": 13,
+    "fejezet": "15_A klasszikus Ethernet MAC protokollja_és_Az Ethernet evolúciója",
+    "kerdes": "A DIX keretformátumban a Típus/Hossz mező helyén lévő 2 bájtos érték a keret adattartalmának felsőbb rétegbeli protokollját mutatja meg.",
+    "valasz": "igaz",
+    "magyarazat": "A DIX szabványban a 2 bájtos mező a típust jelöli (pl. 0x0800 az IPv4 csomag)."
+  },
+  {
+    "id": 14,
+    "fejezet": "15_A klasszikus Ethernet MAC protokollja_és_Az Ethernet evolúciója",
+    "kerdes": "A 0x0800 típusjelölés a keretben azt jelzi, hogy az adattartalom egy ARP (Address Resolution Protocol) csomag.",
+    "valasz": "hamis",
+    "magyarazat": "A 0x0800 jelölés az IPv4 csomagra utal; az ARP kódja a 0x0806."
+  },
+  {
+    "id": 15,
+    "fejezet": "15_A klasszikus Ethernet MAC protokollja_és_Az Ethernet evolúciója",
+    "kerdes": "Az IEEE 802.3 keretformátumban és a DIX közötti kompatibilitás úgy biztosított, hogy a 2 bájtos mező 0x0600 (1536) vagy annál kisebb értéke kerethosszt, míg a nagyobb érték típust jelöl.",
+    "valasz": "igaz",
+    "magyarazat": "Ha a mező értéke <= 0x0600, akkor kerethosszról van szó, ha nagyobb, akkor típusról."
+  },
+  {
+    "id": 16,
+    "fejezet": "15_A klasszikus Ethernet MAC protokollja_és_Az Ethernet evolúciója",
+    "kerdes": "Az Ethernet keret Adatmezőjének maximális hossza 1500 bájt.",
+    "valasz": "igaz",
+    "magyarazat": "Az adattartalom szabványos maximális hossza 1500 bájt."
+  },
+  {
+    "id": 17,
+    "fejezet": "15_A klasszikus Ethernet MAC protokollja_és_Az Ethernet evolúciója",
+    "kerdes": "Az Előtag nélküli „bruttó” minimális kerethossz az Ethernet hálózatokban 64 bájt.",
+    "valasz": "igaz",
+    "magyarazat": "A minimális bruttó kerethossz 64 bájt (2x6B cím + 2B típus/hossz + min 46B adat/kitöltés + 4B CRC)."
+  },
+  {
+    "id": 18,
+    "fejezet": "15_A klasszikus Ethernet MAC protokollja_és_Az Ethernet evolúciója",
+    "kerdes": "Amennyiben az adatmező hossza 46 bájtnál rövidebb, a Kitöltés (Padding) mező használata kötelező a 64 bájtos minimális kerethossz eléréséhez.",
+    "valasz": "igaz",
+    "magyarazat": "46 bájtnál rövidebb adat esetén kitöltésre van szükség, hogy a keret elérje a 64 bájtos alsó korlátot."
+  },
+  {
+    "id": 19,
+    "fejezet": "15_A klasszikus Ethernet MAC protokollja_és_Az Ethernet evolúciója",
+    "kerdes": "Ha az adatmező hossza 0 bájt, a minimális kerethossz biztosításához 64 bájtos kitöltést kell hozzáadni.",
+    "valasz": "hamis",
+    "magyarazat": "0 bájtos adatmezőnél 46 bájtos kitöltésre van szükség (mivel 12B cím + 2B típus + 4B CRC = 18B, és 18B + 46B = 64B)."
+  },
+  {
+    "id": 20,
+    "fejezet": "15_A klasszikus Ethernet MAC protokollja_és_Az Ethernet evolúciója",
+    "kerdes": "Az Ethernet keret záró mezője a 4 bájtos CRC-32 kódolással készülő Ellenőrző összeg.",
+    "valasz": "igaz",
+    "magyarazat": "A keret utolsó mezője a 4 bájtos CRC-32 ellenőrző összeg."
+  },
+  {
+    "id": 21,
+    "fejezet": "15_A klasszikus Ethernet MAC protokollja_és_Az Ethernet evolúciója",
+    "kerdes": "A minimális kerethossz meghatározására azért van szükség, hogy az adó állomás még az adás befejezése előtt értesülhessen az esetleges ütközésről.",
+    "valasz": "igaz",
+    "magyarazat": "A minimális kerethossz garantálja, hogy az adó még a keret elküldése közben észlelje a csatornában fellépő ütközést."
+  },
+  {
+    "id": 22,
+    "fejezet": "15_A klasszikus Ethernet MAC protokollja_és_Az Ethernet evolúciója",
+    "kerdes": "Ha egy állomás ütközést észlel adás közben, az adás azonnali megszakítása után egy 48 bit hosszúságú zajlöketet (Noise Burst) ad ki a többi állomás tájékoztatására.",
+    "valasz": "igaz",
+    "magyarazat": "Az ütközést észlelő állomás 48 bites zajlöketet generál a csatornában."
+  },
+  {
+    "id": 23,
+    "fejezet": "15_A klasszikus Ethernet MAC protokollja_és_Az Ethernet evolúciója",
+    "kerdes": "Az Ethernet a nem-perzisztens CSMA/CD algoritmust alkalmazza kettes exponenciális visszalépéssel.",
+    "valasz": "hamis",
+    "magyarazat": "Az Ethernet az 1-perzisztens CSMA/CD algoritmust használja kettes exponenciális visszalépéssel."
+  },
+  {
+    "id": 24,
+    "fejezet": "15_A klasszikus Ethernet MAC protokollja_és_Az Ethernet evolúciója",
+    "kerdes": "A CSMA/CD algoritmus szerint egy diszkrét időszelet (slot time) hossza a szabványban 512 bitnyi idő, ami 51,2 µs-nak felel meg.",
+    "valasz": "igaz",
+    "magyarazat": "Az időszelet hossza 512 bitnyi idő (51,2 µs)."
+  },
+  {
+    "id": 25,
+    "fejezet": "15_A klasszikus Ethernet MAC protokollja_és_Az Ethernet evolúciója",
+    "kerdes": "Az első ütközés után két érintett állomás 0 vagy 1 időszelet várakozást választhat, így a második ütközés esélye pontosan 50% (0,5).",
+    "valasz": "igaz",
+    "magyarazat": "Az első ütközés után 2 lehetőség van (0 vagy 1 időszelet), így 50% az esélye annak, hogy a két gép ugyanazt a várakozást választja."
+  },
+  {
+    "id": 26,
+    "fejezet": "15_A klasszikus Ethernet MAC protokollja_és_Az Ethernet evolúciója",
+    "kerdes": "A kettes exponenciális visszalépés során a várakozási időszeletek száma a 0 és 2^x - 1 közötti intervallumból kerül kiválasztásra, ahol x a sorozatos ütközések száma.",
+    "valasz": "igaz",
+    "magyarazat": "A várakozás 0 és 2^x - 1 időszelet közötti véletlen érték."
+  },
+  {
+    "id": 27,
+    "fejezet": "15_A klasszikus Ethernet MAC protokollja_és_Az Ethernet evolúciója",
+    "kerdes": "A sorozatos ütközések számának növekedésével a várakozási tartomány a 16. ütközésig korlátlanul duplázódik, elérve a 65535-ös maximumot.",
+    "valasz": "hamis",
+    "magyarazat": "A várakozási tartomány felső határa a 10. ütközés után nem növekszik tovább, megáll a 1023-as maximumon."
+  },
+  {
+    "id": 28,
+    "fejezet": "15_A klasszikus Ethernet MAC protokollja_és_Az Ethernet evolúciója",
+    "kerdes": "A 16. folyamatos ütközés után az Ethernet MAC protokoll feladja az újraküldési próbálkozásokat, és hibajelzést küld a felsőbb rétegek felé.",
+    "valasz": "igaz",
+    "magyarazat": "16 egymást követő sikertelen próbálkozás után a protokoll hibajelzést ad a felsőbb rétegeknek."
+  },
+  {
+    "id": 29,
+    "fejezet": "15_A klasszikus Ethernet MAC protokollja_és_Az Ethernet evolúciója",
+    "kerdes": "Klasszikus rézkábeles Ethernet átvitel esetén a sikeres keretátvitelt a vevő által visszaküldött kötelező pozitív nyugta (ACK) igazolja.",
+    "valasz": "hamis",
+    "magyarazat": "Klasszikus Ethernet esetén nincsenek nyugták; ha az adó nem érzékel ütközést, az sikeres átvitelnek számít."
+  },
+  {
+    "id": 30,
+    "fejezet": "15_A klasszikus Ethernet MAC protokollja_és_Az Ethernet evolúciója",
+    "kerdes": "A klasszikus 10 Mb/s-os Ethernet rendszerek leggyakrabban sín topológiát valósítottak meg koaxiális kábellel, fő aktív elemeik a Hub-ok, Repeater-ek és Bridge-ek voltak.",
+    "valasz": "igaz",
+    "magyarazat": "A klasszikus Ethernet 10 Mb/s sebességű, sín topológiájú, koax kábeles hálózat volt."
+  },
+  {
+    "id": 31,
+    "fejezet": "15_A klasszikus Ethernet MAC protokollja_és_Az Ethernet evolúciója",
+    "kerdes": "A kapcsolt Ethernet elterjedésében kulcsszerepet játszott az irodaházakban már meglévő Cat3 típusú telefonkábelezés és a csillagpontos topológia.",
+    "valasz": "igaz",
+    "magyarazat": "A meglévő Cat3 telefonhálózati struktúra tette lehetővé a csillagpontos kapcsolt Ethernet kiépítését."
+  },
+  {
+    "id": 32,
+    "fejezet": "15_A klasszikus Ethernet MAC protokollja_és_Az Ethernet evolúciója",
+    "kerdes": "A Switch (kapcsoló) a hálózati modellek 3. rétegében (Hálózati réteg) dolgozó aktív eszköz.",
+    "valasz": "hamis",
+    "magyarazat": "A Switch alapesetben a 2. rétegben (Adatkapcsolati réteg / Layer 2) dolgozik."
+  },
+  {
+    "id": 33,
+    "fejezet": "15_A klasszikus Ethernet MAC protokollja_és_Az Ethernet evolúciója",
+    "kerdes": "A Switch működése a beérkező keretek MAC-címeinek vizsgálatán alapul, így a keretet közvetlenül a célállomás portjára képes irányítani.",
+    "valasz": "igaz",
+    "magyarazat": "A Switch a cél MAC-cím alapján továbbítja a keretet a megfelelő portra."
+  },
+  {
+    "id": 34,
+    "fejezet": "15_A klasszikus Ethernet MAC protokollja_és_Az Ethernet evolúciója",
+    "kerdes": "A Switch a saját memóriájában lévő MAC-címtáblázatot (MAC Address Table) a beérkező keretek Célcímeinek segítségével építi fel.",
+    "valasz": "hamis",
+    "magyarazat": "A MAC-címtáblázat a beérkező keretek Forráscímei (Source MAC) alapján töltődik fel."
+  },
+  {
+    "id": 35,
+    "fejezet": "15_A klasszikus Ethernet MAC protokollja_és_Az Ethernet evolúciója",
+    "kerdes": "Ha egy időpillanatban két keret is ugyanarra a célportra szeretne kijutni a Switch-en keresztül, a Switch az egyik keretet eltárolja egy átmeneti pufferben a collision elkerülésére.",
+    "valasz": "igaz",
+    "magyarazat": "A Switch puffereli a sorban álló kereteket, így nem lép fel ütközés a porton."
+  },
+  {
+    "id": 36,
+    "fejezet": "15_A klasszikus Ethernet MAC protokollja_és_Az Ethernet evolúciója",
+    "kerdes": "Egyetlen érpár (pl. Cat3 kábel) használata esetén a Switch portjain a Full-duplex átvitel is megvalósítható volt.",
+    "valasz": "hamis",
+    "magyarazat": "Egyetlen érpár használatával csak Half-duplex átvitel mellett lehetett kizárni az ütközéseket."
+  },
+  {
+    "id": 37,
+    "fejezet": "15_A klasszikus Ethernet MAC protokollja_és_Az Ethernet evolúciója",
+    "kerdes": "Az 1995-ben elfogadott IEEE 802.3u szabvány a Gyors Ethernet (Fast Ethernet), amely 100 Mb/s sebességet biztosít.",
+    "valasz": "igaz",
+    "magyarazat": "Az IEEE 802.3u a Fast Ethernet szabványa 100 Mb/s sebességgel."
+  },
+  {
+    "id": 38,
+    "fejezet": "15_A klasszikus Ethernet MAC protokollja_és_Az Ethernet evolúciója",
+    "kerdes": "A Fast Ethernet (IEEE 802.3u) a bitidőt a korábbi 100 ns-ról 10 ns-ra csökkentette, és a Cat5 kábellel 4 érpár használatával tette lehetővé a Full-duplex működést.",
+    "valasz": "igaz",
+    "magyarazat": "A bitidő 10 ns-ra csökkent, a Cat5 kábel pedig biztosította a Full-duplex üzemmódot."
+  },
+  {
+    "id": 39,
+    "fejezet": "15_A klasszikus Ethernet MAC protokollja_és_Az Ethernet evolúciója",
+    "kerdes": "A Switch-ek portjainak 10/100 Mb/s sebesség- és Full/Half duplexitás-illestését az Auto Negotiation (automatikus egyezkedés) mechanizmus segíti.",
+    "valasz": "igaz",
+    "magyarazat": "Az Auto Negotiation biztosítja a sebesség és duplexitás automatikus beállítását."
+  },
+  {
+    "id": 40,
+    "fejezet": "15_A klasszikus Ethernet MAC protokollja_és_Az Ethernet evolúciója",
+    "kerdes": "Az 1999-ben megjelent Gigabites Ethernet (Gigabit Ethernet) szabvány jele az IEEE 802.3ab.",
+    "valasz": "igaz",
+    "magyarazat": "A Gigabites Ethernet szabványa az IEEE 802.3ab."
+  },
+  {
+    "id": 41,
+    "fejezet": "15_A klasszikus Ethernet MAC protokollja_és_Az Ethernet evolúciója",
+    "kerdes": "Gigabit Ethernet esetén Half-duplex üzemmódban (Hub használatánál) a CSMA/CD megtartásához a minimális keretméretet 512 bájtra kell növelni Vivőjel-kiterjesztéssel (Carrier Extension).",
+    "valasz": "igaz",
+    "magyarazat": "Half-duplex gigabites átvitelnél a Carrier Extension 512 bájtra növeli a minimális keretméretet."
+  },
+  {
+    "id": 42,
+    "fejezet": "15_A klasszikus Ethernet MAC protokollja_és_Az Ethernet evolúciója",
+    "kerdes": "A Keretfűzés (Frame Bursting) eljárás lényege több kisebb keret összefűzése legalább 512 bájtos együttes hossz eléréséig.",
+    "valasz": "igaz",
+    "magyarazat": "A keretfűzés során több keretet fűznek össze 512 bájtos minimális méret eléréséhez."
+  },
+  {
+    "id": 43,
+    "fejezet": "15_A klasszikus Ethernet MAC protokollja_és_Az Ethernet evolúciója",
+    "kerdes": "Az 1000Base-SX, LX és CX rendszerekben használt 8B/10B kódolás a kódolatlan üzenethez képest 100%-os adat-többletet jelent.",
+    "valasz": "hamis",
+    "magyarazat": "A 8B/10B kódolás mindössze 25%-os többletet jelent (a Manchester kódolás jelentett 100%-os többletet)."
+  },
+  {
+    "id": 44,
+    "fejezet": "15_A klasszikus Ethernet MAC protokollja_és_Az Ethernet evolúciója",
+    "kerdes": "Az 1000Base-T gigabites rézalapú átvitel a kábel mind a 4 sodrott érpárját használja mindkét irányban, érpáronként 250 Mb/s sebességgel és 5 különböző jelszinttel.",
+    "valasz": "igaz",
+    "magyarazat": "A 4x250 Mb/s = 1 Gb/s sebesség 5 jelszinttel, mind a 4 érpár kétirányú használatával valósul meg."
+  },
+  {
+    "id": 45,
+    "fejezet": "15_A klasszikus Ethernet MAC protokollja_és_Az Ethernet evolúciója",
+    "kerdes": "Az 1000Base-T átvitelt rontó tényezők közé tartozik a visszaverődési veszteség (Return Loss), az ELFEXT és a PSNEXT.",
+    "valasz": "igaz",
+    "magyarazat": "Ezek a paraméterek a gigabites rézátvitelt rontó kritikus tényezők."
+  },
+  {
+    "id": 46,
+    "fejezet": "15_A klasszikus Ethernet MAC protokollja_és_Az Ethernet evolúciója",
+    "kerdes": "Gigabit Ethernet sebességnél, ha a vevő állomás 1 ms-ig nem üríti pufferét, akár 1953 darab keret is felhalmozódhat benne.",
+    "valasz": "igaz",
+    "magyarazat": "1 Gb/s sebesség mellett 1 ms alatt akár 1953 keret érkezhet a pufferbe."
+  },
+  {
+    "id": 47,
+    "fejezet": "15_A klasszikus Ethernet MAC protokollja_és_Az Ethernet evolúciója",
+    "kerdes": "A Jumbo Frame (óriáskeret) egy szigorúan szabványosított keretformátum, amelynek mérete pontosan 1500 bájt lehet.",
+    "valasz": "hamis",
+    "magyarazat": "A Jumbo Frame nem pontosan szabványosított, és az átviteli keretméretet az eddigi 1500 bájt helyett akár 9 kB-ra (9000 bájt) növeli."
+  },
+  {
+    "id": 48,
+    "fejezet": "15_A klasszikus Ethernet MAC protokollja_és_Az Ethernet evolúciója",
+    "kerdes": "A 10 Gigabites Ethernet szabvány jele az IEEE 802.3ae, amely 2002-ben jelent meg optikai és twinax kábelekre.",
+    "valasz": "igaz",
+    "magyarazat": "Az IEEE 802.3ae a 10G Ethernet szabványa."
+  },
+  {
+    "id": 49,
+    "fejezet": "15_A klasszikus Ethernet MAC protokollja_és_Az Ethernet evolúciója",
+    "kerdes": "A 10GBase-SR, 10GBase-LR és 10GBase-ER jelölésekben az SR 300m-es, az LR 10km-es, az ER pedig 40km-es maximális szegmenshosszra utal.",
+    "valasz": "igaz",
+    "magyarazat": "SR = Short Reach (300m), LR = Long Reach (10km), ER = Extra Reach (40km)."
+  },
+  {
+    "id": 50,
+    "fejezet": "15_A klasszikus Ethernet MAC protokollja_és_Az Ethernet evolúciója",
+    "kerdes": "A 10 Gigabites Ethernet támogatja a Half-duplex működést és a CSMA/CD protokoll használatát is.",
+    "valasz": "hamis",
+    "magyarazat": "A 10G Ethernet kizárólag Full-duplex üzemmódot támogat, a CSMA/CD protokoll teljesen kikerült a rendszerből."
+  },
+  {
+    "id": 51,
+    "fejezet": "15_A klasszikus Ethernet MAC protokollja_és_Az Ethernet evolúciója",
+    "kerdes": "A 10 Gigabites optikai megoldások 64B/66B kódolást használnak, míg a 10GBase-T rézalapú átvitel 4 érpáron érpáronként 2500 Mb/s sebességgel, 16 jelszinttel éri el a 10 Gb/s-ot.",
+    "valasz": "igaz",
+    "magyarazat": "A 10G optikai 64B/66B kódolást használ, a réz 10GBase-T pedig 4x2500 Mb/s = 10 Gb/s sebességet éri el 16 jelszinttel."
+  }
+]

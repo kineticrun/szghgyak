@@ -1,0 +1,352 @@
+[
+  {
+    "id": 1,
+    "fejezet": "03_Hivatkozási modellek",
+    "kerdes": "A hivatkozási modell csak a rétegek funkcióját tárgyalja, de arról nem rendelkezik, hogy az egyes rétegek milyen konkrét szolgáltatásokat vagy protokollokat használnak.",
+    "valasz": "igaz",
+    "magyarazat": "A hivatkozási modell a rétegek funkcionális leírását adja meg, de független a konkrét szolgáltatásoktól és protokolloktól."
+  },
+  {
+    "id": 2,
+    "fejezet": "03_Hivatkozási modellek",
+    "kerdes": "Egy jól megalkotott hivatkozási modell használhatatlanná válik, ha a megalkotásakor hivatkozott protokollok feledésbe merülnek.",
+    "valasz": "hamis",
+    "magyarazat": "Egy jó modell még akkor is használható marad a technika fejlődését követve, ha a megalkotásakor hivatkozott szolgáltatások és protokollok már feledésbe merültek."
+  },
+  {
+    "id": 3,
+    "fejezet": "03_Hivatkozási modellek",
+    "kerdes": "A hivatkozási modellek közvetlen hasznai közé tartozik a bonyolult rendszerek átláthatóvá tétele, a szabványosítás megkönnyítése és az oktatási irányelvek biztosítása.",
+    "valasz": "igaz",
+    "magyarazat": "A hivatkozási modellek segítik a rendszerek leírását, szabványosítását, dokumentálhatóságát és oktatási irányelvet is adnak."
+  },
+  {
+    "id": 4,
+    "fejezet": "03_Hivatkozási modellek",
+    "kerdes": "Az oktatási irányelv szerint a hálózati modellek tárgyalását felülről lefelé haladva célszerű végezni.",
+    "valasz": "hamis",
+    "magyarazat": "Az oktatási irányelv szerint a témakört alulról felfelé építkezve célszerű oktatni, egy-egy szint megismerése után továbblépve."
+  },
+  {
+    "id": 5,
+    "fejezet": "03_Hivatkozási modellek",
+    "kerdes": "A tananyag által vizsgált két alapmodell az OSI és a TCP/IP modell, amelyeket egy hibrid (gyakorlati) modell egészít ki.",
+    "valasz": "igaz",
+    "magyarazat": "A forrás az OSI és a TCP/IP modellt vizsgálja alapmodellként, valamint a gyakorlati hibrid modellt."
+  },
+  {
+    "id": 6,
+    "fejezet": "03_Hivatkozási modellek",
+    "kerdes": "Az OSI modellhez kapcsolódó protokollok ma is a legelterjedtebbek a hálózati adatátvitelben.",
+    "valasz": "hamis",
+    "magyarazat": "Az OSI modellhez kapcsolódó protokollok ma már gyakorlatilag nem használatosak."
+  },
+  {
+    "id": 7,
+    "fejezet": "03_Hivatkozási modellek",
+    "kerdes": "A TCP/IP modell eredeti 4 rétegű megvalósítása már nem használatos, de a hozzá definiált protokollok ma is széles körben elterjedtek.",
+    "valasz": "igaz",
+    "magyarazat": "Noha a TCP/IP eredeti 4 rétegű modellje nem használatos, a protokolljai ma is a hálózati kommunikáció alapját képezik."
+  },
+  {
+    "id": 8,
+    "fejezet": "03_Hivatkozási modellek",
+    "kerdes": "Az OSI az Open System Interconnect (Nyílt Rendszerek Összekapcsolása) kifejezés rövidítése.",
+    "valasz": "igaz",
+    "magyarazat": "Az OSI az Open System Interconnect angol kifejezésből alkotott betűszó."
+  },
+  {
+    "id": 9,
+    "fejezet": "03_Hivatkozási modellek",
+    "kerdes": "A nyílt rendszerek olyan zárt hálózatok, amelyek biztonsági okokból kizárólag azonos gyártójú eszközökkel kommunikálnak.",
+    "valasz": "hamis",
+    "magyarazat": "Nyílt rendszereknek azokat a rendszereket hívjuk, amelyek nyitottak a más rendszerekkel való kommunikációra."
+  },
+  {
+    "id": 10,
+    "fejezet": "03_Hivatkozási modellek",
+    "kerdes": "Az OSI modell felépítése az ISO (International Organization for Standardization) ajánlásain alapul.",
+    "valasz": "igaz",
+    "magyarazat": "Az OSI modell a nemzetközi szabványügyi szervezet (ISO) ajánlásaira épül."
+  },
+  {
+    "id": 11,
+    "fejezet": "03_Hivatkozási modellek",
+    "kerdes": "Az OSI modell tervezési elvei szerint minél több réteget kell definiálni, hogy minden apró részfeladat külön rétegbe kerüljön.",
+    "valasz": "hamis",
+    "magyarazat": "Az elv szerint elegendő számú, de nem feleslegesen sok réteget kell definiálni, hogy a különböző feladatok ne kerüljenek feleslegesen azonos rétegbe."
+  },
+  {
+    "id": 12,
+    "fejezet": "03_Hivatkozási modellek",
+    "kerdes": "Az OSI rétegek határainak megállapításakor törekedni kell a rétegek közötti információcsere minimalizálására.",
+    "valasz": "igaz",
+    "magyarazat": "A rétegek határait úgy kell kijelölni, hogy a rétegek közötti információátvitel a lehető legkisebb legyen."
+  },
+  {
+    "id": 13,
+    "fejezet": "03_Hivatkozási modellek",
+    "kerdes": "A gazdagépeket összekötő kommunikációs alhálózatok átviteli vonalakból és kapcsolóelemekből (IMP-kből) állnak.",
+    "valasz": "igaz",
+    "magyarazat": "A kommunikációs alhálózatok átviteli vonalakból és IMP kapcsolóelemekből tevődnek össze."
+  },
+  {
+    "id": 14,
+    "fejezet": "03_Hivatkozási modellek",
+    "kerdes": "Az IMP mozaikszó az Internet Message Protocol kifejezésből származik.",
+    "valasz": "hamis",
+    "magyarazat": "Az IMP az Interface Message Processor (Határfelületi Üzenet Feldolgozó) kifejezés rövidítése."
+  },
+  {
+    "id": 15,
+    "fejezet": "03_Hivatkozási modellek",
+    "kerdes": "Az IMP-k vagy a gazdagépek részei (pl. hálózati kártya és programja), vagy önálló hálózati elemek (útválasztók, hálózati átjárók).",
+    "valasz": "igaz",
+    "magyarazat": "Az IMP-k megvalósulhatnak gazdagépen belüli eszközként vagy önálló hálózati berendezésként is."
+  },
+  {
+    "id": 16,
+    "fejezet": "03_Hivatkozási modellek",
+    "kerdes": "Az OSI modell legalsó, 1. rétege a fizikai réteg (Physical Layer), amely a fizikai közeggel és a jelek kábeles ültetésével foglalkozik.",
+    "valasz": "igaz",
+    "magyarazat": "A fizikai réteg a legalsó réteg, feladata a bitek elektromos/fizikai átvitele az átviteli közegen."
+  },
+  {
+    "id": 17,
+    "fejezet": "03_Hivatkozási modellek",
+    "kerdes": "A fizikai réteg feladata az adatok egyértelmű keretekbe tördelése és a hibamentes adatok átadása a felső rétegnek.",
+    "valasz": "hamis",
+    "magyarazat": "Az adatok keretekbe tördelése és hibamentesítése az adatkapcsolati réteg feladata; a fizikai réteg csak a bitek továbbításáért felel."
+  },
+  {
+    "id": 18,
+    "fejezet": "03_Hivatkozási modellek",
+    "kerdes": "Az internetet alkotó hálózatok lényegében kizárólag a fizikai rétegeiken keresztül kommunikálnak közvetlenül egymással.",
+    "valasz": "igaz",
+    "magyarazat": "A hálózatok közötti tényleges közvetlen fizikai kommunikáció a fizikai rétegen keresztül zajlik."
+  },
+  {
+    "id": 19,
+    "fejezet": "03_Hivatkozási modellek",
+    "kerdes": "Az OSI modell 2. rétege az adatkapcsolati réteg (Data Link Layer), amelynek cserélt adategysége a keret.",
+    "valasz": "igaz",
+    "magyarazat": "Az adatkapcsolati réteg cserélt adategysége a keret (frame)."
+  },
+  {
+    "id": 20,
+    "fejezet": "03_Hivatkozási modellek",
+    "kerdes": "A fizikai réteg feladata a keretek határainak felismerése és a nyugtázások feldolgozása.",
+    "valasz": "hamis",
+    "magyarazat": "Mivel a fizikai réteg értelmezés nélkül továbbítja a biteket, a keretek határainak felismerése és a nyugták feldolgozása az adatkapcsolati réteg feladata."
+  },
+  {
+    "id": 21,
+    "fejezet": "03_Hivatkozási modellek",
+    "kerdes": "Az adatkapcsolati réteg feladatai közé tartozik a kétirányú átvitel során fellépő ütközések kezelése és a forgalomszabályozás.",
+    "valasz": "igaz",
+    "magyarazat": "Az adatkapcsolati réteg kezeli a kétirányú átvitel ütközéseit és tájékoztatja az adót a vevő fogadási szándékáról."
+  },
+  {
+    "id": 22,
+    "fejezet": "03_Hivatkozási modellek",
+    "kerdes": "A 3. réteg a hálózati réteg (Network Layer), amelynek adategysége a csomag, fő feladata pedig a forgalomirányítás (útvonalválasztás).",
+    "valasz": "igaz",
+    "magyarazat": "A hálózati réteg adategysége a csomag, és a forrás valamint célállomás közötti útvonal meghatározásáért felel."
+  },
+  {
+    "id": 23,
+    "fejezet": "03_Hivatkozási modellek",
+    "kerdes": "A hálózati rétegben a csomagok útvonalválasztása kizárólag dinamikusan történhet, statikus táblázatok nem használhatók.",
+    "valasz": "hamis",
+    "magyarazat": "Az útvonalválasztás történhet statikusan nem változó táblázatokkal, vagy dinamikusan állandóan változó táblázatok segítségével."
+  },
+  {
+    "id": 24,
+    "fejezet": "03_Hivatkozási modellek",
+    "kerdes": "Két azonos forrás- és célállomással rendelkező csomag nem feltétlenül ugyanazon az útvonalon éri el a rendeltetési helyét.",
+    "valasz": "igaz",
+    "magyarazat": "Mivel a hálózat rendelkezésre állása pillanatról pillanatra változhat, az azonos célú csomagok eltérő útvonalon is haladhatnak."
+  },
+  {
+    "id": 25,
+    "fejezet": "03_Hivatkozási modellek",
+    "kerdes": "A hálózati réteg kezeli a hálózati torlódási problémákat és a heterogén hálózatok összekapcsolását is.",
+    "valasz": "igaz",
+    "magyarazat": "A csomagok feltorlódását és az eltérő felépítésű hálózatok összekapcsolását a hálózati réteg oldja meg."
+  },
+  {
+    "id": 26,
+    "fejezet": "03_Hivatkozási modellek",
+    "kerdes": "Adatszóró hálózatokban a hálózati réteg a legösszetettebb és leginkább kihagyhatatlan réteg.",
+    "valasz": "hamis",
+    "magyarazat": "Adatszóró hálózatokban, ahol az útvonalválasztás roppant egyszerűen megoldható, a hálózati réteg el is hagyható."
+  },
+  {
+    "id": 27,
+    "fejezet": "03_Hivatkozási modellek",
+    "kerdes": "A 4. réteg a szállítási réteg (Transport Layer), amely két végpont közötti rétegnek számít.",
+    "valasz": "igaz",
+    "magyarazat": "A szállítási réteg valódi végpont-végpont közötti (end-to-end) kommunikációt valósít meg a forrás- és célállomás között."
+  },
+  {
+    "id": 28,
+    "fejezet": "03_Hivatkozási modellek",
+    "kerdes": "Az OSI modell alsó három rétegében a gazdagépek közvetlenül a célállomással folytatnak párbeszédet, nem a szomszédos géppel.",
+    "valasz": "hamis",
+    "magyarazat": "Az alsóbb rétegeknél a gazdagépek a szomszédjukkal folytatnak párbeszédet, míg a szállítási rétegnél kommunikál közvetlenül a forrás- és célállomás."
+  },
+  {
+    "id": 29,
+    "fejezet": "03_Hivatkozási modellek",
+    "kerdes": "A szállítási réteg a forrás oldalon szegmensekre bontja az adatokat, cserélt adategysége a TPDU.",
+    "valasz": "igaz",
+    "magyarazat": "A szállítási réteg az adatokat szegmensekre bontja, adategysége a TPDU (Transport Protocol Data Unit)."
+  },
+  {
+    "id": 30,
+    "fejezet": "03_Hivatkozási modellek",
+    "kerdes": "Az 5. réteg a viszonyréteg / együttműködési réteg (Session Layer), amelynek cserélt adategysége az SPDU.",
+    "valasz": "igaz",
+    "magyarazat": "A viszonyréteg teszi lehetővé a felhasználói viszony létesítését, adategysége az SPDU."
+  },
+  {
+    "id": 31,
+    "fejezet": "03_Hivatkozási modellek",
+    "kerdes": "A viszonyréteg kölcsönhatás-menedzselése biztosítja az elmentett adatok titkosítását és tömörítését.",
+    "valasz": "hamis",
+    "magyarazat": "A kölcsönhatás-menedzselés azt vezérli, hogy a két oldal egyszerre ne próbálkozzon ugyanazzal a művelettel; a titkosítás és tömörítés a megjelenítési réteg feladata."
+  },
+  {
+    "id": 32,
+    "fejezet": "03_Hivatkozási modellek",
+    "kerdes": "A viszonyréteg szinkronizációs jelei lehetővé teszik, hogy egy megszakadt állománytovábbítást a hiba elhárulása után az utolsó ellenőrzési jeltől lehessen folytatni.",
+    "valasz": "igaz",
+    "magyarazat": "A szinkronizáció segítségével megszakadás esetén az adatátvitel az utolsó ellenőrzési jeltől folytatható."
+  },
+  {
+    "id": 33,
+    "fejezet": "03_Hivatkozási modellek",
+    "kerdes": "A 6. réteg a megjelenítési réteg (Presentation Layer), amely az átvitt információ szintaktikájával (alaki követelmények) és szemantikájával (tartalmi követelmények) foglalkozik.",
+    "valasz": "igaz",
+    "magyarazat": "A megjelenítési réteg az átvitt adatok alaki (szintaktikai) és tartalmi (szemantikai) strukturálásáért felel."
+  },
+  {
+    "id": 34,
+    "fejezet": "03_Hivatkozási modellek",
+    "kerdes": "A különböző számítógépes kódolások (ASCII, ANSI, EBCDIC) közötti egységes kódolást az alkalmazási réteg végzi.",
+    "valasz": "hamis",
+    "magyarazat": "A különböző kódolások (ASCII, ANSI, EBCDIC) közötti egységes szabvány szerinti bitekre kódolást a megjelenítési réteg végzi."
+  },
+  {
+    "id": 35,
+    "fejezet": "03_Hivatkozási modellek",
+    "kerdes": "A megjelenítési réteg feladatai közé tartozhat az adattömörítés és a titkosítás is, cserélt adategysége a PPDU.",
+    "valasz": "igaz",
+    "magyarazat": "A megjelenítési réteg adategysége a PPDU, egyéb feladatai közé tartozik a tömörítés és a titkosítás."
+  },
+  {
+    "id": 36,
+    "fejezet": "03_Hivatkozási modellek",
+    "kerdes": "A 7. réteg az alkalmazási réteg (Application Layer), cserélt adategysége az APDU.",
+    "valasz": "igaz",
+    "magyarazat": "Az alkalmazási réteg a legfelső réteg, adategysége az APDU."
+  },
+  {
+    "id": 37,
+    "fejezet": "03_Hivatkozási modellek",
+    "kerdes": "Az alkalmazási réteg az adatok fizikai továbbításáért és az elektromos feszültségszintek szabályozásáért felel.",
+    "valasz": "hamis",
+    "magyarazat": "Az alkalmazási réteghez a felhasználói programok által igényelt protokollok tartoznak (pl. levelezés, állománytovábbítás)."
+  },
+  {
+    "id": 38,
+    "fejezet": "03_Hivatkozási modellek",
+    "kerdes": "A TCP/IP protokollstruktúra történetének kezdete az ARPANET idejére (1969) tehető, és az NCP (Network Control Protocol) kiváltására készült.",
+    "valasz": "igaz",
+    "magyarazat": "A TCP/IP fejlesztése az 1969-es ARPANET projekthez kötődik az NCP leváltására."
+  },
+  {
+    "id": 39,
+    "fejezet": "03_Hivatkozási modellek",
+    "kerdes": "A TCP/IP v4-es verzióját 1983-ban dokumentálták, és 1999-ben váltotta fel az NCP-t.",
+    "valasz": "hamis",
+    "magyarazat": "A 4-es verziót 1979-ben dokumentálták, és 1983-ra teljesen leváltotta az NCP-t."
+  },
+  {
+    "id": 40,
+    "fejezet": "03_Hivatkozási modellek",
+    "kerdes": "Az ARPANET az amerikai védelmi minisztérium (DoD – Department of Defense) által támogatott kísérleti hálózat volt.",
+    "valasz": "igaz",
+    "magyarazat": "Az ARPANET a DoD (Department of Defense) által támogatott hálózati projekt volt."
+  },
+  {
+    "id": 41,
+    "fejezet": "03_Hivatkozási modellek",
+    "kerdes": "A TCP/IP hivatkozási modell 4 rétegből áll, és legfontosabb szempontja megalkotásakor a kapcsolati biztonság volt.",
+    "valasz": "igaz",
+    "magyarazat": "A TCP/IP modell 4 rétegű, fő szempontja pedig az volt, hogy bármely elem kiesése esetén se szakadjon meg a kapcsolat."
+  },
+  {
+    "id": 42,
+    "fejezet": "03_Hivatkozási modellek",
+    "kerdes": "A TCP/IP modell 1. rétege a fizikai réteg, amely szigorúan meghatározza a rézkábelek elektromos tulajdonságait.",
+    "valasz": "hamis",
+    "magyarazat": "A TCP/IP legalsó rétege a Kapcsolati réteg (Link Layer); a modell nem mondja meg mi legyen a fizikai réteg, csak IP-csomag továbbításra alkalmas hálózatot követel meg."
+  },
+  {
+    "id": 43,
+    "fejezet": "03_Hivatkozási modellek",
+    "kerdes": "A TCP/IP 2. rétege az Internet réteg (Internet Layer), amelynek hivatalos csomagformátuma és protokollja az IP (Internet Protocol).",
+    "valasz": "igaz",
+    "magyarazat": "Az Internet réteg feladata a csomagok továbbítása és útvonalválasztása az IP protokoll segítségével."
+  },
+  {
+    "id": 44,
+    "fejezet": "03_Hivatkozási modellek",
+    "kerdes": "Az Internet rétegben hiába érkeznek hibás sorrendben a csomagok, azokat a csomagkapcsolt elv miatt nem lehet többé sorba rendezni.",
+    "valasz": "hamis",
+    "magyarazat": "Ha a csomagok nem az elküldés sorrendjében érkeznek meg, a magasabb rétegek gond nélkül visszarendezik azokat a megfelelő sorrendbe."
+  },
+  {
+    "id": 45,
+    "fejezet": "03_Hivatkozási modellek",
+    "kerdes": "A TCP/IP 3. rétege a Szállítási réteg (Transport Layer), melynek két fő protokollja a TCP és az UDP.",
+    "valasz": "igaz",
+    "magyarazat": "A szállítási réteg két alapvető protokollja a TCP és az UDP."
+  },
+  {
+    "id": 46,
+    "fejezet": "03_Hivatkozási modellek",
+    "kerdes": "A TCP egy nem megbízható, összeköttetés nélküli protokoll, amely forgalomszabályozást nem végez.",
+    "valasz": "hamis",
+    "magyarazat": "A TCP egy megbízható összeköttetés alapú protokoll, amely hibamentes átvitelt és forgalomszabályozást biztosít."
+  },
+  {
+    "id": 47,
+    "fejezet": "03_Hivatkozási modellek",
+    "kerdes": "Az UDP (User Datagram Protocol) egy nem megbízható, összeköttetés nélküli protokoll, amelyet főleg gyors válaszadást igénylő kliens-szerver alkalmazásokban (pl. beszéd- vagy videóátvitel) használnak.",
+    "valasz": "igaz",
+    "magyarazat": "Az UDP nem megbízható, összeköttetés nélküli átvitelt nyújt, ahol a gyors válasz fontosabb a pontos válasznál."
+  },
+  {
+    "id": 48,
+    "fejezet": "03_Hivatkozási modellek",
+    "kerdes": "A TCP/IP Alkalmazási rétege (4. réteg) eredetileg a TELNET, FTP és SMTP protokollokat tartalmazta, amely később bővült például a DNS és HTTP protokollokkal.",
+    "valasz": "igaz",
+    "magyarazat": "Az alkalmazási réteg eredeti három protokollja a TELNET, FTP, SMTP volt, mely később kiegészült a DNS-sel és HTTP-vel."
+  },
+  {
+    "id": 49,
+    "fejezet": "03_Hivatkozási modellek",
+    "kerdes": "A TELNET protokoll feladata a hosztnevek leképezése hálózati címekre a www oldalak letöltéséhez.",
+    "valasz": "hamis",
+    "magyarazat": "A hosztnevek leképezését a DNS végzi; a TELNET a hálózati virtuális terminál protokollja, amely távoli gépre való bejelentkezést tesz lehetővé."
+  },
+  {
+    "id": 50,
+    "fejezet": "03_Hivatkozási modellek",
+    "kerdes": "A TCP/IP alkalmazási rétegének protokolljai közé tartozik a forrás összefoglaló táblázata alapján az SNMP, NTP, TFTP, Modbus, HTTP, SMTP és FTP is.",
+    "valasz": "igaz",
+    "magyarazat": "A forrásban található protokollstruktúra ábra az alkalmazási rétegnél felsorolja az SNMP, NTP, TFTP, FTP, HTTP, SMTP és Modbus protokollokat."
+  }
+]

@@ -1,0 +1,464 @@
+[
+  {
+    "id": 1,
+    "fejezet": "04_A modell és Az internet kialakulása",
+    "kerdes": "Sem az OSI, sem a TCP/IP hivatkozási modell nem modellezi közvetlenül a valóságban megvalósítható hálózatot, mivel mindkettő elvi megfontolásokra épül.",
+    "valasz": "igaz",
+    "magyarazat": "Mindkét hivatkozási modell elvi alapokra épül, így közvetlenül egyik sem modellezi a gyakorlati hálózatokat."
+  },
+  {
+    "id": 2,
+    "fejezet": "04_A modell és Az internet kialakulása",
+    "kerdes": "A Bluetooth technológia teljes mértékben és közvetlenül leírható a TCP/IP hivatkozási modell segítségével.",
+    "valasz": "hamis",
+    "magyarazat": "A Bluetooth technológia a TCP/IP hivatkozási modellel közvetlenül nem írható le."
+  },
+  {
+    "id": 3,
+    "fejezet": "04_A modell és Az internet kialakulása",
+    "kerdes": "A TELNET tervezésekor a grafikus felület és az egér használata már alapvető követelményként jelent meg.",
+    "valasz": "hamis",
+    "magyarazat": "A TELNET tervezésekor az egér és a grafikus felület még ismeretlen volt, így nem jelenhetett meg igényként."
+  },
+  {
+    "id": 4,
+    "fejezet": "04_A modell és Az internet kialakulása",
+    "kerdes": "A gyakorlati életben előforduló hálózatok egy ötrétegű hibrid modellel modellezhetők.",
+    "valasz": "igaz",
+    "magyarazat": "A gyakorlati hálózatok leírására az ötrétegű hibrid modell használatos."
+  },
+  {
+    "id": 5,
+    "fejezet": "04_A modell és Az internet kialakulása",
+    "kerdes": "A gyakorlati hibrid modell rétegeinek elnevezése a TCP/IP modellt, míg használt protokolljai az OSI modellt követik.",
+    "valasz": "hamis",
+    "magyarazat": "A hibrid modell rétegeinek elnevezése az OSI modellt, míg a használt protokolljai a TCP/IP modellt követik."
+  },
+  {
+    "id": 6,
+    "fejezet": "04_A modell és Az internet kialakulása",
+    "kerdes": "A hibrid modell ötrétegű szerkezete felülről lefelé: Alkalmazási réteg, Szállítási réteg, Hálózati réteg, Adatkapcsolati réteg és Fizikai réteg.",
+    "valasz": "igaz",
+    "magyarazat": "Ez az ötrétegű hibrid modell pontos rétegfelépítése."
+  },
+  {
+    "id": 7,
+    "fejezet": "04_A modell és Az internet kialakulása",
+    "kerdes": "A hibrid modellben a Megjelenítési réteg a 6., a Viszonyréteg pedig az 5. réteget alkotja.",
+    "valasz": "hamis",
+    "magyarazat": "A hibrid modellben és a TCP/IP modellben nincs külön Megjelenítési és Viszonyréteg; ezek az OSI modell elemei."
+  },
+  {
+    "id": 8,
+    "fejezet": "04_A modell és Az internet kialakulása",
+    "kerdes": "A Fizikai réteg adategységei közé tartoznak a feszültségszintek, fényjelek és a bitek.",
+    "valasz": "igaz",
+    "magyarazat": "A fizikai rétegben az átvitel feszültségszintekkel, fényjelekkel és bitekkel valósul meg."
+  },
+  {
+    "id": 9,
+    "fejezet": "04_A modell és Az internet kialakulása",
+    "kerdes": "Az Adatkapcsolati réteg saját adategysége a szegmens.",
+    "valasz": "hamis",
+    "magyarazat": "Az Adatkapcsolati réteg adategysége a keret; a szegmens a Szállítási réteg adategysége."
+  },
+  {
+    "id": 10,
+    "fejezet": "04_A modell és Az internet kialakulása",
+    "kerdes": "A Hálózati réteg aktív hálózati kapcsolóeleme (IMP) a Router (útválasztó), adategysége pedig a csomag.",
+    "valasz": "igaz",
+    "magyarazat": "A Hálózati rétegben az útvonalválasztást a Router végzi, adategysége a csomag."
+  },
+  {
+    "id": 11,
+    "fejezet": "04_A modell és Az internet kialakulása",
+    "kerdes": "Az Alkalmazási réteghez köthető aktív hálózati kapcsolóelem a Hub és a Repeater.",
+    "valasz": "hamis",
+    "magyarazat": "Az Alkalmazási réteg kapcsolóeleme a Gateway (átjáró); a Hub és Repeater a Fizikai réteghez tartoznak."
+  },
+  {
+    "id": 12,
+    "fejezet": "04_A modell és Az internet kialakulása",
+    "kerdes": "Az Adatkapcsolati réteg aktív kapcsolóelemei közé tartozik a Bridge és a Switch.",
+    "valasz": "igaz",
+    "magyarazat": "A Bridge és a Switch az Adatkapcsolati rétegben működő kapcsolóelemek."
+  },
+  {
+    "id": 13,
+    "fejezet": "04_A modell és Az internet kialakulása",
+    "kerdes": "A fizikai réteg egyetlen fő szempontja az, hogy az adó oldali egyes illetve nulla a vevő oldalon is egyes illetve nulla legyen.",
+    "valasz": "igaz",
+    "magyarazat": "A fizikai réteg feladata a bitek jelek formájában történő pontos eljuttatása az adótól a vevőig."
+  },
+  {
+    "id": 14,
+    "fejezet": "04_A modell és Az internet kialakulása",
+    "kerdes": "Az adatkapcsolati réteg azzal foglalkozik, hogy egy egész hálózaton keresztül optimális útvonalon juttassa el a csomagokat a gépekhez.",
+    "valasz": "hamis",
+    "magyarazat": "A két közvetlenül összekapcsolt gép közötti megbízható üzenetátvitel az Adatkapcsolati réteg feladata; a hálózaton keresztüli útvonalválasztást a Hálózati réteg végzi."
+  },
+  {
+    "id": 15,
+    "fejezet": "04_A modell és Az internet kialakulása",
+    "kerdes": "A szállítási réteg a kézbesítés biztonságát növelve biztosítja megbízható bájtfolyamok átvitelét, akár a kapcsolat megszakadása utáni folytatással.",
+    "valasz": "igaz",
+    "magyarazat": "A szállítási réteg felel a végpontok közötti megbízható bájtfolyam-átvitelért és a kapcsolat megszakadásának kezeléséért."
+  },
+  {
+    "id": 16,
+    "fejezet": "04_A modell és Az internet kialakulása",
+    "kerdes": "A mindennapokban megtapasztalt hálózati példák közé tartozik az internet, a mobiltelefon hálózatok, a WLAN hálózatok, valamint az RFID és szenzorhálózatok.",
+    "valasz": "igaz",
+    "magyarazat": "A tananyag e négy hálózati típust emeli ki mint mindennapi gyakorlati példákat."
+  },
+  {
+    "id": 17,
+    "fejezet": "04_A modell és Az internet kialakulása",
+    "kerdes": "A WLAN mozaikszó a Wireless Long Area Network kifejezést takarja.",
+    "valasz": "hamis",
+    "magyarazat": "A WLAN a Wireless Local Area Network (vezeték nélküli helyi hálózat) rövidítése."
+  },
+  {
+    "id": 18,
+    "fejezet": "04_A modell és Az internet kialakulása",
+    "kerdes": "Az internet története az 1950-es 60-as évekre nyúlik vissza, és a hidegháborús védelmi gondolkodás hozadéka.",
+    "valasz": "igaz",
+    "magyarazat": "Az internet alapjait a hidegháború idején, az 1950-es és 60-as években fektették le."
+  },
+  {
+    "id": 19,
+    "fejezet": "04_A modell és Az internet kialakulása",
+    "kerdes": "Az internet fejlesztésének fő célja egy olyan csillagpontos telefonrendszer kiépítése volt, amely központi vezérléssel működik.",
+    "valasz": "hamis",
+    "magyarazat": "A korábbi csillagpontos rendszerek sérülékenyek voltak; a cél egy olyan elosztott hálózat létrehozása volt, amely az egyes központok megsemmisülése esetén is működőképes marad."
+  },
+  {
+    "id": 20,
+    "fejezet": "04_A modell és Az internet kialakulása",
+    "kerdes": "Az ARPA (Advanced Research Projects Agency) az USA Hadügyminisztériumán (Department of Defense) belül jött létre.",
+    "valasz": "igaz",
+    "magyarazat": "Az ARPA a DoD védelmi célú kutató szervezeteként alakult meg."
+  },
+  {
+    "id": 21,
+    "fejezet": "04_A modell és Az internet kialakulása",
+    "kerdes": "Az ARPA ügynökség nevébe később bekerült a „Defense” szó, így lett a neve DARPA.",
+    "valasz": "igaz",
+    "magyarazat": "Az ARPA elnevezés később DARPA-ra változott a Defense (védelem) szó hivatalos bekerülésével."
+  },
+  {
+    "id": 22,
+    "fejezet": "04_A modell és Az internet kialakulása",
+    "kerdes": "Az F-117 lopakodó bombázó egy klasszikus védelmi fegyverként jött létre a DARPA égisze alatt.",
+    "valasz": "hamis",
+    "magyarazat": "Az F-117 lopakodó bombázó az ügynökség égisze alatt készült, de nem tekinthető klasszikus védelmi fegyvernek."
+  },
+  {
+    "id": 23,
+    "fejezet": "04_A modell és Az internet kialakulása",
+    "kerdes": "Az első kísérleti csomagkapcsolt hálózat, az ARPANET 1969-ben jött létre telefonvonalakon keresztül.",
+    "valasz": "igaz",
+    "magyarazat": "Az ARPANET kiépítése 1969-ben kezdődött meg csomagkapcsolt kísérleti hálózatként."
+  },
+  {
+    "id": 24,
+    "fejezet": "04_A modell és Az internet kialakulása",
+    "kerdes": "Az ARPANET mellett létrehozott katonai hálózat neve NSFNET volt.",
+    "valasz": "hamis",
+    "magyarazat": "A katonai hálózat neve MILNET (Military Network) volt; az NSFNET a National Science Foundation hálózata."
+  },
+  {
+    "id": 25,
+    "fejezet": "04_A modell és Az internet kialakulása",
+    "kerdes": "Az ARPANET és a MILNET hálózatokat 1983-ban kapcsolták össze.",
+    "valasz": "igaz",
+    "magyarazat": "A két hálózat összekapcsolása 1983-ban történt meg."
+  },
+  {
+    "id": 26,
+    "fejezet": "04_A modell és Az internet kialakulása",
+    "kerdes": "A MInet a MILnet amerikai szárazföldi megfelelője volt.",
+    "valasz": "hamis",
+    "magyarazat": "A MInet a MILnet európai megfelelője volt."
+  },
+  {
+    "id": 27,
+    "fejezet": "04_A modell és Az internet kialakulása",
+    "kerdes": "A SATnet és a WIDEBAND műholdas hálózatokként kapcsolódtak a fejlődő internethez.",
+    "valasz": "igaz",
+    "magyarazat": "A SATnet és WIDEBAND hálózatok műholdas átvitelt biztosítottak."
+  },
+  {
+    "id": 28,
+    "fejezet": "04_A modell és Az internet kialakulása",
+    "kerdes": "A BITNET nevű hálózat mozaikszava a „Because It's Time Network” kifejezésből származik, és eredetileg IBM nagyszámítógépeket kötött össze.",
+    "valasz": "igaz",
+    "magyarazat": "A BITNET (Because It's Time Network) egyetemek közötti kommunikációra szolgált IBM nagyszámítógépekkel."
+  },
+  {
+    "id": 29,
+    "fejezet": "04_A modell és Az internet kialakulása",
+    "kerdes": "A USENET eredetileg Windows operációs rendszerű gépeket kötött össze hírcsoportok eléréséhez.",
+    "valasz": "hamis",
+    "magyarazat": "A USENET eredetileg UNIX operációs rendszerű gépeket kötött össze."
+  },
+  {
+    "id": 30,
+    "fejezet": "04_A modell és Az internet kialakulása",
+    "kerdes": "Az 1990-es években a kereskedelmi szolgáltatók (Sprint, AT&T, CompuServe, America Online) is elérhetővé váltak az interneten.",
+    "valasz": "igaz",
+    "magyarazat": "Az 1990-es években indult meg a nagy kereskedelmi szolgáltató központok csatlakozása."
+  },
+  {
+    "id": 31,
+    "fejezet": "04_A modell és Az internet kialakulása",
+    "kerdes": "Az intranet az internet technológiáját használó vállalati információs rendszer.",
+    "valasz": "igaz",
+    "magyarazat": "Az intranet az intézményen belüli, internetes technológiára épülő hálózat elnevezése."
+  },
+  {
+    "id": 32,
+    "fejezet": "04_A modell és Az internet kialakulása",
+    "kerdes": "A világ első műholdja, a Szputnyik kilövése 1957-ben történt.",
+    "valasz": "igaz",
+    "magyarazat": "1957-ben lőtték ki a Szputnyikot, a világ első műholdját."
+  },
+  {
+    "id": 33,
+    "fejezet": "04_A modell és Az internet kialakulása",
+    "kerdes": "1969-ben az ARPANET kiépítésével a BBN Technologies céget bízták meg, kezdetben 4 csomóponttal.",
+    "valasz": "igaz",
+    "magyarazat": "A BBN (Bolt, Beranek and Newman) kapta meg a feladatot a 4 első csomópont kiépítésére."
+  },
+  {
+    "id": 34,
+    "fejezet": "04_A modell és Az internet kialakulása",
+    "kerdes": "Az ARPANET első négy csomópontja a következők voltak: UCLA, SRI, UCSB és University of Utah.",
+    "valasz": "igaz",
+    "magyarazat": "Ez a négy egyetemi/kutatási központ alkotta az ARPANET legelső hálózatát."
+  },
+  {
+    "id": 35,
+    "fejezet": "04_A modell és Az internet kialakulása",
+    "kerdes": "1971-ben az ARPANET-hez már 15 csomópont és 23 számítógép kapcsolódott.",
+    "valasz": "igaz",
+    "magyarazat": "1971-re a hálózat 15 csomópontosra és 23 számítógépesre bővült."
+  },
+  {
+    "id": 36,
+    "fejezet": "04_A modell és Az internet kialakulása",
+    "kerdes": "Az ARPANET első nemzetközi kapcsolatai 1973-ban jöttek létre Franciaországgal és Németországgal.",
+    "valasz": "hamis",
+    "magyarazat": "Az első nemzetközi kapcsolatok 1973-ban Angliával és Norvégiával épültek ki."
+  },
+  {
+    "id": 37,
+    "fejezet": "04_A modell és Az internet kialakulása",
+    "kerdes": "Az ARPANET hálózat 1990-ben szűnt meg.",
+    "valasz": "igaz",
+    "magyarazat": "Az ARPANET mint önálló hálózat 1990-ben fejezte be működését."
+  },
+  {
+    "id": 38,
+    "fejezet": "04_A modell és Az internet kialakulása",
+    "kerdes": "Az első e-mail küldés Ray Tomlinson nevéhez fűződik 1971-ből.",
+    "valasz": "igaz",
+    "magyarazat": "Ray Tomlinson 1971-ben valósította meg az első e-mail küldést."
+  },
+  {
+    "id": 39,
+    "fejezet": "04_A modell és Az internet kialakulása",
+    "kerdes": "Az Ethernet kifejlesztése Robert Metcalfe nevéhez fűződik 1973-ban.",
+    "valasz": "igaz",
+    "magyarazat": "Robert Metcalfe 1973-ban alkotta meg az Ethernet koncepcióját."
+  },
+  {
+    "id": 40,
+    "fejezet": "04_A modell és Az internet kialakulása",
+    "kerdes": "A TCP/IP protokoll kifejlesztése Vint Cerf és Bob Kahn nevéhez fűződik 1975-ben.",
+    "valasz": "igaz",
+    "magyarazat": "Vinton Cerf és Robert Kahn fektették le a TCP/IP alapjait 1975-ben."
+  },
+  {
+    "id": 41,
+    "fejezet": "04_A modell és Az internet kialakulása",
+    "kerdes": "A World Wide Web (http://) és a .html kifejlesztése Tim Berners-Lee és Robert Cailliau nevéhez fűződik a 1990-91-es években.",
+    "valasz": "igaz",
+    "magyarazat": "Tim Berners-Lee és Robert Cailliau alkották meg a WWW és HTML alapelemeit."
+  },
+  {
+    "id": 42,
+    "fejezet": "04_A modell és Az internet kialakulása",
+    "kerdes": "A Mosaic böngészőt 1993-ban Marc Andreessen fejlesztette ki.",
+    "valasz": "igaz",
+    "magyarazat": "Marc Andreessen készítette el a Mosaic gráfikus böngészőt 1993-ban."
+  },
+  {
+    "id": 43,
+    "fejezet": "04_A modell és Az internet kialakulása",
+    "kerdes": "Az Archie nevű első keresőmotort 1998-ban hozta létre Larry Page és Sergey Brin.",
+    "valasz": "hamis",
+    "magyarazat": "Az Archie keresőt 1990-ben Emtage & Deutsch készítette; a Googlet hozta létre Brin & Page 1998-ban."
+  },
+  {
+    "id": 44,
+    "fejezet": "04_A modell és Az internet kialakulása",
+    "kerdes": "Az „ICE age” kifejezés az Information Technology, Communication és Entertainment iparágak összefonódását jelöli.",
+    "valasz": "igaz",
+    "magyarazat": "Az ICE mozaikszó az információtechnológia, távközlés és szórakoztatóipar egységesülését jelenti."
+  },
+  {
+    "id": 45,
+    "fejezet": "04_A modell és Az internet kialakulása",
+    "kerdes": "A gyártók vágyálmaként megjelenő „Network Computers” koncepció drága, helyi szuperszámítógépek használatát jelenti.",
+    "valasz": "hamis",
+    "magyarazat": "A Network Computers koncepció lényege olcsó hálózati számítógépek használata központi szerverek elérésével."
+  },
+  {
+    "id": 46,
+    "fejezet": "04_A modell és Az internet kialakulása",
+    "kerdes": "Az internet közigazgatási és jogi korlátozásaira példa a weblapok letiltása és a szolgáltatások ellehetetlenítése (pl. Napster, Piratebay).",
+    "valasz": "igaz",
+    "magyarazat": "A hatóságok adminisztratív és jogi eszközökkel korlátozhatják az internetes szolgáltatásokat."
+  },
+  {
+    "id": 47,
+    "fejezet": "04_A modell és Az internet kialakulása",
+    "kerdes": "A tartalomszolgáltatás során a weboldalak látogatottságának növelése céljából ingyenesen közzétett információk költségeit reklámbevételekből fedezik.",
+    "valasz": "igaz",
+    "magyarazat": "A tartalomszolgáltatók fő bevétele a weblap látogatottságához kapcsolódó reklámokból származik."
+  },
+  {
+    "id": 48,
+    "fejezet": "04_A modell és Az internet kialakulása",
+    "kerdes": "A Google és a Bing az információkatalógusok, míg a Yahoo és a HuDir a keresési indexek közé tartozik.",
+    "valasz": "hamis",
+    "magyarazat": "A Google és Bing keresési indexek; a Yahoo és HuDir információkatalógusok."
+  },
+  {
+    "id": 49,
+    "fejezet": "04_A modell és Az internet kialakulása",
+    "kerdes": "Az OPAC a könyvtári katalógusok elnevezése.",
+    "valasz": "igaz",
+    "magyarazat": "Az OPAC az online könyvtári katalógusrendszerek elterjedt betűszava."
+  },
+  {
+    "id": 50,
+    "fejezet": "04_A modell és Az internet kialakulása",
+    "kerdes": "Elektronikus könyvtárakra és tudásbázisokra példa a Wikipedia, a Magyar Elektronikus Könyvtár (MEK) és a Project Gutenberg (PG).",
+    "valasz": "igaz",
+    "magyarazat": "Ezek a rendszerek az elektronikus könyvtárak és tudásbázisok klasszikus példái."
+  },
+  {
+    "id": 51,
+    "fejezet": "04_A modell és Az internet kialakulása",
+    "kerdes": "Az internetes vásárlási és banki szolgáltatások közé tartozik a PayPal, Ukash, eBay, Aliexpress, vatera.hu, OLX.hu és jofogas.hu.",
+    "valasz": "igaz",
+    "magyarazat": "A tananyag ezen online kereskedelmi és fizetési megoldásokat sorolja fel."
+  },
+  {
+    "id": 52,
+    "fejezet": "04_A modell és Az internet kialakulása",
+    "kerdes": "A Bing Maps, Google Maps, Google Earth és Google Moon a WEB2 közösségi szolgáltatások közé tartoznak.",
+    "valasz": "hamis",
+    "magyarazat": "Ezek térinformatikai szolgáltatások."
+  },
+  {
+    "id": 53,
+    "fejezet": "04_A modell és Az internet kialakulása",
+    "kerdes": "A WEB2 közösségre épülő szolgáltatások körülbelül 2004 óta vannak jelen a mindennapokban.",
+    "valasz": "igaz",
+    "magyarazat": "A tananyag szerint a WEB2 szolgáltatások kb. 2004 óta terjedtek el."
+  },
+  {
+    "id": 54,
+    "fejezet": "04_A modell és Az internet kialakulása",
+    "kerdes": "Az iWiW közösségi hálózat működése 2014. június 30-án ért véget.",
+    "valasz": "igaz",
+    "magyarazat": "Az iWiW megszűnésének pontos dátuma 2014.06.30."
+  },
+  {
+    "id": 55,
+    "fejezet": "04_A modell és Az internet kialakulása",
+    "kerdes": "A Bitcoin, Litecoin és Ripple a virtuális pénzek (CryptoCurrency) példái.",
+    "valasz": "igaz",
+    "magyarazat": "Ezek a kriptovaluták reprezentatív példái a tananyagban."
+  },
+  {
+    "id": 56,
+    "fejezet": "04_A modell és Az internet kialakulása",
+    "kerdes": "A ChatGPT rövidítése a Generative Pre-trained Transformer kifejezésből ered.",
+    "valasz": "igaz",
+    "magyarazat": "A GPT a Generative Pre-trained Transformer angol kifejezés rövidítése."
+  },
+  {
+    "id": 57,
+    "fejezet": "04_A modell és Az internet kialakulása",
+    "kerdes": "Hálózatról akkor beszélünk, ha legalább két számítógépet (leggyakrabban Ethernet hálózattal) összekötünk.",
+    "valasz": "igaz",
+    "magyarazat": "A hálózat alapadottsága legalább két számítógép összekötése."
+  },
+  {
+    "id": 58,
+    "fejezet": "04_A modell és Az internet kialakulása",
+    "kerdes": "Az ISP az Internet Service Provider (internetszolgáltató) rövidítése.",
+    "valasz": "igaz",
+    "magyarazat": "Az ISP az internetszolgáltató angol elnevezésének betűszava."
+  },
+  {
+    "id": 59,
+    "fejezet": "04_A modell és Az internet kialakulása",
+    "kerdes": "Az ISDN mozaikszó a „Digital Subscriber Line” kifejezés rövidítése.",
+    "valasz": "hamis",
+    "magyarazat": "Az ISDN az Integrated Services Digital Network rövidítése; a DSL jelentése Digital Subscriber Line."
+  },
+  {
+    "id": 60,
+    "fejezet": "04_A modell és Az internet kialakulása",
+    "kerdes": "A CMTS (Cable Modem Termination System) jellemzően „3 az 1-ben” szolgáltatást nyújt (telefon, internet, kábelTV) akár 80Mbps sebességgel.",
+    "valasz": "igaz",
+    "magyarazat": "A CMTS csatlakozás a tripla szolgáltatást biztosítja max. 80Mbps sebesség mellett."
+  },
+  {
+    "id": 61,
+    "fejezet": "04_A modell és Az internet kialakulása",
+    "kerdes": "A FttH (Fiber to the Home) optikai csatlakozási mód akár 1Gbps sebességet is biztosíthat.",
+    "valasz": "igaz",
+    "magyarazat": "A FttH csatlakozás akár 1Gbps sávszélességet is elérhet."
+  },
+  {
+    "id": 62,
+    "fejezet": "04_A modell és Az internet kialakulása",
+    "kerdes": "A MODEM berendezés elnevezése a „modulátor” és „demodulátor” szavakból származik.",
+    "valasz": "igaz",
+    "magyarazat": "A MODEM betűszó a modulátor és demodulátor szavak összevonása."
+  },
+  {
+    "id": 63,
+    "fejezet": "04_A modell és Az internet kialakulása",
+    "kerdes": "A modulációs eljárások során a vivőhullám két fő paraméterét (amplitúdó és fázis) lehet módosítani, a frekvenciáját nem.",
+    "valasz": "hamis",
+    "magyarazat": "A szinuszos vivő mindhárom fő paramétere módosítható: amplitúdó, fázis és frekvencia."
+  },
+  {
+    "id": 64,
+    "fejezet": "04_A modell és Az internet kialakulása",
+    "kerdes": "A POP (Point of Presence) az a szolgáltatási pont, ahol az előfizető adatcsomagjai belépnek a hálózatba.",
+    "valasz": "igaz",
+    "magyarazat": "A POP a belépési pont az előfizetői csomagok számára."
+  },
+  {
+    "id": 65,
+    "fejezet": "04_A modell és Az internet kialakulása",
+    "kerdes": "Az IXP (Internet eXchange Point) az egyes ISP-k közötti egyenrangú adatforgalmat (Peering) biztosítja forgalmi díj felszámítása nélkül.",
+    "valasz": "igaz",
+    "magyarazat": "Az IXP pontokon keresztül az összekapcsolt ISP-k forgalmi díjmentesen cserélnek adatot (Peering)."
+  },
+  {
+    "id": 66,
+    "fejezet": "04_A modell és Az internet kialakulása",
+    "kerdes": "A magasabb szinten álló ISP-k üzemeltetik a nagy adatközpontokat (Data Center) és szerver farmokat.",
+    "valasz": "igaz",
+    "magyarazat": "A nagy adatközpontok és konténernyi szerverek üzemeltetése a magasabb szintű ISP-k feladata."
+  }
+]

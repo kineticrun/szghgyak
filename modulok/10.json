@@ -1,0 +1,345 @@
+[
+  {
+    "id": 1,
+    "fejezet": "10_Az adatkapcsolati réteg",
+    "kerdes": "Az adatkapcsolati réteg (Data Link Layer) fő feladata, hogy az adó oldali adatok a vevő oldalra is adatként jussanak el, és ne váljanak értelmetlen jelek sorozatává.",
+    "valasz": "igaz",
+    "magyarazat": "Az adatkapcsolati réteg biztosítja az adatok értelmezhetőségét azáltal, hogy keretekbe tördeli és vezérlőbitekkel látja el azokat."
+  },
+  {
+    "id": 2,
+    "fejezet": "10_Az adatkapcsolati réteg",
+    "kerdes": "Az adatkapcsolati réteg a hálózati rétegből kapott adatokat közvetlenül, keretekre bontás nélkül továbbítja a fizikai réteg felé.",
+    "valasz": "hamis",
+    "magyarazat": "Az adatkapcsolati réteg a kapott bitfolyamot egyértelműen azonosítható diszkrét adatkeretekre tördeli szét."
+  },
+  {
+    "id": 3,
+    "fejezet": "10_Az adatkapcsolati réteg",
+    "kerdes": "Mivel a fizikai réteg a biteket értelmezés nélkül továbbítja, az adatkapcsolati réteg feladata a keretek határainak meghatározása és felismerése.",
+    "valasz": "igaz",
+    "magyarazat": "A fizikai réteg csak jelfolyamot továbbít értelmezés nélkül, így a kerethatárok azonosítása a felette lévő adatkapcsolati rétegre hárul."
+  },
+  {
+    "id": 4,
+    "fejezet": "10_Az adatkapcsolati réteg",
+    "kerdes": "A vevő oldali adatkapcsolati réteg dolgozza fel az adó által küldött nyugtázásokat.",
+    "valasz": "hamis",
+    "magyarazat": "Az adó oldali adatkapcsolati réteg dolgozza fel a vevő által küldött nyugtázásokat."
+  },
+  {
+    "id": 5,
+    "fejezet": "10_Az adatkapcsolati réteg",
+    "kerdes": "Az adatkapcsolati réteg feladatai közé tartozik a kétirányú átvitel során az esetleges ütközésekből adódó problémák megoldása és a forgalomszabályozás.",
+    "valasz": "igaz",
+    "magyarazat": "Az ütközéskezelés és a forgalomszabályozás az adatkapcsolati réteg alapvető feladatai közé tartozik."
+  },
+  {
+    "id": 6,
+    "fejezet": "10_Az adatkapcsolati réteg",
+    "kerdes": "A forgalomszabályozás lényege, hogy a vevő tájékoztatja az adót a fogadási szándékáról.",
+    "valasz": "igaz",
+    "magyarazat": "A forgalomszabályozással elkerülhető, hogy a gyors adó túlterhelje a lassabb vevőt."
+  },
+  {
+    "id": 7,
+    "fejezet": "10_Az adatkapcsolati réteg",
+    "kerdes": "Az adó oldali adatkapcsolati réteg a kapott bitfolyamot diszkrét keretekké alakítja és ellenőrző összegekkel látja el.",
+    "valasz": "igaz",
+    "magyarazat": "A keretekhez rendelt ellenőrző összegek teszik lehetővé a vevő oldalon a sérülésmentes érkezés ellenőrzését."
+  },
+  {
+    "id": 8,
+    "fejezet": "10_Az adatkapcsolati réteg",
+    "kerdes": "A valóságban a hálózati rétegből érkező adatok végtelen hosszúságú bitfolyamot alkotnak, nem meghatározott méretű csomagokat.",
+    "valasz": "hamis",
+    "magyarazat": "A valóságban a hálózati réteg adatai meghatározott méretű, a keret méreténél sokszorta nagyobb csomagok sorozatából állnak."
+  },
+  {
+    "id": 9,
+    "fejezet": "10_Az adatkapcsolati réteg",
+    "kerdes": "Az adatkapcsolati réteg a hálózati réteg szolgáltatásait veszi igénybe saját feladatai ellátásához.",
+    "valasz": "hamis",
+    "magyarazat": "Az adatkapcsolati réteg a fizikai réteg szolgáltatásait veszi igénybe ahhoz, hogy a hálózati rétegnek nyújthasson szolgáltatást."
+  },
+  {
+    "id": 10,
+    "fejezet": "10_Az adatkapcsolati réteg",
+    "kerdes": "A nyugtázatlan összeköttetés nélküli szolgáltatás esetén nincs előzetes kapcsolatfelépítés és kapcsolatlebontás sem.",
+    "valasz": "igaz",
+    "magyarazat": "Ebben a módosulatban az adatok előzetes egyeztetés és nyugtázás nélkül kerülnek kiküldésre."
+  },
+  {
+    "id": 11,
+    "fejezet": "10_Az adatkapcsolati réteg",
+    "kerdes": "Alaphelyzetben az Ethernet és a kéretlen levelek küldése a nyugtázatlan összeköttetés nélküli szolgáltatás példái.",
+    "valasz": "igaz",
+    "magyarazat": "A megbízható csatornán futó Ethernet alaphelyzetben és a kéretlen levelek küldése ilyen szolgáltatást használ."
+  },
+  {
+    "id": 12,
+    "fejezet": "10_Az adatkapcsolati réteg",
+    "kerdes": "A nyugtázott összeköttetés nélküli szolgáltatásnál az elveszett kereteket nem lehet ismételten elküldeni.",
+    "valasz": "hamis",
+    "magyarazat": "Mivel minden keret nyugtázva van, a nyugtázatlanul maradt vagy elveszett kereteket meg lehet ismételni."
+  },
+  {
+    "id": 13,
+    "fejezet": "10_Az adatkapcsolati réteg",
+    "kerdes": "A WLAN (vezeték nélküli LAN) és a szöveges üzenetküldés a nyugtázott összeköttetés nélküli szolgáltatások közé tartozik.",
+    "valasz": "igaz",
+    "magyarazat": "A megbízhatatlan csatornán működő WLAN és a szöveges üzenetküldés nincs kapcsolatépítéshez kötve, de keretenkénti nyugtázást alkalmaz."
+  },
+  {
+    "id": 14,
+    "fejezet": "10_Az adatkapcsolati réteg",
+    "kerdes": "A legmegbízhatóbb adatátvitelt a nyugtázott összeköttetés alapú szolgáltatás nyújtja, amelyre tipikus példa a fájlátvitel.",
+    "valasz": "igaz",
+    "magyarazat": "A fájlátvitel során egyetlen bit sem veszíthető el, ezért kapcsolatépítéssel és nyugtázással működik."
+  },
+  {
+    "id": 15,
+    "fejezet": "10_Az adatkapcsolati réteg",
+    "kerdes": "A nyugtázott összeköttetés alapú szolgáltatás első fázisában a keretek átvitele történik, a másodikban pedig az összeköttetés felépítése.",
+    "valasz": "hamis",
+    "magyarazat": "Az első fázisban épül fel az összeköttetés (inicializálódnak a változók), a másodikban történik a keretek átvitele, a harmadikban a lebontás."
+  },
+  {
+    "id": 16,
+    "fejezet": "10_Az adatkapcsolati réteg",
+    "kerdes": "A keretezési folyamat során az adatkapcsolati réteg alapegységét adatkeretnek (Data Frame) nevezzük.",
+    "valasz": "igaz",
+    "magyarazat": "Az adatkapcsolati réteg a hálózati csomagokat adatkeretekké alakítva dolgozza fel."
+  },
+  {
+    "id": 17,
+    "fejezet": "10_Az adatkapcsolati réteg",
+    "kerdes": "Önmagában a keretekre tördelés elegendő védelmet nyújt, így nincs szükség ellenőrző összegekre a sérülések észleléséhez.",
+    "valasz": "hamis",
+    "magyarazat": "A keretekre tördelés mellett mindenképpen szükség van ellenőrző összegre a keret sérülésmentességének megállapítására."
+  },
+  {
+    "id": 18,
+    "fejezet": "10_Az adatkapcsolati réteg",
+    "kerdes": "Ha a vevő oldalon az ellenőrző összegben eltérés mutatkozik, az egész keretet meg kell ismételni.",
+    "valasz": "igaz",
+    "magyarazat": "Az ellenőrző összeg hibája esetén a sérült keretet eldobják és az átvitelt megismétlik."
+  },
+  {
+    "id": 19,
+    "fejezet": "10_Az adatkapcsolati réteg",
+    "kerdes": "A négy legáltalánosabban használt keretezési módszer: karakterszámlálás (bájtszámlálás), kezdő és végkarakterek beszúrása, kezdő és végbitek beszúrása, valamint a fizikai rétegbeli kódolás megsértése.",
+    "valasz": "igaz",
+    "magyarazat": "Ez a négy alapvető keretezési eljárás határozza meg a keretek kezdő és záró határait."
+  },
+  {
+    "id": 20,
+    "fejezet": "10_Az adatkapcsolati réteg",
+    "kerdes": "Karakterszámlálás esetén a keret hosszát a keret végén található zárómező tartalmazza.",
+    "valasz": "hamis",
+    "magyarazat": "A karakterszámlálásos módszer a keret hosszát a fejlécben elhelyezett bájtszámmezőbe írja bele."
+  },
+  {
+    "id": 21,
+    "fejezet": "10_Az adatkapcsolati réteg",
+    "kerdes": "A karakterszámlálásos módszer fő hibája, hogy ha az átviteli hiba a bájtszámmezőt érinti, a vevő képtelenné válik a következő keret elejének vagy végét megkeresni.",
+    "valasz": "igaz",
+    "magyarazat": "A bájtszám sérülése miatt az egész szinkronizáció felborul a teljes további adatfolyamban."
+  },
+  {
+    "id": 22,
+    "fejezet": "10_Az adatkapcsolati réteg",
+    "kerdes": "A karakterszámlálásos keretezési módszer ma is a legelterjedtebb eljárás a modern hálózatokban.",
+    "valasz": "hamis",
+    "magyarazat": "A karakterszámlálásos módszer a szinkronizációs sérülékenysége miatt ma már jellemzően nincs használatban."
+  },
+  {
+    "id": 23,
+    "fejezet": "10_Az adatkapcsolati réteg",
+    "kerdes": "A kezdő és végkarakterek beszúrásánál a keret elejét és végét egy-egy különleges jelzőbájt (Flag) jelöli.",
+    "valasz": "igaz",
+    "magyarazat": "A keret behatárolására jelzőbájtokat (Flag) helyeznek el a keret elején és végén."
+  },
+  {
+    "id": 24,
+    "fejezet": "10_Az adatkapcsolati réteg",
+    "kerdes": "A gyakorlatban a kezdő és végkarakterek beszúrásánál a keret elején és végén kötelezően két különböző jelzőbájtot kell használni.",
+    "valasz": "hamis",
+    "magyarazat": "Létezett eltérő jelzőbájtokat használo megoldás is, de a gyakorlatban az egyforma jelzőbájtok használata a elterjedtebb."
+  },
+  {
+    "id": 25,
+    "fejezet": "10_Az adatkapcsolati réteg",
+    "kerdes": "Ha az átvitel kiesik a szinkronból a jelzőbájtok használata esetén, a jelzőbájt megkeresésével azonnal megtalálható az átvitel alatti keret vége.",
+    "valasz": "igaz",
+    "magyarazat": "A jelzőbájt jelenléte lehetővé teszi a szinkronizáció gyors helyreállítását."
+  },
+  {
+    "id": 26,
+    "fejezet": "10_Az adatkapcsolati réteg",
+    "kerdes": "Bájtbeszúrás (Byte Stuffing) esetén ha az átviteli adatban a jelzőbájt bitmintája szerepel, a jelzőbájt elé egy extra ESC bájtot szúrnak be.",
+    "valasz": "igaz",
+    "magyarazat": "A bájtbeszúrás módszerével elkerülhető, hogy az adatban lévő jelzőbájt téves keretzárásként értelmeződjön."
+  },
+  {
+    "id": 27,
+    "fejezet": "10_Az adatkapcsolati réteg",
+    "kerdes": "Ha az átviendő adatfolyamban eredetileg is szerepel egy ESC bájt, elé nem kell újabb ESC bájtot beszúrni.",
+    "valasz": "hamis",
+    "magyarazat": "Az adathoz tartozó ESC bájt elé is be kell szúrni egy plusz ESC bájtot, így az adatban csak páros számú ESC fordulhat elő."
+  },
+  {
+    "id": 28,
+    "fejezet": "10_Az adatkapcsolati réteg",
+    "kerdes": "Bájtbeszúrás alkalmazásakor az átvitt adatfolyamban a jelzőbájt előtt csak páratlan számú ESC bájt állhat, amennyiben az nem adat.",
+    "valasz": "igaz",
+    "magyarazat": "Az adathoz tartozó ESC bájtok párosával szerepelnek, így a valódi jelzőbájt előtt páratlan számú ESC áll."
+  },
+  {
+    "id": 29,
+    "fejezet": "10_Az adatkapcsolati réteg",
+    "kerdes": "A bitbeszúrásos módszert eredetileg a HDLC (Highlevel Data Link Control) protokollhoz fejlesztették ki.",
+    "valasz": "igaz",
+    "magyarazat": "A bitbeszúrási eljárást a HDLC protokoll igényei alapján hozták létre."
+  },
+  {
+    "id": 30,
+    "fejezet": "10_Az adatkapcsolati réteg",
+    "kerdes": "A bitbeszúrás korlátozza a keretet abban, hogy a karakterkódok kizárólag 8 bitből állhassanak.",
+    "valasz": "hamis",
+    "magyarazat": "A bitbeszúrás lehetővé teszi, hogy tetszőleges számú bit legyen a keretben, és a karakterkódok ne csak 8 bitből álljanak."
+  },
+  {
+    "id": 31,
+    "fejezet": "10_Az adatkapcsolati réteg",
+    "kerdes": "A bitbeszúrásnál használt jelzőbájt (Flag) bitmintája 01111110, vagyis 6 darab egymást követő 1-es.",
+    "valasz": "igaz",
+    "magyarazat": "A Flag bitmintájában hat egymást követő 1-es bit található."
+  },
+  {
+    "id": 32,
+    "fejezet": "10_Az adatkapcsolati réteg",
+    "kerdes": "Bitbeszúrásnál az adó oldalon az adatkapcsolati réteg 6 darab egymást követő 1-es észlelésekor szúr be egy 0-t.",
+    "valasz": "hamis",
+    "magyarazat": "Az adó oldali adatkapcsolati réteg 5 darab egymást követő 1-est találva automatikusan beszúr egy 0-t."
+  },
+  {
+    "id": 33,
+    "fejezet": "10_Az adatkapcsolati réteg",
+    "kerdes": "A bitbeszúrásos eljárás után 6 darab egymást követő 1-es kizárólag a Flag bitmintájában fordulhat elő.",
+    "valasz": "igaz",
+    "magyarazat": "Mivel 5 darab 1-es után mindig beszúrnak egy 0-t, hat egymást követő 1-es csak a Flag-ben maradhat."
+  },
+  {
+    "id": 34,
+    "fejezet": "10_Az adatkapcsolati réteg",
+    "kerdes": "A vevő oldali adatkapcsolati réteg a bitbeszúrásos eljárásnál minden egymást követő 5 darab 1-es után töröl egy 0-t.",
+    "valasz": "igaz",
+    "magyarazat": "Ez a művelet állítja vissza a vevő oldalon az eredeti adatfolyamot."
+  },
+  {
+    "id": 35,
+    "fejezet": "10_Az adatkapcsolati réteg",
+    "kerdes": "Az USB technológia a bájtbeszúrásos keretezési módszert használja a bitbeszúrás helyett.",
+    "valasz": "hamis",
+    "magyarazat": "Az USB technológia is a bitbeszúrásos keretezési eljárást alkalmazza."
+  },
+  {
+    "id": 36,
+    "fejezet": "10_Az adatkapcsolati réteg",
+    "kerdes": "A fizikai rétegbeli kódolás megsértése (kódsértés) olyan jelsorozatokat használ fel jelzésre, amelyek a normál adatátvitel során nem fordulhatnak elő.",
+    "valasz": "igaz",
+    "magyarazat": "A fizikai kódolási szabályokból kimaradó tiltott vagy nem használt jelsorozatokat alkalmazzák kerethatárok jelölésére."
+  },
+  {
+    "id": 37,
+    "fejezet": "10_Az adatkapcsolati réteg",
+    "kerdes": "A 4B/5B kódolás során 4 bites adatcsoportokat cserélnek 5 bites adatcsoportokra NRZI kódolás mellett.",
+    "valasz": "igaz",
+    "magyarazat": "A 4B/5B eljárás 4 bites adatokat helyettesít 5 bites kódszavakkal."
+  },
+  {
+    "id": 38,
+    "fejezet": "10_Az adatkapcsolati réteg",
+    "kerdes": "A 4B/5B kódolásnál mind a 32 lehetséges 5 bites jelsorozatot adatok kódolására használják fel.",
+    "valasz": "hamis",
+    "magyarazat": "A 32 lehetséges jelsorozatból csak 16 van használatban az adatok kódolására."
+  },
+  {
+    "id": 39,
+    "fejezet": "10_Az adatkapcsolati réteg",
+    "kerdes": "A 4B/5B kódolásnál a nem adat-kódolásra használt 16 jelsorozatból néhányat kerethatárok jelzésére és vezérlő utasításként alkalmaznak.",
+    "valasz": "igaz",
+    "magyarazat": "A fennmaradó 16 jelsorozat egy részét (pl. felét) különleges vezérlő és jelzési feladatokra használják."
+  },
+  {
+    "id": 40,
+    "fejezet": "10_Az adatkapcsolati réteg",
+    "kerdes": "A 4B/5B kódolási táblázatban a 00000 5 bites kódszó a normál 0000 adat kódolására szolgál.",
+    "valasz": "hamis",
+    "magyarazat": "A 00000 kódszó a Quiet (jelvesztés) jelzésére használatos, míg a 0000 adathoz a 11110 kódszó tartozik."
+  },
+  {
+    "id": 41,
+    "fejezet": "10_Az adatkapcsolati réteg",
+    "kerdes": "A 4B/5B kódolási táblázatban az 'Idle' (tétlen) jelzéshez az 11111 kódszó tartozik.",
+    "valasz": "igaz",
+    "magyarazat": "Az 11111 kódszó a hálózat tétlen állapotának jelzésére szolgál a 4B/5B sémában."
+  },
+  {
+    "id": 42,
+    "fejezet": "10_Az adatkapcsolati réteg",
+    "kerdes": "A kerethatárok jelzésére a 4B/5B kódolásnál a 'Start #1', 'Start #2' és 'End' jelzésű nem adat-kódszavak használhatók.",
+    "valasz": "igaz",
+    "magyarazat": "Ezek a speciális kódszavak jelölik ki a keret kezdetét és végét."
+  },
+  {
+    "id": 43,
+    "fejezet": "10_Az adatkapcsolati réteg",
+    "kerdes": "A fizikai rétegbeli kódsértéses eljárások terhelik meg a legkevesebb feleslegesen átvitt adattal a csatornát.",
+    "valasz": "igaz",
+    "magyarazat": "Mivel nem kell extra bájtokat vagy biteket beékelni az adatok közé, a kódsértéses eljárások a leghatékonyabbak."
+  },
+  {
+    "id": 44,
+    "fejezet": "10_Az adatkapcsolati réteg",
+    "kerdes": "A kódolások elnevezésében (például 4B/5B) a 'B' betű hivatalosan a bájtokat jelöli.",
+    "valasz": "hamis",
+    "magyarazat": "A kódolások elnevezésében (mint a 4B/5B) a 'B' betű kivételesen a bit rövidítéseként szerepel."
+  },
+  {
+    "id": 45,
+    "fejezet": "10_Az adatkapcsolati réteg",
+    "kerdes": "A gyakorlatban a legtöbb adatkapcsolati protokoll a keretezési módszerek kombinációját alkalmazza a nagyobb biztonság érdekében.",
+    "valasz": "igaz",
+    "magyarazat": "A protokollok gyakran ötvözik az előtagokat és a hosszúságjeleket a többszörös garancia érdekében."
+  },
+  {
+    "id": 46,
+    "fejezet": "10_Az adatkapcsolati réteg",
+    "kerdes": "Az IEEE 802.11 protokollban a keret egy 56 bites előtaggal (Preamble) kezdődik.",
+    "valasz": "hamis",
+    "magyarazat": "Az IEEE 802.11 protokollban a keret egy 72 bites előtaggal kezdődik, míg az IEEE 802.3-ban 56 bites az előtag."
+  },
+  {
+    "id": 47,
+    "fejezet": "10_Az adatkapcsolati réteg",
+    "kerdes": "Az IEEE 802.3 protokollban használt előtag (Preamble) hossza 56 bit.",
+    "valasz": "igaz",
+    "magyarazat": "Az IEEE 802.3 (Ethernet) keret elején 56 bites előtag található."
+  },
+  {
+    "id": 48,
+    "fejezet": "10_Az adatkapcsolati réteg",
+    "kerdes": "Az előtag (Preamble) feladata, hogy felkészítse a vevő oldalt az adatok fogadására.",
+    "valasz": "igaz",
+    "magyarazat": "Az előtag segítségével a vevő oldal ráhangolódik és felkészül az adatok érkezésére."
+  },
+  {
+    "id": 49,
+    "fejezet": "10_Az adatkapcsolati réteg",
+    "kerdes": "Az előtagot követően a fejlécben egy bájtszámot jelző kód is található, így a keret kezdete és hossza többszörösen biztosított.",
+    "valasz": "igaz",
+    "magyarazat": "A kombinált megközelítés garantálja, hogy a kerethatárok még zajosabb átvitel esetén is azonosíthatóak maradjanak."
+  }
+]

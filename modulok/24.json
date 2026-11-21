@@ -1,0 +1,352 @@
+[
+  {
+    "id": 1,
+    "fejezet": "24_A szállítási réteg_UDP_RTP_TCP",
+    "kerdes": "A szállítási réteg az alsó három réteg logikai folytatásának tekinthető, feladata a megbízható adatszállítás biztosítása a küldő és a fogadó hoszt között.",
+    "valasz": "igaz",
+    "magyarazat": "A szállítási réteg feladata a végpontok közötti megbízható adatszállítás megvalósítása az alatta lévő rétegekre támaszkodva."
+  },
+  {
+    "id": 2,
+    "fejezet": "24_A szállítási réteg_UDP_RTP_TCP",
+    "kerdes": "A szállítási rétegben a kommunikáló hosztok kizárólag a velük közvetlenül szomszédos aktív hálózati eszközzel folytatnak párbeszédet.",
+    "valasz": "hamis",
+    "magyarazat": "A szállítási réteg egy valódi két végpont közötti (end-to-end) réteg, ahol a küldő és a fogadó hoszt közvetlenül egymással kommunikál."
+  },
+  {
+    "id": 3,
+    "fejezet": "24_A szállítási réteg_UDP_RTP_TCP",
+    "kerdes": "A szállítási réteg adategysége a szegmens (Segment), amelyet TPDU-nak (Transport Protocol Data Unit) is neveznek.",
+    "valasz": "igaz",
+    "magyarazat": "A szállítási réteg adategysége a szegmens vagy TPDU, amely a hálózati réteg csomagjaiba ágyazódik be."
+  },
+  {
+    "id": 4,
+    "fejezet": "24_A szállítási réteg_UDP_RTP_TCP",
+    "kerdes": "Az Internet három fő protokollt használ a szállítási rétegben vagy arra épülve: az UDP, a TCP és a valósidejű átvitelt biztosító RTP protokollt.",
+    "valasz": "igaz",
+    "magyarazat": "Ez a három protokoll alkotja a szállítási rétegbeli adatátvitel és a valósidejű kommunikáció alappilléreit."
+  },
+  {
+    "id": 5,
+    "fejezet": "24_A szállítási réteg_UDP_RTP_TCP",
+    "kerdes": "Az UDP (User Datagram Protocol) egy megbízható, összeköttetés alapú szállítási protokoll, amelynek leírását az RFC768 tartalmazza.",
+    "valasz": "hamis",
+    "magyarazat": "Az UDP egy nem megbízható, összeköttetés nélküli protokoll; nem garantálja a csomagok megérkezését."
+  },
+  {
+    "id": 6,
+    "fejezet": "24_A szállítási réteg_UDP_RTP_TCP",
+    "kerdes": "Az UDP elsősorban olyan egylövetű, kliens-szerver típusú kérdés-válasz alkalmazásokban terjedt el, mint az audio-video streaming, a DNS, az SNMP vagy a DHCP.",
+    "valasz": "igaz",
+    "magyarazat": "Olyan alkalmazások használják az UDP-t, ahol a válasz gyorsasága fontosabb a garantált és hibátlan megérkezésnél."
+  },
+  {
+    "id": 7,
+    "fejezet": "24_A szállítási réteg_UDP_RTP_TCP",
+    "kerdes": "Az UDP az információt IP csomagba helyezi, ellenőrző összeget számol hozzá, és ezzel garantálja a csomagok hibátlan kézbesítését.",
+    "valasz": "hamis",
+    "magyarazat": "Az UDP nem garantálja a kézbesítést, csupán észlelhetővé teszi a hibás kézbesítést az ellenőrző összeg segítségével."
+  },
+  {
+    "id": 8,
+    "fejezet": "24_A szállítási réteg_UDP_RTP_TCP",
+    "kerdes": "Az UDP protokoll az operációs rendszer (kernel) része, és egyszerűsége miatt kíméletesen bánik a hálózati kapacitással.",
+    "valasz": "igaz",
+    "magyarazat": "Szállítási protokollként az operációs rendszer része, minimális fejléc-overheadje kíméli a hálózatot."
+  },
+  {
+    "id": 9,
+    "fejezet": "24_A szállítási réteg_UDP_RTP_TCP",
+    "kerdes": "Az UDP szegmens fejrésze 32 bites szavakból áll, és mindössze 8 bájt hosszúságú.",
+    "valasz": "igaz",
+    "magyarazat": "Az UDP fejléc 4 darab 16 bites mezőből tevődik össze, ami összesen 8 bájtot jelent."
+  },
+  {
+    "id": 10,
+    "fejezet": "24_A szállítási réteg_UDP_RTP_TCP",
+    "kerdes": "Az UDP adatrészének maximális mérete IPv4 környezetben pontosan 65535 bájt.",
+    "valasz": "hamis",
+    "magyarazat": "Az adatmező maximális mérete 65507 bájt, ami az IPv4 csomag maximális törzsrészéből (65515 bájt) az UDP fejléc 8 bájtjának kivonásával adódik."
+  },
+  {
+    "id": 11,
+    "fejezet": "24_A szállítási réteg_UDP_RTP_TCP",
+    "kerdes": "Az UDP fejlécében lévő indító port száma (Source Port) a küldő hoszton futó alkalmazást azonosítja, és elengedhetetlen a válaszüzenet célba juttatásához.",
+    "valasz": "igaz",
+    "magyarazat": "A válaszküldéskor a küldő portjából válik a válaszüzenet célportja."
+  },
+  {
+    "id": 12,
+    "fejezet": "24_A szállítási réteg_UDP_RTP_TCP",
+    "kerdes": "Az UDP szegmens hossza mező minimális értéke 0 bájt lehet, ha a szegmens nem tartalmaz adatot.",
+    "valasz": "hamis",
+    "magyarazat": "A hossz mező minimális értéke 8 bájt, mivel a 8 bájtos fejléccímet adatok hiányában is tartalmazza."
+  },
+  {
+    "id": 13,
+    "fejezet": "24_A szállítási réteg_UDP_RTP_TCP",
+    "kerdes": "Az UDP ellenőrző összeg (UDP Checksum) kiszámítása és kitöltése minden UDP szegmens esetében kötelező.",
+    "valasz": "hamis",
+    "magyarazat": "Az ellenőrző összeg használata az UDP protokollban nem kötelező, de növeli az adatbiztonságot."
+  },
+  {
+    "id": 14,
+    "fejezet": "24_A szállítási réteg_UDP_RTP_TCP",
+    "kerdes": "A portok a hosztokon belül futó alkalmazások megkülönböztetésére szolgálnak a szállítási rétegben.",
+    "valasz": "igaz",
+    "magyarazat": "A portszámok teszik lehetővé, hogy az operációs rendszer a beérkező adatokat a megfelelő alkalmazáshoz irányítsa."
+  },
+  {
+    "id": 15,
+    "fejezet": "24_A szállítási réteg_UDP_RTP_TCP",
+    "kerdes": "A közismert portok (Well-known ports) tartománya az 1-től 1023-ig terjedő portszámokat foglalja magában.",
+    "valasz": "igaz",
+    "magyarazat": "Az 1-1023 közötti portok tartoznak a közismert szolgáltatásokhoz és alkalmazásokhoz."
+  },
+  {
+    "id": 16,
+    "fejezet": "24_A szállítási réteg_UDP_RTP_TCP",
+    "kerdes": "Az SSH protokoll a 25-ös portot, míg az SMTP e-mail küldő protokoll a 22-es portot használja alapesetben.",
+    "valasz": "hamis",
+    "magyarazat": "Az SSH a 22-es portot, az SMTP pedig a 25-ös portot használja."
+  },
+  {
+    "id": 17,
+    "fejezet": "24_A szállítási réteg_UDP_RTP_TCP",
+    "kerdes": "A DNS névszolgáltatás az 53-as portot, a HTTP webes elérés a 80-as portot, a HTTPS pedig a 443-as portot használja.",
+    "valasz": "igaz",
+    "magyarazat": "Ezek a szabványos közismert portszámok a felsorolt hálózati szolgáltatásokhoz."
+  },
+  {
+    "id": 18,
+    "fejezet": "24_A szállítási réteg_UDP_RTP_TCP",
+    "kerdes": "A regisztrált portok tartománya a 1024-től 49151-ig terjedő portszámokat tartalmazza.",
+    "valasz": "igaz",
+    "magyarazat": "A 1024–49151 közötti tartományba tartoznak az alkalmazásspecifikus regisztrált portok (pl. NFS, BitTorrent)."
+  },
+  {
+    "id": 19,
+    "fejezet": "24_A szállítási réteg_UDP_RTP_TCP",
+    "kerdes": "A 49152 és 65535 közötti portok az ideiglenes (Dynamic/Temporary) portok tartományát alkotják.",
+    "valasz": "igaz",
+    "magyarazat": "Ezt a tartományt a kliens-szerver kapcsolatok ideiglenes, dinamikus portkiosztásaira használja a rendszer."
+  },
+  {
+    "id": 20,
+    "fejezet": "24_A szállítási réteg_UDP_RTP_TCP",
+    "kerdes": "Az RTP (Real-time Transport Protocol) egy közvetlenül a hálózati rétegre épülő önálló szállítási protokoll, amelyet az RFC1889 ír le.",
+    "valasz": "hamis",
+    "magyarazat": "Az RTP az UDP protokollra épül, kihasználva annak multiplexelő és hibadetektáló funkcióit."
+  },
+  {
+    "id": 21,
+    "fejezet": "24_A szállítási réteg_UDP_RTP_TCP",
+    "kerdes": "Az RTP nem közvetlenül foglalkozik a szegmensek gyors továbbításával vagy a QoS biztosításával, hanem a valósidejű kommunikáció menedzsmentjét végzi.",
+    "valasz": "igaz",
+    "magyarazat": "A gyors továbbítást és a QoS garantálását az alatta lévő hálózati rétegekre bízza."
+  },
+  {
+    "id": 22,
+    "fejezet": "24_A szállítási réteg_UDP_RTP_TCP",
+    "kerdes": "Az RTP adatfolyamokat az operációs rendszer kernelje darabolja szegmensekre, ezért az RTP az operációs rendszer része.",
+    "valasz": "hamis",
+    "magyarazat": "Az RTP adatfolyamokat maguk a valósidejű alkalmazások darabolják, így az RTP a felhasználói alkalmazások része (user space)."
+  },
+  {
+    "id": 23,
+    "fejezet": "24_A szállítási réteg_UDP_RTP_TCP",
+    "kerdes": "Az RTP egy keretprotokoll, amelyet a konkrét alkalmazáshoz ki kell egészíteni a kódolási leírásokkal és típuskódokkal.",
+    "valasz": "igaz",
+    "magyarazat": "Az RTP önmagában nem tartalmaz kódolási specifikációkat, csupán a szegmensátvitelt és szinkronizációt kezeli."
+  },
+  {
+    "id": 24,
+    "fejezet": "24_A szállítási réteg_UDP_RTP_TCP",
+    "kerdes": "Az RTP rögzített fejrészének mérete 12 bájt (3 db 32 bites szó), amelyet kiterjesztések követhetnek.",
+    "valasz": "igaz",
+    "magyarazat": "Az RTP fixen 12 bájtos alapfejléccel rendelkezik."
+  },
+  {
+    "id": 25,
+    "fejezet": "24_A szállítási réteg_UDP_RTP_TCP",
+    "kerdes": "Az RTP fejléc Verzió (Version) mezője 4 bites, és jelenlegi értéke 6.",
+    "valasz": "hamis",
+    "magyarazat": "A Verzió mező mindössze 2 bites, és jelenlegi értéke 2."
+  },
+  {
+    "id": 26,
+    "fejezet": "24_A szállítási réteg_UDP_RTP_TCP",
+    "kerdes": "Ha az RTP fejléc P (Padding) bitjének értéke 1, az azt jelzi, hogy a szegmens végét kitöltő bájtokkal egészítették ki 4 bájt többszörösére.",
+    "valasz": "igaz",
+    "magyarazat": "Az utolsó kiegészítő bájt tartalmazza a figyelmen kívül hagyandó kitöltő bájtok pontos számát."
+  },
+  {
+    "id": 27,
+    "fejezet": "24_A szállítási réteg_UDP_RTP_TCP",
+    "kerdes": "Az RTP fejléc Adatmező típusa (Payload Type) mezője a használt kódolási algoritmust azonosítja (pl. mp3, mkv).",
+    "valasz": "igaz",
+    "magyarazat": "Ez a 7 bites mező adja meg az átvitt média kódolási formátumát."
+  },
+  {
+    "id": 28,
+    "fejezet": "24_A szállítási réteg_UDP_RTP_TCP",
+    "kerdes": "Az RTP fejléc Időbélyeg (Timestamp) mezője a vevő oldali időzítési szórás (Jitter) csökkentésével segíti elő a multimédiás tartalom folyamatos lejátszását.",
+    "valasz": "igaz",
+    "magyarazat": "Az időbélyeg biztosítja a csomagok érkezési ingadozásától független egyenletes lejátszást."
+  },
+  {
+    "id": 29,
+    "fejezet": "24_A szállítási réteg_UDP_RTP_TCP",
+    "kerdes": "Az SSRC (Synchronization Source Identifier) a mixelt folyam közreműködő komponenseit azonosítja, míg a CSRC az egyedi szinkronizációs kibocsátó azonosítója.",
+    "valasz": "hamis",
+    "magyarazat": "Az SSRC az egyedi szinkronizációs kibocsátót azonosítja, a CSRC (Contributing Source) pedig a mixelt folyam összetevőit."
+  },
+  {
+    "id": 30,
+    "fejezet": "24_A szállítási réteg_UDP_RTP_TCP",
+    "kerdes": "A TCP (Transmission Control Protocol) egy megbízható, összeköttetés alapú szállítási protokoll, amelynek első verzióját az 1981-es RFC793 írja le.",
+    "valasz": "igaz",
+    "magyarazat": "A TCP az internetes adatátvitel legfontosabb megbízható, kapcsolat-orientált szállítási protokollja."
+  },
+  {
+    "id": 31,
+    "fejezet": "24_A szállítási réteg_UDP_RTP_TCP",
+    "kerdes": "A TCP egy rekordalapú átviteli protokoll, amely szigorúan megőrzi az alkalmazás által küldött üzenethatárokat.",
+    "valasz": "hamis",
+    "magyarazat": "A TCP egy bájtfolyam (byte stream) alapú átviteli protokoll, amely nem foglalkozik az üzenethatárokkal."
+  },
+  {
+    "id": 32,
+    "fejezet": "24_A szállítási réteg_UDP_RTP_TCP",
+    "kerdes": "A TCP forgalomszabályozást végez annak érdekében, hogy a gyors küldő hoszt ne terhelhesse túl a lassabb fogadó hosztot.",
+    "valasz": "igaz",
+    "magyarazat": "A csúszóablakos forgalomszabályozás biztosítja, hogy a vevő csak annyi adatot kapjon, amennyit feldolgozni képes."
+  },
+  {
+    "id": 33,
+    "fejezet": "24_A szállítási réteg_UDP_RTP_TCP",
+    "kerdes": "A TCP protokoll a megvalósítás során az operációs rendszer, azon belül is leggyakrabban a kernel része.",
+    "valasz": "igaz",
+    "magyarazat": "Az operációs rendszer hálózati stekkje (kernel) kezeli a TCP kapcsolatokat."
+  },
+  {
+    "id": 34,
+    "fejezet": "24_A szállítási réteg_UDP_RTP_TCP",
+    "kerdes": "A TCP szegmens maximális adatmérete IPv4 környezetben 65495 bájt.",
+    "valasz": "igaz",
+    "magyarazat": "Az IPv4 csomag törzsrészéből (65515 bájt) kivonva a 20 bájtos alap TCP fejlécet 65495 bájtot kapunk."
+  },
+  {
+    "id": 35,
+    "fejezet": "24_A szállítási réteg_UDP_RTP_TCP",
+    "kerdes": "A TCP rögzített alapejléce 5 db 32 bites szóból, azaz 20 bájtból áll.",
+    "valasz": "igaz",
+    "magyarazat": "A TCP alapfejléce 20 bájtos, amelyhez tetszőleges opciós mezők csatlakozhatnak."
+  },
+  {
+    "id": 36,
+    "fejezet": "24_A szállítási réteg_UDP_RTP_TCP",
+    "kerdes": "A TCP Sorszám (Sequence Number) mezője egy 32 bites átforduló szám, amellyel nagyjából 4 GB adat címezhető meg egyedileg a bájtfolyamban.",
+    "valasz": "igaz",
+    "magyarazat": "A 32 bites sorszám a bájtfolyamban elfoglalt pozíciót azonosítja a kezdeti értéktől számítva."
+  },
+  {
+    "id": 37,
+    "fejezet": "24_A szállítási réteg_UDP_RTP_TCP",
+    "kerdes": "A TCP Nyugtaszám (Acknowledgement Number) mezője az utoljára sikeresen megérkezett adatbájt sorszámát tartalmazza.",
+    "valasz": "hamis",
+    "magyarazat": "A Nyugtaszám mező azt a következő adatbájt sorszámát tartalmazza, amelyre a fogadó hoszt éppen várakozik."
+  },
+  {
+    "id": 38,
+    "fejezet": "24_A szállítási réteg_UDP_RTP_TCP",
+    "kerdes": "A TCP ellenőrző összeg (Checksum) kiszámítása és ellenőrzése az UDP-vel ellentétben kötelező.",
+    "valasz": "igaz",
+    "magyarazat": "A TCP esetében az ellenőrző összeg jelenléte nem opció, hanem kötelező elem a hibamentességhez."
+  },
+  {
+    "id": 39,
+    "fejezet": "24_A szállítási réteg_UDP_RTP_TCP",
+    "kerdes": "A TCP fejlécben összesen 8 darab egybites jelzőmező (Flag) található: CWR, ECE, URG, ACK, PSH, RST, SYN, FIN.",
+    "valasz": "igaz",
+    "magyarazat": "Ez a 8 jelzőbit vezérli a TCP kapcsolat állapotait, a nyugtázást és a torlódáskezelést."
+  },
+  {
+    "id": 40,
+    "fejezet": "24_A szállítási réteg_UDP_RTP_TCP",
+    "kerdes": "A SYN jelzőbit a kapcsolat lezárását jelzi, míg a FIN jelzőbit a sorszámok szinkronizációjára szolgál a kapcsolat kiépítésekor.",
+    "valasz": "hamis",
+    "magyarazat": "A SYN (Synchronize) a kapcsolat kiépítésekor szinkronizálja a sorszámokat, a FIN (Final) pedig a kapcsolat bontását kéri."
+  },
+  {
+    "id": 41,
+    "fejezet": "24_A szállítási réteg_UDP_RTP_TCP",
+    "kerdes": "Ha a TCP URG flag értéke 1, a 16 bites Sürgősségi mutató (Urgent Pointer) az aktuális sorszámtól számolva kijelöli a sürgős adatok kezdetét.",
+    "valasz": "igaz",
+    "magyarazat": "Az URG bit jelez a fogadónak, hogy a szegmensben sürgős adat található."
+  },
+  {
+    "id": 42,
+    "fejezet": "24_A szállítási réteg_UDP_RTP_TCP",
+    "kerdes": "A TCP támogatja az adatszórásos (Broadcast) és a többesküldéses (Multicast) kommunikációt is.",
+    "valasz": "hamis",
+    "magyarazat": "A TCP kizárólag duplex pont-pont (Unicast) összeköttetést támogat; az adatszórás és többesküldés nem támogatott."
+  },
+  {
+    "id": 43,
+    "fejezet": "24_A szállítási réteg_UDP_RTP_TCP",
+    "kerdes": "A TCP a hibamentes adatátvitelhez a pozitív nyugtázás újraküldéssel (Positive Acknowledgement with Retransmission) eljárást használja.",
+    "valasz": "igaz",
+    "magyarazat": "A vevő pozitív nyugtákat küld vissza, hiányuk esetén az adó újraküldi az adatokat."
+  },
+  {
+    "id": 44,
+    "fejezet": "24_A szállítási réteg_UDP_RTP_TCP",
+    "kerdes": "A TCP kapcsolat élettartamának megvalósítása három fő részre bontható: kapcsolat felépítése, adatátvitel, valamint a kapcsolat lezárása.",
+    "valasz": "igaz",
+    "magyarazat": "Ez a 3 egymást követő szakasz írja le a TCP életciklusát."
+  },
+  {
+    "id": 45,
+    "fejezet": "24_A szállítási réteg_UDP_RTP_TCP",
+    "kerdes": "A CLOSED állapot a TCP kapcsolat elméleti alapértelmezett állapota, amikor a hosztok között nincs élő kapcsolat.",
+    "valasz": "igaz",
+    "magyarazat": "A kapcsolat kiépítése ebből az alapállapotból indul, és a lebontás után ide tér vissza."
+  },
+  {
+    "id": 46,
+    "fejezet": "24_A szállítási réteg_UDP_RTP_TCP",
+    "kerdes": "A LISTEN állapotban lévő hoszt (általában a szerver) szinkronizálási kérésre (SYN) várakozik.",
+    "valasz": "igaz",
+    "magyarazat": "A szerver ebben az állapotban várja a kliensek kapcsolódási kezdeményezéseit."
+  },
+  {
+    "id": 47,
+    "fejezet": "24_A szállítási réteg_UDP_RTP_TCP",
+    "kerdes": "A SYN-SENT állapot azt jelzi, hogy a hoszt (általában a kliens) elküldte a SYN üzenetet, és várakozik a másik hoszt válaszára.",
+    "valasz": "igaz",
+    "magyarazat": "A kliens a SYN elküldése után kerül SYN-SENT állapotba."
+  },
+  {
+    "id": 48,
+    "fejezet": "24_A szállítási réteg_UDP_RTP_TCP",
+    "kerdes": "Az ESTABLISHED állapot a létrejött TCP kapcsolat stabil állapota, amelyben megkezdődhet a tényleges adatátvitel.",
+    "valasz": "igaz",
+    "magyarazat": "Mindkét fél ESTABLISHED állapotba kerülése után zajlik a kétirányú adatcsere."
+  },
+  {
+    "id": 49,
+    "fejezet": "24_A szállítási réteg_UDP_RTP_TCP",
+    "kerdes": "A CLOSE-WAIT állapotban a hoszt kapcsolatbontási kérést (FIN) kapott a másiktól, és a helyi alkalmazás nyugtázására várakozik.",
+    "valasz": "igaz",
+    "magyarazat": "Ez az állapot a passzív kapcsolatbontó oldalon jelentkezik a FIN megérkezése után."
+  },
+  {
+    "id": 50,
+    "fejezet": "24_A szállítási réteg_UDP_RTP_TCP",
+    "kerdes": "A TIME-WAIT állapotban a hoszt a kapcsolatbontási kérés és a nyugta kiküldése után még egy rövid ideig várakozik a hálózaton elkéső csomagok és az új kapcsolatok átfedésének elkerülésére.",
+    "valasz": "igaz",
+    "magyarazat": "A TIME-WAIT biztosítja, hogy a lezárt kapcsolat utolsó nyugtája garantáltan célba érjen, és ne zavarja az újonnan nyíló kapcsolatokat."
+  }
+]
