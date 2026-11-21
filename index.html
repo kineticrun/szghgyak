@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="hu">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Igaz-hamis gyakorló</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="wrap header-inner">
+      <h1>Gyakorlás</h1>
+      <!-- <span class="header-note">Tanulás és vizsga</span> -->
+    </div>
+  </header>
+
+  <main class="wrap main">
+    <section id="home-screen">
+      <!-- <h2>Válassz gyakorlási módot</h2>
+      <p class="lead">Készülj fel a vizsgára, vagy gyakorolj egy kiválasztott témakört.</p> -->
+
+      <div class="home-grid">
+        <section class="panel">
+          <h3>Vizsgamód</h3>
+          <p>Véletlenszerűen kiválasztott, témakörök között egyenletesen elosztott kérdések.</p>
+          <p class="details"><strong id="exam-count">25</strong> kérdés · <strong id="exam-time">15</strong> perc</p>
+          <button id="start-exam" class="button primary">Vizsga indítása</button>
+        </section>
+
+        <section class="panel">
+          <h3>Témakör gyakorlása</h3>
+          <p>Válaszd ki a témakört, és haladj végig annak összes kérdésén.</p>
+          <label for="topic-select">Témakör</label>
+          <select id="topic-select">
+            <option value="">Betöltés…</option>
+          </select>
+          <button id="start-practice" class="button primary" disabled>Gyakorlás indítása</button>
+        </section>
+      </div>
+      <p id="load-status" class="status" role="status">Kérdések betöltése…</p>
+    </section>
+
+    <section id="quiz-screen" class="hidden">
+      <div class="quiz-header">
+        <button id="exit-quiz" class="back-button">← Vissza</button>
+        <span id="mode-label" class="mode-label">VIZSGA</span>
+        <strong id="timer" class="timer">15:00</strong>
+      </div>
+
+      <div class="progress-info">
+        <span id="question-counter">1 / 25</span>
+        <span id="answered-counter">Megválaszolva: 0</span>
+      </div>
+      <div class="progress"><div id="progress-fill"></div></div>
+
+      <section class="question-panel">
+        <p id="question-topic" class="topic"></p>
+        <h2 id="question-text"></h2>
+        <div class="answers">
+          <button class="answer" data-answer="igaz">Igaz</button>
+          <button class="answer" data-answer="hamis">Hamis</button>
+        </div>
+        <div id="feedback" class="feedback hidden" aria-live="polite"></div>
+      </section>
+
+      <div class="navigation">
+        <button id="prev-question" class="button secondary">Előző</button>
+        <button id="next-question" class="button primary">Következő</button>
+      </div>
+      <div class="finish-row">
+        <button id="finish-quiz" class="text-button">Feladatsor befejezése</button>
+      </div>
+    </section>
+
+    <section id="result-screen" class="hidden">
+      <h2 id="result-title">Eredmény</h2>
+      <p id="result-subtitle" class="lead"></p>
+      <section class="result-panel">
+        <p class="score" id="score-percent">0%</p>
+        <p id="score-fraction" class="score-detail">0 / 25 helyes válasz</p>
+        <p id="grade-label" class="grade"></p>
+      </section>
+      <h3 class="review-heading">Kérdések áttekintése</h3>
+      <div id="review-list" class="review-list"></div>
+      <div class="result-actions">
+        <button id="back-home" class="button secondary">Vissza a főoldalra</button>
+        <button id="retry-quiz" class="button primary">Újra</button>
+      </div>
+    </section>
+  </main>
+
+  <!-- <footer class="footer">Igaz-hamis gyakorló</footer> -->
+  <script src="app.js"></script>
+</body>
+</html>
